@@ -1,0 +1,52 @@
+{
+  "execution_attempted": true,
+  "completed": true,
+  "operator_stopped": true,
+  "error": "Operator stop",
+  "cleanup_errors": [],
+  "stop_results": {
+    "hand_left": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "hand_right": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "arm_left": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.00037969821482317854
+      },
+      "command_warnings": []
+    },
+    "arm_right": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.0009492455370579463
+      },
+      "command_warnings": [
+        "stopJoint: -3",
+        "setServoModeSelect: -3"
+      ]
+    }
+  },
+  "startup_hold_commands": {
+    "left": 2,
+    "right": 1
+  },
+  "ticks": 4644,
+  "max_tick_lateness_s": 0.002172218984924257,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/episode594_runtime.npz",
+    "sha256": "a5dd2901a39ac7b5a31d815475f8d927f611e7791557667b7a15a95b878ff853"
+  }
+}

@@ -1,0 +1,9 @@
+Collecting pyaubo-sdk==0.26.0rc6
+  Downloading pyaubo_sdk-0.26.0rc6-cp312-cp312-manylinux2014_x86_64.whl.metadata (2.4 kB)
+Downloading pyaubo_sdk-0.26.0rc6-cp312-cp312-manylinux2014_x86_64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 1.5 MB/s eta 0:00:00
+Saved ./adaptation_resources/wheels/sdk/pyaubo_sdk-0.26.0rc6-cp312-cp312-manylinux2014_x86_64.whl
+Successfully downloaded pyaubo-sdk
+Processing ./adaptation_resources/wheels/sdk/pyaubo_sdk-0.26.0rc6-cp312-cp312-manylinux2014_x86_64.whl
+Installing collected packages: pyaubo-sdk
+Successfully installed pyaubo-sdk-0.26.0rc6

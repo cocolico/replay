@@ -1,0 +1,8 @@
+{
+  "version": "0.26.0rc6",
+  "url": "https://files.pythonhosted.org/packages/eb/ad/4f45f2eb564969c1fe71725d70ed2feaf0670f88c3869423a87eec92cc87/pyaubo_sdk-0.26.0rc6-cp312-cp312-manylinux2014_x86_64.whl",
+  "wheel": "/media/descfly/\u65b0\u52a0\u5377/ty/adaptation_resources/wheels/sdk/pyaubo_sdk-0.26.0rc6-cp312-cp312-manylinux2014_x86_64.whl",
+  "sha256": "59837d1f3b4fbe3f0dfe518297d4154a984e32bd36794cfafa67eb4db46bef76",
+  "pypi_sha256_verified": true,
+  "installed_to": "/media/descfly/\u65b0\u52a0\u5377/ty/replay/code/vendor/pyaubo_sdk_0_26"
+}

@@ -1,0 +1,14 @@
+{
+  "execution_attempted": true,
+  "completed": false,
+  "error": "Servo enable failed: left",
+  "cleanup_errors": [
+    "arm_left: stopJoint: -3; setServoMode: -3"
+  ],
+  "ticks": 0,
+  "max_tick_lateness_s": 0,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/episode594_runtime.npz",
+    "sha256": "ac17a08d5d0e45c0b8b1a0479f5f256759c3c555358e17339edb6411f915478a"
+  }
+}

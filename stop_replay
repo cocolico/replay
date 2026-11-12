@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+"""Request synchronized stop and wait for confirmed cleanup and lock release."""
+from pathlib import Path
+import fcntl,json,os,signal,time
+root=Path(__file__).resolve().parent
+state=json.loads((root/'output/replay_session.json').read_text());pid=int(state['pid'])
+if state['status'] not in ('preflight','running','holding'):
+    if state['status']=='stopped':
+        with open(root/'output/replay.lock','a+') as lock:
+            try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+            except BlockingIOError:raise SystemExit('回放已停止，但另一个预检进程正在使用设备，请等待其结束。')
+        print('回放已停止，独占锁已释放，可以重新启动。')
+        raise SystemExit(0)
+    raise SystemExit('没有可停止的运行会话；最后状态：'+state['status'])
+try:cmdline=Path(f'/proc/{pid}/cmdline').read_bytes().split(b'\0')
+except FileNotFoundError:raise SystemExit('登记的回放进程已经退出。')
+if str(root/'replay_control.py').encode() not in cmdline or b'--execute' not in cmdline:
+    raise SystemExit('PID不属于本目录的执行进程，未发送信号。')
+os.kill(pid,signal.SIGINT)
+print('已请求同步停止，正在等待设备清理和独占锁释放……',flush=True)
+deadline=time.monotonic()+8
+while time.monotonic()<deadline:
+    try:
+        latest=json.loads((root/'output/replay_session.json').read_text())
+        if latest.get('pid')!=pid:raise SystemExit('会话已改变，请检查新的回放状态。')
+        if latest.get('status')=='stop_not_confirmed':
+            raise SystemExit('停止未完全确认：'+str(latest.get('cleanup_errors'))+'；请检查设备和回放日志。')
+        if latest.get('status')=='stopped':
+            with open(root/'output/replay.lock','a+') as lock:
+                try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+                except BlockingIOError:pass
+                else:
+                    print('停止已确认，设备连接和独占锁已释放，可以重新启动。')
+                    raise SystemExit(0)
+    except (OSError,json.JSONDecodeError):pass
+    time.sleep(.05)
+raise SystemExit('等待停止确认超时；请检查 output/replay_session.json 和回放日志，勿强行删除锁文件。')

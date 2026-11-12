@@ -1,0 +1,88 @@
+[Info] [connector_asio.h:123] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+[Info] [connector_asio.h:123] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+left frame 0 / 965
+right frame 0 / 965
+right frame 300 / 965
+left frame 300 / 965
+right frame 600 / 965
+left frame 600 / 965
+right frame 900 / 965
+left frame 900 / 965
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+FINISHED episode594 965 frames
+[Info] [connector_asio.h:123] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+[Info] [connector_asio.h:123] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+left frame 0 / 909
+right frame 0 / 909
+right frame 300 / 909
+left frame 300 / 909
+right frame 600 / 909
+left frame 600 / 909
+right frame 900 / 909
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+left frame 900 / 909
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+FINISHED episode615 909 frames
+[Info] [connector_asio.h:123] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+[Info] [connector_asio.h:123] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+left frame 0 / 1263
+right frame 0 / 1263
+left frame 300 / 1263
+right frame 300 / 1263
+left frame 600 / 1263
+right frame 600 / 1263
+right frame 900 / 1263
+left frame 900 / 1263
+left frame 1200 / 1263
+right frame 1200 / 1263
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+FINISHED episode616 1263 frames
+[Info] [connector_asio.h:123] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+[Info] [connector_asio.h:123] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+left frame 0 / 150
+right frame 0 / 150
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+FINISHED human_camera 150 frames

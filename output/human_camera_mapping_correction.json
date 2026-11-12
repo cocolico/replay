@@ -1,0 +1,14 @@
+{
+  "source_observation": "/home/descfly/ty/desk/observation.json",
+  "source_camera_id": "orbbec_gemini_335",
+  "mapping": "/media/descfly/新加卷/ty/replay/code/config/mapping_from_human_gemini335.json",
+  "previous_wrong_source": "zhuji; former generated outputs archived in archive_human_wrong_zhuji",
+  "frames": 150,
+  "controller_ik_passed": true,
+  "failed_collision_frames": 44,
+  "minimum_hand_table_clearance_m": -0.061528044337720605,
+  "minimum_frame": 18,
+  "minimum_body": "left:hand:l_pinky_distal",
+  "numbered_episode_configurations_unchanged": true,
+  "execution_performed": false
+}

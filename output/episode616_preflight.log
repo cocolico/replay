@@ -1,0 +1,36 @@
+[Info] [connector_asio.h:123] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:123] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+[2026-11-12T17:19:51 ERROR wuji_sdk] Python crash:
+Traceback (most recent call last):
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 212, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 203, in main
+    trajectory,plan=make_plan(args.name,c,settings,arms,hands,args.speed)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/descfly/新加卷/ty/replay/code/runtime_plan.py", line 79, in make_plan
+    raise ValueError(f'{name}: {known["failed_frames"]} source frames fail modeled collision checks; inspect {collision_report_path}')
+ValueError: episode616: 121 source frames fail modeled collision checks; inspect /media/descfly/新加卷/ty/replay/code/output/episode616_collisions.json
+
+Traceback (most recent call last):
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 212, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 203, in main
+    trajectory,plan=make_plan(args.name,c,settings,arms,hands,args.speed)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/descfly/新加卷/ty/replay/code/runtime_plan.py", line 79, in make_plan
+    raise ValueError(f'{name}: {known["failed_frames"]} source frames fail modeled collision checks; inspect {collision_report_path}')
+ValueError: episode616: 121 source frames fail modeled collision checks; inspect /media/descfly/新加卷/ty/replay/code/output/episode616_collisions.json

@@ -1,0 +1,251 @@
+{
+  "trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/episode616_controller_ik.npz",
+    "sha256": "b963610339f3468ed47a8b3e4e0c2a827ca0fffd3699eb5c9036d3c59eecdec1"
+  },
+  "execution_enabled": false,
+  "passed": false,
+  "checked_frames": 1263,
+  "failed_frames": 121,
+  "first_failures": [
+    {
+      "frame": 197,
+      "time_s": 6.566666601,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 198,
+      "time_s": 6.599999934,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 199,
+      "time_s": 6.633333267,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 200,
+      "time_s": 6.6666666,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 201,
+      "time_s": 6.699999933,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 202,
+      "time_s": 6.733333266,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 203,
+      "time_s": 6.766666599,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 204,
+      "time_s": 6.799999932,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 205,
+      "time_s": 6.833333265,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 206,
+      "time_s": 6.866666598,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 207,
+      "time_s": 6.899999931,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 208,
+      "time_s": 6.933333264,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 209,
+      "time_s": 6.966666597,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 210,
+      "time_s": 6.99999993,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 211,
+      "time_s": 7.033333263,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 212,
+      "time_s": 7.066666596,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 213,
+      "time_s": 7.099999929,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 214,
+      "time_s": 7.133333262,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 215,
+      "time_s": 7.166666595,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 216,
+      "time_s": 7.199999928,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    }
+  ],
+  "clearance_m": 0.005,
+  "elapsed_s": 19.495829746010713,
+  "scope": [
+    "calibrated DH arm meshes",
+    "early-beta Wuji meshes",
+    "self/inter-arm/inter-hand",
+    "infinite calibrated table halfspace"
+  ],
+  "limitations": [
+    "Original samples only; resampled replay and start transition need separate checks.",
+    "Unmodeled objects are not checked."
+  ],
+  "exclusions": [
+    "Aubo SRDF disabled pairs",
+    "same fixed hand cluster / same-branch two-axis knuckle covers",
+    "arm flange against attached hand root",
+    "base mounting face against table"
+  ],
+  "hand_self_clearance_m": 0.0
+}

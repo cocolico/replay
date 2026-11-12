@@ -1,0 +1,16 @@
+[Info] [connector_asio.h:123] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:123] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.24.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:188] RPC Client login
+[Info] [connector_asio.h:206] RPC Client logout
+[Info] [connector_asio.h:235] RPC client disconnected.
+[Info] [connector_asio.h:206] RPC Client logout
+left type= aubo_i7H TCP= [0.0, 0.0, 0.0, 0.0, 0.0, 0.0] payload= (0.0, [0.0, 0.0, 0.0], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0])
+right type= aubo_i7H TCP= [0.0, 0.0, 0.0, 0.0, 0.0, 0.0] payload= (0.632, [-0.0073, 0.03246, 0.15035], [0.0, 0.0, 0.0], [0.0, 0.0, 0.0, 0.0, 0.0, 0.0])

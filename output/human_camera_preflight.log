@@ -1,0 +1,36 @@
+[Info] [connector_asio.h:127] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:127] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:215] RPC Client logout
+[2026-11-12T21:05:00 ERROR wuji_sdk] Python crash:
+Traceback (most recent call last):
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 317, in <module>
+    try:main()
+        ^^^^^^
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 302, in main
+    else:trajectory,plan=make_plan(args.name,c,settings,arms,hands,args.speed)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/descfly/新加卷/ty/replay/code/runtime_plan.py", line 81, in make_plan
+    raise ValueError(f'{name}: {known["failed_frames"]} source frames fail modeled collision checks; inspect {collision_report_path}')
+ValueError: human_camera: 44 source frames fail modeled collision checks; inspect /media/descfly/新加卷/ty/replay/code/output/human_camera_collisions.json
+
+Traceback (most recent call last):
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 317, in <module>
+    try:main()
+        ^^^^^^
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 302, in main
+    else:trajectory,plan=make_plan(args.name,c,settings,arms,hands,args.speed)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/media/descfly/新加卷/ty/replay/code/runtime_plan.py", line 81, in make_plan
+    raise ValueError(f'{name}: {known["failed_frames"]} source frames fail modeled collision checks; inspect {collision_report_path}')
+ValueError: human_camera: 44 source frames fail modeled collision checks; inspect /media/descfly/新加卷/ty/replay/code/output/human_camera_collisions.json

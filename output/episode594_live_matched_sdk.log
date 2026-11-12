@@ -1,0 +1,898 @@
+[Info] [connector_asio.h:127] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:127] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:215] RPC Client logout
+PREFLIGHT PASS report: /media/descfly/新加卷/ty/replay/code/output/episode594_runtime.json
+[Info] [connector_asio.h:127] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:127] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:127] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:127] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:127] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:127] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:127] Connect to 192.168.1.3:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+[Info] [connector_asio.h:127] Connect to 192.168.1.2:30004
+[Info] [rpc.cpp:157] SDK INTERFACE VERSION: 0.26.0
+[Info] [rpc.cpp:158] SERVER INTERFACE VERSION: 0.26.0
+[Info] [connector_asio.h:197] RPC Client login
+REPLAY START: both arms + both hands; Ctrl-C requests synchronized stop.
+progress 0.0/171.7s
+progress 0.0/171.7s
+progress 1.0/171.7s
+progress 2.0/171.7s
+progress 3.0/171.7s
+progress 4.0/171.7s
+progress 5.0/171.7s
+progress 6.0/171.7s
+progress 7.0/171.7s
+progress 8.0/171.7s
+progress 9.0/171.7s
+progress 10.0/171.7s
+progress 11.0/171.7s
+progress 12.0/171.7s
+progress 13.0/171.7s
+progress 14.0/171.7s
+progress 15.0/171.7s
+progress 16.0/171.7s
+progress 17.0/171.7s
+progress 18.0/171.7s
+progress 19.0/171.7s
+progress 20.0/171.7s
+progress 21.0/171.7s
+progress 22.0/171.7s
+progress 23.0/171.7s
+progress 24.0/171.7s
+progress 25.0/171.7s
+progress 26.0/171.7s
+progress 27.0/171.7s
+progress 28.0/171.7s
+progress 29.0/171.7s
+progress 30.0/171.7s
+progress 31.0/171.7s
+progress 32.0/171.7s
+progress 33.0/171.7s
+progress 34.0/171.7s
+progress 35.0/171.7s
+progress 36.0/171.7s
+progress 37.0/171.7s
+progress 38.0/171.7s
+progress 39.0/171.7s
+progress 40.0/171.7s
+progress 41.0/171.7s
+progress 42.0/171.7s
+progress 43.0/171.7s
+progress 44.0/171.7s
+progress 45.0/171.7s
+progress 46.0/171.7s
+progress 47.0/171.7s
+progress 48.0/171.7s
+progress 49.0/171.7s
+progress 50.0/171.7s
+progress 51.0/171.7s
+progress 52.0/171.7s
+progress 53.0/171.7s
+progress 54.0/171.7s
+progress 55.0/171.7s
+progress 56.0/171.7s
+progress 57.0/171.7s
+progress 58.0/171.7s
+progress 59.0/171.7s
+progress 60.0/171.7s
+progress 61.0/171.7s
+progress 62.0/171.7s
+progress 63.0/171.7s
+progress 64.0/171.7s
+progress 65.0/171.7s
+progress 66.0/171.7s
+progress 67.0/171.7s
+progress 68.0/171.7s
+progress 69.0/171.7s
+progress 70.0/171.7s
+progress 71.0/171.7s
+progress 72.0/171.7s
+progress 73.0/171.7s
+progress 74.0/171.7s
+progress 75.0/171.7s
+progress 76.0/171.7s
+progress 77.0/171.7s
+progress 78.0/171.7s
+progress 79.0/171.7s
+progress 80.0/171.7s
+progress 81.0/171.7s
+progress 82.0/171.7s
+progress 83.0/171.7s
+progress 84.0/171.7s
+progress 85.0/171.7s
+progress 86.0/171.7s
+progress 87.0/171.7s
+progress 88.0/171.7s
+progress 89.0/171.7s
+progress 90.0/171.7s
+progress 91.0/171.7s
+progress 92.0/171.7s
+progress 93.0/171.7s
+progress 94.0/171.7s
+progress 95.0/171.7s
+progress 96.0/171.7s
+progress 97.0/171.7s
+progress 98.0/171.7s
+progress 99.0/171.7s
+progress 100.0/171.7s
+progress 101.0/171.7s
+progress 102.0/171.7s
+progress 103.0/171.7s
+progress 104.0/171.7s
+progress 105.0/171.7s
+progress 106.0/171.7s
+progress 107.0/171.7s
+progress 108.0/171.7s
+progress 109.0/171.7s
+progress 110.0/171.7s
+progress 111.0/171.7s
+progress 112.0/171.7s
+progress 113.0/171.7s
+progress 114.0/171.7s
+progress 115.0/171.7s
+progress 116.0/171.7s
+progress 117.0/171.7s
+progress 118.0/171.7s
+progress 119.0/171.7s
+progress 120.0/171.7s
+progress 121.0/171.7s
+progress 122.0/171.7s
+progress 123.0/171.7s
+progress 124.0/171.7s
+progress 125.0/171.7s
+progress 126.0/171.7s
+progress 127.0/171.7s
+progress 128.0/171.7s
+progress 129.0/171.7s
+progress 130.0/171.7s
+progress 131.0/171.7s
+progress 132.0/171.7s
+progress 133.0/171.7s
+progress 134.0/171.7s
+progress 135.0/171.7s
+progress 136.0/171.7s
+progress 137.0/171.7s
+progress 138.0/171.7s
+progress 139.0/171.7s
+progress 140.0/171.7s
+progress 141.0/171.7s
+progress 142.0/171.7s
+progress 143.0/171.7s
+progress 144.0/171.7s
+progress 145.0/171.7s
+progress 146.0/171.7s
+progress 147.0/171.7s
+progress 148.0/171.7s
+progress 149.0/171.7s
+progress 150.0/171.7s
+progress 151.0/171.7s
+progress 152.0/171.7s
+progress 153.0/171.7s
+progress 154.0/171.7s
+progress 155.0/171.7s
+progress 156.0/171.7s
+progress 157.0/171.7s
+progress 158.0/171.7s
+progress 159.0/171.7s
+progress 160.0/171.7s
+progress 161.0/171.7s
+progress 162.0/171.7s
+progress 163.0/171.7s
+progress 164.0/171.7s
+progress 165.0/171.7s
+progress 166.0/171.7s
+progress 167.0/171.7s
+progress 168.0/171.7s
+progress 169.0/171.7s
+progress 170.0/171.7s
+progress 171.0/171.7s
+REPLAY COMPLETE; holding last frame. Ctrl-C stops arms and disables hands.
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+progress 171.7/171.7s
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:244] RPC client disconnected.
+[2026-11-12T17:54:58 ERROR wuji_sdk] Python crash:
+Traceback (most recent call last):
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 169, in execute
+    time.sleep(.005)
+                     
+InterruptedError: Operator stop
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 269, in <module>
+    arms=read_arms(c);hands=reader.snapshot()
+                    ^^^^^^
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 260, in main
+    def main():
+                
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 238, in execute
+    for sub in diagnostics:
+                  ^^^^^^^^^^
+RuntimeError: Stop not fully confirmed: ['arm_right: stopJoint: -3; setServoModeSelect: -3']
+
+Traceback (most recent call last):
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 169, in execute
+    time.sleep(.005)
+                     
+InterruptedError: Operator stop
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 269, in <module>
+    arms=read_arms(c);hands=reader.snapshot()
+                    ^^^^^^
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 260, in main
+    def main():
+                
+  File "/media/descfly/新加卷/ty/replay/code/replay_control.py", line 238, in execute
+    for sub in diagnostics:
+                  ^^^^^^^^^^
+RuntimeError: Stop not fully confirmed: ['arm_right: stopJoint: -3; setServoModeSelect: -3']
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:215] RPC Client logout
+[Info] [connector_asio.h:215] RPC Client logout

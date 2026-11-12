@@ -1,0 +1,30 @@
+{
+  "trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/episode594_controller_ik.npz",
+    "sha256": "93eadab4d790ef634e660c5d1921bedfb6cb9ca173069b7b5ee875a5aea57869"
+  },
+  "execution_enabled": false,
+  "passed": true,
+  "checked_frames": 965,
+  "failed_frames": 0,
+  "first_failures": [],
+  "clearance_m": 0.005,
+  "elapsed_s": 13.817537791008363,
+  "scope": [
+    "calibrated DH arm meshes",
+    "early-beta Wuji meshes",
+    "self/inter-arm/inter-hand",
+    "infinite calibrated table halfspace"
+  ],
+  "limitations": [
+    "Original samples only; resampled replay and start transition need separate checks.",
+    "Unmodeled objects are not checked."
+  ],
+  "exclusions": [
+    "Aubo SRDF disabled pairs",
+    "same fixed hand cluster / same-branch two-axis knuckle covers",
+    "arm flange against attached hand root",
+    "base mounting face against table"
+  ],
+  "hand_self_clearance_m": 0.0
+}

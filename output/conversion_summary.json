@@ -1,0 +1,207 @@
+{
+  "execution_enabled": false,
+  "candidate_mount_rotation_confirmed": true,
+  "sources": {
+    "episode594": {
+      "candidate": {
+        "path": "/media/descfly/新加卷/ty/replay/code/output/episode594_ik_candidate.npz",
+        "sha256": "3584c9260fa05cb4b5f982cf37176f3208d8d072948951d51e67fcddd44e3bce"
+      },
+      "sides": {
+        "left": {
+          "max_euclidean_position_error_m": 2.37019000704305e-09,
+          "max_orientation_error_rad": 2.723637464063691e-10,
+          "urdf_velocity_limits_passed": true,
+          "joint_dynamics": {
+            "max_step_rad": 0.05137435637095178,
+            "max_velocity_rad_s": 1.5412307065408466,
+            "max_acceleration_rad_s2": 10.224778260091039
+          }
+        },
+        "right": {
+          "max_euclidean_position_error_m": 2.06127761893642e-09,
+          "max_orientation_error_rad": 5.159947673283032e-10,
+          "urdf_velocity_limits_passed": true,
+          "joint_dynamics": {
+            "max_step_rad": 0.028363747950714835,
+            "max_velocity_rad_s": 0.8509124470306186,
+            "max_acceleration_rad_s2": 7.0292072357724535
+          }
+        }
+      },
+      "frames": 965,
+      "duration_s": 32.133333012,
+      "combined_shape": [
+        965,
+        52
+      ]
+    },
+    "episode615": {
+      "candidate": {
+        "path": "/media/descfly/新加卷/ty/replay/code/output/episode615_ik_candidate.npz",
+        "sha256": "d597b542f7a261c82ab81a7ac7ac29df9cce1b989327619c593a2eaec1fb24c8"
+      },
+      "sides": {
+        "left": {
+          "max_euclidean_position_error_m": 1.6672550102827363e-09,
+          "max_orientation_error_rad": 3.8101670484407454e-10,
+          "urdf_velocity_limits_passed": true,
+          "joint_dynamics": {
+            "max_step_rad": 0.0338033708238602,
+            "max_velocity_rad_s": 1.0141011348568219,
+            "max_acceleration_rad_s2": 10.691429828473641
+          }
+        },
+        "right": {
+          "max_euclidean_position_error_m": 1.7973885067897637e-09,
+          "max_orientation_error_rad": 3.970723923064517e-10,
+          "urdf_velocity_limits_passed": true,
+          "joint_dynamics": {
+            "max_step_rad": 0.03742671334703873,
+            "max_velocity_rad_s": 1.1228014116392409,
+            "max_acceleration_rad_s2": 8.596083554843355
+          }
+        }
+      },
+      "frames": 909,
+      "duration_s": 30.266666364,
+      "combined_shape": [
+        909,
+        52
+      ]
+    },
+    "episode616": {
+      "candidate": {
+        "path": "/media/descfly/新加卷/ty/replay/code/output/episode616_ik_candidate.npz",
+        "sha256": "08e9a6c2be884cd4fc867dc69131c57fd07f42c46bd087049f12d9b772f42604"
+      },
+      "sides": {
+        "left": {
+          "max_euclidean_position_error_m": 1.795227202427683e-09,
+          "max_orientation_error_rad": 3.551812237046705e-10,
+          "urdf_velocity_limits_passed": true,
+          "joint_dynamics": {
+            "max_step_rad": 0.025314236522563482,
+            "max_velocity_rad_s": 0.7594271032711788,
+            "max_acceleration_rad_s2": 8.316733456836385
+          }
+        },
+        "right": {
+          "max_euclidean_position_error_m": 1.9761338615668452e-09,
+          "max_orientation_error_rad": 5.308246355921258e-10,
+          "urdf_velocity_limits_passed": true,
+          "joint_dynamics": {
+            "max_step_rad": 0.043415354033613185,
+            "max_velocity_rad_s": 1.302460634032938,
+            "max_acceleration_rad_s2": 6.471366906652087
+          }
+        }
+      },
+      "frames": 1263,
+      "duration_s": 42.066666246,
+      "combined_shape": [
+        1263,
+        52
+      ]
+    },
+    "human_camera": {
+      "candidate": {
+        "path": "/media/descfly/新加卷/ty/replay/code/output/human_camera_ik_candidate.npz",
+        "sha256": "50d31767474cfc74984db9ac6b3818de1153e8913dc830b0966c480763064cb3"
+      },
+      "sides": {
+        "left": {
+          "max_euclidean_position_error_m": 5.16044399938846e-10,
+          "max_orientation_error_rad": 2.0680390872149356e-10,
+          "urdf_velocity_limits_passed": true,
+          "joint_dynamics": {
+            "max_step_rad": 0.14954361647139247,
+            "max_velocity_rad_s": 1.4954361647139234,
+            "max_acceleration_rad_s2": 9.371833892633381
+          }
+        },
+        "right": {
+          "max_euclidean_position_error_m": 6.229284191563253e-10,
+          "max_orientation_error_rad": 4.4851035681124064e-10,
+          "urdf_velocity_limits_passed": true,
+          "joint_dynamics": {
+            "max_step_rad": 0.18932227456287842,
+            "max_velocity_rad_s": 1.893222745628791,
+            "max_acceleration_rad_s2": 9.919770700886945
+          }
+        }
+      },
+      "frames": 150,
+      "duration_s": 14.91072,
+      "combined_shape": [
+        150,
+        52
+      ]
+    }
+  },
+  "mounts": {
+    "left": {
+      "rotation_z_deg": 0,
+      "flange_T_wuji_base": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right": {
+      "rotation_z_deg": -90,
+      "flange_T_wuji_base": [
+        [
+          2.220446049250313e-16,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          2.220446049250313e-16,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "limitations": [
+    "Right nominal model differs from controller FK by about 1.42 mm.",
+    "No collision validation or hardware motion.",
+    "Candidate dynamics are not full controller/hand acceptance."
+  ]
+}

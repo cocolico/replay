@@ -1,0 +1,30 @@
+{
+  "captured_unix_s": 1794477607.837062,
+  "read_only": true,
+  "arms": {
+    "left": {
+      "steady": true,
+      "servo_mode": 0,
+      "max_speed_rad_s": 0.0004754072689728227,
+      "runtime_status": "RuntimeState.Stopped"
+    },
+    "right": {
+      "steady": true,
+      "servo_mode": 0,
+      "max_speed_rad_s": 0.0004754072689728227,
+      "runtime_status": "RuntimeState.Stopped"
+    }
+  },
+  "hands": {
+    "left": {
+      "joints": 20,
+      "enabled": 0,
+      "at": 164284.040646442
+    },
+    "right": {
+      "joints": 20,
+      "enabled": 0,
+      "at": 164284.040213057
+    }
+  }
+}

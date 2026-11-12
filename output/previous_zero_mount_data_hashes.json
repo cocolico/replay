@@ -1,0 +1,34 @@
+{
+  "episode594": {
+    "left_aubo_joint_positions_rad": "17a835917e59d40cffeaf1ae672ef46d2dc7acd5a449a6927f8ec09e5806c4c1",
+    "right_aubo_joint_positions_rad": "9c68e18f76ebf9e6b75b697af228eb712ae065b9fb230e6029ff7cfcf2228a01",
+    "left_wuji_joint_positions_rad": "fcfb744b85d36afa4565f4751004a8eb4e0f1dc1675a17b987eebbf4d0784393",
+    "right_wuji_joint_positions_rad": "3a88b1a1dc0757412cda634dd0f03dedd7557a8b3460cac522ee2e513f6bacb3",
+    "time_s": "ef5010cae6d9c0cf5d1e39b0341a612942d622008c1e919d66f1072b816e63da",
+    "timestamp_ns": "23f29a5c2c2c6ec6a1a7ba743cef0352312070e5cf857627661e9d37446c9110"
+  },
+  "episode615": {
+    "left_aubo_joint_positions_rad": "eb295988b19c8788fef737e8414eebfd5d48251c79288c960871e04d83b9ca03",
+    "right_aubo_joint_positions_rad": "6afeee7476b26991092d28a806f83c449077f33d5ee851533a4e4fafa54e61d7",
+    "left_wuji_joint_positions_rad": "c1ae4f06e664fdf190ec3fbea4de347d56f17771ad93e27da5426f2ac9512df0",
+    "right_wuji_joint_positions_rad": "e773f3ad8cf701db12566cb7426c838742056c431e2d2758f2a90d4c76f44626",
+    "time_s": "46188ecdbe17ad021edfb2bb64f0fdba0475d15868a5072332ae182495e40e41",
+    "timestamp_ns": "c472b95d7716ce6691d513961643cc51e4a86b26997d446d581870a7f24e37ae"
+  },
+  "episode616": {
+    "left_aubo_joint_positions_rad": "c8fb5eb6e45947a9f59f639f4586b25acc3c7400e36d29e44ea321cff9bbba24",
+    "right_aubo_joint_positions_rad": "577980cb2c7368db87b40d5fd4125e80c567cd77d361c2cc81f076b8658cb3b0",
+    "left_wuji_joint_positions_rad": "6f45d588c0f1120a2bdff8cf00df51e9d2edc34863ee202dbec7cc8591d0fc22",
+    "right_wuji_joint_positions_rad": "b3e90c0d8bc8400be20552b435799c242f9165d3854b542a5b0e1da3b45b9885",
+    "time_s": "9619e2fea6944e5d1da36b0acc3c45c674a1acacf4d2cb468d5d9a40fed49e1d",
+    "timestamp_ns": "d7dd59c6b7d810230abf0bb7bd315fef568b2d300a68412c280f078e9f265fee"
+  },
+  "human_camera": {
+    "left_aubo_joint_positions_rad": "3f279e1f0f0f281873af3620a9a94c1f3435bfe9e27852eccb9bb3a1451e6d4a",
+    "right_aubo_joint_positions_rad": "f990f03d75ddf078cd2034483f2430c186171f25a90bfbd60baca1ab15bb174a",
+    "left_wuji_joint_positions_rad": "46803b040aeea31b847bcabe8cb7b5576616f077e715d6bd948e2853929c87e5",
+    "right_wuji_joint_positions_rad": "8f264ecc3643ba0027be87cb0aa51f4f9014de3fcb14cb63f83ff5b50929fda8",
+    "time_s": "01271101b7a3ff821df6b24fe58e5b39c327b5ed6e6e0c3fe8f3bc2f33ba7db7",
+    "timestamp_ns": "287d12f0229abe1efba544b85f51876733312d529328915fb1a2f0dd8d1fab96"
+  }
+}

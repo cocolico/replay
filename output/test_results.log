@@ -1,0 +1,35 @@
+test_all_recorded_fk_matches_delivered_scene_without_nominal_base_mount (test_pipeline.ConversionTests.test_all_recorded_fk_matches_delivered_scene_without_nominal_base_mount) ... ok
+test_clock_rejects_mixed_timebases (test_pipeline.ConversionTests.test_clock_rejects_mixed_timebases) ... ok
+test_default_preparation_is_blocked_without_mount_and_source_extrinsics (test_pipeline.ConversionTests.test_default_preparation_is_blocked_without_mount_and_source_extrinsics) ... ok
+test_full_frame_candidate_export_has_explicit_52_joint_order_and_is_disabled (test_pipeline.ConversionTests.test_full_frame_candidate_export_has_explicit_52_joint_order_and_is_disabled) ... ok
+test_human_camera_uses_supplied_gemini335_observation_and_preserves_time (test_pipeline.ConversionTests.test_human_camera_uses_supplied_gemini335_observation_and_preserves_time) ... ok
+test_human_without_explicit_source_observation_is_rejected (test_pipeline.ConversionTests.test_human_without_explicit_source_observation_is_rejected) ... ok
+test_joint_reordering_rejects_duplicate_names (test_pipeline.ConversionTests.test_joint_reordering_rejects_duplicate_names) ... ok
+test_mapping_mount_composition_has_expected_direction (test_pipeline.ConversionTests.test_mapping_mount_composition_has_expected_direction) ... ok
+test_numbered_and_human_configurations_are_separate (test_pipeline.ConversionTests.test_numbered_and_human_configurations_are_separate) ... ok
+test_synthetic_aubo_ik_roundtrip_remains_offline (test_pipeline.ConversionTests.test_synthetic_aubo_ik_roundtrip_remains_offline) ... ok
+test_transform_rejects_reflection_and_invalid_bottom_row (test_pipeline.ConversionTests.test_transform_rejects_reflection_and_invalid_bottom_row) ... ok
+test_busy_lock_explains_holder_without_truncating_or_releasing_it (test_runtime.RuntimeTests.test_busy_lock_explains_holder_without_truncating_or_releasing_it) ... ok
+test_calibrated_dh_matches_recorded_controller_fk (test_runtime.RuntimeTests.test_calibrated_dh_matches_recorded_controller_fk) ... ok
+test_command_failure_stops_both_arms_and_hands (test_runtime.RuntimeTests.test_command_failure_stops_both_arms_and_hands) ... ok
+test_controller_payload_change_invalidates_preflight (test_runtime.RuntimeTests.test_controller_payload_change_invalidates_preflight) ... ok
+test_feedback_failure_stops_both_arms_and_hands (test_runtime.RuntimeTests.test_feedback_failure_stops_both_arms_and_hands) ... REPLAY START: both arms + both hands; Ctrl-C requests synchronized stop.
+ok
+test_live_payload_tuple_matches_json_payload_list (test_runtime.RuntimeTests.test_live_payload_tuple_matches_json_payload_list) ... ok
+test_normal_completion_stops_both_arms_and_hands (test_runtime.RuntimeTests.test_normal_completion_stops_both_arms_and_hands) ... REPLAY START: both arms + both hands; Ctrl-C requests synchronized stop.
+ok
+test_resampling_keeps_named_channels_and_zero_endpoint_velocity (test_runtime.RuntimeTests.test_resampling_keeps_named_channels_and_zero_endpoint_velocity) ... ok
+test_stop_nonzero_return_is_recorded_but_stopped_readback_confirms (test_runtime.RuntimeTests.test_stop_nonzero_return_is_recorded_but_stopped_readback_confirms) ... ok
+test_stop_reconnects_when_existing_client_cannot_confirm (test_runtime.RuntimeTests.test_stop_reconnects_when_existing_client_cannot_confirm) ... ok
+test_stop_success_return_does_not_override_moving_feedback (test_runtime.RuntimeTests.test_stop_success_return_does_not_override_moving_feedback) ... ok
+test_table_positive_board_z_is_occupied (test_runtime.RuntimeTests.test_table_positive_board_z_is_occupied) ... /media/descfly/新加卷/ty/replay/code/collision_scene.py:121: DeprecationWarning: enable_nearest_points has been marked as deprecated. Nearest points are always computed when computing distance. They are the points of the shapes that achieve a distance of DistanceResult::min_distance.
+Use `enable_signed_distance` if you want to compute a signed minimum distance (and thus its corresponding nearest points).
+  request=coal.DistanceRequest();request.enable_nearest_points=False
+ok
+test_transition_is_continuous_bounded_and_starts_at_measured_pose (test_runtime.RuntimeTests.test_transition_is_continuous_bounded_and_starts_at_measured_pose) ... ok
+test_unchecked_plan_cannot_enter_device_setup (test_runtime.RuntimeTests.test_unchecked_plan_cannot_enter_device_setup) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.684s
+
+OK

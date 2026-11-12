@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "execution_enabled": false,
+  "rate_hz": 100,
+  "speed": 0.2,
+  "checked_samples": 11109,
+  "failed_samples": 0,
+  "failures": [],
+  "minimum_hand_table_clearance_m": 0.017153058065352764,
+  "hand_dynamics_at_tested_speed": {
+    "left": {
+      "max_velocity_rad_s": 2.639398435548679,
+      "max_acceleration_rad_s2": 60.04388789244399,
+      "speed_for_1p5_rad_s_and_5_rad_s2_estimate": 0.057713922923783245
+    },
+    "right": {
+      "max_velocity_rad_s": 3.623240090155866,
+      "max_acceleration_rad_s2": 203.15689484824318,
+      "speed_for_1p5_rad_s_and_5_rad_s2_estimate": 0.03137611836733342
+    }
+  },
+  "scope": [
+    "exact hand self-collision",
+    "inter-hand 5 mm clearance",
+    "infinite calibrated table plane 5 mm clearance"
+  ],
+  "root_interpolation": "Original root-key translations linear; orientations SLERP; original root samples unchanged",
+  "curve": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/human_camera_1_repaired/hand_curve.npz",
+    "sha256": "5061c83313fe144b57aa6e7c66cc775a48a13f905cf82aa43addae822262b0ec"
+  },
+  "limitations": [
+    "Desired hand path only; arm IK branches/collisions and live start transition still fail or are unchecked.",
+    "Joint-speed reduction and a fresh complete runtime validation are required before execution."
+  ]
+}

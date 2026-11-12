@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "execution_enabled": false,
+  "scope": "Finger self-collision, exact triangle meshes",
+  "rate_hz": 100,
+  "speed": 0.2,
+  "checked_samples_per_hand": 11109,
+  "history": [
+    {
+      "iteration": 0,
+      "knots": 223,
+      "failed_samples": {
+        "left": 565,
+        "right": 424
+      }
+    },
+    {
+      "iteration": 1,
+      "knots": 262,
+      "failed_samples": {
+        "left": 160,
+        "right": 136
+      }
+    },
+    {
+      "iteration": 2,
+      "knots": 286,
+      "failed_samples": {
+        "left": 17,
+        "right": 36
+      }
+    },
+    {
+      "iteration": 3,
+      "knots": 296,
+      "failed_samples": {
+        "left": 1,
+        "right": 11
+      }
+    },
+    {
+      "iteration": 4,
+      "knots": 301,
+      "failed_samples": {
+        "left": 0,
+        "right": 2
+      }
+    },
+    {
+      "iteration": 5,
+      "knots": 302,
+      "failed_samples": {
+        "left": 0,
+        "right": 0
+      }
+    }
+  ],
+  "curve": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/human_camera_1_repaired/hand_curve.npz",
+    "sha256": "5061c83313fe144b57aa6e7c66cc775a48a13f905cf82aa43addae822262b0ec"
+  },
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/config/human_replay_1_repaired.json",
+    "sha256": "b67d55ecc0f0c220167e1101b649ffc8bdd8f7cb69c255b6584efb041cfafe63"
+  },
+  "original_key_times_retained": true,
+  "limitations": [
+    "Hand-only curve; robot arm collision/IK continuity and live start transition remain blocked."
+  ]
+}

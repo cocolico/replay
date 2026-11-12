@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-12T13:01:52.597476+00:00",
+  "board_fingerprint": "437d28755b5102513fd2204b356c468f7d9618172b30ba59d7d60f049d63d928",
+  "target_camera_T_source_camera": [
+    [
+      0.9993327115472848,
+      0.02505651482383031,
+      -0.026576355966064585,
+      0.014893806408588839
+    ],
+    [
+      -0.023939615600283168,
+      0.9988498843383125,
+      0.04154278953380525,
+      -0.0021423069539683315
+    ],
+    [
+      0.027586707604614666,
+      -0.04087884076417175,
+      0.9987832066776633,
+      -0.01544048455466085
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_camera_T_target_camera": [
+    [
+      0.9993327115472843,
+      -0.023939615600282932,
+      0.02758670760461447,
+      -0.014509201815848225
+    ],
+    [
+      0.025056514823830558,
+      0.9988498843383129,
+      -0.040878840764171864,
+      0.0011354670626967267
+    ],
+    [
+      -0.026576355966064738,
+      0.041542789533805115,
+      0.9987832066776624,
+      0.01590651718387091
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "formula": "T_current_camera_wuji = current_camera_T_board @ inverse(source_camera_T_board) @ T_source_camera_wuji",
+  "assumption": "User-established corresponding task-board origin/axes between source and target workcells.",
+  "interpretation": "Task transfer, not a surveyed physical inter-site extrinsic.",
+  "source_camera_id": "orbbec_gemini_335",
+  "target_camera_id": "current-table-20261112",
+  "source_observation": "/home/descfly/ty/desk/observation.json",
+  "source_observation_sha256": "7f1093a005f55020edaa4341fba2dfd0b598ad7adb17b02df42fb58315a4e73c",
+  "target_observation": "/home/descfly/ty/desk/calibration/results/current-table-20261112/observation.json",
+  "target_observation_sha256": "2e2504fc19e11bb9f119e1325d32c8df54692293b21faee68ac0b19681eea11a",
+  "source_quality": {
+    "reprojection_rms_px_mean": 0.24064235595556405,
+    "reprojection_rms_px_max": 0.2968446910381317,
+    "translation_spread_max_mm": 0.4955987709478693,
+    "rotation_spread_max_deg": 0.18821225270939762,
+    "min_inlier_corners": 40
+  },
+  "target_quality": {
+    "reprojection_rms_px_mean": 0.2906766543785731,
+    "reprojection_rms_px_max": 0.33129602670669556,
+    "translation_spread_max_mm": 1.220744685158637,
+    "rotation_spread_max_deg": 0.31787515578833375,
+    "min_inlier_corners": 22
+  },
+  "same_board_coordinate_closure_max_abs": 1.1102230246251565e-15
+}

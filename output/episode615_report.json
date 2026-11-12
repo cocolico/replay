@@ -1,0 +1,107 @@
+{
+  "episode": "615",
+  "frames": 909,
+  "duration_s": 30.266666364,
+  "execution_enabled": false,
+  "artifact_type": "offline_aubo_wuji_preparation",
+  "joint_unit": "radian",
+  "position_unit": "metre",
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/config/replay.json",
+    "sha256": "2856f116346ae696cedf8a5d739bb7c560cbb974861d0c5d08958d21ab355b67"
+  },
+  "mount_semantics": "flange_T_wuji_base maps Wuji l/r_base_link into Aubo physical flange",
+  "root_alignment": "preserved exactly; NO extra +/-90 degree rotation",
+  "sides": {
+    "left": {
+      "hand_dynamics": {
+        "max_step_rad": 0.10820885783842449,
+        "max_velocity_rad_s": 3.2462657676154065,
+        "max_acceleration_rad_s2": 23.833736915627323
+      },
+      "hand_position_limits_passed": true,
+      "target_handeye": {
+        "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_left_02/result.json",
+        "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
+      },
+      "target_base_frame": "left_aubo_base"
+    },
+    "right": {
+      "hand_dynamics": {
+        "max_step_rad": 0.07792788803520645,
+        "max_velocity_rad_s": 2.337836664434446,
+        "max_acceleration_rad_s2": 16.855147071581506
+      },
+      "hand_position_limits_passed": true,
+      "target_handeye": {
+        "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_right_01/result.json",
+        "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
+      },
+      "target_base_frame": "right_aubo_base"
+    }
+  },
+  "blockers": [
+    "right_aubo_model_not_confirmed"
+  ],
+  "arm_ik_inputs_ready": false,
+  "arm_ik_performed": false,
+  "collision_check": {
+    "performed": false,
+    "scope_required": [
+      "arms",
+      "hands",
+      "table",
+      "environment"
+    ]
+  },
+  "sources": [
+    {
+      "path": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta/episode615/source_sharpa.npz",
+      "sha256": "07a20db7877d1644e40b570562ee55d2e2cc521399dc183df19c881add2bb6a4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta/episode615/wuji_trajectory.npz",
+      "sha256": "e7733187e2b55c855350d4d8cef3373fd43f62dd3e5a3605a55cb01696dd4571"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta/assets/motion/source_assembly.urdf",
+      "sha256": "15d3056fc3bb3219894e81009c65fb2f63188fbfedaa1e53724901ec3356b31c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/config/replay.json",
+      "sha256": "2856f116346ae696cedf8a5d739bb7c560cbb974861d0c5d08958d21ab355b67"
+    },
+    {
+      "path": "/home/descfly/ty/desk/calibration/results/current-table-20261112/mapping_from_franka-sharpa.json",
+      "sha256": "f8e619b08df73abf74ad2a64203c1333ef0c5075d71647bee7cb07e3bfda2a1a"
+    },
+    {
+      "path": "/home/descfly/ty/desk/calibration/results/current-table-20261112/observation.json",
+      "sha256": "2e2504fc19e11bb9f119e1325d32c8df54692293b21faee68ac0b19681eea11a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/handeye/handeye/franka-sharpa/handeye_calibration.json",
+      "sha256": "962b68b4f0e328a9cc768a3aa534de6e20b6bf1fa784fdf0ef90b8d857515bd4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta/assets/wuji/urdf/left.urdf",
+      "sha256": "d93de699b5bbe0a573ea9725ebb7e6ad6547b6ed3593f7f5591664ee220648f0"
+    },
+    {
+      "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_left_02/result.json",
+      "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta/assets/wuji/urdf/right.urdf",
+      "sha256": "f3bb5d0031a1972e06faafa8a6ab191dcf5ab5abfebbf5d27cb510ee8d004a06"
+    },
+    {
+      "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_right_01/result.json",
+      "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
+    }
+  ],
+  "artifact": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/episode615_prepared.npz",
+    "sha256": "975c8582d46d00dfa863449df5822d1194761bbccc420b178b02c06fc0de8dd4"
+  }
+}

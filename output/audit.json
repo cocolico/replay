@@ -1,0 +1,142 @@
+{
+  "execution_enabled": false,
+  "calibrations": {
+    "left": {
+      "source": {
+        "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_left_02/result.json",
+        "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
+      },
+      "created_unix_s": 1794463534.9408095,
+      "held_out_validation": {
+        "count": 3,
+        "translation_rms_mm": 0.5113296886102843,
+        "translation_max_mm": 0.6755678006568467,
+        "rotation_rms_deg": 0.2065947432194988,
+        "rotation_max_deg": 0.3094715940320369,
+        "residuals": [
+          {
+            "translation_mm": 0.5560443652150707,
+            "rotation_deg": 0.1222490254481105
+          },
+          {
+            "translation_mm": 0.13710201308190506,
+            "rotation_deg": 0.3094715940320369
+          },
+          {
+            "translation_mm": 0.6755678006568467,
+            "rotation_deg": 0.13163081722016817
+          }
+        ]
+      },
+      "T_aubo_base_source_camera": [
+        [
+          0.7451762012011879,
+          0.4874077280629073,
+          0.4551330967837,
+          0.17630365837769227
+        ],
+        [
+          0.012040664045418571,
+          0.6725488325139841,
+          -0.7399547893577093,
+          -0.17620521710452958
+        ],
+        [
+          -0.6667589156304631,
+          0.5568768037085273,
+          0.4952986714283243,
+          -0.0065972890549173616
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right": {
+      "source": {
+        "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_right_01/result.json",
+        "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
+      },
+      "created_unix_s": 1794455171.371253,
+      "held_out_validation": {
+        "count": 4,
+        "translation_rms_mm": 0.645836832133951,
+        "translation_max_mm": 0.7436953716014212,
+        "rotation_rms_deg": 0.15605750428829593,
+        "rotation_max_deg": 0.21932037346895644,
+        "residuals": [
+          {
+            "translation_mm": 0.7436953716014212,
+            "rotation_deg": 0.13238760180768816
+          },
+          {
+            "translation_mm": 0.6341634119989685,
+            "rotation_deg": 0.1231853188828448
+          },
+          {
+            "translation_mm": 0.4625236976251411,
+            "rotation_deg": 0.12889240652398545
+          },
+          {
+            "translation_mm": 0.706573878118125,
+            "rotation_deg": 0.21932037346895644
+          }
+        ]
+      },
+      "T_aubo_base_source_camera": [
+        [
+          0.7026575313383048,
+          -0.5396967470385975,
+          -0.46368072516497394,
+          -0.21013014806285651
+        ],
+        [
+          0.022916871201765526,
+          0.6684965147647469,
+          -0.743362110119812,
+          -0.1746728363902911
+        ],
+        [
+          0.7111590614397494,
+          0.5117028737298801,
+          0.48209227161272766,
+          -0.04112778140790784
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "episodes": {
+    "594": {
+      "frames": 965,
+      "duration_s": 32.133333012,
+      "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1"
+    },
+    "615": {
+      "frames": 909,
+      "duration_s": 30.266666364,
+      "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1"
+    },
+    "616": {
+      "frames": 1263,
+      "duration_s": 42.066666246,
+      "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1"
+    }
+  },
+  "camera_stream": {
+    "path": "/media/descfly/新加卷/ty/replay/wuji2_camera_replay_trajectory",
+    "configuration": "/media/descfly/新加卷/ty/replay/code/config/human_replay.json",
+    "source_camera_id": "orbbec_gemini_335",
+    "mapping": "/media/descfly/新加卷/ty/replay/code/config/mapping_from_human_gemini335.json",
+    "source_observation": "/home/descfly/ty/desk/observation.json",
+    "note": "User explicitly identified /home/descfly/ty/desk/observation.json as the human trajectory source observation; Gemini 335 1280x720. Replaces incorrect zhuji inference."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "execution_enabled": false,
+  "passed": false,
+  "errors": {
+    "left": "left frame60 branch discontinuity",
+    "right": "right frame158 branch discontinuity"
+  },
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/config/human_replay_1.json",
+    "sha256": "f319bb2e647bed1d5e9be55917ad636342c47e20c451442c8616cab6998e3bcf"
+  },
+  "collision_check_performed": false
+}

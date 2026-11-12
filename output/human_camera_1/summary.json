@@ -1,0 +1,45 @@
+{
+  "dataset": "wuji2_camera_replay_trajectory(1)",
+  "source_calibration": "/home/descfly/ty/desk/observation.json",
+  "frames": 223,
+  "duration_s": 22.21576,
+  "controller_ik_failed_frames": {
+    "left": 0,
+    "right": 0
+  },
+  "branch_discontinuity_frames": {
+    "left": 9,
+    "right": 13
+  },
+  "collision_failed_frames": 164,
+  "collision_categories_frame_counts": {
+    "hand_self": 161,
+    "other_robot_collision": 24
+  },
+  "first_collision_by_category": {
+    "hand_self": {
+      "frame": 18,
+      "time_s": 1.80128,
+      "a": "left:hand:l_middle_finger_middle",
+      "b": "left:hand:l_ring_finger_distal",
+      "clearance_m": 0.0
+    },
+    "other_robot_collision": {
+      "frame": 69,
+      "time_s": 6.9048,
+      "a": "left:arm:foreArm_Link",
+      "b": "left:arm:wrist2_Link",
+      "clearance_m": 0.004893510080052686
+    }
+  },
+  "minimum_hand_table_clearance": {
+    "frame": 29,
+    "time_s": 2.90192,
+    "body": "left:hand:l_thumb_distal",
+    "clearance_m": 0.01739071554415466
+  },
+  "passed": false,
+  "execution_enabled": false,
+  "runtime_resampling_and_start_transition_checked": false,
+  "note": "All 223 poses have verified controller IK, but returned branch sequence and mesh collisions fail acceptance. This does not prove absence of a better continuous IK branch."
+}

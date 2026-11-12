@@ -1,0 +1,40 @@
+{
+  "left": {
+    "controller_type": "aubo_i7H",
+    "urdf": "/media/descfly/\u65b0\u52a0\u5377/ty/adaptation_resources/sources/aubo_description/urdf/aubo_i7H.urdf",
+    "samples": [
+      {
+        "translation_m": 0.0005737594727019368,
+        "rotation_rad": 0.0027641564159982253
+      },
+      {
+        "translation_m": 0.000568809742310076,
+        "rotation_rad": 0.0027635778290524835
+      },
+      {
+        "translation_m": 0.0005762986500259772,
+        "rotation_rad": 0.0027259803740838674
+      }
+    ],
+    "tcp_offset_zero": true
+  },
+  "right": {
+    "controller_type": "aubo_i7H",
+    "urdf": "/media/descfly/\u65b0\u52a0\u5377/ty/adaptation_resources/sources/aubo_description/urdf/aubo_i7H.urdf",
+    "samples": [
+      {
+        "translation_m": 0.0014080914465268574,
+        "rotation_rad": 0.004616987194517979
+      },
+      {
+        "translation_m": 0.0014092030631911404,
+        "rotation_rad": 0.004596438578771019
+      },
+      {
+        "translation_m": 0.001420869512684282,
+        "rotation_rad": 0.004605242598287669
+      }
+    ],
+    "tcp_offset_zero": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "pid": 1164882,
+  "name": "episode594",
+  "status": "stop_not_confirmed",
+  "error": "Operator stop",
+  "cleanup_errors": [
+    "arm_right: stopJoint: -3; setServoModeSelect: -3"
+  ],
+  "updated_unix_s": 1794477298.0885801
+}

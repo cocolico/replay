@@ -1,0 +1,146 @@
+{
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "frames": 150,
+  "duration_s": 14.91072,
+  "controller_ik_fk_passed": true,
+  "joint_jumps": {
+    "left": [],
+    "right": []
+  },
+  "failed_collision_frames": 44,
+  "hand_self_collision_frames": 21,
+  "arm_collision_frames": 2,
+  "table_collision_frames": 25,
+  "first_failures": [
+    {
+      "frame": 14,
+      "time_s": 1.4012,
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": 9.738355503201637e-05
+        },
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0018736777948926212
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.00044466190986285417
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": 0.00018326103067949767
+        }
+      ]
+    },
+    {
+      "frame": 15,
+      "time_s": 1.50136,
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006845008011033268
+        },
+        {
+          "a": "left:hand:l_index_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": 0.0015219429399038233
+        },
+        {
+          "a": "left:hand:l_middle_finger_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": 0.0016444518234398874
+        },
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.01457147543312607
+        },
+        {
+          "a": "left:hand:l_ring_finger_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": 0.0023336787709323757
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.014222715800437822
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": 0.0006002888682865998
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.01438240955513696
+        }
+      ]
+    },
+    {
+      "frame": 16,
+      "time_s": 1.60136,
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.005510415906148241
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.018412301559985765
+        },
+        {
+          "a": "left:hand:l_index_finger_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": 0.001732210981280416
+        },
+        {
+          "a": "left:hand:l_index_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.012784936808044137
+        },
+        {
+          "a": "left:hand:l_middle_finger_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.01334880566671932
+        },
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03008962903800095
+        },
+        {
+          "a": "left:hand:l_ring_finger_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.013635121789883188
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.030632768070118662
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.015978687563071
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.031439549462501486
+        }
+      ]
+    }
+  ],
+  "runtime_dense_check_performed": false
+}

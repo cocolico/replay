@@ -1,0 +1,296 @@
+{
+  "passed": false,
+  "execution_enabled": false,
+  "checked_frames": 223,
+  "failed_frames": 24,
+  "failures": [
+    {
+      "frame": 69,
+      "time_s": 6.9048,
+      "findings": [
+        {
+          "a": "left:arm:foreArm_Link",
+          "b": "left:arm:wrist2_Link",
+          "clearance_m": 0.004893510080052686
+        }
+      ]
+    },
+    {
+      "frame": 72,
+      "time_s": 7.20496,
+      "findings": [
+        {
+          "a": "left:arm:foreArm_Link",
+          "b": "left:arm:wrist2_Link",
+          "clearance_m": 0.004416091047647514
+        }
+      ]
+    },
+    {
+      "frame": 123,
+      "time_s": 12.30864,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.004226746906540115
+        }
+      ]
+    },
+    {
+      "frame": 124,
+      "time_s": 12.40864,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.004542783652490605
+        }
+      ]
+    },
+    {
+      "frame": 125,
+      "time_s": 12.50864,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.004941398358900872
+        }
+      ]
+    },
+    {
+      "frame": 126,
+      "time_s": 12.6088,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.00473463277804009
+        }
+      ]
+    },
+    {
+      "frame": 168,
+      "time_s": 16.81168,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.00445675108373876
+        }
+      ]
+    },
+    {
+      "frame": 169,
+      "time_s": 16.91184,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 170,
+      "time_s": 17.01184,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 171,
+      "time_s": 17.112,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 172,
+      "time_s": 17.212,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 173,
+      "time_s": 17.312,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0029877246664709255
+        }
+      ]
+    },
+    {
+      "frame": 174,
+      "time_s": 17.41216,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0049903484427249005
+        }
+      ]
+    },
+    {
+      "frame": 175,
+      "time_s": 17.51216,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 176,
+      "time_s": 17.61232,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 177,
+      "time_s": 17.71232,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 178,
+      "time_s": 17.81248,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 179,
+      "time_s": 17.91248,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 180,
+      "time_s": 18.01264,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0006342370202348723
+        }
+      ]
+    },
+    {
+      "frame": 181,
+      "time_s": 18.11264,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 182,
+      "time_s": 18.21264,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 184,
+      "time_s": 18.4128,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.003948732762201465
+        }
+      ]
+    },
+    {
+      "frame": 190,
+      "time_s": 19.01352,
+      "findings": [
+        {
+          "a": "left:arm:wrist1_Link",
+          "b": "right:arm:foreArm_Link",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.004656038018366974
+        }
+      ]
+    },
+    {
+      "frame": 191,
+      "time_s": 19.11352,
+      "findings": [
+        {
+          "a": "left:arm:foreArm_Link",
+          "b": "right:arm:foreArm_Link",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "left:arm:wrist1_Link",
+          "b": "right:arm:foreArm_Link",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    }
+  ],
+  "minimum_hand_table_clearance_m": 0.017148813816928135,
+  "trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/human_camera_1_repaired/human_camera_controller_ik.npz",
+    "sha256": "aa495bf349d1bf72c415c1917c8cccf07fdb042fe2ecf71aa2344c609d7f00cf"
+  },
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/config/human_replay_1_repaired.json",
+    "sha256": "b67d55ecc0f0c220167e1101b649ffc8bdd8f7cb69c255b6584efb041cfafe63"
+  }
+}

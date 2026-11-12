@@ -1,0 +1,45 @@
+{
+  "execution_enabled": false,
+  "ready_for_execution": false,
+  "source_data_unchanged_verified": true,
+  "original_frames": 223,
+  "repaired_hand_curve_knots": 302,
+  "duration_s": 22.21576,
+  "hand_scene_100hz_0p2_speed_passed": true,
+  "hand_scene_checked_samples": 11109,
+  "hand_scene_failed_samples": 0,
+  "minimum_hand_table_clearance_m": 0.017153058065352764,
+  "changes": {
+    "left": {
+      "max_joint_change_deg_at_original_keys": 37.48496991485471,
+      "max_joint_change_deg_dense": 37.62673935919024,
+      "rms_joint_change_deg_dense": 2.335695274818791
+    },
+    "right": {
+      "max_joint_change_deg_at_original_keys": 28.193968337745545,
+      "max_joint_change_deg_dense": 28.18624906454524,
+      "rms_joint_change_deg_dense": 2.008516753085738
+    }
+  },
+  "remaining_blockers": [
+    "24 original frames fail arm mesh collision/5 mm clearance tests",
+    "Arm IK branch discontinuities: left 9, right 13",
+    "Hand velocity and acceleration exceed configured limits at 0.2 speed",
+    "Live start transition and whole-robot resampled plan not validated"
+  ],
+  "curve": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/human_camera_1_repaired/hand_curve.npz",
+    "sha256": "5061c83313fe144b57aa6e7c66cc775a48a13f905cf82aa43addae822262b0ec"
+  },
+  "video_note": "Preview uses original 1x source time, not an approved physical playback speed.",
+  "preview_video": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/human_camera_1_repaired/repaired_hand_preview.mp4",
+    "sha256": "f082fd6be7f8ba02edefee5935cb08f34dcd19577498b8482b5777070af45d70",
+    "fps": 20,
+    "duration_s": 22.3,
+    "resolution": [
+      1280,
+      960
+    ]
+  }
+}

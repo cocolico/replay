@@ -1,0 +1,22 @@
+episode594 0 / 965 failed_frames 0
+episode594 200 / 965 failed_frames 0
+episode594 400 / 965 failed_frames 0
+episode594 600 / 965 failed_frames 0
+episode594 800 / 965 failed_frames 0
+FINISHED episode594 failed_frames 0
+episode615 0 / 909 failed_frames 0
+episode615 200 / 909 failed_frames 0
+episode615 400 / 909 failed_frames 51
+episode615 600 / 909 failed_frames 51
+episode615 800 / 909 failed_frames 74
+FINISHED episode615 failed_frames 74
+episode616 0 / 1263 failed_frames 0
+episode616 200 / 1263 failed_frames 4
+episode616 400 / 1263 failed_frames 103
+episode616 600 / 1263 failed_frames 103
+episode616 800 / 1263 failed_frames 103
+episode616 1000 / 1263 failed_frames 103
+episode616 1200 / 1263 failed_frames 121
+FINISHED episode616 failed_frames 121
+human_camera 0 / 150 failed_frames 0
+FINISHED human_camera failed_frames 50
