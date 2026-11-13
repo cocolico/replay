@@ -1,0 +1,201 @@
+{
+  "candidates": 13,
+  "trials": [
+    {
+      "passed": false,
+      "failed_frame": 795,
+      "source_time_s": 7.24,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'left:arm:wrist2_Link', 'clearance_m': 0.0016911312075971775}]",
+      "candidate_index": 0,
+      "phase": "full_single_arm_tracking"
+    },
+    {
+      "candidate_index": 1,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.07,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.005280767097959382
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0019182052312948228
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.002371352078147655
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0060084316412062425
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.005908214462579192
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 2,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.04,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.009579388419477197
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0015364433541879864
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0002994951101857775
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 3,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.09,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0018609454403648133
+          }
+        ]
+      }
+    },
+    {
+      "passed": false,
+      "failed_frame": 348,
+      "source_time_s": 3.18,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.000676781910432106}]",
+      "candidate_index": 4,
+      "phase": "full_single_arm_tracking"
+    },
+    {
+      "passed": true,
+      "frames": 2443,
+      "candidate_index": 5,
+      "phase": "full_single_arm_tracking"
+    },
+    {
+      "candidate_index": 6,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.05,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.009567847913339277
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 7,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.14,
+        "findings": [
+          {
+            "a": "left:arm:wrist2_Link",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0010567106139571791
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 8,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.35000000000000003,
+        "findings": [
+          {
+            "a": "left:arm:upperArm_Link",
+            "b": "left:arm:wrist1_Link",
+            "clearance_m": 0.0007482443711269206
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 9,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.38,
+        "findings": [
+          {
+            "a": "left:arm:upperArm_Link",
+            "b": "left:arm:wrist1_Link",
+            "clearance_m": 0.0014873653710136643
+          }
+        ]
+      }
+    },
+    {
+      "passed": false,
+      "failed_frame": 348,
+      "source_time_s": 3.18,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.0006767819104320227}]",
+      "candidate_index": 10,
+      "phase": "full_single_arm_tracking"
+    },
+    {
+      "candidate_index": 11,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.41000000000000003,
+        "findings": [
+          {
+            "a": "left:arm:shoulder_Link",
+            "b": "left:arm:foreArm_Link",
+            "clearance_m": 0.001990235625379812
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 12,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.38,
+        "findings": [
+          {
+            "a": "left:arm:upperArm_Link",
+            "b": "left:arm:wrist1_Link",
+            "clearance_m": 0.0
+          }
+        ]
+      }
+    }
+  ],
+  "complete_paths": 1
+}

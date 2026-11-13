@@ -59,9 +59,9 @@
   "interpretation": "Task transfer, not a surveyed physical inter-site extrinsic.",
   "source_camera_id": "orbbec_gemini_335",
   "target_camera_id": "current-table-20261112",
-  "source_observation": "/home/descfly/ty/desk/observation.json",
+  "source_observation": "../resources/calibration/reference_ff8ad418/observation.json",
   "source_observation_sha256": "7f1093a005f55020edaa4341fba2dfd0b598ad7adb17b02df42fb58315a4e73c",
-  "target_observation": "/home/descfly/ty/desk/calibration/results/current-table-20261112/observation.json",
+  "target_observation": "../resources/calibration/reference_87ac58a1/observation.json",
   "target_observation_sha256": "2e2504fc19e11bb9f119e1325d32c8df54692293b21faee68ac0b19681eea11a",
   "source_quality": {
     "reprojection_rms_px_mean": 0.24064235595556405,

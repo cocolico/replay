@@ -150,7 +150,8 @@ def dynamics(q, t):
 
 def calibrated_chain(c, mapping_path=None, source_camera_id='franka-sharpa'):
     m = read_json(mapping_path or c['table_mapping'])
-    if m.get('source_camera_id') != source_camera_id or m.get('target_camera_id') != 'current-table-20261112':
+    obs = read_json(c['current_table_observation'])
+    if m.get('source_camera_id') != source_camera_id or m.get('target_camera_id') != obs.get('camera_id'):
         raise ValueError('Wrong source/target table mapping')
     obs = read_json(c['current_table_observation'])
     if obs.get('board_fingerprint') != m.get('board_fingerprint'):

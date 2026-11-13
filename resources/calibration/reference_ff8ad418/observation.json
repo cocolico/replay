@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-10T14:24:20.436908+00:00",
+  "opencv_version": "4.11.0",
+  "camera_id": "orbbec_gemini_335",
+  "image_source": "/home/litchi/workspace/multi_camera_datacollect/record/camera_glove_recording_20261110_221443/camera_1_rgb_depth.bag",
+  "convention": "A_T_B maps B to A; metres; column vectors; optical camera +X right +Y down +Z forward",
+  "board_axes": "origin at top-left outer board corner in reference image; +X right, +Y down printed board, +Z into board",
+  "board_config": {
+    "squares": [
+      14,
+      9
+    ],
+    "square_m": 0.02,
+    "marker_m": 0.015,
+    "dictionary": "DICT_5X5_250",
+    "legacy_pattern": true
+  },
+  "board_fingerprint": "437d28755b5102513fd2204b356c468f7d9618172b30ba59d7d60f049d63d928",
+  "camera_intrinsics": {
+    "width": 1280,
+    "height": 720,
+    "K": [
+      [
+        685.6329956054688,
+        0.0,
+        642.9179077148438
+      ],
+      [
+        0.0,
+        685.7928466796875,
+        366.5662841796875
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "D": [
+      0.004566772375255823,
+      -0.036338984966278076,
+      0.00069114362122491,
+      -0.0017983034485951066,
+      0.025914320722222328
+    ],
+    "distortion_model": "opencv",
+    "frame_id": "camera_color_optical_frame"
+  },
+  "camera_T_board": [
+    [
+      0.99992779549236,
+      0.009207688538565236,
+      -0.007721546060639385,
+      -0.17159951490387987
+    ],
+    [
+      -0.00026618603544495905,
+      0.6593759317168948,
+      0.7518133477249996,
+      0.14548625064767773
+    ],
+    [
+      0.012013864773016912,
+      -0.7517570080446567,
+      0.6593307727605037,
+      0.728850255458765
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "board_T_camera": [
+    [
+      0.99992779549236,
+      -0.00026618603544495905,
+      0.012013864773016912,
+      0.1628695426448062
+    ],
+    [
+      0.009207688538565236,
+      0.6593759317168948,
+      -0.7517570080446567,
+      0.45356819017005856
+    ],
+    [
+      -0.007721546060639385,
+      0.7518133477249996,
+      0.6593307727605037,
+      -0.5912569208640207
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "sample_count": 65,
+  "quality": {
+    "reprojection_rms_px_mean": 0.24064235595556405,
+    "reprojection_rms_px_max": 0.2968446910381317,
+    "translation_spread_max_mm": 0.4955987709478693,
+    "rotation_spread_max_deg": 0.18821225270939762,
+    "min_inlier_corners": 40
+  },
+  "notes": [
+    "Stability and reprojection are internal checks, not absolute accuracy guarantees.",
+    "Between separate sites, corresponding board placement defines the intended task mapping.",
+    "This observation does not recalibrate robot hand-eye transforms."
+  ]
+}

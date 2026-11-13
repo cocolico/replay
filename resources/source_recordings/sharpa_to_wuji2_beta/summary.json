@@ -1,0 +1,41 @@
+[
+  {
+    "episode": 594,
+    "frames": 965,
+    "duration_s": 32.133333012,
+    "left_tip_mean_mm": 99.24054843279012,
+    "right_tip_mean_mm": 99.99965955705215,
+    "video": "episode594/comparison.mp4",
+    "motion_video": "episode594/both_hands_motion.mp4",
+    "left_pre_alignment_tip_mean_mm": 1.5578220848964885,
+    "right_pre_alignment_tip_mean_mm": 1.4573803064361537,
+    "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1",
+    "error_reference": "Corrected output versus unchanged Sharpa keypoints; not pre-alignment fitting residual"
+  },
+  {
+    "episode": 615,
+    "frames": 909,
+    "duration_s": 30.266666364,
+    "left_tip_mean_mm": 84.92073471021918,
+    "right_tip_mean_mm": 86.51091307649615,
+    "video": "episode615/comparison.mp4",
+    "motion_video": "episode615/both_hands_motion.mp4",
+    "left_pre_alignment_tip_mean_mm": 1.7674762736422853,
+    "right_pre_alignment_tip_mean_mm": 1.6303491959609806,
+    "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1",
+    "error_reference": "Corrected output versus unchanged Sharpa keypoints; not pre-alignment fitting residual"
+  },
+  {
+    "episode": 616,
+    "frames": 1263,
+    "duration_s": 42.066666246,
+    "left_tip_mean_mm": 90.02731085150516,
+    "right_tip_mean_mm": 95.33784256700586,
+    "video": "episode616/comparison.mp4",
+    "motion_video": "episode616/both_hands_motion.mp4",
+    "left_pre_alignment_tip_mean_mm": 1.5359354233460212,
+    "right_pre_alignment_tip_mean_mm": 1.4609016457508617,
+    "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1",
+    "error_reference": "Corrected output versus unchanged Sharpa keypoints; not pre-alignment fitting residual"
+  }
+]

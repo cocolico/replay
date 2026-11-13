@@ -1,0 +1,6353 @@
+{
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "arms_only": true,
+  "lift_cm": 6.5,
+  "checks": [
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 191,
+          "runtime_time_s": 1.91,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004815379975520789
+            }
+          ]
+        },
+        {
+          "frame": 192,
+          "runtime_time_s": 1.92,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.003717985855625199
+            }
+          ]
+        },
+        {
+          "frame": 193,
+          "runtime_time_s": 1.93,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0026174212039971056
+            }
+          ]
+        },
+        {
+          "frame": 194,
+          "runtime_time_s": 1.94,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0015138225664455725
+            }
+          ]
+        },
+        {
+          "frame": 195,
+          "runtime_time_s": 1.95,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0004073283676451038
+            }
+          ]
+        },
+        {
+          "frame": 196,
+          "runtime_time_s": 1.96,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0007019210940586301
+            }
+          ]
+        },
+        {
+          "frame": 197,
+          "runtime_time_s": 1.97,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0018137836522392793
+            }
+          ]
+        },
+        {
+          "frame": 198,
+          "runtime_time_s": 1.98,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.002928115278392495
+            }
+          ]
+        },
+        {
+          "frame": 199,
+          "runtime_time_s": 1.99,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.004044770088348918
+            }
+          ]
+        },
+        {
+          "frame": 200,
+          "runtime_time_s": 2.0,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005163600349111015
+            }
+          ]
+        },
+        {
+          "frame": 201,
+          "runtime_time_s": 2.01,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0062844564861128105
+            }
+          ]
+        },
+        {
+          "frame": 202,
+          "runtime_time_s": 2.02,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0074071870909179875
+            }
+          ]
+        },
+        {
+          "frame": 203,
+          "runtime_time_s": 2.03,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.008531638929353085
+            }
+          ]
+        },
+        {
+          "frame": 204,
+          "runtime_time_s": 2.04,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.009657656950092054
+            }
+          ]
+        },
+        {
+          "frame": 205,
+          "runtime_time_s": 2.05,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.010785084293686836
+            }
+          ]
+        },
+        {
+          "frame": 206,
+          "runtime_time_s": 2.06,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.011913762302064337
+            }
+          ]
+        },
+        {
+          "frame": 207,
+          "runtime_time_s": 2.07,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.013043530528481125
+            }
+          ]
+        },
+        {
+          "frame": 208,
+          "runtime_time_s": 2.08,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004849189119854901
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.014174226747957118
+            }
+          ]
+        },
+        {
+          "frame": 209,
+          "runtime_time_s": 2.09,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0037438901464870167
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.015305686968179268
+            }
+          ]
+        },
+        {
+          "frame": 210,
+          "runtime_time_s": 2.1,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0026378059725074773
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0164377454408953
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 211,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 673.09,
+      "transition_s": 10.0,
+      "max_velocity_rad_s": [
+        0.5420955448732778,
+        0.12072704741092344,
+        0.5172905617509826,
+        0.3457753285656118,
+        0.5572864492418672,
+        0.1276596841255584,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5219521998436116,
+        0.4925791316400474,
+        0.11125626208003947,
+        0.38803950697778866,
+        0.6196350164832332,
+        0.1282844775212233,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5844295834389612,
+        0.9589914929153398,
+        0.9712972055186953,
+        1.8959862541878536,
+        2.1865132939513643,
+        2.022318992144778,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1740381599834038,
+        1.3343809216559421,
+        1.862643716583623,
+        4.066510863646178,
+        2.8586393842688906,
+        4.440097817761668,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch12_offline.npz",
+        "right_branch10_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 366,
+          "runtime_time_s": 3.66,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.004579396127831215
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.003238326841717191
+            }
+          ]
+        },
+        {
+          "frame": 367,
+          "runtime_time_s": 3.67,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0026206661309793474
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0012810757002129334
+            }
+          ]
+        },
+        {
+          "frame": 368,
+          "runtime_time_s": 3.68,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0006697284450542953
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0032638850639959797
+            }
+          ]
+        },
+        {
+          "frame": 369,
+          "runtime_time_s": 3.69,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0014941902830496291
+            }
+          ]
+        },
+        {
+          "frame": 370,
+          "runtime_time_s": 3.7,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 371,
+          "runtime_time_s": 3.71,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 372,
+          "runtime_time_s": 3.72,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 373,
+          "runtime_time_s": 3.73,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.004924024034674237
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 374,
+          "runtime_time_s": 3.74,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0033556735950444182
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 375,
+          "runtime_time_s": 3.75,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0018110459461951865
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 376,
+          "runtime_time_s": 3.76,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.00029047396794613174
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_middle",
+              "clearance_m": 0.004276134161832662
+            }
+          ]
+        },
+        {
+          "frame": 377,
+          "runtime_time_s": 3.77,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal_abd",
+              "clearance_m": 0.00431456745822553
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_middle",
+              "clearance_m": 0.0026731902005521415
+            }
+          ]
+        },
+        {
+          "frame": 378,
+          "runtime_time_s": 3.78,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal_abd",
+              "clearance_m": 0.0027313372983182867
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_middle",
+              "clearance_m": 0.0010806671371505617
+            }
+          ]
+        },
+        {
+          "frame": 379,
+          "runtime_time_s": 3.79,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal",
+              "clearance_m": 0.004462477337090651
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal_abd",
+              "clearance_m": 0.001042090504488878
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_middle",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 380,
+          "runtime_time_s": 3.8,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal",
+              "clearance_m": 0.0028211884803778444
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_middle",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 381,
+          "runtime_time_s": 3.81,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal",
+              "clearance_m": 0.0011980221626429314
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_middle",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 382,
+          "runtime_time_s": 3.82,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0004230066917063475
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_distal",
+              "clearance_m": 0.003914164886787497
+            }
+          ]
+        },
+        {
+          "frame": 383,
+          "runtime_time_s": 3.83,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0014468284571550836
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_distal",
+              "clearance_m": 0.002448171405161842
+            }
+          ]
+        },
+        {
+          "frame": 384,
+          "runtime_time_s": 3.84,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.0023549320736391405
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_distal",
+              "clearance_m": 0.0010250528494954074
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_wrist",
+              "clearance_m": 0.0049138468502517305
+            }
+          ]
+        },
+        {
+          "frame": 385,
+          "runtime_time_s": 3.85,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_middle",
+              "clearance_m": 0.00327912921547595
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_index_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_proximal_abd",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_middle",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_middle_finger_distal",
+              "clearance_m": 0.0
+            },
+            {
+              "a": "left:arm:wrist1_Link",
+              "b": "right:hand:r_wrist",
+              "clearance_m": 0.0038877835601907117
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 386,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 673.09,
+      "transition_s": 10.0,
+      "max_velocity_rad_s": [
+        0.5420955448732778,
+        0.12072704741092344,
+        0.5172905617509826,
+        0.3457753285656118,
+        0.5572864492418672,
+        0.1276596841255584,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5212921538106929,
+        0.0941962707122379,
+        0.5874660390660313,
+        0.15562819272703088,
+        0.1509140243321383,
+        0.5252944402835968,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5844295834389612,
+        0.9589914929153398,
+        0.9712972055186953,
+        1.8959862541878536,
+        2.1865132939513643,
+        2.022318992144778,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1734466076340766,
+        0.9061861256282056,
+        2.2436695617678026,
+        4.557466634551588,
+        2.8597319273737654,
+        4.451559808377192,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch12_offline.npz",
+        "right_branch12_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 458,
+          "runtime_time_s": 4.58,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.0049382385318974984
+            }
+          ]
+        },
+        {
+          "frame": 459,
+          "runtime_time_s": 4.59,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.004784363659954898
+            }
+          ]
+        },
+        {
+          "frame": 460,
+          "runtime_time_s": 4.6,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.004632894191092413
+            }
+          ]
+        },
+        {
+          "frame": 461,
+          "runtime_time_s": 4.61,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.004483837240480802
+            }
+          ]
+        },
+        {
+          "frame": 462,
+          "runtime_time_s": 4.62,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.004337199641994776
+            }
+          ]
+        },
+        {
+          "frame": 463,
+          "runtime_time_s": 4.63,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.004192987947277143
+            }
+          ]
+        },
+        {
+          "frame": 464,
+          "runtime_time_s": 4.64,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.004051208424863483
+            }
+          ]
+        },
+        {
+          "frame": 465,
+          "runtime_time_s": 4.65,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.0039118670593689215
+            }
+          ]
+        },
+        {
+          "frame": 466,
+          "runtime_time_s": 4.66,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.0037749695507340916
+            }
+          ]
+        },
+        {
+          "frame": 467,
+          "runtime_time_s": 4.67,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.0036405213135340146
+            }
+          ]
+        },
+        {
+          "frame": 468,
+          "runtime_time_s": 4.68,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.003508527476347875
+            }
+          ]
+        },
+        {
+          "frame": 469,
+          "runtime_time_s": 4.69,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.003378992881190476
+            }
+          ]
+        },
+        {
+          "frame": 470,
+          "runtime_time_s": 4.7,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.0032519220830055633
+            }
+          ]
+        },
+        {
+          "frame": 471,
+          "runtime_time_s": 4.71,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.0031273193492209503
+            }
+          ]
+        },
+        {
+          "frame": 472,
+          "runtime_time_s": 4.72,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.0030051886593660177
+            }
+          ]
+        },
+        {
+          "frame": 473,
+          "runtime_time_s": 4.73,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.0028855337047504707
+            }
+          ]
+        },
+        {
+          "frame": 474,
+          "runtime_time_s": 4.74,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.002768357888206402
+            }
+          ]
+        },
+        {
+          "frame": 475,
+          "runtime_time_s": 4.75,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.002653664323891589
+            }
+          ]
+        },
+        {
+          "frame": 476,
+          "runtime_time_s": 4.76,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.0025414558371549736
+            }
+          ]
+        },
+        {
+          "frame": 477,
+          "runtime_time_s": 4.77,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:arm:foreArm_Link",
+              "b": "left:arm:wrist2_Link",
+              "clearance_m": 0.002431734964465186
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 478,
+      "effective_speed": 0.01717986918400001,
+      "duration_s": 1304.13,
+      "transition_s": 10.0,
+      "max_velocity_rad_s": [
+        0.5420955448732778,
+        0.12072704741092344,
+        0.5172905617509826,
+        0.3457753285656118,
+        0.5572864492418672,
+        0.06544108896806566,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.06317314959257692,
+        0.08595638110422688,
+        0.077746911228882,
+        0.5750106654552001,
+        0.8697816207273057,
+        0.5036459167929053,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.17620373495397246,
+        0.283624587736897,
+        0.2695893168969121,
+        0.5606451035111704,
+        0.6519183511777271,
+        0.5631117998150525,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.19788203761472722,
+        0.849084485833318,
+        1.3801648164757374,
+        3.8651708878278956,
+        1.0559300259238569,
+        3.61838502311862,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch12_offline.npz",
+        "right_branch2_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 224,
+          "runtime_time_s": 2.24,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004165860167778502
+            }
+          ]
+        },
+        {
+          "frame": 225,
+          "runtime_time_s": 2.25,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0032109136447200266
+            }
+          ]
+        },
+        {
+          "frame": 226,
+          "runtime_time_s": 2.26,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0022504907545443167
+            }
+          ]
+        },
+        {
+          "frame": 227,
+          "runtime_time_s": 2.27,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0012873085166873431
+            }
+          ]
+        },
+        {
+          "frame": 228,
+          "runtime_time_s": 2.28,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.00032143762370227986
+            }
+          ]
+        },
+        {
+          "frame": 229,
+          "runtime_time_s": 2.29,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.000647050594411348
+            }
+          ]
+        },
+        {
+          "frame": 230,
+          "runtime_time_s": 2.3,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0016180841776576686
+            }
+          ]
+        },
+        {
+          "frame": 231,
+          "runtime_time_s": 2.31,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0025915905436300936
+            }
+          ]
+        },
+        {
+          "frame": 232,
+          "runtime_time_s": 2.32,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.003567496495222767
+            }
+          ]
+        },
+        {
+          "frame": 233,
+          "runtime_time_s": 2.33,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0045457282284759575
+            }
+          ]
+        },
+        {
+          "frame": 234,
+          "runtime_time_s": 2.34,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005526211340549545
+            }
+          ]
+        },
+        {
+          "frame": 235,
+          "runtime_time_s": 2.35,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006508870837822383
+            }
+          ]
+        },
+        {
+          "frame": 236,
+          "runtime_time_s": 2.36,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.007493631144118015
+            }
+          ]
+        },
+        {
+          "frame": 237,
+          "runtime_time_s": 2.37,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00848041610905686
+            }
+          ]
+        },
+        {
+          "frame": 238,
+          "runtime_time_s": 2.38,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00946914901652776
+            }
+          ]
+        },
+        {
+          "frame": 239,
+          "runtime_time_s": 2.39,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01045975259328497
+            }
+          ]
+        },
+        {
+          "frame": 240,
+          "runtime_time_s": 2.4,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01145214901766054
+            }
+          ]
+        },
+        {
+          "frame": 241,
+          "runtime_time_s": 2.41,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.012446259928396451
+            }
+          ]
+        },
+        {
+          "frame": 242,
+          "runtime_time_s": 2.42,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.013442006433595088
+            }
+          ]
+        },
+        {
+          "frame": 243,
+          "runtime_time_s": 2.43,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.014439309119774871
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 244,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 675.19,
+      "transition_s": 12.1,
+      "max_velocity_rad_s": [
+        0.4481258660819609,
+        0.09979958919083542,
+        0.42762070855029144,
+        0.28583682350582507,
+        0.4606834995860787,
+        0.1276596841255584,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4314742738994015,
+        0.4071928870614361,
+        0.09197051935432299,
+        0.32077470804354746,
+        0.5122242398822419,
+        0.9208667327341935,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5844295834389612,
+        0.9589914929153398,
+        0.9712972055186953,
+        1.8959862541878536,
+        2.1865132939513643,
+        2.022318992144778,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1740381599834038,
+        1.3343809216559421,
+        1.862643716583623,
+        4.066510863646178,
+        2.8586393842688906,
+        4.440097817761668,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch12_offline.npz",
+        "right_branch3_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 223,
+          "runtime_time_s": 2.23,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004071750862226182
+            }
+          ]
+        },
+        {
+          "frame": 224,
+          "runtime_time_s": 2.24,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0030217530146322428
+            }
+          ]
+        },
+        {
+          "frame": 225,
+          "runtime_time_s": 2.25,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0019665738482203144
+            }
+          ]
+        },
+        {
+          "frame": 226,
+          "runtime_time_s": 2.26,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0009062632732851944
+            }
+          ]
+        },
+        {
+          "frame": 227,
+          "runtime_time_s": 2.27,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00015912781691894006
+            }
+          ]
+        },
+        {
+          "frame": 228,
+          "runtime_time_s": 2.28,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0012295475420927115
+            }
+          ]
+        },
+        {
+          "frame": 229,
+          "runtime_time_s": 2.29,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0023049430308718366
+            }
+          ]
+        },
+        {
+          "frame": 230,
+          "runtime_time_s": 2.3,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0033852604168870403
+            }
+          ]
+        },
+        {
+          "frame": 231,
+          "runtime_time_s": 2.31,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0044704448348955655
+            }
+          ]
+        },
+        {
+          "frame": 232,
+          "runtime_time_s": 2.32,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005560440416987696
+            }
+          ]
+        },
+        {
+          "frame": 233,
+          "runtime_time_s": 2.33,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006655190288882744
+            }
+          ]
+        },
+        {
+          "frame": 234,
+          "runtime_time_s": 2.34,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.007754636566296934
+            }
+          ]
+        },
+        {
+          "frame": 235,
+          "runtime_time_s": 2.35,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.008858720351406831
+            }
+          ]
+        },
+        {
+          "frame": 236,
+          "runtime_time_s": 2.36,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.009967381729395146
+            }
+          ]
+        },
+        {
+          "frame": 237,
+          "runtime_time_s": 2.37,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.011080559765089742
+            }
+          ]
+        },
+        {
+          "frame": 238,
+          "runtime_time_s": 2.38,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01219819249969805
+            }
+          ]
+        },
+        {
+          "frame": 239,
+          "runtime_time_s": 2.39,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.013320216947633539
+            }
+          ]
+        },
+        {
+          "frame": 240,
+          "runtime_time_s": 2.4,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01444656909344703
+            }
+          ]
+        },
+        {
+          "frame": 241,
+          "runtime_time_s": 2.41,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.015577183888853771
+            }
+          ]
+        },
+        {
+          "frame": 242,
+          "runtime_time_s": 2.42,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0039594607638579315
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.016711995249872144
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 243,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 677.53,
+      "transition_s": 14.44,
+      "max_velocity_rad_s": [
+        0.37561706290187846,
+        0.08365156177756461,
+        0.3584297331149511,
+        0.2395871254948556,
+        0.3861428141937129,
+        0.1276596841255584,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.36120242931334534,
+        0.06526843261461246,
+        0.4092451615419712,
+        0.15562819272703088,
+        0.9208674269190809,
+        0.36397560666938666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5844295834389612,
+        0.9589914929153398,
+        0.9712972055186953,
+        1.8959862541878536,
+        2.1865132939513643,
+        2.022318992144778,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.173446607636297,
+        0.906186125627928,
+        2.2436695617922275,
+        4.557466634553808,
+        2.8597319273782063,
+        4.451559808376082,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch12_offline.npz",
+        "right_branch5_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 191,
+          "runtime_time_s": 1.91,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004815379975520789
+            }
+          ]
+        },
+        {
+          "frame": 192,
+          "runtime_time_s": 1.92,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.003717985855625199
+            }
+          ]
+        },
+        {
+          "frame": 193,
+          "runtime_time_s": 1.93,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0026174212039971056
+            }
+          ]
+        },
+        {
+          "frame": 194,
+          "runtime_time_s": 1.94,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0015138225664455725
+            }
+          ]
+        },
+        {
+          "frame": 195,
+          "runtime_time_s": 1.95,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0004073283676451038
+            }
+          ]
+        },
+        {
+          "frame": 196,
+          "runtime_time_s": 1.96,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0007019210940586301
+            }
+          ]
+        },
+        {
+          "frame": 197,
+          "runtime_time_s": 1.97,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0018137836522392793
+            }
+          ]
+        },
+        {
+          "frame": 198,
+          "runtime_time_s": 1.98,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.002928115278392495
+            }
+          ]
+        },
+        {
+          "frame": 199,
+          "runtime_time_s": 1.99,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.004044770088348918
+            }
+          ]
+        },
+        {
+          "frame": 200,
+          "runtime_time_s": 2.0,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005163600349111015
+            }
+          ]
+        },
+        {
+          "frame": 201,
+          "runtime_time_s": 2.01,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0062844564861128105
+            }
+          ]
+        },
+        {
+          "frame": 202,
+          "runtime_time_s": 2.02,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0074071870909179875
+            }
+          ]
+        },
+        {
+          "frame": 203,
+          "runtime_time_s": 2.03,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.008531638929353085
+            }
+          ]
+        },
+        {
+          "frame": 204,
+          "runtime_time_s": 2.04,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.009657656950092054
+            }
+          ]
+        },
+        {
+          "frame": 205,
+          "runtime_time_s": 2.05,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.010785084293686836
+            }
+          ]
+        },
+        {
+          "frame": 206,
+          "runtime_time_s": 2.06,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.011913762302064337
+            }
+          ]
+        },
+        {
+          "frame": 207,
+          "runtime_time_s": 2.07,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.013043530528481125
+            }
+          ]
+        },
+        {
+          "frame": 208,
+          "runtime_time_s": 2.08,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004849189119854901
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.014174226747957118
+            }
+          ]
+        },
+        {
+          "frame": 209,
+          "runtime_time_s": 2.09,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0037438901464870167
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.015305686968179268
+            }
+          ]
+        },
+        {
+          "frame": 210,
+          "runtime_time_s": 2.1,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0026378059725074773
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0164377454408953
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 211,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 673.09,
+      "transition_s": 10.0,
+      "max_velocity_rad_s": [
+        0.54246104437361,
+        0.4604273813995752,
+        0.11359728048523365,
+        0.3976293240983475,
+        0.5579611842916776,
+        0.12774156889003296,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5219521998436116,
+        0.4925791316400474,
+        0.11125626208003947,
+        0.38803950697778866,
+        0.6196350164832332,
+        0.1282844775212233,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5832328778421214,
+        0.5812625272816341,
+        0.9742950190161359,
+        2.6755850715136367,
+        2.1846756767285314,
+        2.020177095647946,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1740381599834038,
+        1.3343809216559421,
+        1.862643716583623,
+        4.066510863646178,
+        2.8586393842688906,
+        4.440097817761668,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch5_offline.npz",
+        "right_branch10_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 448,
+          "runtime_time_s": 4.48,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.004569952874615612
+            }
+          ]
+        },
+        {
+          "frame": 449,
+          "runtime_time_s": 4.49,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.002980052348242044
+            }
+          ]
+        },
+        {
+          "frame": 450,
+          "runtime_time_s": 4.5,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0013869306871460566
+            }
+          ]
+        },
+        {
+          "frame": 451,
+          "runtime_time_s": 4.51,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 452,
+          "runtime_time_s": 4.52,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 453,
+          "runtime_time_s": 4.53,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 454,
+          "runtime_time_s": 4.54,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 455,
+          "runtime_time_s": 4.55,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 456,
+          "runtime_time_s": 4.56,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 457,
+          "runtime_time_s": 4.57,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 458,
+          "runtime_time_s": 4.58,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 459,
+          "runtime_time_s": 4.59,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 460,
+          "runtime_time_s": 4.6,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 461,
+          "runtime_time_s": 4.61,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 462,
+          "runtime_time_s": 4.62,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 463,
+          "runtime_time_s": 4.63,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 464,
+          "runtime_time_s": 4.64,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 465,
+          "runtime_time_s": 4.65,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 466,
+          "runtime_time_s": 4.66,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        },
+        {
+          "frame": 467,
+          "runtime_time_s": 4.67,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:arm:upperArm_Link",
+              "b": "right:arm:wrist1_Link",
+              "clearance_m": 0.0
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 468,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 673.09,
+      "transition_s": 10.0,
+      "max_velocity_rad_s": [
+        0.54246104437361,
+        0.4604273813995752,
+        0.11359728048523365,
+        0.3976293240983475,
+        0.5579611842916776,
+        0.12774156889003296,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5212921538106929,
+        0.0941962707122379,
+        0.5874660390660313,
+        0.15562819272703088,
+        0.1509140243321383,
+        0.5252944402835968,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5832328778421214,
+        0.5812625272816341,
+        0.9742950190161359,
+        2.6755850715136367,
+        2.1846756767285314,
+        2.020177095647946,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1734466076340766,
+        0.9061861256282056,
+        2.2436695617678026,
+        4.557466634551588,
+        2.8597319273737654,
+        4.451559808377192,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch5_offline.npz",
+        "right_branch12_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 483,
+          "runtime_time_s": 4.83,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004943686037157113
+            }
+          ]
+        },
+        {
+          "frame": 484,
+          "runtime_time_s": 4.84,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.003794074743218967
+            }
+          ]
+        },
+        {
+          "frame": 485,
+          "runtime_time_s": 4.85,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0026431945816552116
+            }
+          ]
+        },
+        {
+          "frame": 486,
+          "runtime_time_s": 4.86,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0014912678389130685
+            }
+          ]
+        },
+        {
+          "frame": 487,
+          "runtime_time_s": 4.87,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.00033851884668514853
+            }
+          ]
+        },
+        {
+          "frame": 488,
+          "runtime_time_s": 4.88,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0008148260867530122
+            }
+          ]
+        },
+        {
+          "frame": 489,
+          "runtime_time_s": 4.89,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0019694355444440925
+            }
+          ]
+        },
+        {
+          "frame": 490,
+          "runtime_time_s": 4.9,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0031301965764391204
+            }
+          ]
+        },
+        {
+          "frame": 491,
+          "runtime_time_s": 4.91,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004138517981639445
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.004290921858816743
+            }
+          ]
+        },
+        {
+          "frame": 492,
+          "runtime_time_s": 4.92,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.003050661927127024
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005451376598157948
+            }
+          ]
+        },
+        {
+          "frame": 493,
+          "runtime_time_s": 4.93,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0019638922686698868
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006611324358000659
+            }
+          ]
+        },
+        {
+          "frame": 494,
+          "runtime_time_s": 4.94,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.000871456048863517
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.007770527133660221
+            }
+          ]
+        },
+        {
+          "frame": 495,
+          "runtime_time_s": 4.95,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0002229469803322892
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.008928745427907864
+            }
+          ]
+        },
+        {
+          "frame": 496,
+          "runtime_time_s": 4.96,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0013154714129489375
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.010085738327463234
+            }
+          ]
+        },
+        {
+          "frame": 497,
+          "runtime_time_s": 4.97,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.002405884392769564
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.011241263580266975
+            }
+          ]
+        },
+        {
+          "frame": 498,
+          "runtime_time_s": 4.98,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.003493952055071664
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.012395077673503507
+            }
+          ]
+        },
+        {
+          "frame": 499,
+          "runtime_time_s": 4.99,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00457943960334109
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.013546935912330749
+            }
+          ]
+        },
+        {
+          "frame": 500,
+          "runtime_time_s": 5.0,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005662111386537105
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.014696592499287064
+            },
+            {
+              "a": "right:hand:r_middle_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004432483688675326
+            }
+          ]
+        },
+        {
+          "frame": 501,
+          "runtime_time_s": 5.01,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0067417309768662
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.015843800614331466
+            },
+            {
+              "a": "right:hand:r_middle_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.003245382658604329
+            }
+          ]
+        },
+        {
+          "frame": 502,
+          "runtime_time_s": 5.02,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_index_finger_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.007818061248037356
+            },
+            {
+              "a": "right:hand:r_index_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.016988312495489738
+            },
+            {
+              "a": "right:hand:r_middle_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0020583548982254507
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 503,
+      "effective_speed": 0.01717986918400001,
+      "duration_s": 1304.13,
+      "transition_s": 10.0,
+      "max_velocity_rad_s": [
+        0.54246104437361,
+        0.4604273813995752,
+        0.11359728048523365,
+        0.3976293240983475,
+        0.5579611842916776,
+        0.06548296678083876,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.06317314959257692,
+        0.08595638110422688,
+        0.077746911228882,
+        0.5750106654552001,
+        0.8697816207273057,
+        0.5036459167929053,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.1758384042949146,
+        0.17988731247919887,
+        0.2704211554593883,
+        0.7910142064430914,
+        0.6513543545416667,
+        0.562523789062741,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.19788203761472722,
+        0.849084485833318,
+        1.3801648164757374,
+        3.8651708878278956,
+        1.0559300259238569,
+        3.61838502311862,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch5_offline.npz",
+        "right_branch2_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 224,
+          "runtime_time_s": 2.24,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004165860167778502
+            }
+          ]
+        },
+        {
+          "frame": 225,
+          "runtime_time_s": 2.25,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0032109136447200266
+            }
+          ]
+        },
+        {
+          "frame": 226,
+          "runtime_time_s": 2.26,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0022504907545443167
+            }
+          ]
+        },
+        {
+          "frame": 227,
+          "runtime_time_s": 2.27,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0012873085166873431
+            }
+          ]
+        },
+        {
+          "frame": 228,
+          "runtime_time_s": 2.28,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.00032143762370227986
+            }
+          ]
+        },
+        {
+          "frame": 229,
+          "runtime_time_s": 2.29,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.000647050594411348
+            }
+          ]
+        },
+        {
+          "frame": 230,
+          "runtime_time_s": 2.3,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0016180841776576686
+            }
+          ]
+        },
+        {
+          "frame": 231,
+          "runtime_time_s": 2.31,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0025915905436300936
+            }
+          ]
+        },
+        {
+          "frame": 232,
+          "runtime_time_s": 2.32,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.003567496495222767
+            }
+          ]
+        },
+        {
+          "frame": 233,
+          "runtime_time_s": 2.33,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0045457282284759575
+            }
+          ]
+        },
+        {
+          "frame": 234,
+          "runtime_time_s": 2.34,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005526211340549545
+            }
+          ]
+        },
+        {
+          "frame": 235,
+          "runtime_time_s": 2.35,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006508870837822383
+            }
+          ]
+        },
+        {
+          "frame": 236,
+          "runtime_time_s": 2.36,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.007493631144118015
+            }
+          ]
+        },
+        {
+          "frame": 237,
+          "runtime_time_s": 2.37,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00848041610905686
+            }
+          ]
+        },
+        {
+          "frame": 238,
+          "runtime_time_s": 2.38,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00946914901652776
+            }
+          ]
+        },
+        {
+          "frame": 239,
+          "runtime_time_s": 2.39,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01045975259328497
+            }
+          ]
+        },
+        {
+          "frame": 240,
+          "runtime_time_s": 2.4,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01145214901766054
+            }
+          ]
+        },
+        {
+          "frame": 241,
+          "runtime_time_s": 2.41,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.012446259928396451
+            }
+          ]
+        },
+        {
+          "frame": 242,
+          "runtime_time_s": 2.42,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.013442006433595088
+            }
+          ]
+        },
+        {
+          "frame": 243,
+          "runtime_time_s": 2.43,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.014439309119774871
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 244,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 675.19,
+      "transition_s": 12.1,
+      "max_velocity_rad_s": [
+        0.448428007986057,
+        0.3806144894729968,
+        0.0939057333774862,
+        0.32870217607636754,
+        0.4612412725311543,
+        0.12774156889003296,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4314742738994015,
+        0.4071928870614361,
+        0.09197051935432299,
+        0.32077470804354746,
+        0.5122242398822419,
+        0.9208667327341935,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5832328778421214,
+        0.5812625272816341,
+        0.9742950190161359,
+        2.6755850715136367,
+        2.1846756767285314,
+        2.020177095647946,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1740381599834038,
+        1.3343809216559421,
+        1.862643716583623,
+        4.066510863646178,
+        2.8586393842688906,
+        4.440097817761668,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch5_offline.npz",
+        "right_branch3_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 223,
+          "runtime_time_s": 2.23,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004071750862226182
+            }
+          ]
+        },
+        {
+          "frame": 224,
+          "runtime_time_s": 2.24,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0030217530146322428
+            }
+          ]
+        },
+        {
+          "frame": 225,
+          "runtime_time_s": 2.25,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0019665738482203144
+            }
+          ]
+        },
+        {
+          "frame": 226,
+          "runtime_time_s": 2.26,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0009062632732851944
+            }
+          ]
+        },
+        {
+          "frame": 227,
+          "runtime_time_s": 2.27,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00015912781691894006
+            }
+          ]
+        },
+        {
+          "frame": 228,
+          "runtime_time_s": 2.28,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0012295475420927115
+            }
+          ]
+        },
+        {
+          "frame": 229,
+          "runtime_time_s": 2.29,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0023049430308718366
+            }
+          ]
+        },
+        {
+          "frame": 230,
+          "runtime_time_s": 2.3,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0033852604168870403
+            }
+          ]
+        },
+        {
+          "frame": 231,
+          "runtime_time_s": 2.31,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0044704448348955655
+            }
+          ]
+        },
+        {
+          "frame": 232,
+          "runtime_time_s": 2.32,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005560440416987696
+            }
+          ]
+        },
+        {
+          "frame": 233,
+          "runtime_time_s": 2.33,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006655190288882744
+            }
+          ]
+        },
+        {
+          "frame": 234,
+          "runtime_time_s": 2.34,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.007754636566296934
+            }
+          ]
+        },
+        {
+          "frame": 235,
+          "runtime_time_s": 2.35,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.008858720351406831
+            }
+          ]
+        },
+        {
+          "frame": 236,
+          "runtime_time_s": 2.36,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.009967381729395146
+            }
+          ]
+        },
+        {
+          "frame": 237,
+          "runtime_time_s": 2.37,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.011080559765089742
+            }
+          ]
+        },
+        {
+          "frame": 238,
+          "runtime_time_s": 2.38,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01219819249969805
+            }
+          ]
+        },
+        {
+          "frame": 239,
+          "runtime_time_s": 2.39,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.013320216947633539
+            }
+          ]
+        },
+        {
+          "frame": 240,
+          "runtime_time_s": 2.4,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01444656909344703
+            }
+          ]
+        },
+        {
+          "frame": 241,
+          "runtime_time_s": 2.41,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.015577183888853771
+            }
+          ]
+        },
+        {
+          "frame": 242,
+          "runtime_time_s": 2.42,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0039594607638579315
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.016711995249872144
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 243,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 677.53,
+      "transition_s": 14.44,
+      "max_velocity_rad_s": [
+        0.37587031687178474,
+        0.31902933406571243,
+        0.0787113586397048,
+        0.2755166690705746,
+        0.3866103369395635,
+        0.12774156889003296,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.36120242931334534,
+        0.06526843261461246,
+        0.4092451615419712,
+        0.15562819272703088,
+        0.9208674269190809,
+        0.36397560666938666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5832328778421214,
+        0.5812625272816341,
+        0.9742950190161359,
+        2.6755850715136367,
+        2.1846756767285314,
+        2.020177095647946,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.173446607636297,
+        0.906186125627928,
+        2.2436695617922275,
+        4.557466634553808,
+        2.8597319273782063,
+        4.451559808376082,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch5_offline.npz",
+        "right_branch5_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 191,
+          "runtime_time_s": 1.91,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004815379975520789
+            }
+          ]
+        },
+        {
+          "frame": 192,
+          "runtime_time_s": 1.92,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.003717985855625199
+            }
+          ]
+        },
+        {
+          "frame": 193,
+          "runtime_time_s": 1.93,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0026174212039971056
+            }
+          ]
+        },
+        {
+          "frame": 194,
+          "runtime_time_s": 1.94,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0015138225664455725
+            }
+          ]
+        },
+        {
+          "frame": 195,
+          "runtime_time_s": 1.95,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0004073283676451038
+            }
+          ]
+        },
+        {
+          "frame": 196,
+          "runtime_time_s": 1.96,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0007019210940586301
+            }
+          ]
+        },
+        {
+          "frame": 197,
+          "runtime_time_s": 1.97,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0018137836522392793
+            }
+          ]
+        },
+        {
+          "frame": 198,
+          "runtime_time_s": 1.98,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.002928115278392495
+            }
+          ]
+        },
+        {
+          "frame": 199,
+          "runtime_time_s": 1.99,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.004044770088348918
+            }
+          ]
+        },
+        {
+          "frame": 200,
+          "runtime_time_s": 2.0,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005163600349111015
+            }
+          ]
+        },
+        {
+          "frame": 201,
+          "runtime_time_s": 2.01,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0062844564861128105
+            }
+          ]
+        },
+        {
+          "frame": 202,
+          "runtime_time_s": 2.02,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0074071870909179875
+            }
+          ]
+        },
+        {
+          "frame": 203,
+          "runtime_time_s": 2.03,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.008531638929353085
+            }
+          ]
+        },
+        {
+          "frame": 204,
+          "runtime_time_s": 2.04,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.009657656950092054
+            }
+          ]
+        },
+        {
+          "frame": 205,
+          "runtime_time_s": 2.05,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.010785084293686836
+            }
+          ]
+        },
+        {
+          "frame": 206,
+          "runtime_time_s": 2.06,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.011913762302064337
+            }
+          ]
+        },
+        {
+          "frame": 207,
+          "runtime_time_s": 2.07,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.013043530528481125
+            }
+          ]
+        },
+        {
+          "frame": 208,
+          "runtime_time_s": 2.08,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004849189119854901
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.014174226747957118
+            }
+          ]
+        },
+        {
+          "frame": 209,
+          "runtime_time_s": 2.09,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0037438901464870167
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.015305686968179268
+            }
+          ]
+        },
+        {
+          "frame": 210,
+          "runtime_time_s": 2.1,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0026378059725074773
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0164377454408953
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 211,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 673.09,
+      "transition_s": 10.0,
+      "max_velocity_rad_s": [
+        0.5420955448732778,
+        0.12072704741092344,
+        0.6608035417563496,
+        0.832318774941676,
+        0.5572864492418672,
+        0.12765968412556394,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5219521998436116,
+        0.4925791316400474,
+        0.11125626208003947,
+        0.38803950697778866,
+        0.6196350164832332,
+        0.1282844775212233,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5844295834389612,
+        0.9589914929153398,
+        0.9712972055098135,
+        1.8959862541878536,
+        2.1865132939513643,
+        2.022318992144778,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1740381599834038,
+        1.3343809216559421,
+        1.862643716583623,
+        4.066510863646178,
+        2.8586393842688906,
+        4.440097817761668,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch6_offline.npz",
+        "right_branch10_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 221,
+          "runtime_time_s": 2.21,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0037423256462730528
+            }
+          ]
+        },
+        {
+          "frame": 222,
+          "runtime_time_s": 2.22,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.002374796940824447
+            }
+          ]
+        },
+        {
+          "frame": 223,
+          "runtime_time_s": 2.23,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0010027322079792199
+            }
+          ]
+        },
+        {
+          "frame": 224,
+          "runtime_time_s": 2.24,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00037375362069750825
+            }
+          ]
+        },
+        {
+          "frame": 225,
+          "runtime_time_s": 2.25,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0017545438812056335
+            }
+          ]
+        },
+        {
+          "frame": 226,
+          "runtime_time_s": 2.26,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0031395201778307152
+            }
+          ]
+        },
+        {
+          "frame": 227,
+          "runtime_time_s": 2.27,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.004528562384296173
+            }
+          ]
+        },
+        {
+          "frame": 228,
+          "runtime_time_s": 2.28,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005921548645365456
+            }
+          ]
+        },
+        {
+          "frame": 229,
+          "runtime_time_s": 2.29,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.007318355378895448
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004540308471113939
+            }
+          ]
+        },
+        {
+          "frame": 230,
+          "runtime_time_s": 2.3,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.008718857278357204
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0031542212085851704
+            }
+          ]
+        },
+        {
+          "frame": 231,
+          "runtime_time_s": 2.31,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0036291358168293146
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01012292731582052
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0017644855629105043
+            }
+          ]
+        },
+        {
+          "frame": 232,
+          "runtime_time_s": 2.32,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.002218564874965249
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.011530436745426222
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.00037122736189964395
+            }
+          ]
+        },
+        {
+          "frame": 233,
+          "runtime_time_s": 2.33,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0008046597960221953
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.012941255107339974
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0010254258610409937
+            }
+          ]
+        },
+        {
+          "frame": 234,
+          "runtime_time_s": 2.34,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0006124472598568673
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01435525023220686
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0024253448708782942
+            }
+          ]
+        },
+        {
+          "frame": 235,
+          "runtime_time_s": 2.35,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0020326224243188903
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.015772288246106794
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.003828398735420178
+            }
+          ]
+        },
+        {
+          "frame": 236,
+          "runtime_time_s": 2.36,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.003455730126211913
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01719223357602526
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005234457732247764
+            }
+          ]
+        },
+        {
+          "frame": 237,
+          "runtime_time_s": 2.37,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.004881633097516939
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01861494895584396
+            },
+            {
+              "a": "left:hand:l_ring_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0042360443055750215
+            },
+            {
+              "a": "left:hand:l_pinky_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0036120806120247886
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006643456667735232
+            }
+          ]
+        },
+        {
+          "frame": 238,
+          "runtime_time_s": 2.38,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006310192379807532
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.020040295432858787
+            },
+            {
+              "a": "left:hand:l_ring_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0028293612028632426
+            },
+            {
+              "a": "left:hand:l_pinky_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.002197050983487032
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00805518700015132
+            }
+          ]
+        },
+        {
+          "frame": 239,
+          "runtime_time_s": 2.39,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00774126733124425
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.02146813237483364
+            },
+            {
+              "a": "left:hand:l_ring_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0014201258045813195
+            },
+            {
+              "a": "left:hand:l_pinky_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0007794156167923545
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.009469511047719413
+            }
+          ]
+        },
+        {
+          "frame": 240,
+          "runtime_time_s": 2.4,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.009174715634117647
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.022898317477601807
+            },
+            {
+              "a": "left:hand:l_ring_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 8.477472424522903e-06
+            },
+            {
+              "a": "left:hand:l_pinky_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0006406859338871067
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.010886289461583216
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 241,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 673.09,
+      "transition_s": 10.0,
+      "max_velocity_rad_s": [
+        0.5420955448732778,
+        0.12072704741092344,
+        0.6608035417563496,
+        0.832318774941676,
+        0.5572864492418672,
+        0.12765968412556394,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5212921538106929,
+        0.0941962707122379,
+        0.5874660390660313,
+        0.15562819272703088,
+        0.1509140243321383,
+        0.5252944402835968,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5844295834389612,
+        0.9589914929153398,
+        0.9712972055098135,
+        1.8959862541878536,
+        2.1865132939513643,
+        2.022318992144778,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1734466076340766,
+        0.9061861256282056,
+        2.2436695617678026,
+        4.557466634551588,
+        2.8597319273737654,
+        4.451559808377192,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch6_offline.npz",
+        "right_branch12_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 221,
+          "runtime_time_s": 2.21,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0037423256462730528
+            }
+          ]
+        },
+        {
+          "frame": 222,
+          "runtime_time_s": 2.22,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.002374796940824447
+            }
+          ]
+        },
+        {
+          "frame": 223,
+          "runtime_time_s": 2.23,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0010027322079792199
+            }
+          ]
+        },
+        {
+          "frame": 224,
+          "runtime_time_s": 2.24,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00037375362069750825
+            }
+          ]
+        },
+        {
+          "frame": 225,
+          "runtime_time_s": 2.25,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0017545438812056335
+            }
+          ]
+        },
+        {
+          "frame": 226,
+          "runtime_time_s": 2.26,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0031395201778307152
+            }
+          ]
+        },
+        {
+          "frame": 227,
+          "runtime_time_s": 2.27,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.004528562384296173
+            }
+          ]
+        },
+        {
+          "frame": 228,
+          "runtime_time_s": 2.28,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005921548645365456
+            }
+          ]
+        },
+        {
+          "frame": 229,
+          "runtime_time_s": 2.29,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.007318355378895448
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004540308471113939
+            }
+          ]
+        },
+        {
+          "frame": 230,
+          "runtime_time_s": 2.3,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.008718857278357204
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0031542212085851704
+            }
+          ]
+        },
+        {
+          "frame": 231,
+          "runtime_time_s": 2.31,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0036291358168293146
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01012292731582052
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0017644855629105043
+            }
+          ]
+        },
+        {
+          "frame": 232,
+          "runtime_time_s": 2.32,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.002218564874965249
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.011530436745426222
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.00037122736189964395
+            }
+          ]
+        },
+        {
+          "frame": 233,
+          "runtime_time_s": 2.33,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0008046597960221953
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.012941255107339974
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0010254258610409937
+            }
+          ]
+        },
+        {
+          "frame": 234,
+          "runtime_time_s": 2.34,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0006124472598568673
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01435525023220686
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0024253448708782942
+            }
+          ]
+        },
+        {
+          "frame": 235,
+          "runtime_time_s": 2.35,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0020326224243188903
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.015772288246106794
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.003828398735420178
+            }
+          ]
+        },
+        {
+          "frame": 236,
+          "runtime_time_s": 2.36,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.003455730126211913
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01719223357602526
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005234457732247764
+            }
+          ]
+        },
+        {
+          "frame": 237,
+          "runtime_time_s": 2.37,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.004881633097516939
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01861494895584396
+            },
+            {
+              "a": "left:hand:l_ring_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0042360443055750215
+            },
+            {
+              "a": "left:hand:l_pinky_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0036120806120247886
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006643456667735232
+            }
+          ]
+        },
+        {
+          "frame": 238,
+          "runtime_time_s": 2.38,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006310192379807532
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.020040295432858787
+            },
+            {
+              "a": "left:hand:l_ring_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0028293612028632426
+            },
+            {
+              "a": "left:hand:l_pinky_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.002197050983487032
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00805518700015132
+            }
+          ]
+        },
+        {
+          "frame": 239,
+          "runtime_time_s": 2.39,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00774126733124425
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.02146813237483364
+            },
+            {
+              "a": "left:hand:l_ring_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0014201258045813195
+            },
+            {
+              "a": "left:hand:l_pinky_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0007794156167923545
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.009469511047719413
+            }
+          ]
+        },
+        {
+          "frame": 240,
+          "runtime_time_s": 2.4,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "left:hand:l_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.009174715634117647
+            },
+            {
+              "a": "left:hand:l_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.022898317477601807
+            },
+            {
+              "a": "left:hand:l_ring_finger_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 8.477472424522903e-06
+            },
+            {
+              "a": "left:hand:l_pinky_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0006406859338871067
+            },
+            {
+              "a": "left:hand:l_pinky_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.010886289461583216
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 241,
+      "effective_speed": 0.01717986918400001,
+      "duration_s": 1304.13,
+      "transition_s": 10.0,
+      "max_velocity_rad_s": [
+        0.5420955448732778,
+        0.12072704741092344,
+        0.6608035417563496,
+        0.832318774941676,
+        0.5572864492418672,
+        0.06544108896807677,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.06317314959257692,
+        0.08595638110422688,
+        0.077746911228882,
+        0.5750106654552001,
+        0.8697816207273057,
+        0.5036459167929053,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.17620373495397246,
+        0.2836245877357868,
+        0.26958931690357346,
+        0.5606451035067295,
+        0.6519183511777271,
+        0.5631117998150525,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.19788203761472722,
+        0.849084485833318,
+        1.3801648164757374,
+        3.8651708878278956,
+        1.0559300259238569,
+        3.61838502311862,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch6_offline.npz",
+        "right_branch2_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 224,
+          "runtime_time_s": 2.24,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004165860167778502
+            }
+          ]
+        },
+        {
+          "frame": 225,
+          "runtime_time_s": 2.25,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0032109136447200266
+            }
+          ]
+        },
+        {
+          "frame": 226,
+          "runtime_time_s": 2.26,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0022504907545443167
+            }
+          ]
+        },
+        {
+          "frame": 227,
+          "runtime_time_s": 2.27,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0012873085166873431
+            }
+          ]
+        },
+        {
+          "frame": 228,
+          "runtime_time_s": 2.28,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.00032143762370227986
+            }
+          ]
+        },
+        {
+          "frame": 229,
+          "runtime_time_s": 2.29,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.000647050594411348
+            }
+          ]
+        },
+        {
+          "frame": 230,
+          "runtime_time_s": 2.3,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0016180841776576686
+            }
+          ]
+        },
+        {
+          "frame": 231,
+          "runtime_time_s": 2.31,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0025915905436300936
+            }
+          ]
+        },
+        {
+          "frame": 232,
+          "runtime_time_s": 2.32,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.003567496495222767
+            }
+          ]
+        },
+        {
+          "frame": 233,
+          "runtime_time_s": 2.33,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0045457282284759575
+            }
+          ]
+        },
+        {
+          "frame": 234,
+          "runtime_time_s": 2.34,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005526211340549545
+            }
+          ]
+        },
+        {
+          "frame": 235,
+          "runtime_time_s": 2.35,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006508870837822383
+            }
+          ]
+        },
+        {
+          "frame": 236,
+          "runtime_time_s": 2.36,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.007493631144118015
+            }
+          ]
+        },
+        {
+          "frame": 237,
+          "runtime_time_s": 2.37,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00848041610905686
+            }
+          ]
+        },
+        {
+          "frame": 238,
+          "runtime_time_s": 2.38,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00946914901652776
+            }
+          ]
+        },
+        {
+          "frame": 239,
+          "runtime_time_s": 2.39,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01045975259328497
+            }
+          ]
+        },
+        {
+          "frame": 240,
+          "runtime_time_s": 2.4,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01145214901766054
+            }
+          ]
+        },
+        {
+          "frame": 241,
+          "runtime_time_s": 2.41,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.012446259928396451
+            }
+          ]
+        },
+        {
+          "frame": 242,
+          "runtime_time_s": 2.42,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.013442006433595088
+            }
+          ]
+        },
+        {
+          "frame": 243,
+          "runtime_time_s": 2.43,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.014439309119774871
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 244,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 675.19,
+      "transition_s": 12.1,
+      "max_velocity_rad_s": [
+        0.4481258660819609,
+        0.09979958919083542,
+        0.546256397530076,
+        0.688040282574498,
+        0.4606834995860787,
+        0.12765968412556394,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.4314742738994015,
+        0.4071928870614361,
+        0.09197051935432299,
+        0.32077470804354746,
+        0.5122242398822419,
+        0.9208667327341935,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5844295834389612,
+        0.9589914929153398,
+        0.9712972055098135,
+        1.8959862541878536,
+        2.1865132939513643,
+        2.022318992144778,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.1740381599834038,
+        1.3343809216559421,
+        1.862643716583623,
+        4.066510863646178,
+        2.8586393842688906,
+        4.440097817761668,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch6_offline.npz",
+        "right_branch3_offline.npz"
+      ]
+    },
+    {
+      "ready_for_execution": false,
+      "collision_checked": true,
+      "collision_passed": false,
+      "collision_failures": [
+        {
+          "frame": 223,
+          "runtime_time_s": 2.23,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.004071750862226182
+            }
+          ]
+        },
+        {
+          "frame": 224,
+          "runtime_time_s": 2.24,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0030217530146322428
+            }
+          ]
+        },
+        {
+          "frame": 225,
+          "runtime_time_s": 2.25,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0019665738482203144
+            }
+          ]
+        },
+        {
+          "frame": 226,
+          "runtime_time_s": 2.26,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0009062632732851944
+            }
+          ]
+        },
+        {
+          "frame": 227,
+          "runtime_time_s": 2.27,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.00015912781691894006
+            }
+          ]
+        },
+        {
+          "frame": 228,
+          "runtime_time_s": 2.28,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0012295475420927115
+            }
+          ]
+        },
+        {
+          "frame": 229,
+          "runtime_time_s": 2.29,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0023049430308718366
+            }
+          ]
+        },
+        {
+          "frame": 230,
+          "runtime_time_s": 2.3,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0033852604168870403
+            }
+          ]
+        },
+        {
+          "frame": 231,
+          "runtime_time_s": 2.31,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.0044704448348955655
+            }
+          ]
+        },
+        {
+          "frame": 232,
+          "runtime_time_s": 2.32,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.005560440416987696
+            }
+          ]
+        },
+        {
+          "frame": 233,
+          "runtime_time_s": 2.33,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.006655190288882744
+            }
+          ]
+        },
+        {
+          "frame": 234,
+          "runtime_time_s": 2.34,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.007754636566296934
+            }
+          ]
+        },
+        {
+          "frame": 235,
+          "runtime_time_s": 2.35,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.008858720351406831
+            }
+          ]
+        },
+        {
+          "frame": 236,
+          "runtime_time_s": 2.36,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.009967381729395146
+            }
+          ]
+        },
+        {
+          "frame": 237,
+          "runtime_time_s": 2.37,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.011080559765089742
+            }
+          ]
+        },
+        {
+          "frame": 238,
+          "runtime_time_s": 2.38,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01219819249969805
+            }
+          ]
+        },
+        {
+          "frame": 239,
+          "runtime_time_s": 2.39,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.013320216947633539
+            }
+          ]
+        },
+        {
+          "frame": 240,
+          "runtime_time_s": 2.4,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.01444656909344703
+            }
+          ]
+        },
+        {
+          "frame": 241,
+          "runtime_time_s": 2.41,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.015577183888853771
+            }
+          ]
+        },
+        {
+          "frame": 242,
+          "runtime_time_s": 2.42,
+          "phase": "transition",
+          "findings": [
+            {
+              "a": "right:hand:r_thumb_middle",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": 0.0039594607638579315
+            },
+            {
+              "a": "right:hand:r_thumb_distal",
+              "b": "calibrated_table_halfspace",
+              "clearance_m": -0.016711995249872144
+            }
+          ]
+        }
+      ],
+      "checked_mesh_samples": 243,
+      "effective_speed": 0.033554432000000016,
+      "duration_s": 677.53,
+      "transition_s": 14.44,
+      "max_velocity_rad_s": [
+        0.37561706290187846,
+        0.08365156177756461,
+        0.4578696280702621,
+        0.5767122356904242,
+        0.3861428141937129,
+        0.12765968412556394,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.36120242931334534,
+        0.06526843261461246,
+        0.4092451615419712,
+        0.15562819272703088,
+        0.9208674269190809,
+        0.36397560666938666,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_acceleration_rad_s2": [
+        0.5844295834389612,
+        0.9589914929153398,
+        0.9712972055098135,
+        1.8959862541878536,
+        2.1865132939513643,
+        2.022318992144778,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.173446607636297,
+        0.906186125627928,
+        2.2436695617922275,
+        4.557466634553808,
+        2.8597319273782063,
+        4.451559808376082,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_replay_eef_position_error_m": null,
+      "max_replay_eef_rotation_error_rad": null,
+      "eef_checked": false,
+      "branches": [
+        "left_branch6_offline.npz",
+        "right_branch5_offline.npz"
+      ]
+    }
+  ],
+  "complete_ik_branches": {
+    "left": 3,
+    "right": 5
+  },
+  "reason": "All complete IK branch combinations fail full-assembly or transition checks"
+}

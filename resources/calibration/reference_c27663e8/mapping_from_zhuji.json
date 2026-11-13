@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-12T07:01:21.058451+00:00",
+  "board_fingerprint": "437d28755b5102513fd2204b356c468f7d9618172b30ba59d7d60f049d63d928",
+  "target_camera_T_source_camera": [
+    [
+      0.9983417506849175,
+      0.029882773740324015,
+      -0.049201307634639216,
+      0.024144637594412793
+    ],
+    [
+      -0.026847851255410227,
+      0.9977625546130464,
+      0.06122971088462814,
+      -0.028252552327301783
+    ],
+    [
+      0.050920935992390615,
+      -0.059807227369544524,
+      0.9969103038047236,
+      0.041866171164233745
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_camera_T_target_camera": [
+    [
+      0.9983417506849175,
+      -0.026847851255410227,
+      0.050920935992390615,
+      -0.026994984710228452
+    ],
+    [
+      0.029882773740324015,
+      0.9977625546130464,
+      -0.059807227369544524,
+      0.029971729660063035
+    ],
+    [
+      -0.049201307634639216,
+      0.06122971088462814,
+      0.9969103038047236,
+      -0.03881897406171373
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "formula": "T_target_camera_wuji = target_camera_T_source_camera @ T_source_camera_wuji",
+  "assumption": "The two observed board frames represent corresponding task origins and axes; identity mapping between those task frames is user-established by physical placement.",
+  "interpretation": "Task-transfer mapping between separate workcells, not a surveyed inter-site physical camera extrinsic.",
+  "source_camera_id": "zhuji",
+  "target_camera_id": "current-table-20261112",
+  "source_quality": {
+    "reprojection_rms_px_mean": 0.05289260869224866,
+    "reprojection_rms_px_max": 0.15380842983722687,
+    "translation_spread_max_mm": 1.09164619025237,
+    "rotation_spread_max_deg": 0.32303262956819867,
+    "min_inlier_corners": 20
+  },
+  "target_quality": {
+    "reprojection_rms_px_mean": 0.2906766543785731,
+    "reprojection_rms_px_max": 0.33129602670669556,
+    "translation_spread_max_mm": 1.220744685158637,
+    "rotation_spread_max_deg": 0.31787515578833375,
+    "min_inlier_corners": 22
+  },
+  "same_board_coordinate_closure_max_abs": 5.48172618408671e-16,
+  "source_observation": "observations/zhuji/observation.json",
+  "target_observation": "results/current-table-20261112/observation.json"
+}

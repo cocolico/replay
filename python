@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+if [[ -n "${REPLAY_PYTHON:-}" ]]; then
+  REPLAY_INTERPRETER="$REPLAY_PYTHON"
+elif [[ -x "$ROOT/.venv/bin/python" ]]; then
+  REPLAY_INTERPRETER="$ROOT/.venv/bin/python"
+else
+  REPLAY_INTERPRETER=/usr/bin/python3.12
+  if [[ -f /opt/ros/jazzy/setup.bash ]]; then
+    set +u
+    source /opt/ros/jazzy/setup.bash
+    set -u
+  fi
+fi
+source "$ROOT/runtime_env.sh"
+exec "$REPLAY_INTERPRETER" "$@"

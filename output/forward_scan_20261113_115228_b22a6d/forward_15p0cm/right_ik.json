@@ -1,0 +1,239 @@
+{
+  "candidates": 15,
+  "trials": [
+    {
+      "candidate_index": 0,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.06,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -6.645547701148238e-05
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 1,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.06,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0011273295827810038
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 2,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.55,
+        "findings": [
+          {
+            "a": "right:hand:r_index_finger_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.003757065265560966
+          },
+          {
+            "a": "right:hand:r_index_finger_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0014366664173293964
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 3,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.004108952094127767
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 4,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0023869760586526893
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 5,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.003710144089208667
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.01169753644453982
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 6,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0008167310215589571
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 7,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0005036152792133666
+          }
+        ]
+      }
+    },
+    {
+      "passed": false,
+      "failed_frame": 1871,
+      "source_time_s": 17.02,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.004625161616823732}]",
+      "candidate_index": 8,
+      "phase": "full_single_arm_tracking"
+    },
+    {
+      "candidate_index": 9,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0011917688043520634
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 10,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.002606241375122151
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 11,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.38,
+        "findings": [
+          {
+            "a": "right:arm:shoulder_Link",
+            "b": "right:arm:foreArm_Link",
+            "clearance_m": 0.00130568636960287
+          },
+          {
+            "a": "right:arm:upperArm_Link",
+            "b": "right:arm:wrist1_Link",
+            "clearance_m": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 12,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.00252872336462473
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 13,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.37,
+        "findings": [
+          {
+            "a": "right:arm:upperArm_Link",
+            "b": "right:arm:wrist1_Link",
+            "clearance_m": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 14,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0009329772864486788
+          }
+        ]
+      }
+    }
+  ],
+  "complete_paths": 0
+}

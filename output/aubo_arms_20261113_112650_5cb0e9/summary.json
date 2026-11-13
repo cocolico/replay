@@ -1,0 +1,11 @@
+{
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "arms_only": true,
+  "name": "aubo_arms_20261113_112650_5cb0e9",
+  "whole_trajectory_solutions": {
+    "left": 3,
+    "right": 5
+  },
+  "error": ""
+}

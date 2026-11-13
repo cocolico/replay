@@ -1,0 +1,158 @@
+{
+  "artifact_type": "offline_aubo_wuji_preparation",
+  "input_type": "human_camera",
+  "frames": 223,
+  "duration_s": 22.21576,
+  "execution_enabled": false,
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/config/human_replay_try_2.json",
+    "sha256": "2f93027b2a87588cb8f1513cd91ce7b11b1b228777e19a1eb1986143cc1f0d7b"
+  },
+  "source_camera_id": "orbbec_gemini_335",
+  "source_camera_identity_note": "User explicitly identified /home/descfly/ty/desk/observation.json as the human trajectory source observation; Gemini 335 1280x720. Replaces incorrect zhuji inference.",
+  "root_alignment": "Already fitted camera root; no +/-90 degree correction applied",
+  "sides": {
+    "left": {
+      "hand_position_limits_passed": true,
+      "hand_dynamics": {
+        "max_step_rad": 0.523417664571876,
+        "max_velocity_rad_s": 5.2341766457187555,
+        "max_acceleration_rad_s2": 80.92685766188404
+      },
+      "target_handeye": {
+        "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_left_02/result.json",
+        "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
+      }
+    },
+    "right": {
+      "hand_position_limits_passed": true,
+      "hand_dynamics": {
+        "max_step_rad": 0.5795320231381077,
+        "max_velocity_rad_s": 5.795320231381098,
+        "max_acceleration_rad_s2": 97.87820034217006
+      },
+      "target_handeye": {
+        "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_right_01/result.json",
+        "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
+      }
+    }
+  },
+  "blockers": [
+    "right_aubo_model_not_confirmed"
+  ],
+  "arm_ik_inputs_ready": false,
+  "arm_ik_performed": false,
+  "collision_check": {
+    "performed": false
+  },
+  "sources": [
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/frame.npy",
+      "sha256": "df05ec3ed7e7d42f8918c3009bd9868df19afd6fa15d831a50e15ba5184b46bf"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/joint_unit.npy",
+      "sha256": "0a0c06972ea1bb5888190c29a4cce7bbb0b0059940492db46c57cb18cad8a22c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/position_unit.npy",
+      "sha256": "cce8fbc150a7a6d656686018697d1b2302d1fe73d4e7203a76b0992e458ce311"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/quaternion_order.npy",
+      "sha256": "20600487557322f819068521379e0799c9647225cc6bac0826a172ff07af2d94"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/pose_target.npy",
+      "sha256": "a27ddbca16dbe6e4a4ac880e457683bab839447f7982ce4a699cf4caf026337a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/timestamp_ns.npy",
+      "sha256": "f26333cb2a299a5d1bcea2a81b1b93b7bef456d727b8414e825c210460a4f9f5"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/time_s.npy",
+      "sha256": "36109c7ff594d24af1bbc5c251a7cc113d4b44c88da8584bc20a324ebd48ff25"
+    },
+    {
+      "path": "/home/descfly/ty/desk/observation.json",
+      "sha256": "7f1093a005f55020edaa4341fba2dfd0b598ad7adb17b02df42fb58315a4e73c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/alignment_version.npy",
+      "sha256": "32ddc1bfd6192e9dd2080bb0f2484bcb030bf99bcfd853d3817b03d67dfe28ee"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/left_root_pose.npy",
+      "sha256": "3257921ac150d9b7f46079c8832de2180bb76247cfd245cc31e3b2680d30c187"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/left_position_m.npy",
+      "sha256": "49a2449ec8179698402094945787e04e83e5fc4b50011d65130dcbc9fc418738"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/left_quaternion_wxyz.npy",
+      "sha256": "16d5078317fdfa9dbfb386377630bbf08d356083abe21cfaee43f9d5ef592638"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/left_joint_positions_rad.npy",
+      "sha256": "b993667a77d6450734a35f10dd48aabbb6143261b41a9fd40b7abfde553804ab"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/left_joint_names.npy",
+      "sha256": "11b31e1f5bad085e7c633966b6afc946a838aadce6d426efeabeb0f21573af3c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta/assets/wuji/urdf/left.urdf",
+      "sha256": "d93de699b5bbe0a573ea9725ebb7e6ad6547b6ed3593f7f5591664ee220648f0"
+    },
+    {
+      "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_left_02/result.json",
+      "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/right_root_pose.npy",
+      "sha256": "711f30d1502f4e472600f84705d6914070afddc63bdf523fb45233171aa32a1e"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/right_position_m.npy",
+      "sha256": "7142831ac13652a62a0440db3ffd0f1b30f638739f9001a91c8d48e9dde47eac"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/right_quaternion_wxyz.npy",
+      "sha256": "aa0003ebcb263c973ad126643c295bf669e3947f11ddb7ad6711c527c263980c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/right_joint_positions_rad.npy",
+      "sha256": "106760324e3c928649aea410bf8b6db5d011ad537fbf7abc7e68efdbe7d84534"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_2/right_joint_names.npy",
+      "sha256": "c5e70728dba14ccd211580a0a494f53a48682313f1f5a6baceadfd54bec1d78f"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta/assets/wuji/urdf/right.urdf",
+      "sha256": "f3bb5d0031a1972e06faafa8a6ab191dcf5ab5abfebbf5d27cb510ee8d004a06"
+    },
+    {
+      "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_right_01/result.json",
+      "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/config/human_replay_try_2.json",
+      "sha256": "2f93027b2a87588cb8f1513cd91ce7b11b1b228777e19a1eb1986143cc1f0d7b"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/config/mapping_from_human_gemini335.json",
+      "sha256": "040f72e9bda1608011e40172c038c4d530425941d6ed42110f422642349fca78"
+    },
+    {
+      "path": "/home/descfly/ty/desk/calibration/results/current-table-20261112/observation.json",
+      "sha256": "2e2504fc19e11bb9f119e1325d32c8df54692293b21faee68ac0b19681eea11a"
+    }
+  ],
+  "artifact": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/human_camera_try_2/human_camera_prepared.npz",
+    "sha256": "eeb93c7b327e0560424a507b25e30492271f6c2461b5ef78c0053545b00202cd"
+  }
+}

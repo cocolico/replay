@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "source_episode_root": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta",
+  "source_franka_handeye": "/media/descfly/新加卷/ty/replay/handeye/handeye/franka-sharpa/handeye_calibration.json",
+  "source_franka_handeye_matches_recording": true,
+  "source_assembly_mounts_match_recording": true,
+  "table_mapping": "/home/descfly/ty/desk/calibration/results/current-table-20261112/mapping_from_franka-sharpa.json",
+  "current_table_observation": "/home/descfly/ty/desk/calibration/results/current-table-20261112/observation.json",
+  "sides": {
+    "left": {
+      "handeye": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_left_02/result.json",
+      "ip": "192.168.1.3",
+      "rpc_port": 30004,
+      "robot_name": "rob1",
+      "urdf": "/media/descfly/新加卷/ty/adaptation_resources/sources/aubo_description/urdf/aubo_i7H.urdf",
+      "model_confirmed": true,
+      "flange_frame": "wrist3_Link",
+      "flange_T_wuji_base": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_confirmed": true,
+      "initial_q_rad": [
+        -1.152187861611026,
+        -0.41148941745278655,
+        1.2639097986078058,
+        0.12262893593002822,
+        2.1502576066009467,
+        1.5263314326122421
+      ],
+      "seed_source": "read-only controller_snapshot.json; numerical IK seed, not a replay start command",
+      "mount_translation_confirmed": true,
+      "mount_note": "User confirmed via mounting visualization: direct concentric connection, zero translation; rotation maps Wuji base into Aubo flange coordinates, right-hand rule about flange Z. No device motion authorized.",
+      "mount_rotation_z_deg": 0
+    },
+    "right": {
+      "handeye": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_right_01/result.json",
+      "ip": "192.168.1.2",
+      "rpc_port": 30004,
+      "robot_name": "rob1",
+      "urdf": "/media/descfly/新加卷/ty/adaptation_resources/sources/aubo_description/urdf/aubo_i7H.urdf",
+      "model_confirmed": true,
+      "flange_frame": "wrist3_Link",
+      "flange_T_wuji_base": [
+        [
+          2.220446049250313e-16,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          2.220446049250313e-16,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "mount_confirmed": true,
+      "initial_q_rad": [
+        1.122876724540612,
+        0.2716312336177107,
+        -1.3702681881911847,
+        -0.1997237955626769,
+        3.9599193747860753,
+        4.663923640209113
+      ],
+      "seed_source": "read-only controller_snapshot.json; numerical IK seed, not a replay start command",
+      "mount_translation_confirmed": true,
+      "mount_note": "User confirmed via mounting visualization: direct concentric connection, zero translation; rotation maps Wuji base into Aubo flange coordinates, right-hand rule about flange Z. No device motion authorized.",
+      "mount_rotation_z_deg": -90
+    }
+  },
+  "source_franka_handeye_authority": "User supplied replay/handeye for episodes 594/615/616 on 2026-11-12; archive bytes equal previous copied calibration.",
+  "source_assembly_mount_authority": "Use delivered source_assembly.urdf mounting chain as source dataset definition; physical calibration not newly measured.",
+  "camera_trajectory_root": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory",
+  "camera_table_mapping": "/media/descfly/新加卷/ty/replay/code/config/mapping_from_human_gemini335.json",
+  "camera_source_id": "orbbec_gemini_335",
+  "camera_source_identity_note": "User explicitly identified /home/descfly/ty/desk/observation.json as the human trajectory source observation; Gemini 335 1280x720. Replaces incorrect zhuji inference.",
+  "camera_source_observation": "/home/descfly/ty/desk/observation.json",
+  "dataset_note": "Independent arm-only replay request for try/wuji2_camera_replay_trajectory_2"
+}

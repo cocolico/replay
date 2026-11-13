@@ -1,0 +1,406 @@
+{
+  "scope": "Only arm meshes; hands excluded",
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "checked_source_frames": 223,
+  "duration_s": 22.21576,
+  "joint_jumps": {
+    "left": [
+      {
+        "frame": 60,
+        "time_s": 6.00416,
+        "max_joint_step_rad": 0.6662572621597244
+      },
+      {
+        "frame": 61,
+        "time_s": 6.10416,
+        "max_joint_step_rad": 0.963437518825798
+      },
+      {
+        "frame": 64,
+        "time_s": 6.40448,
+        "max_joint_step_rad": 0.4091809911831891
+      },
+      {
+        "frame": 66,
+        "time_s": 6.60464,
+        "max_joint_step_rad": 0.6769881421537466
+      },
+      {
+        "frame": 67,
+        "time_s": 6.70464,
+        "max_joint_step_rad": 1.3890981169616519
+      },
+      {
+        "frame": 70,
+        "time_s": 7.0048,
+        "max_joint_step_rad": 0.4671130743924543
+      },
+      {
+        "frame": 79,
+        "time_s": 7.90544,
+        "max_joint_step_rad": 2.749199431378905
+      },
+      {
+        "frame": 82,
+        "time_s": 8.20576,
+        "max_joint_step_rad": 0.4657602838478116
+      },
+      {
+        "frame": 95,
+        "time_s": 9.50656,
+        "max_joint_step_rad": 0.5013491953957769
+      }
+    ],
+    "right": [
+      {
+        "frame": 158,
+        "time_s": 15.81104,
+        "max_joint_step_rad": 0.435810576305693
+      },
+      {
+        "frame": 162,
+        "time_s": 16.21136,
+        "max_joint_step_rad": 0.49105519450633217
+      },
+      {
+        "frame": 163,
+        "time_s": 16.31136,
+        "max_joint_step_rad": 1.4293614909496295
+      },
+      {
+        "frame": 166,
+        "time_s": 16.61152,
+        "max_joint_step_rad": 0.522496998190026
+      },
+      {
+        "frame": 169,
+        "time_s": 16.91184,
+        "max_joint_step_rad": 6.01767360898033
+      },
+      {
+        "frame": 183,
+        "time_s": 18.3128,
+        "max_joint_step_rad": 0.5162765849437275
+      },
+      {
+        "frame": 185,
+        "time_s": 18.51296,
+        "max_joint_step_rad": 0.5888756250774856
+      },
+      {
+        "frame": 192,
+        "time_s": 19.21368,
+        "max_joint_step_rad": 0.5347465272869645
+      },
+      {
+        "frame": 193,
+        "time_s": 19.31368,
+        "max_joint_step_rad": 0.8764234190116851
+      },
+      {
+        "frame": 195,
+        "time_s": 19.51384,
+        "max_joint_step_rad": 0.4095342391103638
+      },
+      {
+        "frame": 197,
+        "time_s": 19.714,
+        "max_joint_step_rad": 0.6533163827190187
+      },
+      {
+        "frame": 199,
+        "time_s": 19.91416,
+        "max_joint_step_rad": 0.6226718003602865
+      },
+      {
+        "frame": 200,
+        "time_s": 20.01416,
+        "max_joint_step_rad": 0.44717647426886487
+      }
+    ]
+  },
+  "failed_collision_frames": 24,
+  "failures": [
+    {
+      "frame": 69,
+      "source_time_s": 6.9048,
+      "findings": [
+        {
+          "a": "left:arm:foreArm_Link",
+          "b": "left:arm:wrist2_Link",
+          "clearance_m": 0.004893510080052686
+        }
+      ]
+    },
+    {
+      "frame": 72,
+      "source_time_s": 7.20496,
+      "findings": [
+        {
+          "a": "left:arm:foreArm_Link",
+          "b": "left:arm:wrist2_Link",
+          "clearance_m": 0.004416091047647514
+        }
+      ]
+    },
+    {
+      "frame": 123,
+      "source_time_s": 12.30864,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.004226746906540115
+        }
+      ]
+    },
+    {
+      "frame": 124,
+      "source_time_s": 12.40864,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.004542783652490605
+        }
+      ]
+    },
+    {
+      "frame": 125,
+      "source_time_s": 12.50864,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.004941398358900872
+        }
+      ]
+    },
+    {
+      "frame": 126,
+      "source_time_s": 12.6088,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.00473463277804009
+        }
+      ]
+    },
+    {
+      "frame": 168,
+      "source_time_s": 16.81168,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.00445675108373876
+        }
+      ]
+    },
+    {
+      "frame": 169,
+      "source_time_s": 16.91184,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 170,
+      "source_time_s": 17.01184,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 171,
+      "source_time_s": 17.112,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 172,
+      "source_time_s": 17.212,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 173,
+      "source_time_s": 17.312,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0029877246664709255
+        }
+      ]
+    },
+    {
+      "frame": 174,
+      "source_time_s": 17.41216,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0049903484427249005
+        }
+      ]
+    },
+    {
+      "frame": 175,
+      "source_time_s": 17.51216,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 176,
+      "source_time_s": 17.61232,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 177,
+      "source_time_s": 17.71232,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 178,
+      "source_time_s": 17.81248,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 179,
+      "source_time_s": 17.91248,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 180,
+      "source_time_s": 18.01264,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0006342370202348723
+        }
+      ]
+    },
+    {
+      "frame": 181,
+      "source_time_s": 18.11264,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 182,
+      "source_time_s": 18.21264,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "frame": 184,
+      "source_time_s": 18.4128,
+      "findings": [
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.003948732762201465
+        }
+      ]
+    },
+    {
+      "frame": 190,
+      "source_time_s": 19.01352,
+      "findings": [
+        {
+          "a": "left:arm:wrist1_Link",
+          "b": "right:arm:foreArm_Link",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.004656038018366974
+        }
+      ]
+    },
+    {
+      "frame": 191,
+      "source_time_s": 19.11352,
+      "findings": [
+        {
+          "a": "left:arm:foreArm_Link",
+          "b": "right:arm:foreArm_Link",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "left:arm:wrist1_Link",
+          "b": "right:arm:foreArm_Link",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:arm:foreArm_Link",
+          "b": "right:arm:wrist2_Link",
+          "clearance_m": 0.0
+        }
+      ]
+    }
+  ],
+  "runtime_dense_check_performed": false
+}

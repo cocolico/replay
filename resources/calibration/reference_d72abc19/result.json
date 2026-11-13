@@ -1,0 +1,273 @@
+{
+  "method": "PARK",
+  "T_base_camera": [
+    [
+      0.7203235280190492,
+      -0.5779330499952466,
+      -0.3835719029144111,
+      -0.20857057842452886
+    ],
+    [
+      0.0615593298597803,
+      0.604067372694082,
+      -0.7945521116665386,
+      -0.12256281922983106
+    ],
+    [
+      0.690901196908349,
+      0.54872215097418,
+      0.47070111232169776,
+      -0.04550984058829467
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_tcp_target": [
+    [
+      0.25055616234483225,
+      0.9680978214114929,
+      0.002866651243448254,
+      -0.13821189816051566
+    ],
+    [
+      0.9681007015635502,
+      -0.250559681673175,
+      0.0009367774546153268,
+      -0.11298909031769347
+    ],
+    [
+      0.001625159435986907,
+      0.002540491715920702,
+      -0.9999954523689842,
+      0.005575663944945352
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "translation_xyz_m": [
+    -0.20857057842452886,
+    -0.12256281922983106,
+    -0.04550984058829467
+  ],
+  "quaternion_xyzw": [
+    0.4017322002912277,
+    -0.3213420033053857,
+    0.19125258926914096,
+    0.8359264341188761
+  ],
+  "rotation_excitation_singular_values": [
+    7.560438720310976,
+    1.286191279523605,
+    0.8323187092380625
+  ],
+  "training_consistency": {
+    "count": 23,
+    "translation_rms_mm": 0.6711845208999718,
+    "translation_max_mm": 1.1344726785540091,
+    "rotation_rms_deg": 0.13585043414411574,
+    "rotation_max_deg": 0.26123227514012703,
+    "residuals": [
+      {
+        "translation_mm": 1.055391115986547,
+        "rotation_deg": 0.21409612878420184
+      },
+      {
+        "translation_mm": 1.005303236253587,
+        "rotation_deg": 0.16599804358698136
+      },
+      {
+        "translation_mm": 0.7174179534967229,
+        "rotation_deg": 0.13620021575567154
+      },
+      {
+        "translation_mm": 0.5105359669080001,
+        "rotation_deg": 0.1388994550361341
+      },
+      {
+        "translation_mm": 0.6794996448371557,
+        "rotation_deg": 0.09097498819129902
+      },
+      {
+        "translation_mm": 0.8093645922164545,
+        "rotation_deg": 0.1820873903048678
+      },
+      {
+        "translation_mm": 0.7173553379172618,
+        "rotation_deg": 0.09237250930708753
+      },
+      {
+        "translation_mm": 0.7204687486390523,
+        "rotation_deg": 0.1379696032701851
+      },
+      {
+        "translation_mm": 0.5448943183219628,
+        "rotation_deg": 0.1488449137741525
+      },
+      {
+        "translation_mm": 0.5111621473288329,
+        "rotation_deg": 0.05612915509418619
+      },
+      {
+        "translation_mm": 0.21767434405159464,
+        "rotation_deg": 0.0178123146497397
+      },
+      {
+        "translation_mm": 0.5526308623514498,
+        "rotation_deg": 0.10670709356819294
+      },
+      {
+        "translation_mm": 0.4558724554234369,
+        "rotation_deg": 0.1555958237783589
+      },
+      {
+        "translation_mm": 0.4544944968539309,
+        "rotation_deg": 0.11484001405183539
+      },
+      {
+        "translation_mm": 0.32685664052645486,
+        "rotation_deg": 0.09329573274341786
+      },
+      {
+        "translation_mm": 0.25985953484150187,
+        "rotation_deg": 0.06620640401870763
+      },
+      {
+        "translation_mm": 0.4736386178873935,
+        "rotation_deg": 0.051019554825799694
+      },
+      {
+        "translation_mm": 0.13127596096606836,
+        "rotation_deg": 0.050695568158244775
+      },
+      {
+        "translation_mm": 0.502635247641006,
+        "rotation_deg": 0.10969101583510595
+      },
+      {
+        "translation_mm": 0.3574424078103298,
+        "rotation_deg": 0.08532064298119524
+      },
+      {
+        "translation_mm": 1.062775075050734,
+        "rotation_deg": 0.1120547197105721
+      },
+      {
+        "translation_mm": 0.8790528769866262,
+        "rotation_deg": 0.26123227514012703
+      },
+      {
+        "translation_mm": 1.1344726785540091,
+        "rotation_deg": 0.22684408760862784
+      }
+    ]
+  },
+  "held_out_validation": {
+    "count": 4,
+    "translation_rms_mm": 0.645836832133951,
+    "translation_max_mm": 0.7436953716014212,
+    "rotation_rms_deg": 0.15605750428829593,
+    "rotation_max_deg": 0.21932037346895644,
+    "residuals": [
+      {
+        "translation_mm": 0.7436953716014212,
+        "rotation_deg": 0.13238760180768816
+      },
+      {
+        "translation_mm": 0.6341634119989685,
+        "rotation_deg": 0.1231853188828448
+      },
+      {
+        "translation_mm": 0.4625236976251411,
+        "rotation_deg": 0.12889240652398545
+      },
+      {
+        "translation_mm": 0.706573878118125,
+        "rotation_deg": 0.21932037346895644
+      }
+    ]
+  },
+  "mode": "eye_to_hand",
+  "parent_frame": "right_aubo_base",
+  "child_frame": "camera_color_optical_frame",
+  "created_unix_s": 1794455171.371253,
+  "source_samples": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_right_01/samples.json",
+  "config": {
+    "board": {
+      "squares_x": 14,
+      "squares_y": 9,
+      "square_length_m": 0.02,
+      "marker_length_m": 0.015,
+      "dictionary": "DICT_5X5_250",
+      "confirmed": true
+    },
+    "robot": {
+      "ip": "192.168.1.2",
+      "port": 30004,
+      "username": "aubo",
+      "robot_name": null,
+      "base_frame": "right_aubo_base"
+    },
+    "camera": {
+      "image_topic": "/camera/color/image_raw",
+      "info_topic": "/camera/color/camera_info",
+      "frame": "camera_color_optical_frame"
+    },
+    "limits": {
+      "min_charuco_corners": 8,
+      "max_reprojection_px": 1.0,
+      "max_frame_age_s": 1.0,
+      "stationary_joint_delta_rad": 0.001
+    }
+  },
+  "metadata": {
+    "robot_ip": "192.168.1.2",
+    "robot_name": "rob1",
+    "tcp_offset_sdk": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "K": [
+      [
+        610.8031616210938,
+        0.0,
+        644.7130126953125
+      ],
+      [
+        0.0,
+        610.8071899414062,
+        406.2757873535156
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "D": [
+      -0.034105196595191956,
+      0.039946332573890686,
+      -2.6970663384418003e-05,
+      -0.0002319817285751924,
+      -0.013958866707980633,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "image_size": [
+      800,
+      1280
+    ]
+  }
+}

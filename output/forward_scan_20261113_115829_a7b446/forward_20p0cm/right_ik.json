@@ -1,0 +1,234 @@
+{
+  "candidates": 15,
+  "trials": [
+    {
+      "candidate_index": 0,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.06,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.001428766374978005
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 1,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.07,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0018047465276869457
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 2,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.55,
+        "findings": [
+          {
+            "a": "right:hand:r_index_finger_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0018657308087689228
+          },
+          {
+            "a": "right:hand:r_index_finger_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0029206048593093947
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 3,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.00532964560446917
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 4,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0014598891994238063
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 5,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.010691394795047274
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 6,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.04,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.010529681398860182
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 7,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0012726780259601014
+          }
+        ]
+      }
+    },
+    {
+      "passed": false,
+      "failed_frame": 1888,
+      "source_time_s": 17.18,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.0016347545696369693}]",
+      "candidate_index": 8,
+      "phase": "full_single_arm_tracking"
+    },
+    {
+      "candidate_index": 9,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.04,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.009652889455893366
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 10,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0013824865483814744
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 11,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.007548933233251565
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 12,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0013541655918470619
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0162543931329886
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 13,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.1,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0006328629967732279
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 14,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0020758930300548636
+          }
+        ]
+      }
+    }
+  ],
+  "complete_paths": 0
+}

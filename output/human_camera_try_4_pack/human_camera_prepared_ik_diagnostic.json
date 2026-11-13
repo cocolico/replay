@@ -1,0 +1,1768 @@
+{
+  "artifact_type": "nominal_ik_diagnostic",
+  "execution_enabled": false,
+  "source": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/human_camera_try_4_pack/human_camera_prepared.npz",
+    "sha256": "9bdaf937ea469d5a8a75273c1f09abbde7064a35777ee812effc8560ad553d8b"
+  },
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/config/human_replay_try_4_pack.json",
+    "sha256": "62752fc33cfc57d9e3182826e367a9aad08507b26bfcf90217e95d4740d70ca5"
+  },
+  "unresolved_inputs": [
+    "right_aubo_model_not_confirmed"
+  ],
+  "mounts": {
+    "left": {
+      "confirmed": true,
+      "flange_T_wuji_base": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right": {
+      "confirmed": true,
+      "flange_T_wuji_base": [
+        [
+          2.220446049250313e-16,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          2.220446049250313e-16,
+          -0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "collision_check_performed": false,
+  "sides": {
+    "left": {
+      "urdf": {
+        "path": "/media/descfly/新加卷/ty/adaptation_resources/sources/aubo_description/urdf/aubo_i7H.urdf",
+        "sha256": "6358243ae83f1e560706e35d2799e5880103e581148775638e7a143ba9e10a59"
+      },
+      "converged_samples": 118,
+      "failed_samples": 0,
+      "samples": [
+        {
+          "frame": 0,
+          "time_s": 0.0,
+          "translation_log_error_m": 1.0007415106216801e-16,
+          "rotation_error_rad": 1.1443916996305589e-16,
+          "converged": true
+        },
+        {
+          "frame": 1,
+          "time_s": 0.1,
+          "translation_log_error_m": 1.7772239894833368e-16,
+          "rotation_error_rad": 2.6184557666721346e-16,
+          "converged": true
+        },
+        {
+          "frame": 2,
+          "time_s": 0.20016,
+          "translation_log_error_m": 8.326672684688673e-17,
+          "rotation_error_rad": 2.220446049250312e-16,
+          "converged": true
+        },
+        {
+          "frame": 3,
+          "time_s": 0.30016,
+          "translation_log_error_m": 0.0,
+          "rotation_error_rad": 8.326672684688673e-17,
+          "converged": true
+        },
+        {
+          "frame": 4,
+          "time_s": 0.40016,
+          "translation_log_error_m": 0.0,
+          "rotation_error_rad": 2.2887833992611172e-16,
+          "converged": true
+        },
+        {
+          "frame": 5,
+          "time_s": 0.50032,
+          "translation_log_error_m": 1.6653345369377348e-16,
+          "rotation_error_rad": 2.3055512673781e-16,
+          "converged": true
+        },
+        {
+          "frame": 6,
+          "time_s": 0.60032,
+          "translation_log_error_m": 1.2719202621569003e-16,
+          "rotation_error_rad": 1.3877787807814442e-16,
+          "converged": true
+        },
+        {
+          "frame": 7,
+          "time_s": 0.70048,
+          "translation_log_error_m": 6.206335383118182e-17,
+          "rotation_error_rad": 1.2412670766236358e-16,
+          "converged": true
+        },
+        {
+          "frame": 8,
+          "time_s": 0.80048,
+          "translation_log_error_m": 1.1102230246251564e-16,
+          "rotation_error_rad": 1.9428902930940232e-16,
+          "converged": true
+        },
+        {
+          "frame": 9,
+          "time_s": 0.90064,
+          "translation_log_error_m": 1.3597399555105185e-16,
+          "rotation_error_rad": 2.288783399261117e-16,
+          "converged": true
+        },
+        {
+          "frame": 10,
+          "time_s": 1.00064,
+          "translation_log_error_m": 5.5511151231257815e-17,
+          "rotation_error_rad": 1.2719202621568993e-16,
+          "converged": true
+        },
+        {
+          "frame": 11,
+          "time_s": 1.1008,
+          "translation_log_error_m": 7.850462293418877e-17,
+          "rotation_error_rad": 1.241267076623636e-16,
+          "converged": true
+        },
+        {
+          "frame": 12,
+          "time_s": 1.2008,
+          "translation_log_error_m": 2.2058733625836e-12,
+          "rotation_error_rad": 1.1189105098095519e-12,
+          "converged": true
+        },
+        {
+          "frame": 13,
+          "time_s": 1.3008,
+          "translation_log_error_m": 1.7574731900643076e-10,
+          "rotation_error_rad": 2.3773210773496882e-11,
+          "converged": true
+        },
+        {
+          "frame": 14,
+          "time_s": 1.40096,
+          "translation_log_error_m": 1.5133740035147516e-11,
+          "rotation_error_rad": 1.4490324677396326e-12,
+          "converged": true
+        },
+        {
+          "frame": 15,
+          "time_s": 1.50096,
+          "translation_log_error_m": 9.005368260367218e-14,
+          "rotation_error_rad": 2.2350891392576195e-14,
+          "converged": true
+        },
+        {
+          "frame": 16,
+          "time_s": 1.60112,
+          "translation_log_error_m": 1.6922664224621844e-12,
+          "rotation_error_rad": 4.188010099808123e-14,
+          "converged": true
+        },
+        {
+          "frame": 17,
+          "time_s": 1.70112,
+          "translation_log_error_m": 2.0432019538591698e-11,
+          "rotation_error_rad": 3.815404924946862e-13,
+          "converged": true
+        },
+        {
+          "frame": 18,
+          "time_s": 1.80128,
+          "translation_log_error_m": 1.3597399555105182e-16,
+          "rotation_error_rad": 8.326672684688669e-17,
+          "converged": true
+        },
+        {
+          "frame": 19,
+          "time_s": 1.90128,
+          "translation_log_error_m": 6.095912624547798e-11,
+          "rotation_error_rad": 2.0651284956677814e-11,
+          "converged": true
+        },
+        {
+          "frame": 20,
+          "time_s": 2.00128,
+          "translation_log_error_m": 1.639398444582071e-11,
+          "rotation_error_rad": 2.0237450808356073e-11,
+          "converged": true
+        },
+        {
+          "frame": 21,
+          "time_s": 2.10144,
+          "translation_log_error_m": 1.1752478905097426e-12,
+          "rotation_error_rad": 4.843359575929925e-12,
+          "converged": true
+        },
+        {
+          "frame": 22,
+          "time_s": 2.20144,
+          "translation_log_error_m": 1.9736396331492355e-13,
+          "rotation_error_rad": 3.8189280575235464e-13,
+          "converged": true
+        },
+        {
+          "frame": 23,
+          "time_s": 2.3016,
+          "translation_log_error_m": 2.6072518734693014e-15,
+          "rotation_error_rad": 1.6544278881121223e-15,
+          "converged": true
+        },
+        {
+          "frame": 24,
+          "time_s": 2.4016,
+          "translation_log_error_m": 9.389167671763648e-14,
+          "rotation_error_rad": 7.114582967285239e-15,
+          "converged": true
+        },
+        {
+          "frame": 25,
+          "time_s": 2.50176,
+          "translation_log_error_m": 9.042850398254349e-13,
+          "rotation_error_rad": 4.320791874882214e-13,
+          "converged": true
+        },
+        {
+          "frame": 26,
+          "time_s": 2.60176,
+          "translation_log_error_m": 2.7099403949124946e-12,
+          "rotation_error_rad": 6.6848617745632746e-12,
+          "converged": true
+        },
+        {
+          "frame": 27,
+          "time_s": 2.70192,
+          "translation_log_error_m": 2.632730582340834e-12,
+          "rotation_error_rad": 7.757215816878394e-12,
+          "converged": true
+        },
+        {
+          "frame": 28,
+          "time_s": 2.80192,
+          "translation_log_error_m": 1.2049992000584162e-12,
+          "rotation_error_rad": 3.3227965553626886e-12,
+          "converged": true
+        },
+        {
+          "frame": 29,
+          "time_s": 2.90192,
+          "translation_log_error_m": 5.183495947934758e-13,
+          "rotation_error_rad": 1.1811888787753972e-12,
+          "converged": true
+        },
+        {
+          "frame": 30,
+          "time_s": 3.00208,
+          "translation_log_error_m": 3.342572903807525e-13,
+          "rotation_error_rad": 7.383227233573198e-13,
+          "converged": true
+        },
+        {
+          "frame": 31,
+          "time_s": 3.10208,
+          "translation_log_error_m": 1.2422614607878958e-13,
+          "rotation_error_rad": 2.918286226260731e-13,
+          "converged": true
+        },
+        {
+          "frame": 32,
+          "time_s": 3.20224,
+          "translation_log_error_m": 5.572186023519667e-14,
+          "rotation_error_rad": 2.5766563893792628e-14,
+          "converged": true
+        },
+        {
+          "frame": 33,
+          "time_s": 3.30224,
+          "translation_log_error_m": 4.381009021536006e-14,
+          "rotation_error_rad": 4.734421090773019e-15,
+          "converged": true
+        },
+        {
+          "frame": 34,
+          "time_s": 3.4024,
+          "translation_log_error_m": 2.2538005939217425e-14,
+          "rotation_error_rad": 1.894915245681336e-15,
+          "converged": true
+        },
+        {
+          "frame": 35,
+          "time_s": 3.5024,
+          "translation_log_error_m": 5.033934870503673e-14,
+          "rotation_error_rad": 4.968558143682688e-15,
+          "converged": true
+        },
+        {
+          "frame": 36,
+          "time_s": 3.6024,
+          "translation_log_error_m": 4.633535445256322e-14,
+          "rotation_error_rad": 8.101823520949208e-15,
+          "converged": true
+        },
+        {
+          "frame": 37,
+          "time_s": 3.70256,
+          "translation_log_error_m": 9.711278881628007e-15,
+          "rotation_error_rad": 3.0562657329293346e-15,
+          "converged": true
+        },
+        {
+          "frame": 38,
+          "time_s": 3.80256,
+          "translation_log_error_m": 1.3345785898812087e-15,
+          "rotation_error_rad": 4.236704743275017e-16,
+          "converged": true
+        },
+        {
+          "frame": 39,
+          "time_s": 3.90272,
+          "translation_log_error_m": 9.338421059357624e-16,
+          "rotation_error_rad": 7.835728851042828e-16,
+          "converged": true
+        },
+        {
+          "frame": 40,
+          "time_s": 4.00272,
+          "translation_log_error_m": 8.876578501020005e-15,
+          "rotation_error_rad": 6.773270407953557e-15,
+          "converged": true
+        },
+        {
+          "frame": 41,
+          "time_s": 4.10288,
+          "translation_log_error_m": 2.7072259745590473e-14,
+          "rotation_error_rad": 1.94429540665025e-14,
+          "converged": true
+        },
+        {
+          "frame": 42,
+          "time_s": 4.20312,
+          "translation_log_error_m": 3.007393146543256e-14,
+          "rotation_error_rad": 1.1164505631721531e-14,
+          "converged": true
+        },
+        {
+          "frame": 43,
+          "time_s": 4.30312,
+          "translation_log_error_m": 1.8389697449462145e-14,
+          "rotation_error_rad": 1.0810431491176348e-15,
+          "converged": true
+        },
+        {
+          "frame": 44,
+          "time_s": 4.40328,
+          "translation_log_error_m": 1.8000255814292623e-14,
+          "rotation_error_rad": 2.3520291605883406e-15,
+          "converged": true
+        },
+        {
+          "frame": 45,
+          "time_s": 4.50328,
+          "translation_log_error_m": 2.16286291355687e-14,
+          "rotation_error_rad": 8.985264785676211e-16,
+          "converged": true
+        },
+        {
+          "frame": 46,
+          "time_s": 4.60328,
+          "translation_log_error_m": 1.3258917200271932e-14,
+          "rotation_error_rad": 3.3911816353485173e-15,
+          "converged": true
+        },
+        {
+          "frame": 47,
+          "time_s": 4.70344,
+          "translation_log_error_m": 4.902612130890298e-16,
+          "rotation_error_rad": 1.7554167342883494e-16,
+          "converged": true
+        },
+        {
+          "frame": 48,
+          "time_s": 4.80344,
+          "translation_log_error_m": 4.543783556006071e-16,
+          "rotation_error_rad": 4.126162952233363e-16,
+          "converged": true
+        },
+        {
+          "frame": 49,
+          "time_s": 4.9036,
+          "translation_log_error_m": 5.742118132528228e-16,
+          "rotation_error_rad": 6.004449063730082e-16,
+          "converged": true
+        },
+        {
+          "frame": 50,
+          "time_s": 5.0036,
+          "translation_log_error_m": 3.0960472606544605e-13,
+          "rotation_error_rad": 2.3714871873119696e-13,
+          "converged": true
+        },
+        {
+          "frame": 51,
+          "time_s": 5.10376,
+          "translation_log_error_m": 4.352187921562969e-12,
+          "rotation_error_rad": 4.609843753899599e-12,
+          "converged": true
+        },
+        {
+          "frame": 52,
+          "time_s": 5.20376,
+          "translation_log_error_m": 1.4478009381589877e-11,
+          "rotation_error_rad": 1.6403353613323634e-11,
+          "converged": true
+        },
+        {
+          "frame": 53,
+          "time_s": 5.30392,
+          "translation_log_error_m": 1.7505272746720858e-11,
+          "rotation_error_rad": 2.1101690243427334e-11,
+          "converged": true
+        },
+        {
+          "frame": 54,
+          "time_s": 5.40392,
+          "translation_log_error_m": 7.2354342129279315e-12,
+          "rotation_error_rad": 8.553706935010602e-12,
+          "converged": true
+        },
+        {
+          "frame": 55,
+          "time_s": 5.50392,
+          "translation_log_error_m": 3.2458510855705586e-12,
+          "rotation_error_rad": 3.40633615015301e-12,
+          "converged": true
+        },
+        {
+          "frame": 56,
+          "time_s": 5.60408,
+          "translation_log_error_m": 3.658784198068327e-12,
+          "rotation_error_rad": 3.4983108127240314e-12,
+          "converged": true
+        },
+        {
+          "frame": 57,
+          "time_s": 5.70408,
+          "translation_log_error_m": 3.939957050424615e-12,
+          "rotation_error_rad": 3.4112313397156414e-12,
+          "converged": true
+        },
+        {
+          "frame": 58,
+          "time_s": 5.80424,
+          "translation_log_error_m": 1.5944727260792002e-12,
+          "rotation_error_rad": 1.3726013054299635e-12,
+          "converged": true
+        },
+        {
+          "frame": 59,
+          "time_s": 5.90424,
+          "translation_log_error_m": 3.362365464208883e-13,
+          "rotation_error_rad": 3.618609005094295e-13,
+          "converged": true
+        },
+        {
+          "frame": 60,
+          "time_s": 6.0044,
+          "translation_log_error_m": 2.2225474703260946e-13,
+          "rotation_error_rad": 2.903875297863581e-13,
+          "converged": true
+        },
+        {
+          "frame": 61,
+          "time_s": 6.1044,
+          "translation_log_error_m": 2.0355504690442142e-13,
+          "rotation_error_rad": 2.9809218924031046e-13,
+          "converged": true
+        },
+        {
+          "frame": 62,
+          "time_s": 6.2044,
+          "translation_log_error_m": 1.4553390659975835e-13,
+          "rotation_error_rad": 2.1476119615813367e-13,
+          "converged": true
+        },
+        {
+          "frame": 63,
+          "time_s": 6.30456,
+          "translation_log_error_m": 4.918704628345647e-14,
+          "rotation_error_rad": 7.165881705916733e-14,
+          "converged": true
+        },
+        {
+          "frame": 64,
+          "time_s": 6.40456,
+          "translation_log_error_m": 2.2160354711503034e-14,
+          "rotation_error_rad": 3.6531620389294806e-14,
+          "converged": true
+        },
+        {
+          "frame": 65,
+          "time_s": 6.50472,
+          "translation_log_error_m": 6.880024404111638e-15,
+          "rotation_error_rad": 1.1831072531352822e-14,
+          "converged": true
+        },
+        {
+          "frame": 66,
+          "time_s": 6.60472,
+          "translation_log_error_m": 8.728676222655934e-16,
+          "rotation_error_rad": 1.1970346188077026e-15,
+          "converged": true
+        },
+        {
+          "frame": 67,
+          "time_s": 6.70488,
+          "translation_log_error_m": 9.04082224356802e-16,
+          "rotation_error_rad": 1.665334536937733e-16,
+          "converged": true
+        },
+        {
+          "frame": 68,
+          "time_s": 6.80488,
+          "translation_log_error_m": 6.707437923744493e-16,
+          "rotation_error_rad": 2.2377260456559043e-16,
+          "converged": true
+        },
+        {
+          "frame": 69,
+          "time_s": 6.90504,
+          "translation_log_error_m": 7.027150473277823e-16,
+          "rotation_error_rad": 4.652682298944611e-16,
+          "converged": true
+        },
+        {
+          "frame": 70,
+          "time_s": 7.00488,
+          "translation_log_error_m": 2.1677797545656837e-16,
+          "rotation_error_rad": 3.935031988799247e-16,
+          "converged": true
+        },
+        {
+          "frame": 71,
+          "time_s": 7.10488,
+          "translation_log_error_m": 2.603703785810335e-16,
+          "rotation_error_rad": 5.768888059150691e-16,
+          "converged": true
+        },
+        {
+          "frame": 72,
+          "time_s": 7.20504,
+          "translation_log_error_m": 2.1677797545656837e-16,
+          "rotation_error_rad": 2.83052443350184e-16,
+          "converged": true
+        },
+        {
+          "frame": 73,
+          "time_s": 7.30504,
+          "translation_log_error_m": 2.0770370905276122e-16,
+          "rotation_error_rad": 3.964289135040459e-16,
+          "converged": true
+        },
+        {
+          "frame": 74,
+          "time_s": 7.40504,
+          "translation_log_error_m": 3.2760986545098405e-15,
+          "rotation_error_rad": 5.601952595820796e-15,
+          "converged": true
+        },
+        {
+          "frame": 75,
+          "time_s": 7.5052,
+          "translation_log_error_m": 4.236704743275018e-15,
+          "rotation_error_rad": 8.526565232065176e-15,
+          "converged": true
+        },
+        {
+          "frame": 76,
+          "time_s": 7.6052,
+          "translation_log_error_m": 1.9893217059407184e-15,
+          "rotation_error_rad": 3.1036641586755488e-15,
+          "converged": true
+        },
+        {
+          "frame": 77,
+          "time_s": 7.70536,
+          "translation_log_error_m": 2.733607174453285e-16,
+          "rotation_error_rad": 5.959374814064021e-16,
+          "converged": true
+        },
+        {
+          "frame": 78,
+          "time_s": 7.80536,
+          "translation_log_error_m": 6.206335383118183e-17,
+          "rotation_error_rad": 1.2719202621568998e-16,
+          "converged": true
+        },
+        {
+          "frame": 79,
+          "time_s": 7.90552,
+          "translation_log_error_m": 1.9037230946147535e-10,
+          "rotation_error_rad": 2.712708488666031e-10,
+          "converged": true
+        },
+        {
+          "frame": 80,
+          "time_s": 8.00552,
+          "translation_log_error_m": 1.0007415106216802e-16,
+          "rotation_error_rad": 1.2719202621569005e-16,
+          "converged": true
+        },
+        {
+          "frame": 81,
+          "time_s": 8.10568,
+          "translation_log_error_m": 5.551115123125783e-17,
+          "rotation_error_rad": 1.1443916996305589e-16,
+          "converged": true
+        },
+        {
+          "frame": 82,
+          "time_s": 8.20568,
+          "translation_log_error_m": 1.2395406473811716e-10,
+          "rotation_error_rad": 2.937069938974832e-10,
+          "converged": true
+        },
+        {
+          "frame": 83,
+          "time_s": 8.30568,
+          "translation_log_error_m": 3.325637416570355e-11,
+          "rotation_error_rad": 2.1078891159804e-12,
+          "converged": true
+        },
+        {
+          "frame": 84,
+          "time_s": 8.40584,
+          "translation_log_error_m": 9.614813431917819e-17,
+          "rotation_error_rad": 1.2412670766236368e-16,
+          "converged": true
+        },
+        {
+          "frame": 85,
+          "time_s": 8.50584,
+          "translation_log_error_m": 2.989366980140908e-16,
+          "rotation_error_rad": 2.288783399261119e-16,
+          "converged": true
+        },
+        {
+          "frame": 86,
+          "time_s": 8.606,
+          "translation_log_error_m": 1.4946834900704541e-16,
+          "rotation_error_rad": 4.308824046522781e-16,
+          "converged": true
+        },
+        {
+          "frame": 87,
+          "time_s": 8.706,
+          "translation_log_error_m": 1.1443916996305594e-16,
+          "rotation_error_rad": 6.206335383118183e-17,
+          "converged": true
+        },
+        {
+          "frame": 88,
+          "time_s": 8.80616,
+          "translation_log_error_m": 2.0770370905276122e-16,
+          "rotation_error_rad": 2.7755575615628904e-16,
+          "converged": true
+        },
+        {
+          "frame": 89,
+          "time_s": 8.90616,
+          "translation_log_error_m": 3.188872858294072e-16,
+          "rotation_error_rad": 5.30269527580585e-16,
+          "converged": true
+        },
+        {
+          "frame": 90,
+          "time_s": 9.00616,
+          "translation_log_error_m": 1.0329400704738531e-15,
+          "rotation_error_rad": 1.8100806670951332e-15,
+          "converged": true
+        },
+        {
+          "frame": 91,
+          "time_s": 9.10632,
+          "translation_log_error_m": 2.5402038669514295e-15,
+          "rotation_error_rad": 6.018865528812211e-15,
+          "converged": true
+        },
+        {
+          "frame": 92,
+          "time_s": 9.20632,
+          "translation_log_error_m": 2.4582102826059027e-15,
+          "rotation_error_rad": 4.568132674674041e-15,
+          "converged": true
+        },
+        {
+          "frame": 93,
+          "time_s": 9.30648,
+          "translation_log_error_m": 3.2009291313835888e-16,
+          "rotation_error_rad": 4.0125770192081394e-16,
+          "converged": true
+        },
+        {
+          "frame": 94,
+          "time_s": 9.40648,
+          "translation_log_error_m": 2.371437420133774e-16,
+          "rotation_error_rad": 4.48405047021136e-16,
+          "converged": true
+        },
+        {
+          "frame": 95,
+          "time_s": 9.50664,
+          "translation_log_error_m": 1.4946834900704541e-16,
+          "rotation_error_rad": 1.3877787807814442e-16,
+          "converged": true
+        },
+        {
+          "frame": 96,
+          "time_s": 9.60664,
+          "translation_log_error_m": 8.326672684688675e-17,
+          "rotation_error_rad": 1.2719202621568993e-16,
+          "converged": true
+        },
+        {
+          "frame": 97,
+          "time_s": 9.7068,
+          "translation_log_error_m": 6.206335383118183e-17,
+          "rotation_error_rad": 3.723801229870908e-16,
+          "converged": true
+        },
+        {
+          "frame": 98,
+          "time_s": 9.8068,
+          "translation_log_error_m": 5.551115123125783e-17,
+          "rotation_error_rad": 2.077037090527611e-16,
+          "converged": true
+        },
+        {
+          "frame": 99,
+          "time_s": 9.9068,
+          "translation_log_error_m": 1.3597399555105182e-16,
+          "rotation_error_rad": 3.376611507232128e-16,
+          "converged": true
+        },
+        {
+          "frame": 100,
+          "time_s": 10.00696,
+          "translation_log_error_m": 1.3597399555105182e-16,
+          "rotation_error_rad": 5.147892387644515e-16,
+          "converged": true
+        },
+        {
+          "frame": 101,
+          "time_s": 10.10696,
+          "translation_log_error_m": 1.2013732183451492e-10,
+          "rotation_error_rad": 1.5498462621056083e-10,
+          "converged": true
+        },
+        {
+          "frame": 102,
+          "time_s": 10.20728,
+          "translation_log_error_m": 2.6849857448853647e-11,
+          "rotation_error_rad": 6.878448203263093e-11,
+          "converged": true
+        },
+        {
+          "frame": 103,
+          "time_s": 10.30728,
+          "translation_log_error_m": 2.4938949279305074e-12,
+          "rotation_error_rad": 7.621250679613549e-12,
+          "converged": true
+        },
+        {
+          "frame": 104,
+          "time_s": 10.40744,
+          "translation_log_error_m": 2.654769837288247e-13,
+          "rotation_error_rad": 1.8307168028476785e-13,
+          "converged": true
+        },
+        {
+          "frame": 105,
+          "time_s": 10.50744,
+          "translation_log_error_m": 2.5174675669825046e-12,
+          "rotation_error_rad": 3.4424088185551666e-12,
+          "converged": true
+        },
+        {
+          "frame": 106,
+          "time_s": 10.6076,
+          "translation_log_error_m": 5.551115123125783e-17,
+          "rotation_error_rad": 1.861900614935455e-16,
+          "converged": true
+        },
+        {
+          "frame": 107,
+          "time_s": 10.7076,
+          "translation_log_error_m": 1.7772239894833365e-16,
+          "rotation_error_rad": 7.850462293418873e-17,
+          "converged": true
+        },
+        {
+          "frame": 108,
+          "time_s": 10.8076,
+          "translation_log_error_m": 2.0206364052201323e-16,
+          "rotation_error_rad": 2.4980018054066017e-16,
+          "converged": true
+        },
+        {
+          "frame": 109,
+          "time_s": 10.90776,
+          "translation_log_error_m": 9.650801630464004e-16,
+          "rotation_error_rad": 1.7643903088907292e-15,
+          "converged": true
+        },
+        {
+          "frame": 110,
+          "time_s": 11.00776,
+          "translation_log_error_m": 1.6985414498009991e-15,
+          "rotation_error_rad": 5.424209304075099e-15,
+          "converged": true
+        },
+        {
+          "frame": 111,
+          "time_s": 11.10792,
+          "translation_log_error_m": 2.020636405220133e-16,
+          "rotation_error_rad": 1.2490009027032997e-15,
+          "converged": true
+        },
+        {
+          "frame": 112,
+          "time_s": 11.20792,
+          "translation_log_error_m": 2.1995308636845124e-15,
+          "rotation_error_rad": 5.13448141984662e-15,
+          "converged": true
+        },
+        {
+          "frame": 113,
+          "time_s": 11.30808,
+          "translation_log_error_m": 4.2798710603467305e-14,
+          "rotation_error_rad": 8.259201223373495e-14,
+          "converged": true
+        },
+        {
+          "frame": 114,
+          "time_s": 11.40808,
+          "translation_log_error_m": 2.686217301988034e-13,
+          "rotation_error_rad": 4.3550683152199153e-13,
+          "converged": true
+        },
+        {
+          "frame": 115,
+          "time_s": 11.50824,
+          "translation_log_error_m": 1.2914461248969947e-12,
+          "rotation_error_rad": 1.8345576771089976e-12,
+          "converged": true
+        },
+        {
+          "frame": 116,
+          "time_s": 11.60824,
+          "translation_log_error_m": 1.2113333070894093e-11,
+          "rotation_error_rad": 2.006598011491299e-11,
+          "converged": true
+        },
+        {
+          "frame": 117,
+          "time_s": 11.70824,
+          "translation_log_error_m": 3.381162414749071e-11,
+          "rotation_error_rad": 5.880400886820503e-11,
+          "converged": true
+        }
+      ],
+      "interpretation": "Local numerical IK only. Failed samples do not prove global unreachability. Full-frame mode reports step/velocity diagnostics; acceleration acceptance and collision checking remain absent.",
+      "dynamics": {
+        "max_step_rad": 0.12747153692488578,
+        "max_velocity_rad_s": 1.274715369248858,
+        "max_acceleration_rad_s2": 10.095310223716686
+      },
+      "urdf_velocity_limits_passed": true,
+      "max_joint_step_under_0p2_rad": true
+    },
+    "right": {
+      "urdf": {
+        "path": "/media/descfly/新加卷/ty/adaptation_resources/sources/aubo_description/urdf/aubo_i7H.urdf",
+        "sha256": "6358243ae83f1e560706e35d2799e5880103e581148775638e7a143ba9e10a59"
+      },
+      "converged_samples": 118,
+      "failed_samples": 0,
+      "samples": [
+        {
+          "frame": 0,
+          "time_s": 0.0,
+          "translation_log_error_m": 2.1975596918116656e-12,
+          "rotation_error_rad": 3.130745654227071e-12,
+          "converged": true
+        },
+        {
+          "frame": 1,
+          "time_s": 0.1,
+          "translation_log_error_m": 2.569856116230711e-13,
+          "rotation_error_rad": 1.739570422041403e-13,
+          "converged": true
+        },
+        {
+          "frame": 2,
+          "time_s": 0.20016,
+          "translation_log_error_m": 4.4240802614283615e-13,
+          "rotation_error_rad": 3.1291388895396985e-13,
+          "converged": true
+        },
+        {
+          "frame": 3,
+          "time_s": 0.30016,
+          "translation_log_error_m": 2.6376428866748524e-13,
+          "rotation_error_rad": 1.8419269178565535e-13,
+          "converged": true
+        },
+        {
+          "frame": 4,
+          "time_s": 0.40016,
+          "translation_log_error_m": 1.0501081687284757e-13,
+          "rotation_error_rad": 7.811484151577113e-14,
+          "converged": true
+        },
+        {
+          "frame": 5,
+          "time_s": 0.50032,
+          "translation_log_error_m": 6.43681420548405e-14,
+          "rotation_error_rad": 4.3752683660812693e-14,
+          "converged": true
+        },
+        {
+          "frame": 6,
+          "time_s": 0.60032,
+          "translation_log_error_m": 3.5711399298969764e-13,
+          "rotation_error_rad": 2.703819851614171e-13,
+          "converged": true
+        },
+        {
+          "frame": 7,
+          "time_s": 0.70048,
+          "translation_log_error_m": 1.0962256891433256e-12,
+          "rotation_error_rad": 8.94747591935164e-13,
+          "converged": true
+        },
+        {
+          "frame": 8,
+          "time_s": 0.80048,
+          "translation_log_error_m": 5.448075676743944e-13,
+          "rotation_error_rad": 4.3110016515138083e-13,
+          "converged": true
+        },
+        {
+          "frame": 9,
+          "time_s": 0.90064,
+          "translation_log_error_m": 5.004287179811582e-14,
+          "rotation_error_rad": 3.912887493707403e-14,
+          "converged": true
+        },
+        {
+          "frame": 10,
+          "time_s": 1.00064,
+          "translation_log_error_m": 1.2887676222033018e-15,
+          "rotation_error_rad": 3.4219371797089505e-16,
+          "converged": true
+        },
+        {
+          "frame": 11,
+          "time_s": 1.1008,
+          "translation_log_error_m": 2.0206364052201328e-16,
+          "rotation_error_rad": 3.2368285245694697e-16,
+          "converged": true
+        },
+        {
+          "frame": 12,
+          "time_s": 1.2008,
+          "translation_log_error_m": 1.144391699630559e-16,
+          "rotation_error_rad": 1.5944364291470314e-16,
+          "converged": true
+        },
+        {
+          "frame": 13,
+          "time_s": 1.3008,
+          "translation_log_error_m": 2.775557561562892e-17,
+          "rotation_error_rad": 2.543840524313807e-16,
+          "converged": true
+        },
+        {
+          "frame": 14,
+          "time_s": 1.40096,
+          "translation_log_error_m": 8.326672684688675e-17,
+          "rotation_error_rad": 2.4355418757871286e-16,
+          "converged": true
+        },
+        {
+          "frame": 15,
+          "time_s": 1.50096,
+          "translation_log_error_m": 1.6883057536160646e-16,
+          "rotation_error_rad": 1.665334536937734e-16,
+          "converged": true
+        },
+        {
+          "frame": 16,
+          "time_s": 1.60112,
+          "translation_log_error_m": 1.8619006149354548e-16,
+          "rotation_error_rad": 6.335327934766304e-16,
+          "converged": true
+        },
+        {
+          "frame": 17,
+          "time_s": 1.70112,
+          "translation_log_error_m": 1.7554167342883506e-16,
+          "rotation_error_rad": 3.6506759942727877e-16,
+          "converged": true
+        },
+        {
+          "frame": 18,
+          "time_s": 1.80128,
+          "translation_log_error_m": 1.1443916996305594e-16,
+          "rotation_error_rad": 4.552252871008683e-16,
+          "converged": true
+        },
+        {
+          "frame": 19,
+          "time_s": 1.90128,
+          "translation_log_error_m": 9.614813431917823e-17,
+          "rotation_error_rad": 3.973993651728102e-16,
+          "converged": true
+        },
+        {
+          "frame": 20,
+          "time_s": 2.00128,
+          "translation_log_error_m": 1.3991122883725906e-15,
+          "rotation_error_rad": 1.2462222543165632e-15,
+          "converged": true
+        },
+        {
+          "frame": 21,
+          "time_s": 2.10144,
+          "translation_log_error_m": 5.416534537951124e-15,
+          "rotation_error_rad": 1.1316244656167569e-14,
+          "converged": true
+        },
+        {
+          "frame": 22,
+          "time_s": 2.20144,
+          "translation_log_error_m": 3.4987882009799294e-14,
+          "rotation_error_rad": 7.780871556125522e-14,
+          "converged": true
+        },
+        {
+          "frame": 23,
+          "time_s": 2.3016,
+          "translation_log_error_m": 8.19624591694812e-14,
+          "rotation_error_rad": 1.9069339507554568e-13,
+          "converged": true
+        },
+        {
+          "frame": 24,
+          "time_s": 2.4016,
+          "translation_log_error_m": 1.4792438637944267e-13,
+          "rotation_error_rad": 3.091591902854638e-13,
+          "converged": true
+        },
+        {
+          "frame": 25,
+          "time_s": 2.50176,
+          "translation_log_error_m": 1.597632727839705e-13,
+          "rotation_error_rad": 3.2828856138510436e-13,
+          "converged": true
+        },
+        {
+          "frame": 26,
+          "time_s": 2.60176,
+          "translation_log_error_m": 8.452562164578578e-14,
+          "rotation_error_rad": 1.760758174402639e-13,
+          "converged": true
+        },
+        {
+          "frame": 27,
+          "time_s": 2.70192,
+          "translation_log_error_m": 7.327566583195617e-14,
+          "rotation_error_rad": 1.4914490258866146e-13,
+          "converged": true
+        },
+        {
+          "frame": 28,
+          "time_s": 2.80192,
+          "translation_log_error_m": 6.951279600170972e-14,
+          "rotation_error_rad": 1.3366506578590817e-13,
+          "converged": true
+        },
+        {
+          "frame": 29,
+          "time_s": 2.90192,
+          "translation_log_error_m": 3.8369179634352684e-14,
+          "rotation_error_rad": 7.709813478692456e-14,
+          "converged": true
+        },
+        {
+          "frame": 30,
+          "time_s": 3.00208,
+          "translation_log_error_m": 8.610359343441932e-15,
+          "rotation_error_rad": 1.6890470764963382e-14,
+          "converged": true
+        },
+        {
+          "frame": 31,
+          "time_s": 3.10208,
+          "translation_log_error_m": 9.205483015737868e-16,
+          "rotation_error_rad": 2.3780876116532627e-15,
+          "converged": true
+        },
+        {
+          "frame": 32,
+          "time_s": 3.20224,
+          "translation_log_error_m": 2.9893669801409083e-16,
+          "rotation_error_rad": 1.1541114112329905e-15,
+          "converged": true
+        },
+        {
+          "frame": 33,
+          "time_s": 3.30224,
+          "translation_log_error_m": 5.417672226377438e-16,
+          "rotation_error_rad": 1.4185244467036138e-15,
+          "converged": true
+        },
+        {
+          "frame": 34,
+          "time_s": 3.4024,
+          "translation_log_error_m": 1.777223989483336e-16,
+          "rotation_error_rad": 7.591035761743315e-16,
+          "converged": true
+        },
+        {
+          "frame": 35,
+          "time_s": 3.5024,
+          "translation_log_error_m": 2.0770370905276122e-16,
+          "rotation_error_rad": 6.335327934766307e-16,
+          "converged": true
+        },
+        {
+          "frame": 36,
+          "time_s": 3.6024,
+          "translation_log_error_m": 6.156484492430789e-16,
+          "rotation_error_rad": 1.3101102115615717e-15,
+          "converged": true
+        },
+        {
+          "frame": 37,
+          "time_s": 3.70256,
+          "translation_log_error_m": 2.8382705599330953e-15,
+          "rotation_error_rad": 5.631578249497532e-15,
+          "converged": true
+        },
+        {
+          "frame": 38,
+          "time_s": 3.80256,
+          "translation_log_error_m": 1.9885470479261668e-15,
+          "rotation_error_rad": 4.3005918711195605e-15,
+          "converged": true
+        },
+        {
+          "frame": 39,
+          "time_s": 3.90272,
+          "translation_log_error_m": 0.0,
+          "rotation_error_rad": 3.521787733787189e-16,
+          "converged": true
+        },
+        {
+          "frame": 40,
+          "time_s": 4.00272,
+          "translation_log_error_m": 8.326672684688672e-17,
+          "rotation_error_rad": 3.477763656540213e-16,
+          "converged": true
+        },
+        {
+          "frame": 41,
+          "time_s": 4.10288,
+          "translation_log_error_m": 5.551115123125783e-17,
+          "rotation_error_rad": 2.0206364052201316e-16,
+          "converged": true
+        },
+        {
+          "frame": 42,
+          "time_s": 4.20312,
+          "translation_log_error_m": 1.4946834900704541e-16,
+          "rotation_error_rad": 4.619448428525902e-16,
+          "converged": true
+        },
+        {
+          "frame": 43,
+          "time_s": 4.30312,
+          "translation_log_error_m": 5.551115123125783e-17,
+          "rotation_error_rad": 2.543840524313811e-16,
+          "converged": true
+        },
+        {
+          "frame": 44,
+          "time_s": 4.40328,
+          "translation_log_error_m": 6.206335383118183e-17,
+          "rotation_error_rad": 4.44955726205438e-16,
+          "converged": true
+        },
+        {
+          "frame": 45,
+          "time_s": 4.50328,
+          "translation_log_error_m": 4.006069861164649e-11,
+          "rotation_error_rad": 3.6097604546702146e-11,
+          "converged": true
+        },
+        {
+          "frame": 46,
+          "time_s": 4.60328,
+          "translation_log_error_m": 4.133586589095336e-11,
+          "rotation_error_rad": 1.0615701352536992e-11,
+          "converged": true
+        },
+        {
+          "frame": 47,
+          "time_s": 4.70344,
+          "translation_log_error_m": 7.221643032002467e-11,
+          "rotation_error_rad": 3.015161555723033e-11,
+          "converged": true
+        },
+        {
+          "frame": 48,
+          "time_s": 4.80344,
+          "translation_log_error_m": 1.4049067560859196e-10,
+          "rotation_error_rad": 8.901663407262777e-11,
+          "converged": true
+        },
+        {
+          "frame": 49,
+          "time_s": 4.9036,
+          "translation_log_error_m": 9.127777837117908e-11,
+          "rotation_error_rad": 1.6236523299619148e-11,
+          "converged": true
+        },
+        {
+          "frame": 50,
+          "time_s": 5.0036,
+          "translation_log_error_m": 4.2257597513413086e-11,
+          "rotation_error_rad": 2.3012569048433535e-11,
+          "converged": true
+        },
+        {
+          "frame": 51,
+          "time_s": 5.10376,
+          "translation_log_error_m": 3.09124142003382e-11,
+          "rotation_error_rad": 1.5130468164461318e-11,
+          "converged": true
+        },
+        {
+          "frame": 52,
+          "time_s": 5.20376,
+          "translation_log_error_m": 2.055536811891927e-11,
+          "rotation_error_rad": 5.357296681729189e-12,
+          "converged": true
+        },
+        {
+          "frame": 53,
+          "time_s": 5.30392,
+          "translation_log_error_m": 5.5511151231257815e-17,
+          "rotation_error_rad": 4.3797559573675726e-16,
+          "converged": true
+        },
+        {
+          "frame": 54,
+          "time_s": 5.40392,
+          "translation_log_error_m": 2.0206364052201326e-16,
+          "rotation_error_rad": 7.991485278462351e-16,
+          "converged": true
+        },
+        {
+          "frame": 55,
+          "time_s": 5.50392,
+          "translation_log_error_m": 1.2578788897946414e-14,
+          "rotation_error_rad": 1.4200903676201165e-14,
+          "converged": true
+        },
+        {
+          "frame": 56,
+          "time_s": 5.60408,
+          "translation_log_error_m": 9.579081285277385e-14,
+          "rotation_error_rad": 1.0013376595267497e-13,
+          "converged": true
+        },
+        {
+          "frame": 57,
+          "time_s": 5.70408,
+          "translation_log_error_m": 2.0930995404657734e-13,
+          "rotation_error_rad": 2.2265115867120365e-13,
+          "converged": true
+        },
+        {
+          "frame": 58,
+          "time_s": 5.80424,
+          "translation_log_error_m": 3.608880538626883e-13,
+          "rotation_error_rad": 3.64660599673357e-13,
+          "converged": true
+        },
+        {
+          "frame": 59,
+          "time_s": 5.90424,
+          "translation_log_error_m": 5.040043022153563e-13,
+          "rotation_error_rad": 5.2314805996262e-13,
+          "converged": true
+        },
+        {
+          "frame": 60,
+          "time_s": 6.0044,
+          "translation_log_error_m": 4.623147250956886e-13,
+          "rotation_error_rad": 4.837855302470651e-13,
+          "converged": true
+        },
+        {
+          "frame": 61,
+          "time_s": 6.1044,
+          "translation_log_error_m": 1.2193978369303756e-13,
+          "rotation_error_rad": 1.188691948406667e-13,
+          "converged": true
+        },
+        {
+          "frame": 62,
+          "time_s": 6.2044,
+          "translation_log_error_m": 2.0345346592515712e-13,
+          "rotation_error_rad": 1.9008564981294092e-13,
+          "converged": true
+        },
+        {
+          "frame": 63,
+          "time_s": 6.30456,
+          "translation_log_error_m": 2.251623696614767e-12,
+          "rotation_error_rad": 1.0359462777027451e-12,
+          "converged": true
+        },
+        {
+          "frame": 64,
+          "time_s": 6.40456,
+          "translation_log_error_m": 4.3318193559942696e-11,
+          "rotation_error_rad": 2.315643285130368e-11,
+          "converged": true
+        },
+        {
+          "frame": 65,
+          "time_s": 6.50472,
+          "translation_log_error_m": 4.0083903134146807e-10,
+          "rotation_error_rad": 2.0741273221450984e-10,
+          "converged": true
+        },
+        {
+          "frame": 66,
+          "time_s": 6.60472,
+          "translation_log_error_m": 2.5438405243138006e-16,
+          "rotation_error_rad": 4.370952418903805e-16,
+          "converged": true
+        },
+        {
+          "frame": 67,
+          "time_s": 6.70488,
+          "translation_log_error_m": 7.850462293418875e-17,
+          "rotation_error_rad": 1.241267076623627e-16,
+          "converged": true
+        },
+        {
+          "frame": 68,
+          "time_s": 6.80488,
+          "translation_log_error_m": 2.455403790068367e-10,
+          "rotation_error_rad": 2.3118400538579066e-12,
+          "converged": true
+        },
+        {
+          "frame": 69,
+          "time_s": 6.90504,
+          "translation_log_error_m": 5.551115123125782e-17,
+          "rotation_error_rad": 2.4825341532472514e-16,
+          "converged": true
+        },
+        {
+          "frame": 70,
+          "time_s": 7.00488,
+          "translation_log_error_m": 1.615643786360509e-10,
+          "rotation_error_rad": 8.353715944410147e-13,
+          "converged": true
+        },
+        {
+          "frame": 71,
+          "time_s": 7.10488,
+          "translation_log_error_m": 3.222487756880121e-12,
+          "rotation_error_rad": 4.45313627655638e-12,
+          "converged": true
+        },
+        {
+          "frame": 72,
+          "time_s": 7.20504,
+          "translation_log_error_m": 1.570092458683775e-16,
+          "rotation_error_rad": 3.1524274001216904e-16,
+          "converged": true
+        },
+        {
+          "frame": 73,
+          "time_s": 7.30504,
+          "translation_log_error_m": 1.5700924586837752e-16,
+          "rotation_error_rad": 2.5133742693021275e-16,
+          "converged": true
+        },
+        {
+          "frame": 74,
+          "time_s": 7.40504,
+          "translation_log_error_m": 1.2412670766236363e-16,
+          "rotation_error_rad": 1.841096603147556e-16,
+          "converged": true
+        },
+        {
+          "frame": 75,
+          "time_s": 7.5052,
+          "translation_log_error_m": 2.567359672415853e-12,
+          "rotation_error_rad": 2.4614329259217026e-14,
+          "converged": true
+        },
+        {
+          "frame": 76,
+          "time_s": 7.6052,
+          "translation_log_error_m": 1.069497963881145e-12,
+          "rotation_error_rad": 2.2621679563354227e-14,
+          "converged": true
+        },
+        {
+          "frame": 77,
+          "time_s": 7.70536,
+          "translation_log_error_m": 8.920211927883077e-15,
+          "rotation_error_rad": 4.670035405673147e-15,
+          "converged": true
+        },
+        {
+          "frame": 78,
+          "time_s": 7.80536,
+          "translation_log_error_m": 2.319542604187339e-15,
+          "rotation_error_rad": 1.3009639638081742e-15,
+          "converged": true
+        },
+        {
+          "frame": 79,
+          "time_s": 7.90552,
+          "translation_log_error_m": 9.104505742017336e-16,
+          "rotation_error_rad": 1.2243953073705525e-15,
+          "converged": true
+        },
+        {
+          "frame": 80,
+          "time_s": 8.00552,
+          "translation_log_error_m": 2.385828673644663e-12,
+          "rotation_error_rad": 1.3883234880755946e-13,
+          "converged": true
+        },
+        {
+          "frame": 81,
+          "time_s": 8.10568,
+          "translation_log_error_m": 7.282679608490091e-11,
+          "rotation_error_rad": 2.6721937176000433e-11,
+          "converged": true
+        },
+        {
+          "frame": 82,
+          "time_s": 8.20568,
+          "translation_log_error_m": 1.2412670766236366e-16,
+          "rotation_error_rad": 8.777083671441759e-17,
+          "converged": true
+        },
+        {
+          "frame": 83,
+          "time_s": 8.30568,
+          "translation_log_error_m": 1.0184822036594726e-10,
+          "rotation_error_rad": 4.446539023030114e-11,
+          "converged": true
+        },
+        {
+          "frame": 84,
+          "time_s": 8.40584,
+          "translation_log_error_m": 4.926707510328808e-12,
+          "rotation_error_rad": 1.4714312608605786e-12,
+          "converged": true
+        },
+        {
+          "frame": 85,
+          "time_s": 8.50584,
+          "translation_log_error_m": 1.4158498044547038e-12,
+          "rotation_error_rad": 2.1970935678960406e-14,
+          "converged": true
+        },
+        {
+          "frame": 86,
+          "time_s": 8.606,
+          "translation_log_error_m": 9.98136613158896e-13,
+          "rotation_error_rad": 2.4234077015467657e-13,
+          "converged": true
+        },
+        {
+          "frame": 87,
+          "time_s": 8.706,
+          "translation_log_error_m": 1.5154282232599717e-13,
+          "rotation_error_rad": 1.5372232552402188e-13,
+          "converged": true
+        },
+        {
+          "frame": 88,
+          "time_s": 8.80616,
+          "translation_log_error_m": 9.606895978742657e-14,
+          "rotation_error_rad": 2.7919732362521894e-13,
+          "converged": true
+        },
+        {
+          "frame": 89,
+          "time_s": 8.90616,
+          "translation_log_error_m": 4.599449789061109e-14,
+          "rotation_error_rad": 5.4635636235375083e-14,
+          "converged": true
+        },
+        {
+          "frame": 90,
+          "time_s": 9.00616,
+          "translation_log_error_m": 8.261719248133128e-14,
+          "rotation_error_rad": 3.848328325436906e-15,
+          "converged": true
+        },
+        {
+          "frame": 91,
+          "time_s": 9.10632,
+          "translation_log_error_m": 1.3118434909733238e-13,
+          "rotation_error_rad": 1.2236904165191641e-14,
+          "converged": true
+        },
+        {
+          "frame": 92,
+          "time_s": 9.20632,
+          "translation_log_error_m": 8.224514257163456e-14,
+          "rotation_error_rad": 1.0739363553471887e-14,
+          "converged": true
+        },
+        {
+          "frame": 93,
+          "time_s": 9.30648,
+          "translation_log_error_m": 2.76056235090354e-14,
+          "rotation_error_rad": 3.4169807864331213e-15,
+          "converged": true
+        },
+        {
+          "frame": 94,
+          "time_s": 9.40648,
+          "translation_log_error_m": 5.228077827533143e-15,
+          "rotation_error_rad": 1.5866869960086574e-15,
+          "converged": true
+        },
+        {
+          "frame": 95,
+          "time_s": 9.50664,
+          "translation_log_error_m": 5.495323605393213e-16,
+          "rotation_error_rad": 4.0029660424867077e-16,
+          "converged": true
+        },
+        {
+          "frame": 96,
+          "time_s": 9.60664,
+          "translation_log_error_m": 5.551115123125784e-17,
+          "rotation_error_rad": 6.49741366860444e-16,
+          "converged": true
+        },
+        {
+          "frame": 97,
+          "time_s": 9.7068,
+          "translation_log_error_m": 1.3597399555105185e-16,
+          "rotation_error_rad": 6.684427777288304e-16,
+          "converged": true
+        },
+        {
+          "frame": 98,
+          "time_s": 9.8068,
+          "translation_log_error_m": 1.1102230246251565e-16,
+          "rotation_error_rad": 1.7554167342883403e-16,
+          "converged": true
+        },
+        {
+          "frame": 99,
+          "time_s": 9.9068,
+          "translation_log_error_m": 7.850462293418877e-17,
+          "rotation_error_rad": 2.077037090527606e-16,
+          "converged": true
+        },
+        {
+          "frame": 100,
+          "time_s": 10.00696,
+          "translation_log_error_m": 1.2412670766236363e-16,
+          "rotation_error_rad": 3.4219371797089234e-16,
+          "converged": true
+        },
+        {
+          "frame": 101,
+          "time_s": 10.10696,
+          "translation_log_error_m": 7.850462293418875e-17,
+          "rotation_error_rad": 3.040470972244049e-16,
+          "converged": true
+        },
+        {
+          "frame": 102,
+          "time_s": 10.20728,
+          "translation_log_error_m": 5.551115123125783e-17,
+          "rotation_error_rad": 4.475452091311792e-16,
+          "converged": true
+        },
+        {
+          "frame": 103,
+          "time_s": 10.30728,
+          "translation_log_error_m": 7.850462293418875e-17,
+          "rotation_error_rad": 3.9252311467094186e-16,
+          "converged": true
+        },
+        {
+          "frame": 104,
+          "time_s": 10.40744,
+          "translation_log_error_m": 7.850462293418875e-16,
+          "rotation_error_rad": 7.57071166700751e-16,
+          "converged": true
+        },
+        {
+          "frame": 105,
+          "time_s": 10.50744,
+          "translation_log_error_m": 2.572149790536903e-15,
+          "rotation_error_rad": 2.0814831257767857e-15,
+          "converged": true
+        },
+        {
+          "frame": 106,
+          "time_s": 10.6076,
+          "translation_log_error_m": 2.841932408552728e-15,
+          "rotation_error_rad": 2.0658801409476952e-15,
+          "converged": true
+        },
+        {
+          "frame": 107,
+          "time_s": 10.7076,
+          "translation_log_error_m": 3.283145551562781e-15,
+          "rotation_error_rad": 1.703749280903858e-15,
+          "converged": true
+        },
+        {
+          "frame": 108,
+          "time_s": 10.8076,
+          "translation_log_error_m": 7.02978105128609e-15,
+          "rotation_error_rad": 9.689041707476047e-15,
+          "converged": true
+        },
+        {
+          "frame": 109,
+          "time_s": 10.90776,
+          "translation_log_error_m": 1.3241591430977054e-14,
+          "rotation_error_rad": 2.3429520256395457e-14,
+          "converged": true
+        },
+        {
+          "frame": 110,
+          "time_s": 11.00776,
+          "translation_log_error_m": 7.262528391947649e-14,
+          "rotation_error_rad": 1.7102712730815378e-13,
+          "converged": true
+        },
+        {
+          "frame": 111,
+          "time_s": 11.10792,
+          "translation_log_error_m": 1.0706991669719224e-12,
+          "rotation_error_rad": 2.805744731288566e-12,
+          "converged": true
+        },
+        {
+          "frame": 112,
+          "time_s": 11.20792,
+          "translation_log_error_m": 1.492818511597431e-11,
+          "rotation_error_rad": 3.775431760818332e-11,
+          "converged": true
+        },
+        {
+          "frame": 113,
+          "time_s": 11.30808,
+          "translation_log_error_m": 1.2412670766236368e-16,
+          "rotation_error_rad": 4.0792198665315443e-16,
+          "converged": true
+        },
+        {
+          "frame": 114,
+          "time_s": 11.40808,
+          "translation_log_error_m": 1.2412670766236368e-16,
+          "rotation_error_rad": 3.5544479789666656e-16,
+          "converged": true
+        },
+        {
+          "frame": 115,
+          "time_s": 11.50824,
+          "translation_log_error_m": 3.3766115072321297e-16,
+          "rotation_error_rad": 5.688200336284359e-16,
+          "converged": true
+        },
+        {
+          "frame": 116,
+          "time_s": 11.60824,
+          "translation_log_error_m": 3.0303191209571215e-15,
+          "rotation_error_rad": 3.2520249861615735e-15,
+          "converged": true
+        },
+        {
+          "frame": 117,
+          "time_s": 11.70824,
+          "translation_log_error_m": 7.256105899148541e-15,
+          "rotation_error_rad": 8.077587822359378e-15,
+          "converged": true
+        }
+      ],
+      "interpretation": "Local numerical IK only. Failed samples do not prove global unreachability. Full-frame mode reports step/velocity diagnostics; acceleration acceptance and collision checking remain absent.",
+      "dynamics": {
+        "max_step_rad": 0.19233536581885535,
+        "max_velocity_rad_s": 1.9233536581885604,
+        "max_acceleration_rad_s2": 9.124625267603804
+      },
+      "urdf_velocity_limits_passed": true,
+      "max_joint_step_under_0p2_rad": true
+    }
+  },
+  "sampled_frames": 118,
+  "total_frames": 118
+}

@@ -10,7 +10,7 @@
   "maximum_tick_lateness_s": 0.03,
   "arm_tracking_error_rad": 0.35,
   "hand_tracking_error_rad": 0.5,
-  "mesh_clearance_m": 0.005,
+  "mesh_clearance_m": 0.002,
   "hands": {
     "left": {
       "address": "192.168.1.110:50001",

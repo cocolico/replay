@@ -1,0 +1,123 @@
+{
+  "dataset": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory_4_pack",
+  "frames": 118,
+  "duration_s": 11.70824,
+  "controller_ik_passed_all_frames": true,
+  "branch_discontinuities": {
+    "left": 0,
+    "right": 0
+  },
+  "failed_collision_frames": 19,
+  "collision_categories_frame_counts": {
+    "arm_table": 16,
+    "hand_table": 18
+  },
+  "collision_frame_range": [
+    12,
+    80
+  ],
+  "collision_source_time_range_s": [
+    1.2008,
+    8.00552
+  ],
+  "minimum_hand_table_clearance": {
+    "frame": 71,
+    "time_s": 7.10488,
+    "body": "right:hand:r_pinky_distal",
+    "clearance_m": -0.05156857269174905
+  },
+  "flange_origin_plane_check": {
+    "left": {
+      "minimum_flange_origin_height_m": 0.039476634167244805,
+      "frame": 18,
+      "time_s": 1.80128
+    },
+    "right": {
+      "minimum_flange_origin_height_m": 0.011382309841805938,
+      "frame": 71,
+      "time_s": 7.10488
+    }
+  },
+  "live_controller_snapshots": {
+    "left": {
+      "robot_type": "aubo_i7H",
+      "payload": [
+        1.238,
+        [
+          0.00434,
+          0.02465,
+          0.0013
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "tcp_offset_sdk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "RobotModeType.Running",
+      "safety": "SafetyModeType.Normal",
+      "steady": true,
+      "servo_mode_enabled": false
+    },
+    "right": {
+      "robot_type": "aubo_i7H",
+      "payload": [
+        0.632,
+        [
+          -0.0073,
+          0.03246,
+          0.15035
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "tcp_offset_sdk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "RobotModeType.Running",
+      "safety": "SafetyModeType.Normal",
+      "steady": true,
+      "servo_mode_enabled": false
+    }
+  },
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "reason": "Source-frame mesh collision check failed; no runtime interpolation/start transition or device enable/motion commands attempted.",
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/config/human_replay_try_4_pack.json",
+    "sha256": "62752fc33cfc57d9e3182826e367a9aad08507b26bfcf90217e95d4740d70ca5"
+  },
+  "scope_limitation": "Calibrated infinite table plane, not a measured finite tabletop volume."
+}

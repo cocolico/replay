@@ -1,0 +1,213 @@
+{
+  "method": "weighted absolute 21-point geometric IK followed by user-confirmed local-Z orientation correction",
+  "target": "official early hand2_beta; same URDF bytes as local OpenPI referenced control stack",
+  "root_frame": "each source Sharpa hand_C_MC frame; left/right have distinct local frames",
+  "weights": {
+    "tips": 1,
+    "wrist": 0.1,
+    "intermediate": 0.05,
+    "joint_temporal": 2.5e-05,
+    "first_frame_joint_temporal": 1e-08
+  },
+  "frames": 909,
+  "fps": 30,
+  "sides": {
+    "left": {
+      "tip_error_mm": {
+        "mean": 84.92073471021918,
+        "rmse": 95.8917524288492,
+        "p95": 152.96603665790303,
+        "max": 153.5836027036421
+      },
+      "all_point_error_mm": {
+        "mean": 59.39659207607125,
+        "rmse": 70.18285771501876,
+        "p95": 128.40178704049117,
+        "max": 153.5836027036421
+      },
+      "per_finger_tip_mean_mm": [
+        148.11036328539586,
+        39.321176317434016,
+        59.11947145109284,
+        74.89683975678363,
+        103.15582274038957
+      ],
+      "joint_step_deg": {
+        "mean": 0.049990647112522366,
+        "rmse": 0.25091621172696676,
+        "p95": 0.2410544304983511,
+        "max": 6.19991086007284
+      },
+      "joint_speed_max_rad_s": 3.2462657676154065,
+      "urdf_speed_exceedances": 0,
+      "joint_limit_violation_max_rad": 0.0,
+      "frames_at_joint_limit": 0,
+      "source_joint_limit_violation_max_rad": 0.0,
+      "wrist_point_error_mm": {
+        "mean": 28.957673974108648,
+        "rmse": 29.046992139061658,
+        "p95": 30.041241114280933,
+        "max": 30.0476290969567
+      },
+      "root_step_mm": {
+        "mean": 0.03237275173767956,
+        "rmse": 0.13072176431315982,
+        "p95": 0.17709133698256443,
+        "max": 1.476253494267186
+      },
+      "root_rotation_step_deg": {
+        "mean": 0.03876916777539908,
+        "rmse": 0.14027485463164313,
+        "p95": 0.2543480987421361,
+        "max": 1.3363908495214023
+      },
+      "independent_fk_max_m": 1.1102230246251565e-16,
+      "source_independent_fk_max_m": 1.1102230246251565e-16,
+      "all_link_transform_max_abs": 1.2212453270876722e-15,
+      "solver_budget_exhausted_frames": 0,
+      "max_nfev": 49,
+      "pre_alignment_fit": {
+        "tip_error_mm": {
+          "mean": 1.7674762736422853,
+          "rmse": 2.335605161897115,
+          "p95": 4.839156789224694,
+          "max": 5.067551505505385
+        },
+        "all_point_error_mm": {
+          "mean": 8.415297339351207,
+          "rmse": 11.532879409762293,
+          "p95": 27.891920159405004,
+          "max": 29.65973466544737
+        },
+        "wrist_point_error_mm": {
+          "mean": 26.956907727102987,
+          "rmse": 27.03460602860845,
+          "p95": 27.90296345465614,
+          "max": 27.90915465236857
+        }
+      },
+      "alignment_independent_fk_max_m": 1.942890293094024e-16
+    },
+    "right": {
+      "tip_error_mm": {
+        "mean": 86.51091307649615,
+        "rmse": 98.8387748801743,
+        "p95": 153.95597898141446,
+        "max": 154.23908806274798
+      },
+      "all_point_error_mm": {
+        "mean": 60.87261011661175,
+        "rmse": 71.68804675915773,
+        "p95": 131.56934178713487,
+        "max": 154.23908806274798
+      },
+      "per_finger_tip_mean_mm": [
+        145.92312650450435,
+        22.305057612240663,
+        65.0884558523417,
+        87.84538415698124,
+        111.39254125641288
+      ],
+      "joint_step_deg": {
+        "mean": 0.06148894281523126,
+        "rmse": 0.2332029389025446,
+        "p95": 0.3536800117199162,
+        "max": 4.464939090785355
+      },
+      "joint_speed_max_rad_s": 2.337836664434446,
+      "urdf_speed_exceedances": 0,
+      "joint_limit_violation_max_rad": 0.0,
+      "frames_at_joint_limit": 0,
+      "source_joint_limit_violation_max_rad": 0.0,
+      "wrist_point_error_mm": {
+        "mean": 27.772457726277736,
+        "rmse": 27.90794115803778,
+        "p95": 29.173518228813112,
+        "max": 29.177621227731137
+      },
+      "root_step_mm": {
+        "mean": 0.03467797826618524,
+        "rmse": 0.1149868440341803,
+        "p95": 0.16224335159706277,
+        "max": 1.1170404509486727
+      },
+      "root_rotation_step_deg": {
+        "mean": 0.0309849775584153,
+        "rmse": 0.08368623853948749,
+        "p95": 0.24913941180809782,
+        "max": 0.6098130609444536
+      },
+      "independent_fk_max_m": 8.326672684688674e-17,
+      "source_independent_fk_max_m": 1.1102230246251565e-16,
+      "all_link_transform_max_abs": 9.992007221626409e-16,
+      "solver_budget_exhausted_frames": 0,
+      "max_nfev": 47,
+      "pre_alignment_fit": {
+        "tip_error_mm": {
+          "mean": 1.6303491959609806,
+          "rmse": 2.1646892308787704,
+          "p95": 4.306364103865628,
+          "max": 4.4226039062789635
+        },
+        "all_point_error_mm": {
+          "mean": 8.573123288074926,
+          "rmse": 11.69157231211982,
+          "p95": 27.196645086259974,
+          "max": 30.184448069691058
+        },
+        "wrist_point_error_mm": {
+          "mean": 25.776588296627036,
+          "rmse": 25.925774164106432,
+          "p95": 27.19993971525826,
+          "max": 27.208308846424845
+        }
+      },
+      "alignment_independent_fk_max_m": 1.3877787807814457e-16
+    }
+  },
+  "checks": {
+    "finite": true,
+    "within_joint_position_limits": true,
+    "independent_urdf_mujoco_agree": true
+  },
+  "continuity_comparison": {
+    "left": {
+      "initial_max_step_deg": 9.46286963006209,
+      "final_max_step_deg": 6.19991086007284,
+      "tip_mean_change_mm": 0.0018254314080126122
+    },
+    "right": {
+      "initial_max_step_deg": 20.310033928361754,
+      "final_max_step_deg": 4.464939090785355,
+      "tip_mean_change_mm": 0.005344617499364768
+    }
+  },
+  "alignment": {
+    "version": "wuji_beta_local_z_left_p90_right_m90_v1",
+    "confirmed_date": "2026-11-10",
+    "local_z_deg": {
+      "left": 90.0,
+      "right": -90.0
+    },
+    "composition": "R_corrected = R_ik @ Rz(angle); p_corrected = p_ik; hand joints unchanged",
+    "pivot": "each Wuji base origin; clockwise viewed from local +Z toward origin",
+    "applied_count": 1,
+    "scope": "user-confirmed visual orientation; physical flange mounting and target-arm IK remain unresolved"
+  },
+  "error_reference": "Current errors compare corrected Wuji points with unchanged source Sharpa points. Solver residuals are in pre_alignment_fit and unaligned_* arrays.",
+  "video_validation": {
+    "frames": 909,
+    "fps": 30.0,
+    "width": 1280,
+    "height": 1120,
+    "sample_decodes": {
+      "0": true,
+      "182": true,
+      "363": true,
+      "545": true,
+      "726": true,
+      "908": true
+    }
+  },
+  "continuity_comparison_scope": "pre-alignment geometric IK; not corrected-output fitting error"
+}

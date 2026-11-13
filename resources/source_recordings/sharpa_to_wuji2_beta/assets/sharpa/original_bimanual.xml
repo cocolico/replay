@@ -1,0 +1,346 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="sharpa_human_fingertip_replay">
+  <compiler angle="radian" autolimits="true" fusestatic="false" />
+  <option gravity="0 0 0" />
+  <visual>
+    <global offwidth="1600" offheight="1200" />
+    <quality shadowsize="2048" offsamples="4" />
+    <headlight diffuse=".7 .7 .7" ambient=".4 .4 .4" specular=".2 .2 .2" />
+  </visual>
+  <default>
+    <geom contype="0" conaffinity="0" density="0" />
+  </default>
+  <asset>
+    <mesh name="mesh_0" file="assets/left_hand_C_MC_visual.STL" />
+    <mesh name="mesh_1" file="assets/left_thumb_CMC_VL.STL" />
+    <mesh name="mesh_2" file="assets/left_thumb_MC_visual.STL" />
+    <mesh name="mesh_3" file="assets/left_thumb_MCP_VL_visual.STL" />
+    <mesh name="mesh_4" file="assets/left_thumb_PP_visual.STL" />
+    <mesh name="mesh_5" file="assets/left_MCP_VL_visual.STL" />
+    <mesh name="mesh_6" file="assets/left_PP_visual.STL" />
+    <mesh name="mesh_7" file="assets/left_MP_visual.STL" />
+    <mesh name="mesh_8" file="assets/left_pinky_MC_visual.STL" />
+    <mesh name="mesh_9" file="assets/right_hand_C_MC_visual.STL" />
+    <mesh name="mesh_10" file="assets/right_thumb_CMC_VL_visual.STL" />
+    <mesh name="mesh_11" file="assets/right_thumb_MC_visual.STL" />
+    <mesh name="mesh_12" file="assets/right_thumb_MCP_VL_visual.STL" />
+    <mesh name="mesh_13" file="assets/right_thumb_PP_visual.STL" />
+    <mesh name="mesh_14" file="assets/right_MCP_VL_visual.STL" />
+    <mesh name="mesh_15" file="assets/right_PP_visual.STL" />
+    <mesh name="mesh_16" file="assets/right_MP_visual.STL" />
+    <mesh name="mesh_17" file="assets/right_pinky_MC_visual.STL" />
+  </asset>
+  <worldbody>
+    <light pos="0 -1 -1" dir="0 1 1" directional="true" diffuse=".8 .8 .8" />
+    <body name="left_hand_C_MC">
+      <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+      <freejoint name="left_floating_root" />
+      <geom type="mesh" mesh="mesh_0" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+      <body name="left_thumb_CMC_VL" pos="0.01 -0.026 0.0214" quat="0.707105482511 0 0 -0.707108079859">
+        <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+        <joint name="left_thumb_CMC_FE" type="hinge" axis="0 0 1" range="-0.1745 1.9199" />
+        <geom type="mesh" mesh="mesh_1" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+        <body name="left_thumb_MC" pos="0 -0.005 0" quat="0.653280034128 0.653282433764 -0.270598153 0.270599146964">
+          <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+          <joint name="left_thumb_CMC_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+          <geom type="mesh" mesh="mesh_2" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+          <body name="left_thumb_MCP_VL" pos="0.065 -0.006 -0.010392" quat="0.96592566784 -0.258819636443 0 0">
+            <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+            <joint name="left_thumb_MCP_FE" type="hinge" axis="0 0 1" range="-0.5236 1.3963" />
+            <geom type="mesh" mesh="mesh_3" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+            <body name="left_thumb_PP" pos="0 0 0" quat="0.707105482511 0.707108079859 0 0">
+              <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+              <joint name="left_thumb_MCP_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+              <geom type="mesh" mesh="mesh_4" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+              <body name="left_thumb_DP" pos="0.039 0 0" quat="0.707105482511 -0.707108079859 0 0">
+                <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                <joint name="left_thumb_IP" type="hinge" axis="0 0 1" range="0 1.7453" />
+                <geom type="capsule" fromto="0 0 0 0.0276109346321 9.962645992e-17 9.962645992e-17" size=".008" rgba=".46 .53 .63 1" group="1" />
+                <body name="left_thumb_elastomer" pos="0 0 0" quat="0.5 0.5 -0.5 0.5">
+                  <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                  <body name="left_thumb_fingertip" pos="0 -0.0276109346321 0" quat="0.5 0.5 0.5 -0.5">
+                    <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                    <site name="left_thumb_fingertip_site" size=".0038" rgba="0.98 0.48 0.24 1" group="2" />
+                    <geom type="sphere" size=".0055" rgba=".18 .22 .28 1" group="1" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="left_index_MCP_VL" pos="0.001 -0.0303 0.0959" quat="0.499998163397 -0.500001836603 -0.499999999997 -0.499999999997">
+        <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+        <joint name="left_index_MCP_FE" type="hinge" axis="0 0 1" range="-0.17453293 1.5708" />
+        <geom type="mesh" mesh="mesh_5" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+        <body name="left_index_PP" pos="0 0 0" quat="0.707105482511 0.707108079859 0 0">
+          <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+          <joint name="left_index_MCP_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+          <geom type="mesh" mesh="mesh_6" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+          <body name="left_index_MP" pos="0.047 0 0" quat="0.707105482511 -0.707108079859 0 0">
+            <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+            <joint name="left_index_PIP" type="hinge" axis="0 0 1" range="0 1.7453" />
+            <geom type="mesh" mesh="mesh_7" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+            <body name="left_index_DP" pos="0.0315 0 0" quat="1 0 0 0">
+              <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+              <joint name="left_index_DIP" type="hinge" axis="0 0 1" range="0 1.3963" />
+              <geom type="capsule" fromto="0 0 0 0.0260092574263 9.38472484561e-17 9.38472484561e-17" size=".008" rgba=".46 .53 .63 1" group="1" />
+              <body name="left_index_elastomer" pos="0 0 0" quat="0.5 0.5 -0.5 0.5">
+                <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                <body name="left_index_fingertip" pos="0 -0.0260092574263 0" quat="0.5 0.5 0.5 -0.5">
+                  <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                  <site name="left_index_fingertip_site" size=".0038" rgba="0.98 0.8 0.22 1" group="2" />
+                  <geom type="sphere" size=".0055" rgba=".18 .22 .28 1" group="1" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="left_middle_MCP_VL" pos="0 -0.01 0.0989" quat="0.499998163397 -0.500001836603 -0.499999999997 -0.499999999997">
+        <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+        <joint name="left_middle_MCP_FE" type="hinge" axis="0 0 1" range="-0.17453293 1.5708" />
+        <geom type="mesh" mesh="mesh_5" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+        <body name="left_middle_PP" pos="0 0 0" quat="0.707105482511 0.707108079859 0 0">
+          <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+          <joint name="left_middle_MCP_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+          <geom type="mesh" mesh="mesh_6" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+          <body name="left_middle_MP" pos="0.047 0 0" quat="0.707105482511 -0.707108079859 0 0">
+            <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+            <joint name="left_middle_PIP" type="hinge" axis="0 0 1" range="0 1.7453" />
+            <geom type="mesh" mesh="mesh_7" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+            <body name="left_middle_DP" pos="0.0315 0 0" quat="1 0 0 0">
+              <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+              <joint name="left_middle_DIP" type="hinge" axis="0 0 1" range="0 1.3963" />
+              <geom type="capsule" fromto="0 0 0 0.0260092574263 9.38472484561e-17 9.38472484561e-17" size=".008" rgba=".46 .53 .63 1" group="1" />
+              <body name="left_middle_elastomer" pos="0 0 0" quat="0.5 0.5 -0.5 0.5">
+                <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                <body name="left_middle_fingertip" pos="0 -0.0260092574263 0" quat="0.5 0.5 0.5 -0.5">
+                  <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                  <site name="left_middle_fingertip_site" size=".0038" rgba="0.22 0.83 0.62 1" group="2" />
+                  <geom type="sphere" size=".0055" rgba=".18 .22 .28 1" group="1" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="left_ring_MCP_VL" pos="0.0015 0.0103 0.0929" quat="0.499998163397 -0.500001836603 -0.499999999997 -0.499999999997">
+        <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+        <joint name="left_ring_MCP_FE" type="hinge" axis="0 0 1" range="-0.17453293 1.5708" />
+        <geom type="mesh" mesh="mesh_5" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+        <body name="left_ring_PP" pos="0 0 0" quat="0.707105482511 0.707108079859 0 0">
+          <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+          <joint name="left_ring_MCP_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+          <geom type="mesh" mesh="mesh_6" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+          <body name="left_ring_MP" pos="0.047 0 0" quat="0.707105482511 -0.707108079859 0 0">
+            <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+            <joint name="left_ring_PIP" type="hinge" axis="0 0 1" range="0 1.7453" />
+            <geom type="mesh" mesh="mesh_7" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+            <body name="left_ring_DP" pos="0.0315 0 0" quat="1 0 0 0">
+              <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+              <joint name="left_ring_DIP" type="hinge" axis="0 0 1" range="0 1.3963" />
+              <geom type="capsule" fromto="0 0 0 0.0260092574259 9.5537337112e-08 9.55373371098e-08" size=".008" rgba=".46 .53 .63 1" group="1" />
+              <body name="left_ring_elastomer" pos="0 0 0" quat="0.499998163397 0.499999999997 -0.499999999997 0.500001836603">
+                <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                <body name="left_ring_fingertip" pos="0 -0.0260092574263 0" quat="0.5 0.5 0.5 -0.5">
+                  <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                  <site name="left_ring_fingertip_site" size=".0038" rgba="0.27 0.65 1 1" group="2" />
+                  <geom type="sphere" size=".0055" rgba=".18 .22 .28 1" group="1" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="left_pinky_MC" pos="0.01136 0.0263 0.0869" quat="1.34924357313e-11 3.67320510332e-06 -0.999999999987 -3.67320510332e-06">
+        <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+        <joint name="left_pinky_CMC" type="hinge" axis="0 0 1" range="0 0.2618" />
+        <geom type="mesh" mesh="mesh_8" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+        <body name="left_pinky_MCP_VL" pos="0.00836 0.0048 0" quat="0.499998163397 -0.499999999997 0.499999999997 0.500001836603">
+          <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+          <joint name="left_pinky_MCP_FE" type="hinge" axis="0 0 1" range="-0.17453293 1.5708" />
+          <geom type="mesh" mesh="mesh_5" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+          <body name="left_pinky_PP" pos="0 0 0" quat="0.707105482511 0.707108079859 0 0">
+            <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+            <joint name="left_pinky_MCP_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+            <geom type="mesh" mesh="mesh_6" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+            <body name="left_pinky_MP" pos="0.047 0 0" quat="0.707105482511 -0.707108079859 0 0">
+              <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+              <joint name="left_pinky_PIP" type="hinge" axis="0 0 1" range="0 1.7453" />
+              <geom type="mesh" mesh="mesh_7" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+              <body name="left_pinky_DP" pos="0.0315 0 0" quat="1 0 0 0">
+                <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                <joint name="left_pinky_DIP" type="hinge" axis="0 0 1" range="0 1.3963" />
+                <geom type="capsule" fromto="0 0 0 0.0260092574263 9.38472484561e-17 9.38472484561e-17" size=".008" rgba=".46 .53 .63 1" group="1" />
+                <body name="left_pinky_elastomer" pos="0 0 0" quat="0.5 0.5 -0.5 0.5">
+                  <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                  <body name="left_pinky_fingertip" pos="0 -0.0260092574263 0" quat="0.5 0.5 0.5 -0.5">
+                    <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                    <site name="left_pinky_fingertip_site" size=".0038" rgba="0.78 0.49 1 1" group="2" />
+                    <geom type="sphere" size=".0055" rgba=".18 .22 .28 1" group="1" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+    <body name="right_hand_C_MC">
+      <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+      <freejoint name="right_floating_root" />
+      <geom type="mesh" mesh="mesh_9" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+      <body name="right_thumb_CMC_VL" pos="0.01 0.026 0.0214" quat="-2.59734346696e-06 0.707105482506 0.707108079855 -2.59735300756e-06">
+        <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+        <joint name="right_thumb_CMC_FE" type="hinge" axis="0 0 1" range="-0.1745 1.9199" />
+        <geom type="mesh" mesh="mesh_10" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+        <body name="right_thumb_MC" pos="0 -0.005 0" quat="0.653280034128 -0.653282433764 0.270598153 0.270599146964">
+          <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+          <joint name="right_thumb_CMC_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+          <geom type="mesh" mesh="mesh_11" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+          <body name="right_thumb_MCP_VL" pos="0.065 -0.006 0.010392" quat="0.96592566784 0.258819636443 0 0">
+            <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+            <joint name="right_thumb_MCP_FE" type="hinge" axis="0 0 1" range="-0.5236 1.3963" />
+            <geom type="mesh" mesh="mesh_12" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+            <body name="right_thumb_PP" pos="0 0 0" quat="0.707105482511 -0.707108079859 0 0">
+              <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+              <joint name="right_thumb_MCP_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+              <geom type="mesh" mesh="mesh_13" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+              <body name="right_thumb_DP" pos="0.039 0 0" quat="0.707105482511 0.707108079859 0 0">
+                <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                <joint name="right_thumb_IP" type="hinge" axis="0 0 1" range="0 1.7453" />
+                <geom type="capsule" fromto="0 0 0 0.0276109999996 1.01420866108e-07 1.01420866106e-07" size=".008" rgba=".46 .53 .63 1" group="1" />
+                <body name="right_thumb_elastomer" pos="0 0 0" quat="0.499998163397 0.499999999997 -0.499999999997 0.500001836603">
+                  <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                  <body name="right_thumb_fingertip" pos="0 -0.027611 0" quat="0.499998163397 0.499999999997 0.499999999997 -0.500001836603">
+                    <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                    <site name="right_thumb_fingertip_site" size=".0038" rgba="0.98 0.48 0.24 1" group="2" />
+                    <geom type="sphere" size=".0055" rgba=".18 .22 .28 1" group="1" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="right_index_MCP_VL" pos="0.001 0.0303 0.0959" quat="0.499998163397 -0.500001836603 -0.499999999997 -0.499999999997">
+        <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+        <joint name="right_index_MCP_FE" type="hinge" axis="0 0 1" range="-0.17453293 1.5708" />
+        <geom type="mesh" mesh="mesh_14" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+        <body name="right_index_PP" pos="0 0 0" quat="0.707105482511 -0.707108079859 0 0">
+          <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+          <joint name="right_index_MCP_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+          <geom type="mesh" mesh="mesh_15" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+          <body name="right_index_MP" pos="0.047 0 0" quat="0.707105482511 0.707108079859 0 0">
+            <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+            <joint name="right_index_PIP" type="hinge" axis="0 0 1" range="0 1.7453" />
+            <geom type="mesh" mesh="mesh_16" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+            <body name="right_index_DP" pos="0.0315 0 0" quat="1 0 0 0">
+              <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+              <joint name="right_index_DIP" type="hinge" axis="0 0 1" range="0 1.3963" />
+              <geom type="capsule" fromto="0 0 0 0.0260089999996 9.55363915326e-08 9.55363915304e-08" size=".008" rgba=".46 .53 .63 1" group="1" />
+              <body name="right_index_elastomer" pos="0 0 0" quat="0.499998163397 0.499999999997 -0.499999999997 0.500001836603">
+                <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                <body name="right_index_fingertip" pos="0 -0.026009 0" quat="0.499998163397 0.499999999997 0.499999999997 -0.500001836603">
+                  <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                  <site name="right_index_fingertip_site" size=".0038" rgba="0.98 0.8 0.22 1" group="2" />
+                  <geom type="sphere" size=".0055" rgba=".18 .22 .28 1" group="1" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="right_middle_MCP_VL" pos="0 0.01 0.0989" quat="0.499998163397 -0.500001836603 -0.499999999997 -0.499999999997">
+        <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+        <joint name="right_middle_MCP_FE" type="hinge" axis="0 0 1" range="-0.17453293 1.5708" />
+        <geom type="mesh" mesh="mesh_14" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+        <body name="right_middle_PP" pos="0 0 0" quat="0.707105482511 -0.707108079859 0 0">
+          <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+          <joint name="right_middle_MCP_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+          <geom type="mesh" mesh="mesh_15" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+          <body name="right_middle_MP" pos="0.047 0 0" quat="0.707105482511 0.707108079859 0 0">
+            <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+            <joint name="right_middle_PIP" type="hinge" axis="0 0 1" range="0 1.7453" />
+            <geom type="mesh" mesh="mesh_16" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+            <body name="right_middle_DP" pos="0.0315 0 0" quat="1 0 0 0">
+              <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+              <joint name="right_middle_DIP" type="hinge" axis="0 0 1" range="0 1.3963" />
+              <geom type="capsule" fromto="0 0 0 0.0260092574263 9.38472484561e-17 9.38472484561e-17" size=".008" rgba=".46 .53 .63 1" group="1" />
+              <body name="right_middle_elastomer" pos="0 0 0" quat="0.5 0.5 -0.5 0.5">
+                <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                <body name="right_middle_fingertip" pos="0 -0.0260092574263 0" quat="0.5 0.5 0.5 -0.5">
+                  <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                  <site name="right_middle_fingertip_site" size=".0038" rgba="0.22 0.83 0.62 1" group="2" />
+                  <geom type="sphere" size=".0055" rgba=".18 .22 .28 1" group="1" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="right_ring_MCP_VL" pos="0.0015 -0.0103 0.0929" quat="0.499998163397 -0.500001836603 -0.499999999997 -0.499999999997">
+        <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+        <joint name="right_ring_MCP_FE" type="hinge" axis="0 0 1" range="-0.17453293 1.5708" />
+        <geom type="mesh" mesh="mesh_14" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+        <body name="right_ring_PP" pos="0 0 0" quat="0.707105482511 -0.707108079859 0 0">
+          <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+          <joint name="right_ring_MCP_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+          <geom type="mesh" mesh="mesh_15" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+          <body name="right_ring_MP" pos="0.047 0 0" quat="0.707105482511 0.707108079859 0 0">
+            <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+            <joint name="right_ring_PIP" type="hinge" axis="0 0 1" range="0 1.7453" />
+            <geom type="mesh" mesh="mesh_16" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+            <body name="right_ring_DP" pos="0.0315 0 0" quat="1 0 0 0">
+              <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+              <joint name="right_ring_DIP" type="hinge" axis="0 0 1" range="0 1.3963" />
+              <geom type="capsule" fromto="0 0 0 0.0260092574259 9.5537337112e-08 9.55373371098e-08" size=".008" rgba=".46 .53 .63 1" group="1" />
+              <body name="right_ring_elastomer" pos="0 0 0" quat="0.499998163397 0.499999999997 -0.499999999997 0.500001836603">
+                <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                <body name="right_ring_fingertip" pos="0 -0.0260092574263 0" quat="0.5 0.5 0.5 -0.5">
+                  <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                  <site name="right_ring_fingertip_site" size=".0038" rgba="0.27 0.65 1 1" group="2" />
+                  <geom type="sphere" size=".0055" rgba=".18 .22 .28 1" group="1" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="right_pinky_MC" pos="0.01136 -0.0263 0.0869" quat="-3.67320510335e-06 0 0 0.999999999993">
+        <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+        <joint name="right_pinky_CMC" type="hinge" axis="0 0 1" range="0 0.2618" />
+        <geom type="mesh" mesh="mesh_17" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+        <body name="right_pinky_MCP_VL" pos="0.00836 0.0048 0" quat="0.499998163397 0.499999999997 -0.499999999997 0.500001836603">
+          <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+          <joint name="right_pinky_MCP_FE" type="hinge" axis="0 0 1" range="-0.17453293 1.5708" />
+          <geom type="mesh" mesh="mesh_14" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+          <body name="right_pinky_PP" pos="0 0 0" quat="0.707105482511 -0.707108079859 0 0">
+            <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+            <joint name="right_pinky_MCP_AA" type="hinge" axis="0 0 1" range="-0.3491 0.3491" />
+            <geom type="mesh" mesh="mesh_15" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+            <body name="right_pinky_MP" pos="0.047 0 0" quat="0.707105482511 0.707108079859 0 0">
+              <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+              <joint name="right_pinky_PIP" type="hinge" axis="0 0 1" range="0 1.7453" />
+              <geom type="mesh" mesh="mesh_16" pos="0 0 0" quat="1 0 0 0" rgba=".69 .76 .85 1" group="1" />
+              <body name="right_pinky_DP" pos="0.0315 0 0" quat="1 0 0 0">
+                <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                <joint name="right_pinky_DIP" type="hinge" axis="0 0 1" range="0 1.3963" />
+                <geom type="capsule" fromto="0 0 0 0.0260089999996 9.55363915326e-08 9.55363915304e-08" size=".008" rgba=".46 .53 .63 1" group="1" />
+                <body name="right_pinky_elastomer" pos="0 0 0" quat="0.499998163397 0.499999999997 -0.499999999997 0.500001836603">
+                  <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                  <body name="right_pinky_fingertip" pos="0 -0.026009 0" quat="0.499998163397 0.499999999997 0.499999999997 -0.500001836603">
+                    <inertial pos="0 0 0" mass=".01" diaginertia="0.00001 0.00001 0.00001" />
+                    <site name="right_pinky_fingertip_site" size=".0038" rgba="0.78 0.49 1 1" group="2" />
+                    <geom type="sphere" size=".0055" rgba=".18 .22 .28 1" group="1" />
+                  </body>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

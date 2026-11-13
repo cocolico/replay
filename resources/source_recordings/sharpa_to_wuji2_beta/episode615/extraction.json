@@ -1,0 +1,32 @@
+{
+  "episode": "/home/descfly/Xflow/data/3-shouna/episode615",
+  "fps": 30,
+  "alignment": "ROS header source timestamps; linear joint interpolation, nearest RGB",
+  "source_start_ns": 1794029932366046972,
+  "source_end_ns": 1794029962651265024,
+  "streams": {
+    "/sharpa/left/joint_states": {
+      "samples": 949,
+      "joints": 22,
+      "max_interpolation_bracket_ms": 33.802954
+    },
+    "/left/franka/joint_states": {
+      "samples": 6348,
+      "joints": 7,
+      "max_interpolation_bracket_ms": 5.053584
+    },
+    "/sharpa/right/joint_states": {
+      "samples": 949,
+      "joints": 22,
+      "max_interpolation_bracket_ms": 33.846055
+    },
+    "/right/franka/joint_states": {
+      "samples": 6347,
+      "joints": 7,
+      "max_interpolation_bracket_ms": 5.10856
+    }
+  },
+  "rgb_max_alignment_ms": 24.985799,
+  "frames": 909,
+  "duration_s": 30.266666364
+}

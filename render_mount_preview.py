@@ -13,22 +13,15 @@ from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 import pinocchio as pin
 from replay_pipeline import HERE, config, inverse, origin, write_json
 
-ROOT=HERE.parents[1]
+ROOT=HERE/'resources'
 OUT=HERE/'visuals';OUT.mkdir(exist_ok=True)
-FONT=FontProperties(fname='/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc')
+FONT=FontProperties(fname=str(HERE/'resources/fonts/NotoSansCJK-Regular.ttc'))
 plt.rcParams['font.family']=FONT.get_name();plt.rcParams['axes.unicode_minus']=False
 
 
 def restore_model_links():
-    root=ROOT/'adaptation_resources/sources/aubo_description'
-    archive=next((ROOT/'adaptation_resources/archives').glob('aubo_description-*.tar.gz'))
-    with tarfile.open(archive) as tar:
-        for member in tar.getmembers():
-            rel=Path(*Path(member.name).parts[1:])
-            if not str(rel).startswith('meshes/aubo_i7H/') or not member.issym():continue
-            dest=root/rel;target=(dest.parent/member.linkname).resolve()
-            if target.is_relative_to(root.resolve()) and target.exists() and not dest.exists():
-                dest.parent.mkdir(parents=True,exist_ok=True);dest.symlink_to(member.linkname)
+    # All referenced meshes are real local files in the portable bundle.
+    return
 
 
 def stl(path):
@@ -96,7 +89,7 @@ def main():
     restore_model_links();c=config(HERE/'config/replay.json');snap=json.loads((HERE/'output/controller_snapshot.json').read_text());data={}
     for side in ('left','right'):
         cfg=c['sides'][side];q=snap['sides'][side]['joint_positions_rad']
-        model,d,arm=link_visuals(Path(cfg['urdf']),q,ROOT/'adaptation_resources/sources/aubo_description')
+        model,d,arm=link_visuals(Path(cfg['urdf']),q,ROOT/'models/aubo_description')
         flange=d.oMf[model.getFrameId(cfg['flange_frame'])].homogeneous.copy()
         hand_urdf=Path(c['source_episode_root'])/f'assets/wuji/urdf/{side}.urdf'
         _,_,hand=link_visuals(hand_urdf,np.zeros(20))

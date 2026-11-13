@@ -1,0 +1,11 @@
+{
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "arms_only": true,
+  "name": "aubo_arms_20261113_110506_d987ef",
+  "whole_trajectory_solutions": {
+    "left": 2,
+    "right": 1
+  },
+  "error": "All branch pairs blocked by full assembly/transition checks"
+}

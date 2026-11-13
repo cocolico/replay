@@ -26,8 +26,11 @@ def stl_mesh(path):
 def tf(T):return coal.Transform3s(np.asarray(T[:3,:3]),np.asarray(T[:3,3]))
 
 
+DEFAULT_CLEARANCE_M = .002
+
+
 class Scene:
-    def __init__(self,c,controllers,clearance=.005):
+    def __init__(self,c,controllers,clearance=DEFAULT_CLEARANCE_M):
         self.c=c;self.controllers=controllers;self.clearance=clearance;self.shapes=[];self.arm_corrections={};self.hand_trees={};self.disabled=set();self.base={}
         for side in SIDES:
             cfg=c['sides'][side];self.base[side]=inverse(np.asarray(read_json(cfg['handeye'])['T_base_camera']))

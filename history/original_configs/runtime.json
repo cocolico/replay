@@ -1,0 +1,28 @@
+{
+  "rate_hz": 100,
+  "speed": 1.0,
+  "minimum_transition_s": 10.0,
+  "arm_velocity_fraction": 1.0,
+  "arm_acceleration_fraction": 1.0,
+  "hand_velocity_rad_s": 5.0,
+  "hand_acceleration_rad_s2": 100.0,
+  "feedback_timeout_s": 0.25,
+  "maximum_tick_lateness_s": 0.03,
+  "arm_tracking_error_rad": 0.35,
+  "hand_tracking_error_rad": 0.5,
+  "mesh_clearance_m": 0.002,
+  "hands": {
+    "left": {
+      "address": "192.168.1.110:50001",
+      "serial": "WH2JA01260923005"
+    },
+    "right": {
+      "address": "192.168.1.111:50001",
+      "serial": "WH2KA01260803001"
+    }
+  },
+  "expected_hand_mit_kp": 5.0,
+  "expected_hand_mit_kd": 0.1,
+  "expected_hand_effort_limit_a": 1.0,
+  "warmup_s": 2.0
+}

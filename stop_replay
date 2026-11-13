@@ -14,7 +14,8 @@ if state['status'] not in ('preflight','running','holding'):
     raise SystemExit('没有可停止的运行会话；最后状态：'+state['status'])
 try:cmdline=Path(f'/proc/{pid}/cmdline').read_bytes().split(b'\0')
 except FileNotFoundError:raise SystemExit('登记的回放进程已经退出。')
-if str(root/'replay_control.py').encode() not in cmdline or b'--execute' not in cmdline:
+allowed_scripts = [str(root/name).encode() for name in ('replay_control.py','aubo_arms_replay.py')]
+if not any(script in cmdline for script in allowed_scripts) or b'--execute' not in cmdline:
     raise SystemExit('PID不属于本目录的执行进程，未发送信号。')
 os.kill(pid,signal.SIGINT)
 print('已请求同步停止，正在等待设备清理和独占锁释放……',flush=True)

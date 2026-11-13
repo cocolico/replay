@@ -1,0 +1,10 @@
+{
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "arms_only": true,
+  "name": "aubo_arms_20261113_112525_bb4148",
+  "whole_trajectory_solutions": {
+    "left": 0
+  },
+  "error": "No complete continuous collision-free solution on left; see left_ik.json"
+}

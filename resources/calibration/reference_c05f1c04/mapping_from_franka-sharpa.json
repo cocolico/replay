@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-12T07:01:20.897063+00:00",
+  "board_fingerprint": "437d28755b5102513fd2204b356c468f7d9618172b30ba59d7d60f049d63d928",
+  "target_camera_T_source_camera": [
+    [
+      0.9988921459373836,
+      0.005932060496680695,
+      -0.046682881689893665,
+      -0.001303682506798437
+    ],
+    [
+      -0.002016946133262844,
+      0.9965082219502774,
+      0.08347032714558972,
+      -0.02817210138024248
+    ],
+    [
+      0.047015026458616715,
+      -0.08328369734683966,
+      0.9954162009146399,
+      0.044064971398189656
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_camera_T_target_camera": [
+    [
+      0.9988921459373836,
+      -0.002016946133262844,
+      0.047015026458616715,
+      -0.0008262991902919256
+    ],
+    [
+      0.005932060496680695,
+      0.9965082219502774,
+      -0.08328369734683966,
+      0.031751357920051154
+    ],
+    [
+      -0.046682881689893665,
+      0.08347032714558972,
+      0.9954162009146399,
+      -0.04157231156023671
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "formula": "T_target_camera_wuji = target_camera_T_source_camera @ T_source_camera_wuji",
+  "assumption": "The two observed board frames represent corresponding task origins and axes; identity mapping between those task frames is user-established by physical placement.",
+  "interpretation": "Task-transfer mapping between separate workcells, not a surveyed inter-site physical camera extrinsic.",
+  "source_camera_id": "franka-sharpa",
+  "target_camera_id": "current-table-20261112",
+  "source_quality": {
+    "reprojection_rms_px_mean": 0.2578275556365649,
+    "reprojection_rms_px_max": 0.3253747522830963,
+    "translation_spread_max_mm": 1.0410845362619823,
+    "rotation_spread_max_deg": 0.3154090738881637,
+    "min_inlier_corners": 47
+  },
+  "target_quality": {
+    "reprojection_rms_px_mean": 0.2906766543785731,
+    "reprojection_rms_px_max": 0.33129602670669556,
+    "translation_spread_max_mm": 1.220744685158637,
+    "rotation_spread_max_deg": 0.31787515578833375,
+    "min_inlier_corners": 22
+  },
+  "same_board_coordinate_closure_max_abs": 4.440892098500626e-16,
+  "source_observation": "observations/franka-sharpa/observation.json",
+  "target_observation": "results/current-table-20261112/observation.json"
+}

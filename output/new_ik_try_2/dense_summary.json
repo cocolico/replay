@@ -1,0 +1,19 @@
+{
+  "sampling": "Original source timestamps plus 0.01s Cartesian position/SLERP samples",
+  "geometric_step_bound_rad": 0.12,
+  "dynamic_validation_performed": false,
+  "sides": {
+    "left": {
+      "passed": false,
+      "failed_dense_frame": 728,
+      "source_time_s": 6.63,
+      "error": "Constrained IK failed (Iteration limit reached): IK constraints or pose tolerance not satisfied: IKResult(converged=False, iterations=150, translation_error_m=0.0004862954879900932, rotation_error_rad=0.0033064815301846327, step_norm=0.16228823222949765)"
+    },
+    "right": {
+      "passed": false,
+      "failed_dense_frame": 1781,
+      "source_time_s": 16.21,
+      "error": "Constrained IK failed (Iteration limit reached): IK constraints or pose tolerance not satisfied: IKResult(converged=False, iterations=150, translation_error_m=0.000810725880695636, rotation_error_rad=0.001234238017471138, step_norm=0.16731951332701292)"
+    }
+  }
+}

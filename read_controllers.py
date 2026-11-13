@@ -9,7 +9,7 @@ import time
 import numpy as np
 
 HERE=Path(__file__).resolve().parent
-SDK=HERE.parents[1]/'aubo/.venv/lib/python3.12/site-packages'
+SDK=HERE/'vendor/pyaubo_sdk_0_26'
 sys.path.append(str(SDK))
 from replay_pipeline import config, write_json
 

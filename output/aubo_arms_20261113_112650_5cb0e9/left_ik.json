@@ -1,0 +1,198 @@
+{
+  "backend": "continuous",
+  "candidate_count": 14,
+  "trials": [
+    {
+      "passed": false,
+      "failed_frame": 0,
+      "source_time_s": 0.0,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'left:arm:wrist2_Link', 'clearance_m': 0.00448316748840839}]",
+      "initial_q_rad": [
+        -0.533230802943193,
+        -0.3451756560614614,
+        2.003925605159547,
+        2.740000715852931,
+        0.5848469920932021,
+        0.3558077981582462
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 387,
+      "source_time_s": 3.5300000000000002,
+      "reason": "Modeled collision: [{'a': 'left:arm:wrist1_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004993004916783603}]",
+      "initial_q_rad": [
+        1.8629670002516279,
+        1.535849854980492,
+        1.7908014995597674,
+        -3.108735377107359,
+        1.8431321087934769,
+        -2.5153012650844584
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 388,
+      "source_time_s": 3.54,
+      "reason": "Modeled collision: [{'a': 'left:arm:wrist1_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004161556167810027}]",
+      "initial_q_rad": [
+        1.8604323249021981,
+        -0.06638540807450807,
+        -1.7916133178029383,
+        1.194180551038366,
+        1.8393854335840802,
+        -2.5156525557077365
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 728,
+      "source_time_s": 6.63,
+      "reason": "Constrained IK failed (Iteration limit reached): IK constraints or pose tolerance not satisfied: IKResult(converged=False, iterations=150, translation_error_m=0.001690252857214341, rotation_error_rad=0.015293067574868724, step_norm=0.17065142331504662)",
+      "initial_q_rad": [
+        -0.5311211191422671,
+        -2.1120221182258305,
+        -2.0042923053360875,
+        0.4999786040140644,
+        0.5812214059922305,
+        0.35419592492425556
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 354,
+      "source_time_s": 3.23,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004683172260339902}]",
+      "initial_q_rad": [
+        -0.5345169719843402,
+        0.10952899074515267,
+        1.847563584707675,
+        -1.007791861569745,
+        -0.5850455867601762,
+        -2.7893718915822823
+      ]
+    },
+    {
+      "passed": true,
+      "frames": 2443,
+      "initial_q_rad": [
+        1.863811439555418,
+        2.132562605996922,
+        2.0646789289400007,
+        -0.2863625960013407,
+        -1.8432921066787962,
+        0.6275595060585663
+      ]
+    },
+    {
+      "passed": true,
+      "frames": 2443,
+      "initial_q_rad": [
+        1.8618621036887852,
+        0.3208226600900156,
+        -2.065469803398487,
+        -2.604712516091465,
+        -1.8396935101501986,
+        0.6277770333702468
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 0,
+      "source_time_s": 0.0,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'left:arm:wrist2_Link', 'clearance_m': 0.0}]",
+      "initial_q_rad": [
+        -0.5320766783928121,
+        -1.5369962859917898,
+        -1.8484012964869918,
+        -3.0568817510643593,
+        -0.5813659156704674,
+        -2.789790171572633
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 387,
+      "source_time_s": 3.5300000000000002,
+      "reason": "Modeled collision: [{'a': 'left:arm:wrist1_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004993004916783644}]",
+      "initial_q_rad": [
+        1.8629670002516279,
+        1.535849854980492,
+        1.7908014995597674,
+        3.1744499300722273,
+        1.8431321087934769,
+        -2.5153012650844584
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 388,
+      "source_time_s": 3.54,
+      "reason": "Modeled collision: [{'a': 'left:arm:wrist1_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004161556167809971}]",
+      "initial_q_rad": [
+        1.8604323249021983,
+        -0.06638540807450816,
+        4.491571989376648,
+        1.194180551038366,
+        1.8393854335840805,
+        -2.5156525557077365
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 728,
+      "source_time_s": 6.63,
+      "reason": "Constrained IK failed (Iteration limit reached): IK constraints or pose tolerance not satisfied: IKResult(converged=False, iterations=150, translation_error_m=0.0016902530562903713, rotation_error_rad=0.015293068500508837, step_norm=0.170651423614583)",
+      "initial_q_rad": [
+        -0.5311211191422669,
+        -2.1120221182258305,
+        4.278893001843499,
+        0.49997860401406435,
+        0.5812214059922305,
+        0.35419592492425545
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 354,
+      "source_time_s": 3.23,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004683172260339957}]",
+      "initial_q_rad": [
+        -0.5345169719843403,
+        0.10952899074515257,
+        1.847563584707675,
+        -1.0077918615697448,
+        -0.5850455867601763,
+        3.4938134155973044
+      ]
+    },
+    {
+      "passed": true,
+      "frames": 2443,
+      "initial_q_rad": [
+        1.8618621036887852,
+        0.3208226600900157,
+        4.2177155037811,
+        3.678472791088122,
+        -1.8396935101501986,
+        0.6277770333702469
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 0,
+      "source_time_s": 0.0,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'left:arm:wrist2_Link', 'clearance_m': 0.0}]",
+      "initial_q_rad": [
+        -0.5320766783928121,
+        -1.5369962859917896,
+        4.434784010692595,
+        3.2263035561152273,
+        -0.5813659156704675,
+        3.4933951356069533
+      ]
+    }
+  ],
+  "whole_trajectory_solutions": 3,
+  "execution_enabled": false
+}

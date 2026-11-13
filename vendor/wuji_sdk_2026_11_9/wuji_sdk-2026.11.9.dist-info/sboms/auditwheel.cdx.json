@@ -1,0 +1,47 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "name": "wuji-sdk",
+      "version": "2026.11.9"
+    },
+    {
+      "type": "library",
+      "name": "libattr",
+      "version": "2.4.46-13.el7"
+    },
+    {
+      "type": "library",
+      "name": "bzip2-libs",
+      "version": "1.0.6-13.el7"
+    },
+    {
+      "type": "library",
+      "name": "libcap",
+      "version": "2.22-11.el7"
+    },
+    {
+      "type": "library",
+      "name": "elfutils-libs",
+      "version": "0.176-5.el7"
+    },
+    {
+      "type": "library",
+      "name": "elfutils-libelf",
+      "version": "0.176-5.el7"
+    },
+    {
+      "type": "library",
+      "name": "xz-libs",
+      "version": "5.2.2-2.el7_9"
+    },
+    {
+      "type": "library",
+      "name": "systemd-libs",
+      "version": "219-78.el7_9.9"
+    }
+  ]
+}

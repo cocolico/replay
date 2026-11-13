@@ -1,0 +1,10 @@
+{
+  "ready_for_execution": false,
+  "execution_enabled": false,
+  "execution_attempted": false,
+  "reason": "Known source mesh collisions",
+  "summary": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/human_camera_try_4_pack/summary.json",
+    "sha256": "30667f26af4da68bc3f8d075a90f525256f7320c18523c8c0d807dedc1f8f825"
+  }
+}

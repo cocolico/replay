@@ -6,8 +6,8 @@ from scipy.spatial.transform import Rotation
 from replay_pipeline import HERE,transform
 MATCHED_SDK=HERE/'vendor/pyaubo_sdk_0_26'
 if MATCHED_SDK.exists():sys.path.insert(0,str(MATCHED_SDK))
-for folder in [HERE.parents[1]/'aubo/.venv/lib/python3.12/site-packages',HERE.parents[1]/'adaptation_resources/validation/sdk-current']:
-    sys.path.append(str(folder))
+WUJI_SDK=HERE/'vendor/wuji_sdk_2026_11_9'
+if WUJI_SDK.exists():sys.path.insert(0,str(WUJI_SDK))
 
 
 class Aubo:

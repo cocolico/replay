@@ -1,0 +1,904 @@
+[
+  {
+    "ready_for_execution": false,
+    "collision_checked": true,
+    "collision_passed": false,
+    "collision_failures": [
+      {
+        "frame": 340,
+        "runtime_time_s": 3.4,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.004323814906549581
+          }
+        ]
+      },
+      {
+        "frame": 341,
+        "runtime_time_s": 3.41,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0033093450582874218
+          }
+        ]
+      },
+      {
+        "frame": 342,
+        "runtime_time_s": 3.42,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.002298687132040511
+          }
+        ]
+      },
+      {
+        "frame": 343,
+        "runtime_time_s": 3.43,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.001291925724021245
+          }
+        ]
+      },
+      {
+        "frame": 344,
+        "runtime_time_s": 3.44,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.00028914540120618393
+          }
+        ]
+      },
+      {
+        "frame": 345,
+        "runtime_time_s": 3.45,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0007095693057503349
+          }
+        ]
+      },
+      {
+        "frame": 346,
+        "runtime_time_s": 3.46,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0017041339095463237
+          }
+        ]
+      },
+      {
+        "frame": 347,
+        "runtime_time_s": 3.47,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0026944639731932007
+          }
+        ]
+      },
+      {
+        "frame": 348,
+        "runtime_time_s": 3.48,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0036804751169120936
+          }
+        ]
+      },
+      {
+        "frame": 349,
+        "runtime_time_s": 3.49,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.004662083024961086
+          }
+        ]
+      },
+      {
+        "frame": 350,
+        "runtime_time_s": 3.5,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.005639203452388081
+          }
+        ]
+      },
+      {
+        "frame": 351,
+        "runtime_time_s": 3.51,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.006611752231709608
+          }
+        ]
+      },
+      {
+        "frame": 352,
+        "runtime_time_s": 3.52,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.007579645279513422
+          }
+        ]
+      },
+      {
+        "frame": 353,
+        "runtime_time_s": 3.53,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.008542798602976173
+          }
+        ]
+      },
+      {
+        "frame": 354,
+        "runtime_time_s": 3.54,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.009501128306303078
+          }
+        ]
+      },
+      {
+        "frame": 355,
+        "runtime_time_s": 3.55,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.010454550597079115
+          }
+        ]
+      },
+      {
+        "frame": 356,
+        "runtime_time_s": 3.56,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.011402981792532296
+          }
+        ]
+      },
+      {
+        "frame": 357,
+        "runtime_time_s": 3.57,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.012346338325708042
+          }
+        ]
+      },
+      {
+        "frame": 358,
+        "runtime_time_s": 3.58,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.01328453675154627
+          }
+        ]
+      },
+      {
+        "frame": 359,
+        "runtime_time_s": 3.59,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.004312220448035697
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.014217493752868987
+          }
+        ]
+      }
+    ],
+    "checked_mesh_samples": 360,
+    "effective_speed": 0.033554432000000016,
+    "duration_s": 676.33,
+    "transition_s": 13.24,
+    "max_velocity_rad_s": [
+      0.4649263019097072,
+      0.3581174271023668,
+      0.11827196339888602,
+      0.16451569345034,
+      0.5944750913431829,
+      0.12870730147359621,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.44847816362414417,
+      0.3320107518216542,
+      0.06070487012315162,
+      0.20155232250501642,
+      0.34622378051656355,
+      0.9208668616987659,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "max_acceleration_rad_s2": [
+      0.5354606175034249,
+      0.5972056435488149,
+      0.982880862641089,
+      2.753100150528348,
+      2.1494040765457356,
+      2.1431198151700137,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0557298539892734,
+      1.2290140545179185,
+      1.940214583491251,
+      4.320218679866317,
+      2.7989691010388285,
+      4.424068694799388,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "max_replay_eef_position_error_m": 0.00032840149374631925,
+    "max_replay_eef_rotation_error_rad": 0.002391003166140792
+  },
+  {
+    "ready_for_execution": false,
+    "collision_checked": true,
+    "collision_passed": false,
+    "collision_failures": [
+      {
+        "frame": 340,
+        "runtime_time_s": 3.4,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.004323814906549581
+          }
+        ]
+      },
+      {
+        "frame": 341,
+        "runtime_time_s": 3.41,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0033093450582874218
+          }
+        ]
+      },
+      {
+        "frame": 342,
+        "runtime_time_s": 3.42,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.002298687132040511
+          }
+        ]
+      },
+      {
+        "frame": 343,
+        "runtime_time_s": 3.43,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.004984839724146612
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.001291925724021245
+          }
+        ]
+      },
+      {
+        "frame": 344,
+        "runtime_time_s": 3.44,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.003733189069960549
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.00028914540120618393
+          }
+        ]
+      },
+      {
+        "frame": 345,
+        "runtime_time_s": 3.45,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.002480298645138112
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0007095693057503349
+          }
+        ]
+      },
+      {
+        "frame": 346,
+        "runtime_time_s": 3.46,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0012262318572407692
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0017041339095463237
+          }
+        ]
+      },
+      {
+        "frame": 347,
+        "runtime_time_s": 3.47,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -2.8947406553313237e-05
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0026944639731932007
+          }
+        ]
+      },
+      {
+        "frame": 348,
+        "runtime_time_s": 3.48,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.004063430997165402
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0012851747823983024
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0036804751169120936
+          }
+        ]
+      },
+      {
+        "frame": 349,
+        "runtime_time_s": 3.49,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0028011142617812117
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0025423854328467527
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.004662083024961086
+          }
+        ]
+      },
+      {
+        "frame": 350,
+        "runtime_time_s": 3.5,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0015379703946467385
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.003800514050008773
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.005639203452388081
+          }
+        ]
+      },
+      {
+        "frame": 351,
+        "runtime_time_s": 3.51,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0002740664901796676
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.005059494858815312
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.006611752231709608
+          }
+        ]
+      },
+      {
+        "frame": 352,
+        "runtime_time_s": 3.52,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.000990529892840767
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.006319261620389802
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.007579645279513422
+          }
+        ]
+      },
+      {
+        "frame": 353,
+        "runtime_time_s": 3.53,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0022557507349285112
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0075797476355162485
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.008542798602976173
+          }
+        ]
+      },
+      {
+        "frame": 354,
+        "runtime_time_s": 3.54,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0035215275596584845
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.008840885748218834
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.009501128306303078
+          }
+        ]
+      },
+      {
+        "frame": 355,
+        "runtime_time_s": 3.55,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0047877914375386976
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.010102608349442554
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.010454550597079115
+          }
+        ]
+      },
+      {
+        "frame": 356,
+        "runtime_time_s": 3.56,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.006054472989991885
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.011364847380842055
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.011402981792532296
+          }
+        ]
+      },
+      {
+        "frame": 357,
+        "runtime_time_s": 3.57,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.00732150239344526
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.012627534338676263
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.012346338325708042
+          }
+        ]
+      },
+      {
+        "frame": 358,
+        "runtime_time_s": 3.58,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.004377003024868171
+          },
+          {
+            "a": "left:hand:l_pinky_proximal_abd",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.003942353040238284
+          },
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.008588809383528637
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.013890600277809258
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.01328453675154627
+          }
+        ]
+      },
+      {
+        "frame": 359,
+        "runtime_time_s": 3.59,
+        "phase": "transition",
+        "findings": [
+          {
+            "a": "left:arm:wrist2_Link",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0041028467925884465
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.003128826165522229
+          },
+          {
+            "a": "left:hand:l_pinky_proximal_abd",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.002661694718448933
+          },
+          {
+            "a": "left:hand:l_pinky_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.009856323259383518
+          },
+          {
+            "a": "left:hand:l_pinky_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.015153975815819898
+          },
+          {
+            "a": "right:hand:r_thumb_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.004312220448035697
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.014217493752868987
+          }
+        ]
+      }
+    ],
+    "checked_mesh_samples": 360,
+    "effective_speed": 0.033554432000000016,
+    "duration_s": 676.33,
+    "transition_s": 13.24,
+    "max_velocity_rad_s": [
+      0.4646570442589537,
+      0.11368701779062573,
+      0.4337657522838434,
+      0.4721159739683012,
+      0.5939826796058423,
+      0.1286122092334252,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.44847816362414417,
+      0.3320107518216542,
+      0.06070487012315162,
+      0.20155232250501642,
+      0.34622378051656355,
+      0.9208668616987659,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "max_acceleration_rad_s2": [
+      0.5367170433334678,
+      0.9727772454282135,
+      0.9796235545178611,
+      2.0298817877195674,
+      2.1514276125200738,
+      2.133971865633244,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0557298539892734,
+      1.2290140545179185,
+      1.940214583491251,
+      4.320218679866317,
+      2.7989691010388285,
+      4.424068694799388,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "max_replay_eef_position_error_m": 0.00032840149374631925,
+    "max_replay_eef_rotation_error_rad": 0.0023506095886481216
+  }
+]

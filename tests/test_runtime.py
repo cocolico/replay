@@ -26,7 +26,7 @@ class RuntimeTests(unittest.TestCase):
             reopened=control.acquire_replay_lock(root);reopened.close()
 
     def test_calibrated_dh_matches_recorded_controller_fk(self):
-        states=read_json(HERE/'output/controller_kinematics.json')
+        states=read_json(HERE/'tests/fixtures/controller_kinematics.json')
         for side,d in states.items():
             np.testing.assert_allclose(fk(d['joint_positions_rad'],d['kinematics_real']),d['base_T_flange'],atol=1e-8)
 
@@ -54,12 +54,12 @@ class RuntimeTests(unittest.TestCase):
         T[2,3]=.02;self.assertEqual(scene.check({},{})[0]['b'],'calibrated_table_halfspace')
 
     def test_controller_payload_change_invalidates_preflight(self):
-        snapshots=read_json(HERE/'output/controller_kinematics.json');hands={s:{'positions_rad':[0.]*20} for s in ('left','right')}
+        snapshots=read_json(HERE/'tests/fixtures/controller_kinematics.json');hands={s:{'positions_rad':[0.]*20} for s in ('left','right')}
         p={'controllers':snapshots,'hand_start':hands};changed=copy.deepcopy(snapshots);changed['left']['payload'][0]+=.01
         with self.assertRaisesRegex(ValueError,'payload'):control.require_start(p,changed,hands)
 
     def test_live_payload_tuple_matches_json_payload_list(self):
-        snapshots=read_json(HERE/'output/controller_kinematics.json');live=copy.deepcopy(snapshots)
+        snapshots=read_json(HERE/'tests/fixtures/controller_kinematics.json');live=copy.deepcopy(snapshots)
         hands={s:{'positions_rad':[0.]*20} for s in ('left','right')}
         for d in live.values():d['payload']=tuple(d['payload'])
         control.require_start({'controllers':snapshots,'hand_start':hands},live,hands)
@@ -87,8 +87,8 @@ class RuntimeTests(unittest.TestCase):
         result=control.stop_arm_verified(old,reconnect=factory,timeout=.5)
         self.assertTrue(result['confirmed']);factory.assert_called_once()
 
-    def run_mock(self,fail_command=False,fail_feedback=False):
-        events=[];c=config(HERE/'config/replay.json');settings=read_json(HERE/'config/runtime.json');snapshots=read_json(HERE/'output/controller_kinematics.json')
+    def run_mock(self,fail_command=False,fail_feedback=False,arms_only=False):
+        events=[];c=config(HERE/'config/replay.json');settings=read_json(HERE/'config/runtime.json');snapshots=read_json(HERE/'tests/fixtures/controller_kinematics.json')
         settings['warmup_s']=0.0
         for d in snapshots.values():d['joint_positions_rad']=[0.]*6;d['mode']='RobotModeType.Running';d['safety']='SafetyModeType.Normal';d['steady']=True
         hand_start={s:{'positions_rad':[0.]*20} for s in ('left','right')}
@@ -131,11 +131,18 @@ class RuntimeTests(unittest.TestCase):
             def close(self):pass
         with patch.object(control,'Aubo',Arm),patch.object(control,'ArmMonitor',Monitor),patch.object(control,'read_arms',return_value=snapshots),patch.object(control,'write_json'):
             if fail_command or fail_feedback:
-                with self.assertRaises(RuntimeError):control.execute(c,settings,np.zeros((3,52)),report,reader)
-            else:control.execute(c,settings,np.zeros((3,52)),report,reader)
+                with self.assertRaises(RuntimeError):control.execute(c,settings,np.zeros((3,52)),report,reader,arms_only=arms_only)
+            else:control.execute(c,settings,np.zeros((3,52)),report,reader,arms_only=arms_only)
         for side in ('left','right'):
-            self.assertIn((side,'stop'),events);self.assertIn((side,'servo',False),events);self.assertIn((side,'hand_disable'),events)
+            self.assertIn((side,'stop'),events);self.assertIn((side,'servo',False),events)
+            if arms_only:
+                for action in ('hand_enable','hand_command','hand_disable'):self.assertNotIn((side,action),events)
+            else:self.assertIn((side,'hand_disable'),events)
         return events
+
+    def test_arms_only_never_enables_publishes_or_disables_hands(self):self.run_mock(arms_only=True)
+    def test_arms_only_command_failure_stops_both_arms(self):self.run_mock(arms_only=True,fail_command=True)
+    def test_arms_only_feedback_failure_stops_both_arms(self):self.run_mock(arms_only=True,fail_feedback=True)
 
     def test_command_failure_stops_both_arms_and_hands(self):self.run_mock(fail_command=True)
     def test_feedback_failure_stops_both_arms_and_hands(self):self.run_mock(fail_feedback=True)

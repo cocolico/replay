@@ -1,0 +1,234 @@
+{
+  "candidates": 15,
+  "trials": [
+    {
+      "candidate_index": 0,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.06,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -6.660132236922453e-05
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 1,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.06,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0011273267163949795
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 2,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.55,
+        "findings": [
+          {
+            "a": "right:hand:r_index_finger_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0014361039411748544
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 3,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.004108991227721057
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 4,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0023869827486726267
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 5,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.011697508843680357
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 6,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0008166839323809211
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 7,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.02,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0005035876252364735
+          }
+        ]
+      }
+    },
+    {
+      "passed": false,
+      "failed_frame": 1876,
+      "source_time_s": 17.07,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.001979746069942578}]",
+      "candidate_index": 8,
+      "phase": "full_single_arm_tracking"
+    },
+    {
+      "candidate_index": 9,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": 0.0011917564574813744
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 10,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.04,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.010199724055617254
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 11,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.38,
+        "findings": [
+          {
+            "a": "right:arm:shoulder_Link",
+            "b": "right:arm:foreArm_Link",
+            "clearance_m": 0.0013056863601936938
+          },
+          {
+            "a": "right:arm:upperArm_Link",
+            "b": "right:arm:wrist1_Link",
+            "clearance_m": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 12,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_middle",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.002863049985561472
+          },
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.017781516912494792
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 13,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.37,
+        "findings": [
+          {
+            "a": "right:arm:upperArm_Link",
+            "b": "right:arm:wrist1_Link",
+            "clearance_m": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "candidate_index": 14,
+      "passed": false,
+      "phase": "entry_screen",
+      "failure": {
+        "fraction": 0.03,
+        "findings": [
+          {
+            "a": "right:hand:r_thumb_distal",
+            "b": "calibrated_table_halfspace",
+            "clearance_m": -0.0009329885446072092
+          }
+        ]
+      }
+    }
+  ],
+  "complete_paths": 0
+}

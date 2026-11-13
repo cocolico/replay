@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "source_episode_root": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta",
-  "source_franka_handeye": "/media/descfly/新加卷/ty/replay/handeye/handeye/franka-sharpa/handeye_calibration.json",
+  "source_episode_root": "../resources/source_recordings/sharpa_to_wuji2_beta",
+  "source_franka_handeye": "../resources/calibration/franka-sharpa/handeye_calibration.json",
   "source_franka_handeye_matches_recording": true,
   "source_assembly_mounts_match_recording": true,
-  "table_mapping": "/home/descfly/ty/desk/calibration/results/current-table-20261112/mapping_from_franka-sharpa.json",
-  "current_table_observation": "/home/descfly/ty/desk/calibration/results/current-table-20261112/observation.json",
+  "table_mapping": "../resources/calibration/reference_c05f1c04/mapping_from_franka-sharpa.json",
+  "current_table_observation": "../resources/calibration/reference_87ac58a1/observation.json",
   "sides": {
     "left": {
-      "handeye": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_left_02/result.json",
+      "handeye": "../resources/calibration/reference_c4840512/result.json",
       "ip": "192.168.1.3",
       "rpc_port": 30004,
       "robot_name": "rob1",
-      "urdf": "/media/descfly/新加卷/ty/adaptation_resources/sources/aubo_description/urdf/aubo_i7H.urdf",
+      "urdf": "../resources/models/aubo_description/urdf/aubo_i7H.urdf",
       "model_confirmed": true,
       "flange_frame": "wrist3_Link",
       "flange_T_wuji_base": [
@@ -56,11 +56,11 @@
       "mount_rotation_z_deg": 0
     },
     "right": {
-      "handeye": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_right_01/result.json",
+      "handeye": "../resources/calibration/reference_d72abc19/result.json",
       "ip": "192.168.1.2",
       "rpc_port": 30004,
       "robot_name": "rob1",
-      "urdf": "/media/descfly/新加卷/ty/adaptation_resources/sources/aubo_description/urdf/aubo_i7H.urdf",
+      "urdf": "../resources/models/aubo_description/urdf/aubo_i7H.urdf",
       "model_confirmed": false,
       "flange_frame": "wrist3_Link",
       "flange_T_wuji_base": [
@@ -106,10 +106,10 @@
   },
   "source_franka_handeye_authority": "User supplied replay/handeye for episodes 594/615/616 on 2026-11-12; archive bytes equal previous copied calibration.",
   "source_assembly_mount_authority": "Use delivered source_assembly.urdf mounting chain as source dataset definition; physical calibration not newly measured.",
-  "camera_trajectory_root": "/media/descfly/新加卷/ty/replay/try/wuji2_camera_replay_trajectory(3)",
-  "camera_table_mapping": "/media/descfly/新加卷/ty/replay/code/config/mapping_from_human_gemini335.json",
+  "camera_trajectory_root": "../resources/trajectories/try/wuji2_camera_replay_trajectory(3)",
+  "camera_table_mapping": "mapping_from_human_gemini335.json",
   "camera_source_id": "orbbec_gemini_335",
   "camera_source_identity_note": "User explicitly identified /home/descfly/ty/desk/observation.json as the human trajectory source observation; Gemini 335 1280x720. Replaces incorrect zhuji inference.",
-  "camera_source_observation": "/home/descfly/ty/desk/observation.json",
+  "camera_source_observation": "../resources/calibration/reference_ff8ad418/observation.json",
   "dataset_note": "Independent trajectory (3) replay checks; original input unchanged."
 }

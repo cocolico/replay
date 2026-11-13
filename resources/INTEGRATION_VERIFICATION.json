@@ -1,0 +1,79 @@
+{
+  "code_only_integration": true,
+  "environment_bundled": false,
+  "test_copy": "/tmp/aubo-code-relocation-hxk8_wpx/code",
+  "historical_output_copied": false,
+  "historical_configs_copied": false,
+  "doctor": {
+    "hardware_connected": false,
+    "modules": {
+      "numpy": {
+        "version": "1.26.4",
+        "path": "/usr/lib/python3/dist-packages/numpy/__init__.py"
+      },
+      "scipy": {
+        "version": "1.11.4",
+        "path": "/usr/lib/python3/dist-packages/scipy/__init__.py"
+      },
+      "pinocchio": {
+        "version": "4.1.0",
+        "path": "/opt/ros/jazzy/lib/python3.12/site-packages/pinocchio/__init__.py"
+      },
+      "coal": {
+        "version": "3.0.3",
+        "path": "/opt/ros/jazzy/lib/python3.12/site-packages/coal/__init__.py"
+      },
+      "pyaubo_sdk": {
+        "version": "SDK binary",
+        "path": "/tmp/aubo-code-relocation-hxk8_wpx/code/vendor/pyaubo_sdk_0_26/pyaubo_sdk.cpython-312-x86_64-linux-gnu.so"
+      },
+      "wuji_sdk": {
+        "version": "2026.11.9",
+        "path": "/tmp/aubo-code-relocation-hxk8_wpx/code/vendor/wuji_sdk_2026_11_9/wuji_sdk/__init__.py"
+      }
+    },
+    "configs": {
+      "human_replay.json": {
+        "all_resources_local": true,
+        "frames": 150
+      },
+      "human_replay_1.json": {
+        "all_resources_local": true,
+        "frames": 223
+      },
+      "human_replay_1_repaired.json": {
+        "all_resources_local": true,
+        "frames": 223
+      },
+      "human_replay_2.json": {
+        "all_resources_local": true,
+        "frames": 250
+      },
+      "human_replay_3.json": {
+        "all_resources_local": true,
+        "frames": 150
+      },
+      "human_replay_try_2.json": {
+        "all_resources_local": true,
+        "frames": 223
+      },
+      "human_replay_try_3.json": {
+        "all_resources_local": true,
+        "frames": 250
+      },
+      "human_replay_try_4_pack.json": {
+        "all_resources_local": true,
+        "frames": 118
+      },
+      "replay.json": {
+        "all_resources_local": true
+      }
+    },
+    "problems": [],
+    "ok": true
+  },
+  "relocated_test_returncode": 0,
+  "test_output": "/tmp/aubo-code-relocation-hxk8_wpx/code/collision_scene.py:124: DeprecationWarning: enable_nearest_points has been marked as deprecated. Nearest points are always computed when computing distance. They are the points of the shapes that achieve a distance of DistanceResult::min_distance.\nUse `enable_signed_distance` if you want to compute a signed minimum distance (and thus its corresponding nearest points).\n  request=coal.DistanceRequest();request.enable_nearest_points=False\n----------------------------------------------------------------------\nRan 41 tests in 0.921s\n\nOK\n",
+  "devices_contacted": false,
+  "temporary_test_copy_removed": true
+}

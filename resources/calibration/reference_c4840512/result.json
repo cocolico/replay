@@ -1,0 +1,257 @@
+{
+  "method": "PARK",
+  "T_base_camera": [
+    [
+      0.7259950623384327,
+      0.5221929366825012,
+      0.44748821921824944,
+      0.17224284221187192
+    ],
+    [
+      0.05056014699574085,
+      0.6084118875518232,
+      -0.7920092465504345,
+      -0.12409919655194879
+    ],
+    [
+      -0.6858387864476487,
+      0.5976198724645356,
+      0.41530187459183043,
+      -0.008955462674878109
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_tcp_target": [
+    [
+      -0.9914428492474068,
+      -0.13054075228029471,
+      -0.0004343619222558116,
+      0.15308100339421518
+    ],
+    [
+      -0.13052067966962438,
+      0.9913388142606656,
+      -0.014550172467620658,
+      -0.06986354892512146
+    ],
+    [
+      0.002329990292700292,
+      -0.014368971235023557,
+      -0.9998940462923478,
+      0.004761930751922772
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "translation_xyz_m": [
+    0.17224284221187192,
+    -0.12409919655194879,
+    -0.008955462674878109
+  ],
+  "quaternion_xyzw": [
+    0.4190111275953106,
+    0.34172904128181936,
+    -0.14221016551355278,
+    0.8291123000658733
+  ],
+  "rotation_excitation_singular_values": [
+    2.336097841511226,
+    1.4014569478975134,
+    0.6078985206815963
+  ],
+  "training_consistency": {
+    "count": 20,
+    "translation_rms_mm": 0.8234840333848488,
+    "translation_max_mm": 1.4697820018286898,
+    "rotation_rms_deg": 0.2102873188986367,
+    "rotation_max_deg": 0.5130633329237335,
+    "residuals": [
+      {
+        "translation_mm": 0.8487817632856488,
+        "rotation_deg": 0.19277042173467956
+      },
+      {
+        "translation_mm": 0.6278141423242427,
+        "rotation_deg": 0.19753528247681218
+      },
+      {
+        "translation_mm": 0.3356110479712059,
+        "rotation_deg": 0.18504478854253695
+      },
+      {
+        "translation_mm": 0.7984582046522017,
+        "rotation_deg": 0.3021330285704081
+      },
+      {
+        "translation_mm": 0.586929639854719,
+        "rotation_deg": 0.13314725749665832
+      },
+      {
+        "translation_mm": 0.608036340114484,
+        "rotation_deg": 0.11986958299784606
+      },
+      {
+        "translation_mm": 0.5700356333052014,
+        "rotation_deg": 0.06557180327394245
+      },
+      {
+        "translation_mm": 0.15715799125024685,
+        "rotation_deg": 0.12171398256961098
+      },
+      {
+        "translation_mm": 0.9589544648387819,
+        "rotation_deg": 0.0783659712636859
+      },
+      {
+        "translation_mm": 0.802582987521877,
+        "rotation_deg": 0.2191055759217058
+      },
+      {
+        "translation_mm": 0.42723091889173165,
+        "rotation_deg": 0.06426334653778115
+      },
+      {
+        "translation_mm": 1.3782902247816675,
+        "rotation_deg": 0.5130633329237335
+      },
+      {
+        "translation_mm": 0.6757804395949506,
+        "rotation_deg": 0.10886098091242798
+      },
+      {
+        "translation_mm": 0.9945654507248483,
+        "rotation_deg": 0.17514653986581136
+      },
+      {
+        "translation_mm": 1.4697820018286898,
+        "rotation_deg": 0.4432724358759729
+      },
+      {
+        "translation_mm": 1.0069541474900146,
+        "rotation_deg": 0.18271011294516146
+      },
+      {
+        "translation_mm": 0.43913056534322387,
+        "rotation_deg": 0.09206015811800233
+      },
+      {
+        "translation_mm": 1.113615880412369,
+        "rotation_deg": 0.09827796354502004
+      },
+      {
+        "translation_mm": 0.9087086279635129,
+        "rotation_deg": 0.08321540062088074
+      },
+      {
+        "translation_mm": 0.33046596877319895,
+        "rotation_deg": 0.11192214460625642
+      }
+    ]
+  },
+  "held_out_validation": {
+    "count": 3,
+    "translation_rms_mm": 0.5113296886102843,
+    "translation_max_mm": 0.6755678006568467,
+    "rotation_rms_deg": 0.2065947432194988,
+    "rotation_max_deg": 0.3094715940320369,
+    "residuals": [
+      {
+        "translation_mm": 0.5560443652150707,
+        "rotation_deg": 0.1222490254481105
+      },
+      {
+        "translation_mm": 0.13710201308190506,
+        "rotation_deg": 0.3094715940320369
+      },
+      {
+        "translation_mm": 0.6755678006568467,
+        "rotation_deg": 0.13163081722016817
+      }
+    ]
+  },
+  "mode": "eye_to_hand",
+  "parent_frame": "left_aubo_base",
+  "child_frame": "camera_color_optical_frame",
+  "created_unix_s": 1794463534.9408095,
+  "source_samples": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_left_02/samples.json",
+  "config": {
+    "board": {
+      "squares_x": 14,
+      "squares_y": 9,
+      "square_length_m": 0.02,
+      "marker_length_m": 0.015,
+      "dictionary": "DICT_5X5_250",
+      "confirmed": true
+    },
+    "robot": {
+      "ip": "192.168.1.3",
+      "port": 30004,
+      "username": "aubo",
+      "robot_name": null,
+      "base_frame": "left_aubo_base"
+    },
+    "camera": {
+      "image_topic": "/camera/color/image_raw",
+      "info_topic": "/camera/color/camera_info",
+      "frame": "camera_color_optical_frame"
+    },
+    "limits": {
+      "min_charuco_corners": 8,
+      "max_reprojection_px": 1.0,
+      "max_frame_age_s": 1.0,
+      "stationary_joint_delta_rad": 0.001
+    }
+  },
+  "metadata": {
+    "robot_ip": "192.168.1.3",
+    "robot_name": "rob1",
+    "tcp_offset_sdk": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "K": [
+      [
+        610.8031616210938,
+        0.0,
+        644.7130126953125
+      ],
+      [
+        0.0,
+        610.8071899414062,
+        406.2757873535156
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "D": [
+      -0.034105196595191956,
+      0.039946332573890686,
+      -2.6970663384418003e-05,
+      -0.0002319817285751924,
+      -0.013958866707980633,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "image_size": [
+      800,
+      1280
+    ]
+  }
+}

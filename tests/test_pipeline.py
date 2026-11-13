@@ -17,7 +17,7 @@ class ConversionTests(unittest.TestCase):
         self.assertEqual(p.default_config('episode594'),HERE/'config/replay.json')
         self.assertEqual(p.default_config('prepare-camera'),HERE/'config/human_replay.json')
         c=p.config(p.default_config('human_camera'))
-        self.assertEqual(c['camera_source_observation'],'/home/descfly/ty/desk/observation.json')
+        self.assertTrue(Path(c['camera_source_observation']).is_relative_to(HERE/'resources'))
         self.assertEqual(c['camera_source_id'],'orbbec_gemini_335')
 
     def test_human_without_explicit_source_observation_is_rejected(self):
@@ -94,7 +94,7 @@ class ConversionTests(unittest.TestCase):
             report=p.prepare_camera(c,d)
             self.assertEqual(report['frames'],150)
             self.assertEqual(report['source_camera_id'],'orbbec_gemini_335')
-            self.assertIn('/home/descfly/ty/desk/observation.json',[s['path'] for s in report['sources']])
+            self.assertIn(c['camera_source_observation'],[s['path'] for s in report['sources']])
             self.assertFalse(report['execution_enabled'])
             self.assertIn('left_flange_to_wuji_mount_not_confirmed',report['blockers'])
             with np.load(Path(d)/'human_camera_prepared.npz') as z:

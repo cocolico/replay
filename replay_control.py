@@ -11,6 +11,7 @@ from runtime_plan import make_plan,split,identity
 
 def acquire_replay_lock(directory=None):
     directory=Path(directory) if directory is not None else HERE/'output'
+    directory.mkdir(parents=True,exist_ok=True)
     lock=open(directory/'replay.lock','a+')
     try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     except BlockingIOError:
@@ -133,7 +134,7 @@ class ArmMonitor:
         for t in self.threads:t.join(timeout=3.)
 
 
-def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None):
+def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None,arms_only=False):
     if plan.get('ready_for_execution') is not True or not plan.get('collision_passed') or not plan.get('collision_checked'):raise ValueError('Preflight has not passed')
     if 'configuration' in plan and provenance(c['_config_path'])!=plan['configuration']:raise ValueError('Configuration changed after preflight')
     for source in plan.get('sources',[]):
@@ -146,7 +147,7 @@ def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None):
     for s in old_signal:signal.signal(s,on_signal)
     def send_hand(side,q):pubs[side].send([reader.sdk.JointCommand(float(v),0.,0.) for v in q])
     try:
-        check_hand_controls(reader,settings)
+        if not arms_only:check_hand_controls(reader,settings)
         for side in SIDES:
             arms[side]=Aubo(c['sides'][side]);stoppers[side]=Aubo(c['sides'][side])
         monitor=ArmMonitor(c);deadline=time.monotonic()+3
@@ -167,24 +168,25 @@ def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None):
                     if time.monotonic()>deadline:raise TimeoutError('Runtime did not enter Running: '+side)
                     time.sleep(.01)
             elif not status.endswith('.Running'):raise RuntimeError('Runtime is neither stopped nor running: '+side)
-        enabled_states={};diag_lock=threading.Lock()
-        for side in SIDES:
-            def callback(frame,side=side):
-                with diag_lock:enabled_states[side]=(time.monotonic(),len(frame.joints),sum(int(j.status_word.ext_state)==2 for j in frame.joints))
-            diagnostics.append(reader.devices[side].joint_diagnostics().subscribe_with_callback(callback))
-            enabled.append(side);reader.devices[side].enable()
-        deadline=time.monotonic()+5
-        while True:
-            with diag_lock:state=dict(enabled_states)
-            if all(s in state and time.monotonic()-state[s][0]<.25 and state[s][1:]==(20,20) for s in SIDES):break
-            if stop_event.is_set():raise InterruptedError('Operator stop')
-            if time.monotonic()>deadline:raise TimeoutError('Not all 40 hand joints enabled')
-            time.sleep(.01)
-        # Enabling must not have changed the measured start pose.
-        post=reader.snapshot()
-        for side in SIDES:
-            if np.max(abs(np.asarray(post[side]['positions_rad'])-np.asarray(plan['hand_start'][side]['positions_rad'])))>.03:raise RuntimeError('Hand moved during enable: '+side)
-            pubs[side]=reader.devices[side].joint_command().publish()
+        if not arms_only:
+            enabled_states={};diag_lock=threading.Lock()
+            for side in SIDES:
+                def callback(frame,side=side):
+                    with diag_lock:enabled_states[side]=(time.monotonic(),len(frame.joints),sum(int(j.status_word.ext_state)==2 for j in frame.joints))
+                diagnostics.append(reader.devices[side].joint_diagnostics().subscribe_with_callback(callback))
+                enabled.append(side);reader.devices[side].enable()
+            deadline=time.monotonic()+5
+            while True:
+                with diag_lock:state=dict(enabled_states)
+                if all(s in state and time.monotonic()-state[s][0]<.25 and state[s][1:]==(20,20) for s in SIDES):break
+                if stop_event.is_set():raise InterruptedError('Operator stop')
+                if time.monotonic()>deadline:raise TimeoutError('Not all 40 hand joints enabled')
+                time.sleep(.01)
+            # Enabling must not have changed the measured start pose.
+            post=reader.snapshot()
+            for side in SIDES:
+                if np.max(abs(np.asarray(post[side]['positions_rad'])-np.asarray(plan['hand_start'][side]['positions_rad'])))>.03:raise RuntimeError('Hand moved during enable: '+side)
+                pubs[side]=reader.devices[side].joint_command().publish()
         pool=concurrent.futures.ThreadPoolExecutor(max_workers=4);rate=settings['rate_hz'];dt=1/rate;count=0
         ready={s:threading.Event() for s in SIDES};initial_arms=split(trajectory[0])[0]
         def enter_servo(side):
@@ -210,7 +212,7 @@ def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None):
         for future in starters.values():future.result(timeout=.1)
         start=time.monotonic()
         warmup_ticks=round(settings.get('warmup_s',2.)*rate)
-        print('REPLAY START: both arms + both hands; Ctrl-C requests synchronized stop.',flush=True)
+        print('REPLAY START: '+('arms only; no hand commands' if arms_only else 'both arms + both hands')+'; Ctrl-C requests synchronized stop.',flush=True)
         while count<len(trajectory)+warmup_ticks or hold_last:
             if stop_event.is_set():raise InterruptedError('Operator stop')
             index=max(0,min(count-warmup_ticks,len(trajectory)-1));target=trajectory[index];arm_q,hand_q=split(target)
@@ -221,11 +223,11 @@ def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None):
             reference=trajectory[max(0,min(index-1,len(trajectory)-1))];monitor.check(split(reference)[0],settings)
             feedback=reader.snapshot(timeout=.001,max_age=settings['feedback_timeout_s'])
             for side in SIDES:
-                if np.max(abs(np.asarray(feedback[side]['positions_rad'])-split(reference)[1][side]))>settings['hand_tracking_error_rad']:raise RuntimeError('Hand tracking error: '+side)
+                if np.max(abs(np.asarray(feedback[side]['positions_rad'])-split(reference)[1][side]))>(settings.get('fixed_hand_position_tolerance_rad',.03) if arms_only else settings['hand_tracking_error_rad']):raise RuntimeError('Hand tracking error: '+side)
             jobs=[]
             for side in SIDES:
                 jobs.append((side,pool.submit(arms[side].robot.getMotionControl().servoJoint,arm_q[side].tolist(),0.,0.,dt,.1,150.)))
-                jobs.append((side+'_hand',pool.submit(send_hand,side,hand_q[side])))
+                if not arms_only:jobs.append((side+'_hand',pool.submit(send_hand,side,hand_q[side])))
             for label,job in jobs:
                 value=job.result(timeout=.1)
                 if value not in (None,0):raise RuntimeError(f'{label} rejected command: {value}')
@@ -279,7 +281,7 @@ def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None):
             except Exception as e:cleanup_errors.append(str(e))
         for s,handler in old_signal.items():signal.signal(s,handler)
         playback_completed='warmup_ticks' in locals() and count>=len(trajectory)+warmup_ticks
-        log={'execution_attempted':True,'completed':playback_completed,'operator_stopped':isinstance(run_error,InterruptedError),'error':str(run_error) if run_error else None,'cleanup_errors':cleanup_errors,'stop_results':stop_results,'startup_hold_commands':startup_commands,'ticks':len(tick_errors),'max_tick_lateness_s':max(tick_errors,default=0),'plan_trajectory':plan['trajectory']}
+        log={'execution_attempted':True,'arms_only':arms_only,'completed':playback_completed,'operator_stopped':isinstance(run_error,InterruptedError),'error':str(run_error) if run_error else None,'cleanup_errors':cleanup_errors,'stop_results':stop_results,'startup_hold_commands':startup_commands,'ticks':len(tick_errors),'max_tick_lateness_s':max(tick_errors,default=0),'plan_trajectory':plan['trajectory']}
         write_json(HERE/'output'/f'{plan["name"]}_execution.json',log)
         write_json(HERE/'output/replay_session.json',{'pid':os.getpid(),'name':plan['name'],'status':'stop_not_confirmed' if cleanup_errors else 'stopped','error':str(run_error) if run_error else None,'cleanup_errors':cleanup_errors,'updated_unix_s':time.time()})
     if cleanup_errors:raise RuntimeError('Stop not fully confirmed: '+str(cleanup_errors)) from run_error

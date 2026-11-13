@@ -1,0 +1,76 @@
+{
+  "594": {
+    "frames": 965,
+    "joint_array_shape": [
+      965,
+      40
+    ],
+    "action_array_shape": [
+      965,
+      52
+    ],
+    "arrays_match_npz": true,
+    "finite": true,
+    "strictly_increasing_timestamps": true,
+    "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1",
+    "local_axis_and_sign_verified": true,
+    "repeat_update_idempotent": true,
+    "mujoco_points_max_abs_m": 1.3877787807814457e-16,
+    "actions_and_errors_consistent": true,
+    "source_sharpa_bytes_unchanged": true,
+    "hand_joint_array_bytes_unchanged": true,
+    "csv_matches_corrected_errors": true,
+    "corrected_videos_verified": true
+  },
+  "615": {
+    "frames": 909,
+    "joint_array_shape": [
+      909,
+      40
+    ],
+    "action_array_shape": [
+      909,
+      52
+    ],
+    "arrays_match_npz": true,
+    "finite": true,
+    "strictly_increasing_timestamps": true,
+    "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1",
+    "local_axis_and_sign_verified": true,
+    "repeat_update_idempotent": true,
+    "mujoco_points_max_abs_m": 1.6653345369377348e-16,
+    "actions_and_errors_consistent": true,
+    "source_sharpa_bytes_unchanged": true,
+    "hand_joint_array_bytes_unchanged": true,
+    "csv_matches_corrected_errors": true,
+    "corrected_videos_verified": true
+  },
+  "616": {
+    "frames": 1263,
+    "joint_array_shape": [
+      1263,
+      40
+    ],
+    "action_array_shape": [
+      1263,
+      52
+    ],
+    "arrays_match_npz": true,
+    "finite": true,
+    "strictly_increasing_timestamps": true,
+    "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1",
+    "local_axis_and_sign_verified": true,
+    "repeat_update_idempotent": true,
+    "mujoco_points_max_abs_m": 1.3877787807814457e-16,
+    "actions_and_errors_consistent": true,
+    "source_sharpa_bytes_unchanged": true,
+    "hand_joint_array_bytes_unchanged": true,
+    "csv_matches_corrected_errors": true,
+    "corrected_videos_verified": true
+  },
+  "assets_verified": true,
+  "fresh_default_conversion": {
+    "fresh_default_conversion_matches_migrated_first_5_frames": true,
+    "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1"
+  }
+}

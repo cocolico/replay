@@ -1,0 +1,13 @@
+{
+  "version": "wuji_beta_local_z_left_p90_right_m90_v1",
+  "confirmed_date": "2026-11-10",
+  "source": "user visual confirmation of episode594_local_z_comparison.mp4, left +90 / right -90 version",
+  "axis": "each Wuji base local Z",
+  "angles_deg": {
+    "left": 90,
+    "right": -90
+  },
+  "composition": "R_output = R_ik @ Rz(angle); p unchanged; joints unchanged",
+  "configuration_authority": "retarget.py ALIGNMENT_VERSION and ALIGNMENT_DEG; this JSON documents the exported convention",
+  "original_ik_preserved": true
+}

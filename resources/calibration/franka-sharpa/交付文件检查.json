@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "checks": [
+    "JSON finite values and schema fields",
+    "27 original samples previously verified from original images",
+    "rigid-transform matrix validity",
+    "inverse and point round-trip",
+    "EEF pose transform round-trip",
+    "inter-base composition",
+    "exported extrinsics equal preserved source"
+  ],
+  "physical_robot_motion_executed": false,
+  "eef_file_tested": false,
+  "task_success_certified": false
+}

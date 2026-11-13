@@ -52,9 +52,7 @@ class Hands:
 
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--out',type=Path,default=HERE/'output/hand_snapshot_latest.json');a=p.parse_args()
-    settings={}
-    for side in ('left','right'):
-        old=json.loads(Path('/tmp/wuji_'+side+'_state.json').read_text());settings[side]={'address':old['address'],'serial':old['serial_number']}
+    settings=json.loads((HERE/'config/runtime.json').read_text())['hands']
     reader=Hands(settings)
     try:
         states=reader.snapshot();out={'read_only':True,'settings':settings,'sides':states}

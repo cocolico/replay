@@ -1,0 +1,6 @@
+# Third-party dependencies are installed on the destination computer, not bundled.
+# Install Pinocchio/Coal together so their native dependencies and NumPy ABI match.
+numpy>=1.26,<3
+scipy>=1.11,<2
+pin>=3.0,<5
+coal>=3.0,<4

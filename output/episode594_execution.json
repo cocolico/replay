@@ -22,7 +22,7 @@
       "readback": {
         "steady": true,
         "servo_mode": 0,
-        "max_speed_rad_s": 0.00037969821482317854
+        "max_speed_rad_s": 0.00015846908965760757
       },
       "command_warnings": []
     },
@@ -31,7 +31,7 @@
       "readback": {
         "steady": true,
         "servo_mode": 0,
-        "max_speed_rad_s": 0.0009492455370579463
+        "max_speed_rad_s": 0.00018984910741158927
       },
       "command_warnings": [
         "stopJoint: -3",
@@ -40,13 +40,13 @@
     }
   },
   "startup_hold_commands": {
-    "left": 2,
+    "left": 1,
     "right": 1
   },
-  "ticks": 4644,
-  "max_tick_lateness_s": 0.002172218984924257,
+  "ticks": 5160,
+  "max_tick_lateness_s": 0.0016469920228701085,
   "plan_trajectory": {
     "path": "/media/descfly/新加卷/ty/replay/code/output/episode594_runtime.npz",
-    "sha256": "a5dd2901a39ac7b5a31d815475f8d927f611e7791557667b7a15a95b878ff853"
+    "sha256": "810196db13b2886361ed073483da3f1ae9b82960922eee6f724093abda72168c"
   }
 }

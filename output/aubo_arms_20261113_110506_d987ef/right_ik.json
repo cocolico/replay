@@ -1,0 +1,118 @@
+{
+  "backend": "continuous",
+  "candidate_count": 8,
+  "trials": [
+    {
+      "passed": false,
+      "failed_frame": 1298,
+      "source_time_s": 11.81,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.0049973748666283764}]",
+      "initial_q_rad": [
+        0.4966697425322721,
+        0.3677403508168227,
+        -1.8859777953137975,
+        -2.461057309361412,
+        -0.5173653285224591,
+        -1.9713520784374816
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 0,
+      "source_time_s": 0.0,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.0}]",
+      "initial_q_rad": [
+        0.49329310653141206,
+        1.4850121254848117,
+        1.5808299830471435,
+        3.0460621286418617,
+        0.5153707991418575,
+        1.1561017585334812
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 1516,
+      "source_time_s": 13.8,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.003839517029502665}]",
+      "initial_q_rad": [
+        0.49687870455822064,
+        0.05994819651242203,
+        -1.57837291752195,
+        1.315336451724955,
+        0.5170614800118075,
+        1.1521750239287265
+      ]
+    },
+    {
+      "passed": true,
+      "frames": 2443,
+      "initial_q_rad": [
+        -1.991522485674023,
+        -2.0529545674537006,
+        -1.9209299567790088,
+        0.2422260605307917,
+        1.9746326338787594,
+        -2.107974503757287
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 1971,
+      "source_time_s": 17.93,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.004969333791314226}]",
+      "initial_q_rad": [
+        -1.9876188246440674,
+        -0.34796402725904635,
+        1.9226906342006893,
+        2.380389985349744,
+        1.9732077205767011,
+        -2.1091533123143726
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 1520,
+      "source_time_s": 13.83,
+      "reason": "Modeled collision: [{'a': 'right:arm:wrist1_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.00493062985543917}]",
+      "initial_q_rad": [
+        -1.9880053412469996,
+        -0.08258836395317991,
+        1.5498472582338991,
+        -1.4069089488250441,
+        -1.9740347884024136,
+        1.030908010625558
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 1780,
+      "source_time_s": 16.2,
+      "reason": "Constrained IK failed (Iteration limit reached): IK constraints or pose tolerance not satisfied: IKResult(converged=False, iterations=150, translation_error_m=0.0005662830875793148, rotation_error_rad=0.0009425236734367575, step_norm=0.1471950811595165)",
+      "initial_q_rad": [
+        0.4927962376486614,
+        2.0444514134909637,
+        1.8868033368776558,
+        -0.36708786626575646,
+        -0.5160469317703906,
+        -1.9689387094642996
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 215,
+      "source_time_s": 1.97,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist3_Link', 'clearance_m': 0.004946017739893703}]",
+      "initial_q_rad": [
+        -1.9915578736915323,
+        -1.4835254596048688,
+        -1.548813976181432,
+        -3.1038821832787464,
+        -1.9758751730022568,
+        1.032803757304684
+      ]
+    }
+  ],
+  "whole_trajectory_solutions": 1,
+  "execution_enabled": false
+}

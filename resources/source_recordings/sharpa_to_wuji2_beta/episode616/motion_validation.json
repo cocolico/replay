@@ -1,0 +1,54 @@
+{
+  "scene_frame": "lychee_root from local nominal assembled dual FR3+Sharpa URDF",
+  "source_assembly_original": "/home/descfly/lpy/li-agent-mono/lia-sim/src/lia_sim/assets/robots/franka_sharpa/franka_sharpa.urdf",
+  "assembly_sha256": "15d3056fc3bb3219894e81009c65fb2f63188fbfedaa1e53724901ec3356b31c",
+  "method": "recorded 7 arm joint states -> URDF FK to Sharpa root -> retained Sharpa-root-to-Wuji-base transform",
+  "frames": 1263,
+  "sides": {
+    "left": {
+      "independent_arm_fk_position_max_abs_m": 6.661338147750939e-16,
+      "independent_arm_fk_rotation_max_abs": 1.1102230246251565e-15,
+      "max_root_displacement_from_start_m": 0.33816715523114954,
+      "max_root_rotation_from_start_deg": 29.706666146345825,
+      "root_step_m": {
+        "mean": 0.0007219782462915842,
+        "rmse": 0.0015621141550024621,
+        "p95": 0.004085833022218259,
+        "max": 0.006033161175893377
+      }
+    },
+    "right": {
+      "independent_arm_fk_position_max_abs_m": 5.551115123125783e-16,
+      "independent_arm_fk_rotation_max_abs": 1.3322676295501878e-15,
+      "max_root_displacement_from_start_m": 0.38077139727017123,
+      "max_root_rotation_from_start_deg": 45.93675208244236,
+      "root_step_m": {
+        "mean": 0.001025405829694442,
+        "rmse": 0.0020652454307336175,
+        "p95": 0.005112094738512377,
+        "max": 0.009130465327166857
+      }
+    }
+  },
+  "limitations": [
+    "Nominal inter-arm mounting and Sharpa mounting from local assembly, not verified against recorded workcell hash.",
+    "No camera extrinsics applied; visualization is not a calibrated RGB overlay.",
+    "Reference floor/grid is for orientation only, not a reconstructed table.",
+    "No target arm IK, contact or collision validation."
+  ],
+  "alignment_version": "wuji_beta_local_z_left_p90_right_m90_v1",
+  "orientation_note": "Already corrected in conversion: left local Z +90 deg, right -90 deg. No additional rotation in playback.",
+  "video_validation": {
+    "frames": 1263,
+    "fps": 30.0,
+    "samples": {
+      "0": true,
+      "252": true,
+      "505": true,
+      "757": true,
+      "1010": true,
+      "1262": true
+    }
+  },
+  "framing_includes_all_frames_mesh_bounds": true
+}

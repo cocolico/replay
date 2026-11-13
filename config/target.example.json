@@ -1,0 +1,25 @@
+{
+  "table_observation": "../target_input/observation.json",
+  "sides": {
+    "left": {
+      "ip": "",
+      "rpc_port": 30004,
+      "robot_name": "rob1",
+      "hand_address": "",
+      "hand_serial": "",
+      "handeye": "../target_input/left_handeye.json",
+      "mount_confirmed": false,
+      "flange_T_wuji_base": null
+    },
+    "right": {
+      "ip": "",
+      "rpc_port": 30004,
+      "robot_name": "rob1",
+      "hand_address": "",
+      "hand_serial": "",
+      "handeye": "../target_input/right_handeye.json",
+      "mount_confirmed": false,
+      "flange_T_wuji_base": null
+    }
+  }
+}

@@ -1,0 +1,3523 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "components": [
+    {
+      "type": "library",
+      "name": "wuji-tactile-calibrator",
+      "version": "0.3.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nlopt",
+      "version": "0.8.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "wuji-caliber",
+      "version": "0.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "slsqp",
+      "version": "1.0.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "wuji-retargeting",
+      "version": "0.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "wuji_client",
+      "version": "2026.11.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "wuji_core",
+      "version": "2026.11.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "wuji_idl_codegen",
+      "version": "2026.11.9",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "wuji_recording",
+      "version": "2026.11.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "wuji_sdk",
+      "version": "2026.11.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "wuji_transport",
+      "version": "2026.11.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "wuji_hand",
+      "version": "0.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "RustyXML",
+      "version": "0.3.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "adler2",
+      "version": "2.0.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "aes",
+      "version": "0.8.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ahash",
+      "version": "0.8.12",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "aho-corasick",
+      "version": "1.1.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "allocator-api2",
+      "version": "0.2.21",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "alterable_logger",
+      "version": "1.0.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "amd",
+      "version": "0.2.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "anstream",
+      "version": "0.6.21",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "anstyle-parse",
+      "version": "0.2.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "anstyle-query",
+      "version": "1.1.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "anstyle",
+      "version": "1.0.13",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "anyhow",
+      "version": "1.0.102",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "approx",
+      "version": "0.5.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "arc-swap",
+      "version": "1.8.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "array-init",
+      "version": "2.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "asn1-rs-derive",
+      "version": "0.6.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "asn1-rs-impl",
+      "version": "0.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "asn1-rs",
+      "version": "0.7.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "async-compression",
+      "version": "0.4.41",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "async-trait",
+      "version": "0.1.92",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "atomic-waker",
+      "version": "1.1.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "autocfg",
+      "version": "1.5.0",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "base64",
+      "version": "0.13.1",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "base64",
+      "version": "0.21.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "base64",
+      "version": "0.22.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "base64ct",
+      "version": "1.8.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bimap",
+      "version": "0.6.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bincode",
+      "version": "1.3.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "binrw",
+      "version": "0.12.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "binrw_derive",
+      "version": "0.12.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bit-vec",
+      "version": "0.9.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bitflags",
+      "version": "1.3.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bitflags",
+      "version": "2.11.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "block-buffer",
+      "version": "0.10.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bumpalo",
+      "version": "3.20.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bytemuck",
+      "version": "1.25.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bytemuck_derive",
+      "version": "1.10.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "byteorder-lite",
+      "version": "0.1.0",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "byteorder",
+      "version": "1.5.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bytes",
+      "version": "1.11.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bzip2-sys",
+      "version": "0.1.13+1.0.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "bzip2",
+      "version": "0.4.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "candle-core",
+      "version": "0.8.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "candle-nn",
+      "version": "0.8.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "cbor-edn",
+      "version": "0.0.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "cc",
+      "version": "1.2.56",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "cfg-if",
+      "version": "1.0.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "cfg_aliases",
+      "version": "0.2.1",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "chrono",
+      "version": "0.4.44",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "cipher",
+      "version": "0.4.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "clap",
+      "version": "4.5.60",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "clap_builder",
+      "version": "4.5.60",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "clap_derive",
+      "version": "4.5.55",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "clap_lex",
+      "version": "1.0.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "clarabel",
+      "version": "0.11.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "cmake",
+      "version": "0.1.58",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "cobs",
+      "version": "0.3.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "colorchoice",
+      "version": "1.0.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "colored",
+      "version": "2.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "compression-codecs",
+      "version": "0.4.37",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "compression-core",
+      "version": "0.4.31",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "concurrent-queue",
+      "version": "2.5.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "const-oid",
+      "version": "0.9.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "const_format",
+      "version": "0.2.35",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "const_format_proc_macros",
+      "version": "0.2.34",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "constant_time_eq",
+      "version": "0.1.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "cpufeatures",
+      "version": "0.2.17",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "crc-catalog",
+      "version": "2.4.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "crc32fast",
+      "version": "1.5.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "crc",
+      "version": "3.4.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "crossbeam-channel",
+      "version": "0.5.15",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "crossbeam-deque",
+      "version": "0.8.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "crossbeam-epoch",
+      "version": "0.9.18",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "crossbeam-queue",
+      "version": "0.3.12",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "crossbeam-utils",
+      "version": "0.8.21",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "crossbeam",
+      "version": "0.8.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "crypto-common",
+      "version": "0.1.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "darling",
+      "version": "0.14.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "darling",
+      "version": "0.20.11",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "darling",
+      "version": "0.21.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "darling_core",
+      "version": "0.14.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "darling_core",
+      "version": "0.20.11",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "darling_core",
+      "version": "0.21.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "darling_macro",
+      "version": "0.14.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "darling_macro",
+      "version": "0.20.11",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "darling_macro",
+      "version": "0.21.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "data-encoding-macro-internal",
+      "version": "0.1.17",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "data-encoding-macro",
+      "version": "0.1.19",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "data-encoding",
+      "version": "2.10.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "defmt-decoder",
+      "version": "1.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "defmt-json-schema",
+      "version": "0.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "defmt-parser",
+      "version": "1.0.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "der-parser",
+      "version": "10.0.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "der",
+      "version": "0.7.10",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "deranged",
+      "version": "0.5.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "derive_builder",
+      "version": "0.11.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "derive_builder",
+      "version": "0.20.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "derive_builder_core",
+      "version": "0.11.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "derive_builder_core",
+      "version": "0.20.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "derive_builder_macro",
+      "version": "0.11.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "derive_builder_macro",
+      "version": "0.20.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "digest",
+      "version": "0.10.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "dirs-sys",
+      "version": "0.5.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "dirs",
+      "version": "6.0.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "displaydoc",
+      "version": "0.2.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "dissimilar",
+      "version": "1.0.10",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "dyn-clone",
+      "version": "1.0.20",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "dyn-stack-macros",
+      "version": "0.1.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "dyn-stack",
+      "version": "0.10.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "dyn-stack",
+      "version": "0.13.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "either",
+      "version": "1.15.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "embedded-io",
+      "version": "0.4.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "embedded-io",
+      "version": "0.6.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "encoding_rs",
+      "version": "0.8.35",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "enum_dispatch",
+      "version": "0.3.13",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "enumset",
+      "version": "1.1.10",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "enumset_derive",
+      "version": "0.14.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "env_filter",
+      "version": "1.0.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "env_logger",
+      "version": "0.11.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "equivalent",
+      "version": "1.0.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "errno",
+      "version": "0.3.14",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "event-listener",
+      "version": "5.4.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "fallible-iterator",
+      "version": "0.3.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "fastbloom",
+      "version": "0.14.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "fastrand",
+      "version": "2.3.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "fdeflate",
+      "version": "0.3.7",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "find-msvc-tools",
+      "version": "0.1.9",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "fixedbitset",
+      "version": "0.5.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "flate2",
+      "version": "1.1.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "flume",
+      "version": "0.11.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "fnv",
+      "version": "1.0.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "foldhash",
+      "version": "0.1.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "foldhash",
+      "version": "0.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "form_urlencoded",
+      "version": "1.2.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "futures-channel",
+      "version": "0.3.32",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "futures-core",
+      "version": "0.3.32",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "futures-executor",
+      "version": "0.3.32",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "futures-io",
+      "version": "0.3.32",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "futures-macro",
+      "version": "0.3.32",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "futures-sink",
+      "version": "0.3.32",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "futures-task",
+      "version": "0.3.32",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "futures-util",
+      "version": "0.3.32",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "futures",
+      "version": "0.3.32",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-c32",
+      "version": "0.17.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-c32",
+      "version": "0.18.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-c64",
+      "version": "0.17.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-c64",
+      "version": "0.18.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-common",
+      "version": "0.17.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-common",
+      "version": "0.18.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-f16",
+      "version": "0.17.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-f16",
+      "version": "0.18.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-f32",
+      "version": "0.17.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-f32",
+      "version": "0.18.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-f64",
+      "version": "0.17.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm-f64",
+      "version": "0.18.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm",
+      "version": "0.17.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gemm",
+      "version": "0.18.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "generic-array",
+      "version": "0.14.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "getrandom",
+      "version": "0.2.17",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "getrandom",
+      "version": "0.3.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "getrandom",
+      "version": "0.4.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gimli",
+      "version": "0.29.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "git-version-macro",
+      "version": "0.3.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "git-version",
+      "version": "0.3.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "gltf-derive",
+      "version": "1.4.1",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "gltf-json",
+      "version": "1.4.1",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "gltf",
+      "version": "1.4.1",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "h2",
+      "version": "0.3.27",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "h2",
+      "version": "0.4.13",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "half",
+      "version": "2.7.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hash32",
+      "version": "0.2.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hash32",
+      "version": "0.3.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hashbrown",
+      "version": "0.12.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hashbrown",
+      "version": "0.14.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hashbrown",
+      "version": "0.15.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hashbrown",
+      "version": "0.16.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "heapless",
+      "version": "0.7.17",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "heapless",
+      "version": "0.8.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "heck",
+      "version": "0.5.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hex",
+      "version": "0.4.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hexfloat2",
+      "version": "0.1.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hmac",
+      "version": "0.12.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "home",
+      "version": "0.5.12",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "http-body-util",
+      "version": "0.1.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "http-body",
+      "version": "0.4.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "http-body",
+      "version": "1.0.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "http",
+      "version": "0.2.12",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "http",
+      "version": "1.4.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "httparse",
+      "version": "1.10.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "httpdate",
+      "version": "1.0.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "humantime",
+      "version": "2.3.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hyper-rustls",
+      "version": "0.24.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hyper-rustls",
+      "version": "0.27.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hyper-util",
+      "version": "0.1.20",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hyper",
+      "version": "0.14.32",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "hyper",
+      "version": "1.8.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "iana-time-zone",
+      "version": "0.1.65",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "icu_collections",
+      "version": "2.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "icu_locale_core",
+      "version": "2.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "icu_normalizer",
+      "version": "2.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "icu_normalizer_data",
+      "version": "2.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "icu_properties",
+      "version": "2.1.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "icu_properties_data",
+      "version": "2.1.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "icu_provider",
+      "version": "2.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ident_case",
+      "version": "1.0.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "idna",
+      "version": "1.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "idna_adapter",
+      "version": "1.2.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "if-addrs",
+      "version": "0.13.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "image",
+      "version": "0.25.10",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "indexmap",
+      "version": "1.9.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "indexmap",
+      "version": "2.13.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "indoc",
+      "version": "2.0.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "inflections",
+      "version": "1.1.1",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "inout",
+      "version": "0.1.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "inventory",
+      "version": "0.3.22",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ipnet",
+      "version": "2.12.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ipnetwork",
+      "version": "0.20.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "iri-string",
+      "version": "0.7.10",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "is_terminal_polyfill",
+      "version": "1.70.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "itertools",
+      "version": "0.11.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "itertools",
+      "version": "0.14.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "itoa",
+      "version": "1.0.17",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "jiff",
+      "version": "0.2.23",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "jobserver",
+      "version": "0.1.34",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "json5",
+      "version": "0.4.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "k",
+      "version": "0.32.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "keccak",
+      "version": "0.1.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "keyed-set",
+      "version": "1.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "lazy_static",
+      "version": "1.5.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "libc",
+      "version": "0.2.187",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "libloading",
+      "version": "0.8.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "libm",
+      "version": "0.2.16",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "libudev-sys",
+      "version": "0.1.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "libudev",
+      "version": "0.3.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "linux-raw-sys",
+      "version": "0.12.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "linux-raw-sys",
+      "version": "0.4.15",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "litemap",
+      "version": "0.8.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "lock_api",
+      "version": "0.4.14",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "log",
+      "version": "0.4.29",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "lru-slab",
+      "version": "0.1.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "lz4-sys",
+      "version": "1.11.1+lz4-1.10.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "lz4",
+      "version": "1.28.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "lz4_flex",
+      "version": "0.10.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "matchers",
+      "version": "0.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "matrixmultiply",
+      "version": "0.3.10",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "mcap",
+      "version": "0.24.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "memchr",
+      "version": "2.8.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "memmap2",
+      "version": "0.9.10",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "memoffset",
+      "version": "0.9.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "mime",
+      "version": "0.3.17",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "minimal-lexical",
+      "version": "0.2.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "miniz_oxide",
+      "version": "0.8.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "mio-serial",
+      "version": "5.0.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "mio",
+      "version": "1.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "moxcms",
+      "version": "0.8.1",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "nalgebra-macros",
+      "version": "0.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nalgebra-macros",
+      "version": "0.2.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nalgebra",
+      "version": "0.30.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nalgebra",
+      "version": "0.33.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nanorand",
+      "version": "0.7.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ndarray-npy",
+      "version": "0.9.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ndarray",
+      "version": "0.16.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nix",
+      "version": "0.26.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nix",
+      "version": "0.29.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nix",
+      "version": "0.30.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "no-std-net",
+      "version": "0.6.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nom",
+      "version": "7.1.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nonempty-collections",
+      "version": "0.3.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "npyz",
+      "version": "0.9.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nu-ansi-term",
+      "version": "0.50.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num-bigint-dig",
+      "version": "0.8.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num-bigint",
+      "version": "0.4.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num-complex",
+      "version": "0.4.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num-conv",
+      "version": "0.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num-integer",
+      "version": "0.1.46",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num-iter",
+      "version": "0.1.45",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num-rational",
+      "version": "0.4.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num-traits",
+      "version": "0.2.19",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num",
+      "version": "0.4.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num_cpus",
+      "version": "1.17.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num_enum",
+      "version": "0.7.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "num_enum_derive",
+      "version": "0.7.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "nusb",
+      "version": "0.1.14",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "object",
+      "version": "0.36.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "oid-registry",
+      "version": "0.8.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "once_cell",
+      "version": "1.21.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "openssl-probe",
+      "version": "0.2.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "option-ext",
+      "version": "0.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "os_info",
+      "version": "3.14.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "owo-colors",
+      "version": "3.5.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "parking",
+      "version": "2.2.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "parking_lot",
+      "version": "0.12.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "parking_lot_core",
+      "version": "0.9.12",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "password-hash",
+      "version": "0.4.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "paste",
+      "version": "1.0.15",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pbkdf2",
+      "version": "0.11.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "peg-macros",
+      "version": "0.8.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "peg-runtime",
+      "version": "0.8.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "peg",
+      "version": "0.8.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pem-rfc7468",
+      "version": "0.7.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pem",
+      "version": "3.0.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "percent-encoding",
+      "version": "2.3.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pest",
+      "version": "2.8.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pest_derive",
+      "version": "2.8.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pest_generator",
+      "version": "2.8.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pest_meta",
+      "version": "2.8.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "petgraph",
+      "version": "0.8.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "phf",
+      "version": "0.13.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "phf_generator",
+      "version": "0.13.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "phf_macros",
+      "version": "0.13.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "phf_shared",
+      "version": "0.13.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pin-project-lite",
+      "version": "0.2.17",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pin-utils",
+      "version": "0.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pkcs1",
+      "version": "0.7.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pkcs8",
+      "version": "0.10.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pkg-config",
+      "version": "0.3.32",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "pnet_base",
+      "version": "0.35.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pnet_datalink",
+      "version": "0.35.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pnet_sys",
+      "version": "0.35.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "png",
+      "version": "0.18.1",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "portable-atomic",
+      "version": "1.13.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "postcard",
+      "version": "1.1.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "posthog-rs",
+      "version": "0.4.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "potential_utf",
+      "version": "0.1.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "powerfmt",
+      "version": "0.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ppv-lite86",
+      "version": "0.2.21",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "proc-macro-crate",
+      "version": "3.5.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "proc-macro2",
+      "version": "1.0.106",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pulp",
+      "version": "0.18.22",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pulp",
+      "version": "0.21.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pxfm",
+      "version": "0.1.28",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "py_literal",
+      "version": "0.4.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pyo3-async-runtimes",
+      "version": "0.27.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pyo3-build-config",
+      "version": "0.27.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pyo3-ffi",
+      "version": "0.27.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pyo3-macros-backend",
+      "version": "0.27.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pyo3-macros",
+      "version": "0.27.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "pyo3",
+      "version": "0.27.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "quick-xml",
+      "version": "0.36.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "quinn-proto",
+      "version": "0.11.14",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "quinn-udp",
+      "version": "0.5.14",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "quinn",
+      "version": "0.11.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "quote",
+      "version": "1.0.40",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rand",
+      "version": "0.8.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rand",
+      "version": "0.9.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rand_chacha",
+      "version": "0.3.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rand_chacha",
+      "version": "0.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rand_core",
+      "version": "0.6.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rand_core",
+      "version": "0.9.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rand_distr",
+      "version": "0.5.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "raw-cpuid",
+      "version": "10.7.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "raw-cpuid",
+      "version": "11.6.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rawpointer",
+      "version": "0.2.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rayon-core",
+      "version": "1.13.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rayon",
+      "version": "1.12.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rcgen",
+      "version": "0.14.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "reborrow",
+      "version": "0.5.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ref-cast-impl",
+      "version": "1.0.25",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ref-cast",
+      "version": "1.0.25",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "regex-automata",
+      "version": "0.4.14",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "regex-syntax",
+      "version": "0.8.10",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "regex",
+      "version": "1.12.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "reqwest",
+      "version": "0.11.27",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "reqwest",
+      "version": "0.12.28",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ring",
+      "version": "0.17.14",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ringbuffer-spsc",
+      "version": "0.1.15",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ron",
+      "version": "0.12.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rsa",
+      "version": "0.9.10",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustc-hash",
+      "version": "2.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustc_version",
+      "version": "0.4.1",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "rusticata-macros",
+      "version": "4.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustix",
+      "version": "0.38.44",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustix",
+      "version": "1.1.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustls-native-certs",
+      "version": "0.8.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustls-pemfile",
+      "version": "1.0.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustls-pemfile",
+      "version": "2.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustls-pki-types",
+      "version": "1.14.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustls-platform-verifier",
+      "version": "0.6.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustls-webpki",
+      "version": "0.101.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustls-webpki",
+      "version": "0.103.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustls",
+      "version": "0.21.12",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustls",
+      "version": "0.23.37",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rustversion",
+      "version": "1.0.22",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ryu",
+      "version": "1.0.23",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "rzcobs",
+      "version": "0.1.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "safe_arch",
+      "version": "0.7.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "safetensors",
+      "version": "0.4.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "schemars",
+      "version": "0.8.22",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "schemars",
+      "version": "0.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "schemars",
+      "version": "1.2.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "schemars_derive",
+      "version": "0.8.22",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "schemars_derive",
+      "version": "1.2.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "scopeguard",
+      "version": "1.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "sct",
+      "version": "0.7.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "secrecy",
+      "version": "0.8.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "semver",
+      "version": "1.0.27",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "seq-macro",
+      "version": "0.3.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde-big-array",
+      "version": "0.5.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde-xml-rs",
+      "version": "0.6.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde",
+      "version": "1.0.228",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde_core",
+      "version": "1.0.228",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde_derive",
+      "version": "1.0.228",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde_derive_internals",
+      "version": "0.29.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde_json",
+      "version": "1.0.149",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde_spanned",
+      "version": "0.6.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde_spanned",
+      "version": "1.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde_urlencoded",
+      "version": "0.7.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde_with",
+      "version": "3.17.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde_with_macros",
+      "version": "3.17.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serde_yaml",
+      "version": "0.9.34+deprecated",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "serialport",
+      "version": "4.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "sha1",
+      "version": "0.10.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "sha2-const-stable",
+      "version": "0.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "sha2",
+      "version": "0.10.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "sha3",
+      "version": "0.10.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "sharded-slab",
+      "version": "0.1.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "shellexpand",
+      "version": "3.1.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "shlex",
+      "version": "1.3.0",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "signal-hook-registry",
+      "version": "1.4.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "signature",
+      "version": "2.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "simba",
+      "version": "0.7.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "simba",
+      "version": "0.9.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "simd-adler32",
+      "version": "0.3.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "siphasher",
+      "version": "1.0.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "slab",
+      "version": "0.4.12",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "smallvec",
+      "version": "1.15.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "socket2",
+      "version": "0.5.10",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "socket2",
+      "version": "0.6.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "spin",
+      "version": "0.10.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "spin",
+      "version": "0.9.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "spki",
+      "version": "0.7.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "stabby-abi",
+      "version": "72.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "stabby-macros",
+      "version": "72.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "stabby",
+      "version": "72.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "stable_deref_trait",
+      "version": "1.2.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "static_assertions",
+      "version": "1.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "strsim",
+      "version": "0.10.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "strsim",
+      "version": "0.11.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "subtle",
+      "version": "2.6.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "syn",
+      "version": "1.0.109",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "syn",
+      "version": "2.0.117",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "syn",
+      "version": "3.0.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "sync_wrapper",
+      "version": "0.1.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "sync_wrapper",
+      "version": "1.0.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "synstructure",
+      "version": "0.13.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "sys-locale",
+      "version": "0.3.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "target-lexicon",
+      "version": "0.13.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tempfile",
+      "version": "3.27.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "thiserror-impl",
+      "version": "1.0.69",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "thiserror-impl",
+      "version": "2.0.18",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "thiserror",
+      "version": "1.0.69",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "thiserror",
+      "version": "2.0.18",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "thread_local",
+      "version": "1.1.9",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "time-core",
+      "version": "0.1.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "time-macros",
+      "version": "0.2.27",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "time",
+      "version": "0.3.47",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tinystr",
+      "version": "0.8.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tinyvec",
+      "version": "1.10.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tinyvec_macros",
+      "version": "0.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tls-listener",
+      "version": "0.11.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "token-cell",
+      "version": "2.1.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tokio-macros",
+      "version": "2.6.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tokio-rustls",
+      "version": "0.24.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tokio-rustls",
+      "version": "0.26.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tokio-serial",
+      "version": "5.4.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tokio-tungstenite",
+      "version": "0.24.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tokio-util",
+      "version": "0.7.18",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tokio",
+      "version": "1.50.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "toml",
+      "version": "0.8.23",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "toml",
+      "version": "0.9.12+spec-1.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "toml_datetime",
+      "version": "0.6.11",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "toml_datetime",
+      "version": "0.7.5+spec-1.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "toml_datetime",
+      "version": "1.0.0+spec-1.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "toml_edit",
+      "version": "0.22.27",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "toml_edit",
+      "version": "0.25.4+spec-1.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "toml_parser",
+      "version": "1.0.9+spec-1.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "toml_write",
+      "version": "0.1.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "toml_writer",
+      "version": "1.1.1+spec-1.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tower-http",
+      "version": "0.6.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tower-layer",
+      "version": "0.3.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tower-service",
+      "version": "0.3.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tower",
+      "version": "0.5.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tracing-attributes",
+      "version": "0.1.31",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tracing-core",
+      "version": "0.1.36",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tracing-log",
+      "version": "0.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tracing-serde",
+      "version": "0.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tracing-subscriber",
+      "version": "0.3.22",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tracing",
+      "version": "0.1.44",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "try-lock",
+      "version": "0.2.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "tungstenite",
+      "version": "0.24.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "twox-hash",
+      "version": "1.6.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "typeid",
+      "version": "1.0.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "typenum",
+      "version": "1.19.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ucd-trie",
+      "version": "0.1.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "ug",
+      "version": "0.1.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "uhlc",
+      "version": "0.8.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "unescaper",
+      "version": "0.1.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "unicode-ident",
+      "version": "1.0.24",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "unicode-xid",
+      "version": "0.2.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "unindent",
+      "version": "0.2.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "unsafe-libyaml",
+      "version": "0.2.11",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "untrusted",
+      "version": "0.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "unzip-n",
+      "version": "0.1.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "urdf-rs",
+      "version": "0.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "url",
+      "version": "2.5.8",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "urlencoding",
+      "version": "2.1.3",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "utf-8",
+      "version": "0.7.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "utf8_iter",
+      "version": "1.0.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "utf8parse",
+      "version": "0.2.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "1.22.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "validated_struct",
+      "version": "2.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "validated_struct_macros",
+      "version": "2.2.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "vec_map",
+      "version": "0.8.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "version_check",
+      "version": "0.9.5",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "want",
+      "version": "0.3.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "webpki-roots",
+      "version": "0.25.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "webpki-roots",
+      "version": "1.0.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "wide",
+      "version": "0.7.33",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "winnow",
+      "version": "0.7.15",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "writeable",
+      "version": "0.6.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "x509-parser",
+      "version": "0.18.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "xml-rs",
+      "version": "0.8.28",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "yasna",
+      "version": "0.6.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "yoke-derive",
+      "version": "0.7.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "yoke-derive",
+      "version": "0.8.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "yoke",
+      "version": "0.7.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "yoke",
+      "version": "0.8.1",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-buffers",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-codec",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-collections",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-config",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-core",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-crypto",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-keyexpr",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-link-commons",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-link-quic",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-link-quic_datagram",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-link-tcp",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-link-tls",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-link-udp",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-link-unixsock_stream",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-link-ws",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-link",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-macros",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-plugin-trait",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-protocol",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-result",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-runtime",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-sync",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-task",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-transport",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh-util",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zenoh",
+      "version": "1.9.0",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zerocopy-derive",
+      "version": "0.8.42",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zerocopy",
+      "version": "0.8.42",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zerofrom-derive",
+      "version": "0.1.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zerofrom",
+      "version": "0.1.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zeroize",
+      "version": "1.8.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zerotrie",
+      "version": "0.2.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zerovec-derive",
+      "version": "0.11.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zerovec",
+      "version": "0.11.5",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zip",
+      "version": "0.6.6",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zip",
+      "version": "1.1.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zip",
+      "version": "2.4.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zmij",
+      "version": "1.0.21",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zopfli",
+      "version": "0.8.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zstd-safe",
+      "version": "5.0.2+zstd.1.5.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zstd-safe",
+      "version": "7.2.4",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zstd-sys",
+      "version": "2.0.16+zstd.1.5.7",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zstd",
+      "version": "0.11.2+zstd.1.5.2",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zstd",
+      "version": "0.13.3",
+      "scope": "required"
+    },
+    {
+      "type": "library",
+      "name": "zune-core",
+      "version": "0.5.1",
+      "scope": "excluded"
+    },
+    {
+      "type": "library",
+      "name": "zune-jpeg",
+      "version": "0.5.12",
+      "scope": "excluded"
+    }
+  ]
+}

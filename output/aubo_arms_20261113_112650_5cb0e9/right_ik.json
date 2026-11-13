@@ -1,0 +1,208 @@
+{
+  "backend": "continuous",
+  "candidate_count": 15,
+  "trials": [
+    {
+      "passed": false,
+      "failed_frame": 963,
+      "source_time_s": 8.77,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.00496744861919906}]",
+      "initial_q_rad": [
+        0.5381312328914651,
+        0.3808065974678503,
+        -2.0062706389035587,
+        -2.5804689312857696,
+        -0.558123998126257,
+        -1.9875121608224295
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 0,
+      "source_time_s": 0.0,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.0}]",
+      "initial_q_rad": [
+        0.5345652723608444,
+        1.5639224982070494,
+        1.7327865092047838,
+        3.1320192638250437,
+        0.5560445204819779,
+        1.1411244935457854
+      ]
+    },
+    {
+      "passed": true,
+      "frames": 2443,
+      "initial_q_rad": [
+        0.538315851327217,
+        0.01211087709720403,
+        -1.730479964350924,
+        1.2237855592916755,
+        0.5577737238155699,
+        1.1373277266603512
+      ]
+    },
+    {
+      "passed": true,
+      "frames": 2443,
+      "initial_q_rad": [
+        -1.9085122748788137,
+        -2.1565495755148034,
+        -2.0365572581213196,
+        0.22660338826283097,
+        1.8918925040964547,
+        -2.1177306173009587
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 1901,
+      "source_time_s": 17.3,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.004884345024825307}]",
+      "initial_q_rad": [
+        -1.9045731722384065,
+        -0.36492656760459075,
+        2.038253535659475,
+        2.5094712621346176,
+        1.8905565793042027,
+        -2.1187345656699956
+      ]
+    },
+    {
+      "passed": true,
+      "frames": 2443,
+      "initial_q_rad": [
+        -1.9049920199826074,
+        -0.031835318001906455,
+        1.7068357990285463,
+        -1.3040473644970645,
+        -1.8914408453463665,
+        1.0218686268192947
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 1781,
+      "source_time_s": 16.21,
+      "reason": "Constrained IK failed (Iteration limit reached): IK constraints or pose tolerance not satisfied: IKResult(converged=False, iterations=150, translation_error_m=0.0009092889625154909, rotation_error_rad=0.0059759669192673455, step_norm=0.15876871377731314)",
+      "initial_q_rad": [
+        0.5342103192818777,
+        2.149200293328393,
+        2.0072613841224545,
+        -0.33701269417898,
+        -0.5568654701201008,
+        -1.985532456123138
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 221,
+      "source_time_s": 2.02,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist3_Link', 'clearance_m': 0.00496299653952599}]",
+      "initial_q_rad": [
+        -1.9087242578323562,
+        -1.5645639246945178,
+        -1.7057557829223478,
+        3.0998908205841595,
+        -1.8933156913996665,
+        1.023799651547111
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 963,
+      "source_time_s": 8.77,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.004967448619199001}]",
+      "initial_q_rad": [
+        0.5381312328914651,
+        0.38080659746785045,
+        -2.0062706389035587,
+        -2.58046893128577,
+        5.72506130905333,
+        4.295673146357157
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 0,
+      "source_time_s": 0.0,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.0}]",
+      "initial_q_rad": [
+        0.5345652723608443,
+        1.5639224982070494,
+        -4.550398797974803,
+        -3.151166043354543,
+        0.5560445204819779,
+        1.1411244935457854
+      ]
+    },
+    {
+      "passed": true,
+      "frames": 2443,
+      "initial_q_rad": [
+        -1.908512274878814,
+        -2.1565495755148034,
+        -2.03655725812132,
+        0.22660338826283033,
+        1.891892504096455,
+        4.1654546898786275
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 1901,
+      "source_time_s": 17.3,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist2_Link', 'clearance_m': 0.004884345024825298}]",
+      "initial_q_rad": [
+        -1.9045731722384065,
+        -0.3649265676045907,
+        -4.244931771520111,
+        -3.773714045044969,
+        1.8905565793042027,
+        4.164450741509591
+      ]
+    },
+    {
+      "passed": true,
+      "frames": 2443,
+      "initial_q_rad": [
+        -1.9049920199826074,
+        -0.03183531800190657,
+        -4.57634950815104,
+        -1.3040473644970645,
+        4.39174446183322,
+        1.0218686268192947
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 1781,
+      "source_time_s": 16.21,
+      "reason": "Constrained IK failed (Iteration limit reached): IK constraints or pose tolerance not satisfied: IKResult(converged=False, iterations=150, translation_error_m=0.0009092875428572784, rotation_error_rad=0.005975914458491115, step_norm=0.15876868399575458)",
+      "initial_q_rad": [
+        0.5342103192818776,
+        2.149200293328393,
+        -4.275923923057132,
+        -0.33701269417897983,
+        5.726319837059486,
+        4.297652851056449
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 221,
+      "source_time_s": 2.02,
+      "reason": "Modeled collision: [{'a': 'right:arm:foreArm_Link', 'b': 'right:arm:wrist3_Link', 'clearance_m': 0.004962996539526082}]",
+      "initial_q_rad": [
+        -1.9087242578323562,
+        -1.564563924694518,
+        -1.7057557829223475,
+        -3.1832944865954267,
+        4.38986961577992,
+        1.023799651547111
+      ]
+    }
+  ],
+  "whole_trajectory_solutions": 5,
+  "execution_enabled": false
+}

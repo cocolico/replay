@@ -1,0 +1,176 @@
+{
+  "backend": "continuous",
+  "candidate_count": 12,
+  "trials": [
+    {
+      "passed": false,
+      "failed_frame": 289,
+      "source_time_s": 2.64,
+      "reason": "Modeled collision: [{'a': 'left:hand:l_thumb_distal', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004855090017581477}]",
+      "initial_q_rad": [
+        -0.47195674508557733,
+        -0.33669092300165154,
+        1.8165830914546361,
+        2.5841659072310077,
+        0.5285452253743489,
+        0.30888043410625476
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 282,
+      "source_time_s": 2.58,
+      "reason": "Modeled collision: [{'a': 'left:arm:wrist1_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.0047122159163278665}]",
+      "initial_q_rad": [
+        1.988633966865239,
+        1.4261407619687916,
+        1.5687345992095345,
+        3.0520436082020903,
+        1.9657532541038512,
+        -2.5454742919377114
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 282,
+      "source_time_s": 2.58,
+      "reason": "Modeled collision: [{'a': 'left:arm:wrist1_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004728294937729083}]",
+      "initial_q_rad": [
+        1.9863094330383078,
+        0.008211868878292752,
+        -1.5695516080973717,
+        1.3315712839311402,
+        1.9623420246875147,
+        -2.545784844213947
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 289,
+      "source_time_s": 2.64,
+      "reason": "Modeled collision: [{'a': 'left:hand:l_thumb_distal', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.0048550900175817965}]",
+      "initial_q_rad": [
+        -0.4699362198402412,
+        -1.958647808523296,
+        -1.8168576030366725,
+        0.574161464695207,
+        0.5251367054859741,
+        0.30717350196473187
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 283,
+      "source_time_s": 2.59,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.0048518707642161985}]",
+      "initial_q_rad": [
+        -0.47323398929273996,
+        0.043764538692204154,
+        1.6420263290352342,
+        -1.107378658499632,
+        -0.5287005755971826,
+        -2.83658818056515
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 289,
+      "source_time_s": 2.64,
+      "reason": "Modeled collision: [{'a': 'left:hand:l_thumb_distal', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.0048550900175817445}]",
+      "initial_q_rad": [
+        1.9895613053138823,
+        1.9839996281379741,
+        1.8920659353170637,
+        -0.3202419096055138,
+        -1.9659855742141878,
+        0.5979295696011322
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 289,
+      "source_time_s": 2.64,
+      "reason": "Modeled collision: [{'a': 'left:hand:l_thumb_distal', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004855090017581099}]",
+      "initial_q_rad": [
+        1.9876847219212161,
+        0.3016894295245976,
+        -1.8928386981423213,
+        -2.4227918519665645,
+        -1.9625708733040692,
+        0.5980430801316268
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 0,
+      "source_time_s": 0.0,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'left:arm:wrist2_Link', 'clearance_m': 0.0003648329344053729}]",
+      "initial_q_rad": [
+        -0.4709747669780019,
+        -1.435049022987436,
+        -1.6429476791214785,
+        -2.9129701696262713,
+        -0.5253260948922002,
+        -2.8372454933384295
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 289,
+      "source_time_s": 2.64,
+      "reason": "Modeled collision: [{'a': 'left:hand:l_thumb_distal', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.0048550900175817965}]",
+      "initial_q_rad": [
+        -0.4699362198402412,
+        -1.958647808523296,
+        4.4663277041429135,
+        0.5741614646952071,
+        0.5251367054859742,
+        0.30717350196473175
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 283,
+      "source_time_s": 2.59,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004851870764216282}]",
+      "initial_q_rad": [
+        -0.4732339892927399,
+        0.043764538692204494,
+        1.6420263290352346,
+        -1.1073786584996315,
+        -0.5287005755971824,
+        3.4465971266144364
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 289,
+      "source_time_s": 2.64,
+      "reason": "Modeled collision: [{'a': 'left:hand:l_thumb_distal', 'b': 'calibrated_table_halfspace', 'clearance_m': 0.004855090017581425}]",
+      "initial_q_rad": [
+        1.9876847219212164,
+        0.3016894295245973,
+        4.390346609037265,
+        3.860393455213022,
+        -1.9625708733040692,
+        0.5980430801316267
+      ]
+    },
+    {
+      "passed": false,
+      "failed_frame": 0,
+      "source_time_s": 0.0,
+      "reason": "Modeled collision: [{'a': 'left:arm:foreArm_Link', 'b': 'left:arm:wrist2_Link', 'clearance_m': 0.00036483293440535885}]",
+      "initial_q_rad": [
+        -0.47097476697800184,
+        -1.4350490229874358,
+        -1.6429476791214783,
+        3.3702151375533154,
+        -0.5253260948922001,
+        3.4459398138411568
+      ]
+    }
+  ],
+  "whole_trajectory_solutions": 0,
+  "execution_enabled": false
+}

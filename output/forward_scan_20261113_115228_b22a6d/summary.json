@@ -1,0 +1,81 @@
+{
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "arms_only": true,
+  "source": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm",
+  "direction": "Away from the midpoint of both arm bases toward the mean task roots, projected into calibrated table plane",
+  "attempts": [
+    {
+      "forward_cm": 5.0,
+      "candidate": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_115228_b22a6d/forward_5p0cm/trajectory",
+      "sides": {
+        "left": {
+          "candidates": 13,
+          "entry_screen_passed": 3,
+          "complete_paths": 0
+        }
+      },
+      "pair_checks": [],
+      "ready_for_execution": false
+    },
+    {
+      "forward_cm": 10.0,
+      "candidate": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_115228_b22a6d/forward_10p0cm/trajectory",
+      "sides": {
+        "left": {
+          "candidates": 13,
+          "entry_screen_passed": 3,
+          "complete_paths": 0
+        }
+      },
+      "pair_checks": [],
+      "ready_for_execution": false
+    },
+    {
+      "forward_cm": 15.0,
+      "candidate": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_115228_b22a6d/forward_15p0cm/trajectory",
+      "sides": {
+        "left": {
+          "candidates": 11,
+          "entry_screen_passed": 2,
+          "complete_paths": 1
+        },
+        "right": {
+          "candidates": 15,
+          "entry_screen_passed": 1,
+          "complete_paths": 0
+        }
+      },
+      "pair_checks": [],
+      "ready_for_execution": false
+    },
+    {
+      "forward_cm": 20.0,
+      "candidate": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_115228_b22a6d/forward_20p0cm/trajectory",
+      "sides": {
+        "left": {
+          "candidates": 11,
+          "entry_screen_passed": 2,
+          "complete_paths": 1
+        },
+        "right": {
+          "candidates": 15,
+          "entry_screen_passed": 1,
+          "complete_paths": 0
+        }
+      },
+      "pair_checks": [],
+      "ready_for_execution": false
+    }
+  ],
+  "forward_current_camera": [
+    -0.04373861143641682,
+    -0.6272124429751934,
+    0.7776191132210577
+  ],
+  "forward_board_axes": [
+    0.0019655633970739397,
+    -0.9999980682784002,
+    6.106226635438361e-16
+  ]
+}

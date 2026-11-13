@@ -1,0 +1,219 @@
+{
+  "execution_enabled": false,
+  "source": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm",
+  "description": "Forward 20.0 cm away from arm bases; preserve source lift of 6.5cm",
+  "delta_current_camera_m": [
+    -0.008747722287283365,
+    -0.12544248859503868,
+    0.15552382264421155
+  ],
+  "delta_source_camera_m": [
+    -0.0014484498554675571,
+    -0.13187503623833854,
+    0.15035583397445246
+  ],
+  "sources": [
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/alignment_version.npy",
+      "sha256": "32ddc1bfd6192e9dd2080bb0f2484bcb030bf99bcfd853d3817b03d67dfe28ee"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/fps.npy",
+      "sha256": "671ba8e6f941ae3f4c2f78a8daed09806cc89b6c09cfbd6223a85b657b0cf9b3"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/frame.npy",
+      "sha256": "df05ec3ed7e7d42f8918c3009bd9868df19afd6fa15d831a50e15ba5184b46bf"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/joint_unit.npy",
+      "sha256": "0a0c06972ea1bb5888190c29a4cce7bbb0b0059940492db46c57cb18cad8a22c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/left_joint_names.npy",
+      "sha256": "11b31e1f5bad085e7c633966b6afc946a838aadce6d426efeabeb0f21573af3c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/left_joint_positions_rad.npy",
+      "sha256": "b993667a77d6450734a35f10dd48aabbb6143261b41a9fd40b7abfde553804ab"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/left_position_m.npy",
+      "sha256": "adbde5f2dbb6fb89efdad00f804c8d76f9f09e5ceb2f0ac3d4ce09987a86edf4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/left_quaternion_wxyz.npy",
+      "sha256": "16d5078317fdfa9dbfb386377630bbf08d356083abe21cfaee43f9d5ef592638"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/left_root_pose.npy",
+      "sha256": "f3be8f4bbe73c90060d1e08b0672e74f1c784e35fcd01aa6870a87abe240d4e8"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/model.npy",
+      "sha256": "6bfd2b3c22fef34994a8f11a776e03c64a64986679cf97ecbc28c9003d432593"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/pose_target.npy",
+      "sha256": "a27ddbca16dbe6e4a4ac880e457683bab839447f7982ce4a699cf4caf026337a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/position_unit.npy",
+      "sha256": "cce8fbc150a7a6d656686018697d1b2302d1fe73d4e7203a76b0992e458ce311"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/quaternion_order.npy",
+      "sha256": "20600487557322f819068521379e0799c9647225cc6bac0826a172ff07af2d94"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/right_joint_names.npy",
+      "sha256": "c5e70728dba14ccd211580a0a494f53a48682313f1f5a6baceadfd54bec1d78f"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/right_joint_positions_rad.npy",
+      "sha256": "106760324e3c928649aea410bf8b6db5d011ad537fbf7abc7e68efdbe7d84534"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/right_position_m.npy",
+      "sha256": "8ad812e60a4e463952f42bc72d63622e691a0b19a8bd887fb8c6a445a878d319"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/right_quaternion_wxyz.npy",
+      "sha256": "aa0003ebcb263c973ad126643c295bf669e3947f11ddb7ad6711c527c263980c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/right_root_pose.npy",
+      "sha256": "fc40b0e9871f059bb3e1aa34e1260eae79b517596aff4520cf0c524096a8a93e"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/side_order.npy",
+      "sha256": "0482a9c8d1f29f03f102d205cde35888e768306c7da555b8ae8eaabf1219c31c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/source_stream.npy",
+      "sha256": "a9d8b5a22701bdcece4d60df024bd38141a8cb79d82e76f05afcfb739125a3f4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/target_arm_ik_available.npy",
+      "sha256": "1a85c7f644bcfbe7144c5df3f7b545a839623e8898006fedc0d66615048553f4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/time_s.npy",
+      "sha256": "36109c7ff594d24af1bbc5c251a7cc113d4b44c88da8584bc20a324ebd48ff25"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/timestamp_ns.npy",
+      "sha256": "f26333cb2a299a5d1bcea2a81b1b93b7bef456d727b8414e825c210460a4f9f5"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/base_config.json",
+      "sha256": "c16a5bc17dc67f5251e076cadb66a17f7d88a9c2a64914a70fe5b471b0035bff"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/config/mapping_from_human_gemini335.json",
+      "sha256": "040f72e9bda1608011e40172c038c4d530425941d6ed42110f422642349fca78"
+    },
+    {
+      "path": "/home/descfly/ty/desk/calibration/results/current-table-20261112/observation.json",
+      "sha256": "2e2504fc19e11bb9f119e1325d32c8df54692293b21faee68ac0b19681eea11a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/lifted_try_2_6p5cm/lift_manifest.json",
+      "sha256": "aa0a045960757882764802931fc09f3534783d5d1b13296acc2cfade686af532"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/alignment_version.npy",
+      "sha256": "32ddc1bfd6192e9dd2080bb0f2484bcb030bf99bcfd853d3817b03d67dfe28ee"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/fps.npy",
+      "sha256": "671ba8e6f941ae3f4c2f78a8daed09806cc89b6c09cfbd6223a85b657b0cf9b3"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/frame.npy",
+      "sha256": "df05ec3ed7e7d42f8918c3009bd9868df19afd6fa15d831a50e15ba5184b46bf"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/joint_unit.npy",
+      "sha256": "0a0c06972ea1bb5888190c29a4cce7bbb0b0059940492db46c57cb18cad8a22c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/left_joint_names.npy",
+      "sha256": "11b31e1f5bad085e7c633966b6afc946a838aadce6d426efeabeb0f21573af3c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/left_joint_positions_rad.npy",
+      "sha256": "b993667a77d6450734a35f10dd48aabbb6143261b41a9fd40b7abfde553804ab"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/left_position_m.npy",
+      "sha256": "adfc0503561f37b393f9bb11b8441987d9cbaa3dc73619a942fbc63864bcfe01"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/left_quaternion_wxyz.npy",
+      "sha256": "16d5078317fdfa9dbfb386377630bbf08d356083abe21cfaee43f9d5ef592638"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/left_root_pose.npy",
+      "sha256": "fb52adeabe252114c524702904bd77b0de7f89da806bcb611f4e1aed5d534872"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/model.npy",
+      "sha256": "6bfd2b3c22fef34994a8f11a776e03c64a64986679cf97ecbc28c9003d432593"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/pose_target.npy",
+      "sha256": "a27ddbca16dbe6e4a4ac880e457683bab839447f7982ce4a699cf4caf026337a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/position_unit.npy",
+      "sha256": "cce8fbc150a7a6d656686018697d1b2302d1fe73d4e7203a76b0992e458ce311"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/quaternion_order.npy",
+      "sha256": "20600487557322f819068521379e0799c9647225cc6bac0826a172ff07af2d94"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/right_joint_names.npy",
+      "sha256": "c5e70728dba14ccd211580a0a494f53a48682313f1f5a6baceadfd54bec1d78f"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/right_joint_positions_rad.npy",
+      "sha256": "106760324e3c928649aea410bf8b6db5d011ad537fbf7abc7e68efdbe7d84534"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/right_position_m.npy",
+      "sha256": "e78b4139d37452e184c123211888cba94cb4cd580e8596266b5861c4ebad56da"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/right_quaternion_wxyz.npy",
+      "sha256": "aa0003ebcb263c973ad126643c295bf669e3947f11ddb7ad6711c527c263980c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/right_root_pose.npy",
+      "sha256": "c45bfe88526a2d853eed696cf62d50cdaf90642f82a5f625ae0224d949729a4d"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/side_order.npy",
+      "sha256": "0482a9c8d1f29f03f102d205cde35888e768306c7da555b8ae8eaabf1219c31c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/source_stream.npy",
+      "sha256": "a9d8b5a22701bdcece4d60df024bd38141a8cb79d82e76f05afcfb739125a3f4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/target_arm_ik_available.npy",
+      "sha256": "1a85c7f644bcfbe7144c5df3f7b545a839623e8898006fedc0d66615048553f4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/time_s.npy",
+      "sha256": "36109c7ff594d24af1bbc5c251a7cc113d4b44c88da8584bc20a324ebd48ff25"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/forward_scan_20261113_114218_dff4b6/forward_20p0cm/trajectory/timestamp_ns.npy",
+      "sha256": "f26333cb2a299a5d1bcea2a81b1b93b7bef456d727b8414e825c210460a4f9f5"
+    }
+  ]
+}
