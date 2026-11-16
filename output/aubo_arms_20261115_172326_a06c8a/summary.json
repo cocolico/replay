@@ -1,8 +1,0 @@
-{
-  "ready_for_execution": false,
-  "execution_attempted": false,
-  "arms_only": false,
-  "name": "aubo_arms_20261115_172326_a06c8a",
-  "ik_method": "episode594_sdk",
-  "error": "Candidate export requires full-frame convergence on both sides"
-}

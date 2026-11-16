@@ -1,8 +1,0 @@
-{
-  "ready_for_execution": false,
-  "execution_attempted": false,
-  "arms_only": false,
-  "name": "aubo_arms_20261116_011854_fd68c4",
-  "ik_method": "episode594_sdk",
-  "error": "Controller must be Running, steady, and in Normal/ReducedMode"
-}

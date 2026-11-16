@@ -1,8 +1,0 @@
-{
-  "ready_for_execution": false,
-  "execution_attempted": false,
-  "arms_only": false,
-  "name": "aubo_arms_20261116_013604_6e7e20",
-  "ik_method": "episode594_sdk",
-  "error": "Unknown camera trajectory frame"
-}
