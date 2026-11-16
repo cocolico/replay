@@ -1,0 +1,563 @@
+{
+  "planner": "collision_constrained_waypoint_graph",
+  "graph_library": "networkx",
+  "collision_nodes_rejected": 0,
+  "edges_tested": 535,
+  "edges_rejected": 463,
+  "layers": [
+    {
+      "frame": 0,
+      "source_time_s": 0.0,
+      "candidates": 8,
+      "reachable": 8
+    },
+    {
+      "frame": 1,
+      "source_time_s": 0.133492,
+      "candidates": 7,
+      "reachable": 7
+    },
+    {
+      "frame": 2,
+      "source_time_s": 0.266985,
+      "candidates": 7,
+      "reachable": 7
+    },
+    {
+      "frame": 3,
+      "source_time_s": 0.400477,
+      "candidates": 8,
+      "reachable": 7
+    },
+    {
+      "frame": 4,
+      "source_time_s": 0.53397,
+      "candidates": 7,
+      "reachable": 7
+    },
+    {
+      "frame": 5,
+      "source_time_s": 0.667463,
+      "candidates": 7,
+      "reachable": 7
+    },
+    {
+      "frame": 6,
+      "source_time_s": 0.800955,
+      "candidates": 7,
+      "reachable": 7
+    },
+    {
+      "frame": 7,
+      "source_time_s": 0.934448,
+      "candidates": 8,
+      "reachable": 7
+    },
+    {
+      "frame": 8,
+      "source_time_s": 1.06794,
+      "candidates": 8,
+      "reachable": 7
+    },
+    {
+      "frame": 9,
+      "source_time_s": 1.201433,
+      "candidates": 7,
+      "reachable": 6
+    },
+    {
+      "frame": 10,
+      "source_time_s": 1.334926,
+      "candidates": 7,
+      "reachable": 6
+    },
+    {
+      "frame": 11,
+      "source_time_s": 1.468418,
+      "candidates": 4,
+      "reachable": 4
+    },
+    {
+      "frame": 12,
+      "source_time_s": 1.601911,
+      "candidates": 0,
+      "reachable": 0
+    }
+  ],
+  "failed_frame": 12,
+  "source_time_s": 1.601911,
+  "passed": false,
+  "reason": "No collision-free connected IK candidates at frame 12",
+  "sdk": {
+    "sdk_ik_calls": 154,
+    "pose_rejected": 0,
+    "collision_rejected": 38
+  },
+  "edge_checks": {
+    "ik_failure": 0,
+    "endpoint_mismatch": 448,
+    "edge_collision": 3,
+    "tracking_cache_hits": 459,
+    "tracking_cache_misses": 76
+  },
+  "collision_failures": [
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0190698127795778
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03177533598139488
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703460286
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.002276245034091731
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006602378171275902
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0190698127795778
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03177533598139488
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703460286
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.002276245034091731
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006602378171275902
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.01906981277957821
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03177533598139521
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703465178
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0022762450340922686
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006602378171276419
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.01906981277957821
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03177533598139521
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703465178
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0022762450340922686
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006602378171276419
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0190698127795778
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03177533598139488
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703460286
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.002276245034091731
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006602378171275902
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0190698127795778
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03177533598139488
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703460286
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.002276245034091731
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006602378171275902
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.019069812779577904
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03177533598139498
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703460911
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.002276245034091861
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0066023781712761
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.019069812779577904
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03177533598139498
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703460911
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.002276245034091861
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0066023781712761
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.01906981277957832
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0317753359813954
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703466358
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0022762450340922946
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006602378171276537
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.01906981277957832
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0317753359813954
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703466358
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0022762450340922946
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006602378171276537
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0190698127795778
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03177533598139488
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703460286
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.002276245034091731
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006602378171275902
+        }
+      ]
+    },
+    {
+      "frame": 12,
+      "phase": "candidate",
+      "findings": [
+        {
+          "a": "left:hand:l_thumb_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0190698127795778
+        },
+        {
+          "a": "left:hand:l_thumb_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.03177533598139488
+        },
+        {
+          "a": "left:hand:l_ring_finger_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.0008583812703460286
+        },
+        {
+          "a": "left:hand:l_pinky_middle",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.002276245034091731
+        },
+        {
+          "a": "left:hand:l_pinky_distal",
+          "b": "calibrated_table_halfspace",
+          "clearance_m": -0.006602378171275902
+        }
+      ]
+    }
+  ],
+  "source_frames": 315,
+  "planning_waypoints": 80,
+  "waypoint_stride": 4,
+  "source_waypoint_indices": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48,
+    52,
+    56,
+    60,
+    64,
+    68,
+    72,
+    76,
+    80,
+    84,
+    88,
+    92,
+    96,
+    100,
+    104,
+    108,
+    112,
+    116,
+    120,
+    124,
+    128,
+    132,
+    136,
+    140,
+    144,
+    148,
+    152,
+    156,
+    160,
+    164,
+    168,
+    172,
+    176,
+    180,
+    184,
+    188,
+    192,
+    196,
+    200,
+    204,
+    208,
+    212,
+    216,
+    220,
+    224,
+    228,
+    232,
+    236,
+    240,
+    244,
+    248,
+    252,
+    256,
+    260,
+    264,
+    268,
+    272,
+    276,
+    280,
+    284,
+    288,
+    292,
+    296,
+    300,
+    304,
+    308,
+    312,
+    314
+  ],
+  "failed_source_frame": 48
+}

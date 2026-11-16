@@ -1,0 +1,17 @@
+{
+  "frame": 40,
+  "frames": 49,
+  "reachable": 5,
+  "sdk": {
+    "sdk_ik_calls": 452,
+    "pose_rejected": 0,
+    "collision_rejected": 74
+  },
+  "edge_checks": {
+    "ik_failure": 0,
+    "endpoint_mismatch": 1675,
+    "edge_collision": 2,
+    "tracking_cache_hits": 1685,
+    "tracking_cache_misses": 266
+  }
+}

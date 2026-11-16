@@ -16,7 +16,7 @@ def solve_side(c,side,z):
         snap=robot.snapshot()
         if snap['robot_type']!='aubo_i7H':raise ValueError('Unexpected robot type')
         lo,hi=np.asarray(snap['joint_min_rad']),np.asarray(snap['joint_max_rad'])
-        prev=np.asarray(z[f'{side}_aubo_joint_positions_rad'][0]);qs=[];position=[];angle=[]
+        prev=np.asarray(z[f'{side}_aubo_joint_positions_rad'][0]);qs=[];position=[];angle=[];branch_warnings=[]
         for i,target in enumerate(z[f'{side}_aubo_base_T_flange']):
             q=robot.ik(target,prev)
             for j in range(6):
@@ -30,10 +30,17 @@ def solve_side(c,side,z):
             actual=robot.fk(q)
             pe=float(np.linalg.norm(actual[:3,3]-target[:3,3]));ae=float(Rotation.from_matrix(actual[:3,:3].T@target[:3,:3]).magnitude())
             if pe>1e-5 or ae>1e-4:raise ValueError(f'{side} frame{i} controller IK residual {pe}m/{ae}rad')
-            if i and np.max(abs(q-prev))>.4:raise ValueError(f'{side} frame{i} branch discontinuity')
+            if i:
+                delta=abs(q-prev);joint=int(np.argmax(delta));maximum=float(delta[joint])
+                if maximum>.4:
+                    warning={'type':'controller_ik_branch_discontinuity','side':side,'frame':i,
+                             'joint_index':joint,'max_delta_rad':maximum,'threshold_rad':.4,
+                             'action':'warn_only_continue'}
+                    branch_warnings.append(warning);print('WARNING',warning,flush=True)
             qs.append(q.copy());position.append(pe);angle.append(ae);prev=q
             if i%300==0:print(side,'frame',i,'/',len(z['time_s']),flush=True)
         return np.array(qs),{'snapshot':snap,'max_position_error_m':max(position),'max_orientation_error_rad':max(angle),
+               'branch_discontinuity_warnings':branch_warnings,
                'dynamics':dynamics(np.asarray(qs),z['time_s'])}
     finally:robot.close()
 

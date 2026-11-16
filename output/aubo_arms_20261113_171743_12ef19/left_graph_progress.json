@@ -1,0 +1,15 @@
+{
+  "frame": 220,
+  "frames": 223,
+  "reachable": 2,
+  "sdk": {
+    "sdk_ik_calls": 1564,
+    "pose_rejected": 0,
+    "collision_rejected": 312
+  },
+  "edge_checks": {
+    "ik_failure": 0,
+    "endpoint_mismatch": 0,
+    "edge_collision": 0
+  }
+}

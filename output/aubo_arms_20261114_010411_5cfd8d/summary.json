@@ -1,0 +1,14 @@
+{
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "arms_only": true,
+  "name": "aubo_arms_20261114_010411_5cfd8d",
+  "path_planner": "collision_graph",
+  "entry_planner": "direct",
+  "waypoint_stride": 4,
+  "whole_trajectory_solutions": {
+    "left": 4,
+    "right": 5
+  },
+  "error": ""
+}

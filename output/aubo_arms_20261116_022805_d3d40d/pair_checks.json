@@ -1,0 +1,1238 @@
+[
+  {
+    "ready_for_execution": true,
+    "collision_checked": true,
+    "collision_passed": true,
+    "collision_check_policy": "required",
+    "collision_failures": [],
+    "hand_self_collision_policy": "warn",
+    "hand_self_collision_warning_frames": 1950,
+    "hand_self_collision_warnings": [
+      {
+        "source_frame": 145,
+        "source_time_s": 4.833333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 146,
+        "source_time_s": 4.866666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 147,
+        "source_time_s": 4.9,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 148,
+        "source_time_s": 4.933333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 149,
+        "source_time_s": 4.966666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 184,
+        "source_time_s": 6.133333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 185,
+        "source_time_s": 6.166666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 186,
+        "source_time_s": 6.2,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 187,
+        "source_time_s": 6.233333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 188,
+        "source_time_s": 6.266666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 189,
+        "source_time_s": 6.3,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 190,
+        "source_time_s": 6.333333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 191,
+        "source_time_s": 6.366666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 192,
+        "source_time_s": 6.4,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 193,
+        "source_time_s": 6.433333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 194,
+        "source_time_s": 6.466666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 195,
+        "source_time_s": 6.5,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 196,
+        "source_time_s": 6.533333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 197,
+        "source_time_s": 6.566666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 198,
+        "source_time_s": 6.6,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 199,
+        "source_time_s": 6.633333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 200,
+        "source_time_s": 6.666666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 201,
+        "source_time_s": 6.7,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 202,
+        "source_time_s": 6.733333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 203,
+        "source_time_s": 6.766666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 204,
+        "source_time_s": 6.8,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 205,
+        "source_time_s": 6.833333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 206,
+        "source_time_s": 6.866666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 207,
+        "source_time_s": 6.9,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 208,
+        "source_time_s": 6.933333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 209,
+        "source_time_s": 6.966666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 210,
+        "source_time_s": 7.0,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 211,
+        "source_time_s": 7.033333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 212,
+        "source_time_s": 7.066666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 213,
+        "source_time_s": 7.1,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 214,
+        "source_time_s": 7.133333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 215,
+        "source_time_s": 7.166666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 216,
+        "source_time_s": 7.2,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 217,
+        "source_time_s": 7.233333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 218,
+        "source_time_s": 7.266666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 219,
+        "source_time_s": 7.3,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 220,
+        "source_time_s": 7.333333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 221,
+        "source_time_s": 7.366666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 222,
+        "source_time_s": 7.4,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 223,
+        "source_time_s": 7.433333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 224,
+        "source_time_s": 7.466666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 225,
+        "source_time_s": 7.5,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 226,
+        "source_time_s": 7.533333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 227,
+        "source_time_s": 7.566666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 228,
+        "source_time_s": 7.6,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 229,
+        "source_time_s": 7.633333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 230,
+        "source_time_s": 7.666666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 231,
+        "source_time_s": 7.7,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 232,
+        "source_time_s": 7.733333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 233,
+        "source_time_s": 7.766666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 234,
+        "source_time_s": 7.8,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 235,
+        "source_time_s": 7.833333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 236,
+        "source_time_s": 7.866666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 237,
+        "source_time_s": 7.9,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 238,
+        "source_time_s": 7.933333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 239,
+        "source_time_s": 7.966666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 240,
+        "source_time_s": 8.0,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 241,
+        "source_time_s": 8.033333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 242,
+        "source_time_s": 8.066666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 243,
+        "source_time_s": 8.1,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 244,
+        "source_time_s": 8.133333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 245,
+        "source_time_s": 8.166666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 246,
+        "source_time_s": 8.2,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 247,
+        "source_time_s": 8.233333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 248,
+        "source_time_s": 8.266666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 249,
+        "source_time_s": 8.3,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 250,
+        "source_time_s": 8.333333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 251,
+        "source_time_s": 8.366666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 252,
+        "source_time_s": 8.4,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 253,
+        "source_time_s": 8.433333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 254,
+        "source_time_s": 8.466666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 255,
+        "source_time_s": 8.5,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 256,
+        "source_time_s": 8.533333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 257,
+        "source_time_s": 8.566666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 258,
+        "source_time_s": 8.6,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 259,
+        "source_time_s": 8.633333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 260,
+        "source_time_s": 8.666666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 261,
+        "source_time_s": 8.7,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 262,
+        "source_time_s": 8.733333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 263,
+        "source_time_s": 8.766666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 264,
+        "source_time_s": 8.8,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 265,
+        "source_time_s": 8.833333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 266,
+        "source_time_s": 8.866666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 267,
+        "source_time_s": 8.9,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 268,
+        "source_time_s": 8.933333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 269,
+        "source_time_s": 8.966666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 270,
+        "source_time_s": 9.0,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 271,
+        "source_time_s": 9.033333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 272,
+        "source_time_s": 9.066666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 273,
+        "source_time_s": 9.1,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 274,
+        "source_time_s": 9.133333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 275,
+        "source_time_s": 9.166666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 276,
+        "source_time_s": 9.2,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 277,
+        "source_time_s": 9.233333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 278,
+        "source_time_s": 9.266666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      }
+    ],
+    "source_hand_self_collision_warning_frames": 117,
+    "mesh_clearance_m": 0.002,
+    "table_clearance_m": 0.0,
+    "maximum_eef_position_error_m": 0.002,
+    "checked_mesh_samples": 13801,
+    "effective_speed": 0.2,
+    "duration_s": 138.0,
+    "transition_s": 10.0,
+    "max_velocity_rad_s": [
+      0.0594930174298236,
+      0.11397162784648751,
+      0.22716150213883957,
+      0.1497015848174854,
+      0.08462650672913519,
+      0.12357604590558235,
+      0.32703375213756214,
+      0.19031835406296826,
+      0.10871562917638689,
+      0.04248652264044056,
+      0.3130303086624875,
+      0.15049272047843454,
+      0.2586163109632167,
+      0.1279290492889884,
+      0.6528595220902988,
+      0.12582466367703216,
+      0.14376759896969626,
+      0.0876600619520225,
+      0.5431742245614601,
+      0.08609978009350427,
+      0.19492924391877886,
+      0.24532301563967296,
+      0.4710890474521112,
+      0.11481478981199278,
+      0.18249116596227577,
+      0.06612035778373743,
+      0.07076871714226662,
+      0.0819985601778761,
+      0.20359015518346402,
+      0.05200783051246827,
+      0.1408608834705838,
+      0.14207560878762848,
+      0.17695990373771675,
+      0.1727340280065326,
+      0.12269865413881975,
+      0.02880359216349826,
+      0.19871929021213486,
+      0.08185604685445047,
+      0.36420600021860317,
+      0.42045075676948596,
+      0.2736661890438197,
+      0.13174123826434347,
+      0.20469208346973466,
+      0.07958645514642149,
+      0.1504864385333371,
+      0.13006034408593603,
+      0.3869608650363787,
+      0.13941936631290397,
+      0.4629349900799329,
+      0.11261956741127621,
+      0.24232715086606182,
+      0.0809459341591226
+    ],
+    "max_acceleration_rad_s2": [
+      0.19723345628053224,
+      0.441908732891072,
+      1.1856560164247298,
+      0.9321182075050505,
+      0.5774443502426507,
+      0.7912062923920438,
+      0.9469722979993378,
+      2.7715597162736305,
+      0.794023392407528,
+      0.30484505863070943,
+      1.993573328742393,
+      0.8588854162011605,
+      1.1394697223870986,
+      0.7462733667484844,
+      3.539483030049473,
+      1.3660530796810733,
+      1.627262125315776,
+      0.38011701492042527,
+      1.2871969380767734,
+      0.9512271328621091,
+      1.0484586090264703,
+      0.6690132945680327,
+      1.1523248833467115,
+      1.1302849112065916,
+      0.7627599553453046,
+      0.5281279877142331,
+      0.2996750882422461,
+      0.2888405344292355,
+      0.7143713176649413,
+      0.3811861130076366,
+      0.6566954756870302,
+      0.6985510689183627,
+      0.8655712615990296,
+      1.2240002312458031,
+      0.690449069242205,
+      0.31925312149239105,
+      0.5974551720422383,
+      0.650493660971363,
+      0.9959349205224122,
+      1.444034089716495,
+      1.1865884338946309,
+      0.9753928068823026,
+      1.070010002727495,
+      0.6979543295251855,
+      1.0288580681772075,
+      1.0246013443571123,
+      1.1076793521597184,
+      0.7235546955597361,
+      2.7512450360234197,
+      1.6727194517485167,
+      2.2310249019141803,
+      0.9113539175878427
+    ],
+    "trajectory_sampling": "cubic_hermite_100hz",
+    "source_waypoints": 763,
+    "runtime_waypoints": 13801,
+    "includes_measured_start": true,
+    "command_interval_s": 0.01,
+    "max_replay_eef_position_error_m": 0.0002779649417068559,
+    "max_replay_eef_rotation_error_rad": 0.0012422779008126547,
+    "eef_deviation_warnings": [],
+    "eef_checked": true
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "execution_attempted": true,
+  "arms_only": false,
+  "completed": true,
+  "operator_stopped": true,
+  "error": "Operator stop",
+  "cleanup_errors": [],
+  "stop_results": {
+    "hand_left": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "hand_right": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "arm_left": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.00018984910741158927
+      },
+      "command_warnings": []
+    },
+    "arm_right": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.0004754072689728227
+      },
+      "command_warnings": []
+    }
+  },
+  "startup_hold_commands": {
+    "left": 1,
+    "right": 1
+  },
+  "ticks": 295,
+  "max_tick_lateness_s": 0.07493546232581139,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/client/aubo_wuji/runs/20261114_230048_2f09d3/cycle_0004/runtime.npz",
+    "sha256": "bb50502e77ebb5a4f805426bd812597f1c9372b99decba414152aac07d7b7f83"
+  }
+}

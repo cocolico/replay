@@ -1,0 +1,53 @@
+{
+  "execution_attempted": true,
+  "arms_only": false,
+  "completed": true,
+  "operator_stopped": false,
+  "error": null,
+  "cleanup_errors": [],
+  "stop_results": {
+    "hand_left": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "hand_right": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "arm_left": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.00015846908965760757
+      },
+      "command_warnings": []
+    },
+    "arm_right": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.00018984910741158927
+      },
+      "command_warnings": [
+        "stopJoint: -3",
+        "setServoModeSelect: -3"
+      ]
+    }
+  },
+  "startup_hold_commands": {
+    "left": 1,
+    "right": 1
+  },
+  "ticks": 9001,
+  "max_tick_lateness_s": 0.002580074011348188,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261115_192050_4070f6/runtime.npz",
+    "sha256": "87d1355b2fac87a4d89395142cfb5020b8e7c086792f89661bfc3a4d930998ba"
+  }
+}

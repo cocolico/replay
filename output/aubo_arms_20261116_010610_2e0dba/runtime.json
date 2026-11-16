@@ -1,0 +1,821 @@
+{
+  "ready_for_execution": true,
+  "collision_checked": true,
+  "collision_passed": true,
+  "collision_check_policy": "required",
+  "collision_failures": [],
+  "hand_self_collision_policy": "warn",
+  "hand_self_collision_warning_frames": 0,
+  "hand_self_collision_warnings": [],
+  "mesh_clearance_m": 0.002,
+  "table_clearance_m": 0.0,
+  "maximum_eef_position_error_m": 0.002,
+  "checked_mesh_samples": 1118,
+  "effective_speed": 0.2,
+  "duration_s": 11.17,
+  "transition_s": 10.0,
+  "max_velocity_rad_s": [
+    0.11634069856667484,
+    0.02138681839244927,
+    0.09413281805159546,
+    0.10381844845297472,
+    0.23759558416727167,
+    0.29069010500413217,
+    0.05184340460236969,
+    0.09124924830754277,
+    0.20425865567341717,
+    0.019998547618040735,
+    0.14218546918534636,
+    0.03405747228911182,
+    0.06428164631142874,
+    0.07965050785656569,
+    0.1780286363844641,
+    0.05597412894345899,
+    0.025454945766034687,
+    0.05785411412655983,
+    0.1761375036573143,
+    0.06734918245536736,
+    0.003550227691974557,
+    0.10988156708708341,
+    0.1954488015345035,
+    0.04093247304425146,
+    0.05301224789615866,
+    0.007688735834079918,
+    0.058208555273076,
+    0.021667437414601975,
+    0.12187808961081625,
+    0.2346978681560863,
+    0.10064936148088677,
+    0.2055789268379904,
+    0.05039517819699357,
+    0.04744213254502527,
+    0.2540245020430376,
+    0.015619814414911254,
+    0.12038850206237406,
+    0.023547758592715184,
+    0.08583211084517428,
+    0.028096017810273766,
+    0.18922275977399927,
+    0.0006136715582333307,
+    0.007073866808099405,
+    0.034977281928405546,
+    0.18739465072976635,
+    0.010549862693898238,
+    0.042895983361884715,
+    0.09464555080431203,
+    0.170209627237633,
+    0.007719475008394205,
+    0.17490009917319194,
+    0.026078715166906463
+  ],
+  "max_acceleration_rad_s2": [
+    0.03582356446596435,
+    0.006585417458015996,
+    0.028985326008257317,
+    0.03196772003777326,
+    0.07316030272264129,
+    0.0895091386254876,
+    0.015963592875367638,
+    0.028097418782735417,
+    0.06289521387703445,
+    0.006157941877665829,
+    0.043781672141030015,
+    0.010486958296751503,
+    0.019793569480952566,
+    0.024525940947595082,
+    0.05481848064037287,
+    0.017235523263048336,
+    0.007838073020349778,
+    0.017814407275162925,
+    0.05423616408206655,
+    0.020738123537311637,
+    0.0010931841750404236,
+    0.033834672221733086,
+    0.06018248839279039,
+    0.012603904780417174,
+    0.016323502465276363,
+    0.002367511345580109,
+    0.01792354659801987,
+    0.006671825514281693,
+    0.037528634895256374,
+    0.07226803958815253,
+    0.03099189650690448,
+    0.06330175105873082,
+    0.01551765579199671,
+    0.014608355583534127,
+    0.078219086154796,
+    0.004809644737480134,
+    0.03706996191010781,
+    0.007250812985581945,
+    0.026429376768222212,
+    0.008651310484109054,
+    0.05826536901065715,
+    0.00018896141179558512,
+    0.002178181210399366,
+    0.010770185578934388,
+    0.057702458670094714,
+    0.003248507968178771,
+    0.01320850780639482,
+    0.029143206394799392,
+    0.05241085560769854,
+    0.002376976535600761,
+    0.05385514316724738,
+    0.008030143753973151
+  ],
+  "trajectory_sampling": "cubic_hermite_100hz",
+  "source_waypoints": 2,
+  "runtime_waypoints": 1118,
+  "includes_measured_start": true,
+  "command_interval_s": 0.01,
+  "max_replay_eef_position_error_m": 6.089034229575887e-16,
+  "max_replay_eef_rotation_error_rad": 1.013046191318959e-14,
+  "eef_deviation_warnings": [],
+  "eef_checked": true,
+  "name": "aubo_arms_20261116_010610_2e0dba",
+  "arms_only": false,
+  "execution_enabled": false,
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261116_010610_2e0dba/config.json",
+    "sha256": "03e522a2153ce90ca06548b5d3dca66622333558c6640931bf5a47603bc5a1ee"
+  },
+  "sources": [
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/replay_test_converted_sharpa_wuji2_20261115(1)/replay_test_converted/wuji_outroom_flower_episode1400/wuji2_camera_replay_trajectory.npz",
+      "sha256": "bed0b14978546c38f867dffd7119d4c917ca3111d4982de86af6fc8b71a2917a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_ff8ad418/observation.json",
+      "sha256": "7f1093a005f55020edaa4341fba2dfd0b598ad7adb17b02df42fb58315a4e73c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/source_recordings/sharpa_to_wuji2_beta/assets/wuji/urdf/left.urdf",
+      "sha256": "d93de699b5bbe0a573ea9725ebb7e6ad6547b6ed3593f7f5591664ee220648f0"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_c4840512/result.json",
+      "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/source_recordings/sharpa_to_wuji2_beta/assets/wuji/urdf/right.urdf",
+      "sha256": "f3bb5d0031a1972e06faafa8a6ab191dcf5ab5abfebbf5d27cb510ee8d004a06"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_d72abc19/result.json",
+      "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261116_010610_2e0dba/config.json",
+      "sha256": "03e522a2153ce90ca06548b5d3dca66622333558c6640931bf5a47603bc5a1ee"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/config/mapping_from_human_gemini335.json",
+      "sha256": "f0db1f5d1194a4cedf4ca9034488609ee64a35bf269646533b6d00edd552d4c1"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_87ac58a1/observation.json",
+      "sha256": "2e2504fc19e11bb9f119e1325d32c8df54692293b21faee68ac0b19681eea11a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/replay_test_converted_sharpa_wuji2_20261115(1)/replay_test_converted/wuji_outroom_flower_episode1400/wuji2_actions_camera_mount_reference_right_left.npy",
+      "sha256": "eddb93ffaf70808c114dbea11265267d296e3c7bfbdae46ffc0be09d33480931"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/replay_test_converted_sharpa_wuji2_20261115(1)/replay_test_converted/wuji_outroom_flower_episode1400/wuji2_actions_camera_right_left.npy",
+      "sha256": "bc0c673ccc82ef9b05d2ab0af54bb76043131bedefc4e5be1bd190380438f951"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/replay_test_converted_sharpa_wuji2_20261115(1)/replay_test_converted/wuji_outroom_flower_episode1400/wuji2_hand_joints_left_right.npy",
+      "sha256": "912cb089876af4f54a6490a73e00613c085ff0f3aee925bc8d9cde1999ab27e1"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/aubo_arms_replay.py",
+      "sha256": "f00e523f5fca9b316226dd9f076696875733170cba213a59624d2ce4d149bf49"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/camera_trajectory_input.py",
+      "sha256": "5652fe1190252ff60cfcd3433f889a63757a83648e17af952085c14f9d82ad37"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/execute_checked_replay.py",
+      "sha256": "25af09cef4df9e2f1b4b1589058587d57820502e8fef27811ad02d7a83e530cc"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/aubo_continuous_ik.py",
+      "sha256": "76c01cc5b57f013f94cb2f8365de83532d05394df6f542449ae48c3adc631b18"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/diagnose_ik.py",
+      "sha256": "b110025eb3ae76def8c910f41692ea3f6d7941d34c183f8401067db205be1a4a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/solve_controller_ik.py",
+      "sha256": "bc5c97d119ba9c23e5be058b1a8beedb69e58b3efc41fe95929d94be3ecde184"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/replay_control.py",
+      "sha256": "40c8415fe7b62ac2eee5f33cc811269849025676e3f7353a3f2dc34fb0b42c50"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/collision_scene.py",
+      "sha256": "ed11efd794e043967dc9fa23c95207da0ccb91158eccea58b9e256876c5cecad"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/device_backends.py",
+      "sha256": "26dd259e38fb69d66b49fe5763ff6d12befec7413607b22b4cdc44c28e9ee001"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/runtime_plan.py",
+      "sha256": "0d7ea0cecd6c6e12736779366e0524c73fcffcf6b9ff2e7d00a2c5467b73dfa3"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/dh_kinematics.py",
+      "sha256": "f4a5e1679991a2e683dac1e71a899b1008ce9278f579af170d76771d92f9b447"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/read_hands.py",
+      "sha256": "bed73422c5ea7a3c60e1b137d004dafd47b25ca6f2592c4aa51192f2eb01a074"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/replay_pipeline.py",
+      "sha256": "d79851537f4b3ef218682f09daa7f1ca27bea518bc74a4e29671ce6f38b41e5b"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/__init__.py",
+      "sha256": "19dcfa15751b41de3e30c45aacc611199b61bd589cc0af2c95595c3932c844c7"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/backends.py",
+      "sha256": "8064df0b7900074e3066316cb85d19ecbe6f093dc775d3ef06b0e35e9b281cfa"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/cli.py",
+      "sha256": "c7bee4444d4995f6a3329bea07c67364800be68b4f6879249dc0ac7204dfa3ce"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/continuous.py",
+      "sha256": "d10b075902e12bedfe1d45c6db70bb1048df588e69d8b7cd5fb729d5dd834256"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/differential.py",
+      "sha256": "db211d4a8c39b005f947ab39f5a931cdd0104bf8738bd939ac3de4a648860e2d"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/model.py",
+      "sha256": "6f4d6544694967ac0d414ab043430a5d85dcf8fcbef03d59cdff434b74b3902b"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/placo_backend.py",
+      "sha256": "fa97baa92cbc90ffe0216b3bb3d9f4855c8d95c080a2d12064fd74dabe5ced22"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/profiles.py",
+      "sha256": "7ea52a3e4cbf33e60c8a6a426692ceb3c8917e78c85eff74ffac38b6d2348d74"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/sensitivity.py",
+      "sha256": "ecbed682a8ad56c06e0063dfab568c82185f1dcdc44659de079230119fd32254"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/transition.py",
+      "sha256": "79ec7e5a44ae7578f50d43e6711bf2761ba7ea670ef1a4d42cad5259f39483af"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.urdf",
+      "sha256": "6358243ae83f1e560706e35d2799e5880103e581148775638e7a143ba9e10a59"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.srdf",
+      "sha256": "47db66ca87ef9c6bd1a3ecf49472d6fcc0633cab6f27b15910eeaba9a1df879c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.urdf",
+      "sha256": "6358243ae83f1e560706e35d2799e5880103e581148775638e7a143ba9e10a59"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.srdf",
+      "sha256": "47db66ca87ef9c6bd1a3ecf49472d6fcc0633cab6f27b15910eeaba9a1df879c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/pyaubo_sdk_0_26/pyaubo_sdk.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "d53f128b0aca5bb2b394673e2128e85bb84bb15ec59bf6a40ba92a30be7672ae"
+    }
+  ],
+  "trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261116_010610_2e0dba/runtime.npz",
+    "sha256": "2fc3d915a995cac3e3cdb1ce345930f5100188745aa65ee3fa8e6449e7be7f75"
+  },
+  "controllers": {
+    "left": {
+      "captured_unix_s": 1794762370.408669,
+      "ip": "192.168.1.3",
+      "robot_name": "rob1",
+      "robot_type": "aubo_i7H",
+      "payload": [
+        1.238,
+        [
+          0.00434,
+          0.02465,
+          0.0013
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "tcp_offset_sdk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_positions_rad": [
+        -1.718997140917637,
+        -0.2941133085813776,
+        1.4958394226358402,
+        1.074136356762435,
+        2.466832004442242,
+        -0.22183268002898307
+      ],
+      "joint_min_rad": [
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586
+      ],
+      "joint_max_rad": [
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586
+      ],
+      "joint_max_speed_rad_s": [
+        3.89454,
+        3.89454,
+        3.89454,
+        4.66573,
+        4.66573,
+        4.66573
+      ],
+      "joint_max_acceleration_rad_s2": [
+        25.963575649502424,
+        25.963575649502424,
+        25.963575649502424,
+        31.104877758314785,
+        31.104877758314785,
+        31.104877758314785
+      ],
+      "kinematics_real": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.570750946796414,
+          3.142720133536965,
+          3.14349331358029,
+          -1.5704018868007719,
+          1.569096376830947
+        ],
+        "d": [
+          0.122,
+          0.12156259999645408,
+          -6.259999645408243e-05,
+          6.259999645408243e-05,
+          0.10225889999768696,
+          0.094
+        ],
+        "a": [
+          0.0,
+          -1.4399999599845614e-05,
+          0.3683124999930151,
+          0.31621660000493285,
+          7.199999799922807e-06,
+          -2.7399999453336932e-05
+        ]
+      },
+      "kinematics_nominal": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.5707963267948966,
+          3.141592653589793,
+          3.141592653589793,
+          -1.5707963267948966,
+          1.5707963267948966
+        ],
+        "d": [
+          0.122,
+          0.1215,
+          0.0,
+          0.0,
+          0.1025,
+          0.094
+        ],
+        "a": [
+          0.0,
+          0.0,
+          0.368,
+          0.316,
+          0.0,
+          0.0
+        ]
+      },
+      "mode": "RobotModeType.Running",
+      "safety": "SafetyModeType.Normal",
+      "steady": true,
+      "runtime_status": "RuntimeState.Stopped",
+      "servo_mode_enabled": false,
+      "base_T_flange": [
+        [
+          0.7081154349590931,
+          0.05756050035966159,
+          0.7037466302377865,
+          -0.12526807505732346
+        ],
+        [
+          0.6214702312186682,
+          -0.5239244329337867,
+          -0.5824756993077274,
+          -0.5140883499863869
+        ],
+        [
+          0.3351824614768961,
+          0.8498176141816305,
+          -0.4067711151801878,
+          0.4446595929293624
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right": {
+      "captured_unix_s": 1794762370.4161758,
+      "ip": "192.168.1.2",
+      "robot_name": "rob1",
+      "robot_type": "aubo_i7H",
+      "payload": [
+        0.632,
+        [
+          -0.0073,
+          0.03246,
+          0.15035
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "tcp_offset_sdk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_positions_rad": [
+        1.651391372523174,
+        0.2502557695911073,
+        -1.5545384210321511,
+        -1.5753035321888738,
+        4.307000135102865,
+        4.463637218510871
+      ],
+      "joint_min_rad": [
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586
+      ],
+      "joint_max_rad": [
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586
+      ],
+      "joint_max_speed_rad_s": [
+        3.89454,
+        3.89454,
+        3.89454,
+        4.66573,
+        4.66573,
+        4.66573
+      ],
+      "joint_max_acceleration_rad_s2": [
+        25.963575649502424,
+        25.963575649502424,
+        25.963575649502424,
+        31.104877758314785,
+        31.104877758314785,
+        31.104877758314785
+      ],
+      "kinematics_real": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.5702797067959349,
+          3.139363863626965,
+          3.1411301435779357,
+          -1.5698416268012974,
+          1.5745400568146746
+        ],
+        "d": [
+          0.122,
+          0.12151309999970544,
+          -1.3099999705445953e-05,
+          1.3099999705445953e-05,
+          0.10306660000700503,
+          0.094
+        ],
+        "a": [
+          0.0,
+          7.370000093942508e-05,
+          0.36836149998777545,
+          0.31618940000154544,
+          4.859999899053946e-05,
+          -0.00021949999791104347
+        ]
+      },
+      "kinematics_nominal": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.5707963267948966,
+          3.141592653589793,
+          3.141592653589793,
+          -1.5707963267948966,
+          1.5707963267948966
+        ],
+        "d": [
+          0.122,
+          0.1215,
+          0.0,
+          0.0,
+          0.1025,
+          0.094
+        ],
+        "a": [
+          0.0,
+          0.0,
+          0.368,
+          0.316,
+          0.0,
+          0.0
+        ]
+      },
+      "mode": "RobotModeType.Running",
+      "safety": "SafetyModeType.Normal",
+      "steady": true,
+      "runtime_status": "RuntimeState.Stopped",
+      "servo_mode_enabled": false,
+      "base_T_flange": [
+        [
+          -0.2504523377063861,
+          0.9126184310918245,
+          -0.32311178525226275,
+          0.12381096575006009
+        ],
+        [
+          0.29949670320265076,
+          -0.24434057718821234,
+          -0.9222794625871666,
+          -0.4978005339146652
+        ],
+        [
+          -0.9206385562793629,
+          -0.32775796187252126,
+          -0.21213054264065945,
+          0.48609006630019164
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "hand_start": {
+    "left": {
+      "positions_rad": [
+        0.770296573638916,
+        -0.4428882598876953,
+        0.9602196216583252,
+        -0.09596967697143555,
+        0.7852933406829834,
+        0.36100834608078003,
+        0.2225710153579712,
+        0.45540130138397217,
+        0.8543366193771362,
+        0.3457658886909485,
+        0.11226820945739746,
+        0.23454785346984863,
+        0.6806133985519409,
+        0.2844950556755066,
+        -0.003642559051513672,
+        0.6010845899581909,
+        0.6718493700027466,
+        0.21960031986236572,
+        0.3426424264907837,
+        0.16149646043777466
+      ],
+      "received_monotonic": 449046.62043184,
+      "captured_unix_s": 1794762370.5219188,
+      "current_a": [
+        0.013578599318861961,
+        0.015359247103333473,
+        0.019267069175839424,
+        0.011754719540476799,
+        -0.019116045907139778,
+        -0.011608710512518883,
+        -0.027614006772637367,
+        -0.02452078089118004,
+        0.009391793981194496,
+        -0.005952832754701376,
+        -0.01819462887942791,
+        -0.005300244782119989,
+        0.002951845293864608,
+        -0.014728236012160778,
+        0.013766078278422356,
+        0.004618505015969276,
+        0.011409556493163109,
+        -0.014082229696214199,
+        0.007950874045491219,
+        -0.008189884945750237
+      ]
+    },
+    "right": {
+      "positions_rad": [
+        0.7508891820907593,
+        -0.32115066051483154,
+        1.2750698328018188,
+        -0.08351445198059082,
+        0.8553434610366821,
+        0.21235525608062744,
+        0.639304518699646,
+        0.1893499493598938,
+        1.0603656768798828,
+        0.2319696545600891,
+        0.2559540271759033,
+        0.0798105001449585,
+        0.9696189165115356,
+        0.22607415914535522,
+        0.3487492799758911,
+        0.4478849172592163,
+        0.8600373268127441,
+        0.2846372723579407,
+        0.9429666996002197,
+        -0.042470574378967285
+      ],
+      "received_monotonic": 449046.620889532,
+      "captured_unix_s": 1794762370.5223765,
+      "current_a": [
+        0.008116938173770905,
+        0.0003482983447611332,
+        -0.004045348614454269,
+        -0.02844037115573883,
+        -0.015549500472843647,
+        -0.014263092540204525,
+        -0.009535348042845726,
+        -0.0016573348548263311,
+        -0.025609061121940613,
+        -0.034910302609205246,
+        0.023462284356355667,
+        0.013719763606786728,
+        -0.004519650712609291,
+        0.009341292083263397,
+        -0.001682317815721035,
+        0.000801336020231247,
+        -0.03352947533130646,
+        0.00549142574891448,
+        0.02615736424922943,
+        -0.014902414754033089
+      ]
+    }
+  },
+  "settings": {
+    "rate_hz": 100,
+    "speed": 0.2,
+    "minimum_transition_s": 10.0,
+    "arm_velocity_fraction": 0.2,
+    "arm_acceleration_fraction": 0.15,
+    "hand_velocity_rad_s": 5.0,
+    "hand_acceleration_rad_s2": 100.0,
+    "feedback_timeout_s": 0.25,
+    "maximum_tick_lateness_s": 0.03,
+    "arm_tracking_error_rad": 0.2,
+    "hand_tracking_error_rad": 0.5,
+    "maximum_hand_current_a": 1.5,
+    "mesh_clearance_m": 0.002,
+    "hands": {
+      "left": {
+        "address": "192.168.1.110:50001",
+        "serial": "WH2JA01260923005"
+      },
+      "right": {
+        "address": "192.168.1.111:50001",
+        "serial": "WH2KA01260803001"
+      }
+    },
+    "expected_hand_mit_kp": 5.0,
+    "expected_hand_mit_kd": 0.1,
+    "expected_hand_effort_limit_a": 1.0,
+    "warmup_s": 2.0,
+    "fixed_hand_position_tolerance_rad": 0.03,
+    "table_clearance_m": 0.0,
+    "maximum_eef_position_error_m": 0.002,
+    "ik_method": "episode594_sdk",
+    "arms_only": false
+  }
+}

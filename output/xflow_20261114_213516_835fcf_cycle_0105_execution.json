@@ -1,0 +1,50 @@
+{
+  "execution_attempted": true,
+  "arms_only": false,
+  "completed": true,
+  "operator_stopped": false,
+  "error": "Observe only stationary arms outside Servo",
+  "cleanup_errors": [],
+  "stop_results": {
+    "hand_left": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "hand_right": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "arm_left": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.00031693817931521514
+      },
+      "command_warnings": []
+    },
+    "arm_right": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.0007593964296463571
+      },
+      "command_warnings": []
+    }
+  },
+  "startup_hold_commands": {
+    "left": 1,
+    "right": 1
+  },
+  "ticks": 6325,
+  "max_tick_lateness_s": 0.07501769834198058,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/client/aubo_wuji/runs/20261114_213516_835fcf/cycle_0105/runtime.npz",
+    "sha256": "e9b6c72470b060699ad971e6fd10a6ee4e7e24fccc7c601a74210d86b7e41d58"
+  }
+}

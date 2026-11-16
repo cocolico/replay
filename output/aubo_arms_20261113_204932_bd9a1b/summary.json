@@ -1,0 +1,15 @@
+{
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "arms_only": true,
+  "name": "aubo_arms_20261113_204932_bd9a1b",
+  "path_planner": "collision_graph",
+  "entry_planner": "ompl",
+  "entry_timeout_s": 300.0,
+  "waypoint_stride": 4,
+  "whole_trajectory_solutions": {
+    "left": 2,
+    "right": 2
+  },
+  "error": "All branch pairs blocked by full assembly/transition checks"
+}

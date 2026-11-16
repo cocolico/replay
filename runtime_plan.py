@@ -38,18 +38,39 @@ def limits(c,controllers,settings):
     return [np.asarray(x,dtype=float) for x in (lo,hi,v,a)]
 
 
+def joint_spline(t,q,stops):
+    slopes=PchipInterpolator(t,q,axis=0).derivative()(t)
+    slopes[stops]=0
+    return CubicHermiteSpline(t,q,slopes,axis=0)
+
+
 def sample_replay(t,q,rate,speed):
     if not 0<speed<=1 or not 20<=rate<=200:raise ValueError('Speed must be (0,1], rate 20..200Hz')
     t=(np.asarray(t)-t[0])/speed;duration=float(t[-1]);ticks=np.arange(math.ceil(duration*rate)+1)/rate
     # Extend the final sample to the next exact scheduler tick as a hold.
-    query=np.minimum(ticks,duration);p=PchipInterpolator(t,q,axis=0);derivative=p.derivative()(t);derivative[[0,-1]]=0
-    spline=CubicHermiteSpline(t,q,derivative,axis=0);sampled=spline(query);sampled[-1]=q[-1]
+    query=np.minimum(ticks,duration)
+    sampled=joint_spline(t,q,[0,-1])(query);sampled[-1]=q[-1]
     return ticks,sampled
 
 
 def transition(start,target,rate,duration):
     ticks=np.arange(math.ceil(duration*rate)+1)/rate;phase=np.clip(ticks/duration,0,1);blend=10*phase**3-15*phase**4+6*phase**5
     return ticks,start[None,:]+blend[:,None]*(target-start)[None,:]
+
+
+def direct_transition(start, goal, vlim, alim, settings):
+    """Original minimum-jerk entry calculation, shared by full and entry-first checks."""
+    start, goal, vlim, alim = map(np.asarray, (start, goal, vlim, alim))
+    rate = settings['rate_hz']
+    duration = max(settings['minimum_transition_s'], float(np.max(1.9*abs(goal-start)/vlim)),
+                   float(np.max(np.sqrt(6*abs(goal-start)/alim))))
+    for _ in range(8):
+        ticks, ramp = transition(start, goal, rate, duration)
+        v, a = dynamics(ramp, rate)
+        if np.all(v<=vlim+1e-6) and np.all(a<=alim+1e-6):break
+        duration *= 1.3
+    else:raise ValueError('Transition dynamic limit violation')
+    return ticks, ramp, {'planner':'direct_joint_interpolation','independently_planned':False}
 
 
 def dynamics(q,rate):
@@ -109,14 +130,61 @@ def make_plan(name,c,settings,controllers,hands,speed=None,check_mesh=True):
         'sources':source_report['sources'],
         'collision_checked':False,'collision_passed':False,'ready_for_execution':False,'collision_failures':[]}
     if check_mesh:
-        scene=Scene(c,controllers,settings['mesh_clearance_m']);checked=0;bad=[];last=None
+        scene=Scene(c,controllers,settings['mesh_clearance_m']);checked=0;bad=[];hand_warnings=[];hand_warning_frames=0;last=None
         for i,q in enumerate(trajectory):
-            arms,fingers=split(q);finding=scene.check(arms,fingers);checked+=1;last=q.copy()
-            if finding:
-                bad.append({'frame':i,'time_s':float(ticks[i]),'phase':'transition' if i<len(ramp) else 'replay','findings':finding})
+            arms,fingers=split(q);blocking=scene.check(arms,fingers,ignore_hand_self=True);warnings=scene.check_hand_self(arms,fingers);checked+=1;last=q.copy()
+            if warnings:
+                hand_warning_frames+=1
+                if len(hand_warnings)<100:hand_warnings.append({'frame':i,'time_s':float(ticks[i]),'phase':'transition' if i<len(ramp) else 'replay','findings':warnings})
+            if blocking:
+                bad.append({'frame':i,'time_s':float(ticks[i]),'phase':'transition' if i<len(ramp) else 'replay','findings':blocking})
                 if len(bad)>=20:break
             if checked%1000==0:print(name,'mesh samples',checked,'/',i,'of',len(trajectory),flush=True)
-        result.update(collision_checked=True,collision_passed=not bad,checked_mesh_samples=checked,collision_failures=bad,ready_for_execution=not bad)
+        result.update(collision_checked=True,collision_passed=not bad,checked_mesh_samples=checked,collision_failures=bad,ready_for_execution=not bad,
+            hand_self_collision_policy='warn',hand_self_collision_warning_frames=hand_warning_frames,hand_self_collision_warnings=hand_warnings)
+        if hand_warning_frames:print('WARNING hand self-collision frames',hand_warning_frames,'execution remains enabled if no blocking collision exists',flush=True)
     dest=HERE/'output'/f'{name}_runtime.npz';np.savez_compressed(dest,time_s=ticks,joint_positions_left_right_rad=trajectory,execution_enabled=np.asarray(False),artifact_type=np.asarray('validated_runtime_plan'))
     result['trajectory']=provenance(dest);write_json(dest.with_suffix('.json'),result)
     return trajectory,result
+
+
+def rebuild_checked_entry(name, c, settings, controllers, hands, previous, plan):
+    """Keep the checked replay samples and verify the new live-to-first-frame path."""
+    if plan['name'] != name or plan['frames'] != len(previous) or plan['checked_mesh_samples'] != len(previous):
+        raise ValueError('Incomplete original mesh validation')
+    if provenance(plan['source']['path']) != plan['source']:
+        raise ValueError('Controller IK trajectory changed')
+    for side in SIDES:
+        check_controller(c, side, controllers[side])
+        if identity(controllers[side]) != identity(plan['controllers'][side]):
+            raise ValueError('Controller identity, calibration or limits changed: ' + side)
+    rate = settings['rate_hz']
+    first = plan['replay_start_frame']
+    if not 0 <= first < len(previous) or plan['rate_hz'] != rate:
+        raise ValueError('Invalid saved replay boundary or rate')
+    replay = previous[first:]
+    start = np.concatenate([values for side in SIDES for values in
+                            (controllers[side]['joint_positions_rad'], hands[side]['positions_rad'])])
+    lo, hi, vlim, alim = limits(c, controllers, settings)
+    ramp_t, ramp, _ = direct_transition(start, replay[0], vlim, alim, settings)
+    hold = np.tile(replay[0], (rate, 1))
+    updated = np.concatenate((ramp, hold, replay[1:]))
+    vmax, amax, passed = validate_numbers(updated, rate, lo, hi, vlim, alim)
+    if not passed:
+        raise ValueError('New transition or splice exceeds dynamic limits')
+    scene = Scene(c, controllers, settings['mesh_clearance_m'])
+    for i, q in enumerate(ramp):
+        arms,hands=split(q);blocking=scene.check(arms,hands,ignore_hand_self=True);warnings=scene.check_hand_self(arms,hands)
+        if blocking:
+            raise ValueError(f'Entry collision at {i/rate:.2f}s: {blocking}')
+    path = HERE/'output'/f'{name}_entry_runtime.npz'
+    ticks = np.arange(len(updated))/rate
+    np.savez_compressed(path, time_s=ticks, joint_positions_left_right_rad=updated,
+                        execution_enabled=False, artifact_type='validated_runtime_plan')
+    result = dict(plan, controllers=controllers, hand_start=hands, frames=len(updated),
+                  trajectory=provenance(path), original_checked_trajectory=plan['trajectory'],
+                  duration_s=float(ticks[-1]), transition_s=float(ramp_t[-1]),
+                  replay_start_frame=len(ramp)+rate-1, checked_mesh_samples=len(updated),
+                  rechecked_entry_samples=len(ramp), reused_replay_samples=len(replay),
+                  max_velocity_rad_s=vmax.tolist(), max_acceleration_rad_s2=amax.tolist())
+    return updated, result

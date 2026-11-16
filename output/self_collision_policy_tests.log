@@ -1,0 +1,13 @@
+.REPLAY START: arms only; no hand commands; Ctrl-C requests synchronized stop.
+.REPLAY START: arms only; no hand commands; Ctrl-C requests synchronized stop.
+.....REPLAY START: both arms + both hands; Ctrl-C requests synchronized stop.
+.REPLAY START: both arms + both hands; Ctrl-C requests synchronized stop.
+...REPLAY START: both arms + both hands; Ctrl-C requests synchronized stop.
+...../media/descfly/新加卷/ty/replay/code/collision_scene.py:145: DeprecationWarning: enable_nearest_points has been marked as deprecated. Nearest points are always computed when computing distance. They are the points of the shapes that achieve a distance of DistanceResult::min_distance.
+Use `enable_signed_distance` if you want to compute a signed minimum distance (and thus its corresponding nearest points).
+  request=coal.DistanceRequest();request.enable_nearest_points=False
+......
+----------------------------------------------------------------------
+Ran 22 tests in 0.903s
+
+OK

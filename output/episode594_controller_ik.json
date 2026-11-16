@@ -1,23 +1,22 @@
 {
-  "artifact_type": "controller_ik_validation",
   "execution_enabled": false,
   "trajectory": {
     "path": "/media/descfly/新加卷/ty/replay/code/output/episode594_controller_ik.npz",
     "sha256": "93eadab4d790ef634e660c5d1921bedfb6cb9ca173069b7b5ee875a5aea57869"
   },
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/config/episode594_verified_20261116.json",
+    "sha256": "fdc7c45608df14d5a327fba9a6a6d7c0e6135d9eea341f66566df1f2fdc34170"
+  },
   "source": {
     "path": "/media/descfly/新加卷/ty/replay/code/output/episode594_ik_candidate.npz",
     "sha256": "3584c9260fa05cb4b5f982cf37176f3208d8d072948951d51e67fcddd44e3bce"
   },
-  "configuration": {
-    "path": "/media/descfly/新加卷/ty/replay/code/config/replay.json",
-    "sha256": "2856f116346ae696cedf8a5d739bb7c560cbb974861d0c5d08958d21ab355b67"
-  },
-  "method": "Controller inverseToolKinematics + forwardToolKinematics; read-only",
+  "method": "Read-only live controller IK, actual DH refinement and controller FK on all frames",
   "sides": {
     "left": {
       "snapshot": {
-        "captured_unix_s": 1794473898.2399437,
+        "captured_unix_s": 1794764610.9734771,
         "ip": "192.168.1.3",
         "robot_name": "rob1",
         "robot_type": "aubo_i7H",
@@ -51,12 +50,12 @@
           0.0
         ],
         "joint_positions_rad": [
-          -0.999008547731159,
-          -0.48771248688578195,
-          1.0481610208696484,
-          0.37834288054230636,
-          1.9914489306004464,
-          1.7388090956248916
+          -0.9311274161639946,
+          -0.5822060731029582,
+          1.158361393804245,
+          1.4828404438601368,
+          1.677380136159699,
+          0.7734201449471878
         ],
         "joint_min_rad": [
           -6.283185307179586,
@@ -177,24 +176,26 @@
         "mode": "RobotModeType.Running",
         "safety": "SafetyModeType.Normal",
         "steady": true,
+        "runtime_status": "RuntimeState.Stopped",
+        "servo_mode_enabled": false,
         "base_T_flange": [
           [
-            0.3740604573189643,
-            -0.7507585864503286,
-            0.5444633313102243,
-            0.26416506344213725
+            0.6306145021685139,
+            -0.40753458710445223,
+            0.6604853593898674,
+            0.2870027129355434
           ],
           [
-            -0.8650103690812649,
-            -0.49413936295397143,
-            -0.08708244002861854,
-            -0.5635618762526742
+            0.3408856117246839,
+            -0.6191007629542944,
+            -0.7074681936514837,
+            -0.5725792069637227
           ],
           [
-            0.334418653265961,
-            -0.4383923298263148,
-            -0.8342519580421925,
-            0.42104684501452605
+            0.6972247481076999,
+            0.6712896585103989,
+            -0.25149124239850495,
+            0.4514503251623619
           ],
           [
             0.0,
@@ -206,6 +207,7 @@
       },
       "max_position_error_m": 1.6505235249264837e-15,
       "max_orientation_error_rad": 6.305419890296494e-15,
+      "branch_discontinuity_warnings": [],
       "dynamics": {
         "max_step_rad": 0.050812281224340006,
         "max_velocity_rad_s": 1.5243684519738712,
@@ -214,7 +216,7 @@
     },
     "right": {
       "snapshot": {
-        "captured_unix_s": 1794473898.2517405,
+        "captured_unix_s": 1794764610.9886746,
         "ip": "192.168.1.2",
         "robot_name": "rob1",
         "robot_type": "aubo_i7H",
@@ -248,12 +250,12 @@
           0.0
         ],
         "joint_positions_rad": [
-          1.1011524615739394,
-          0.5038272412830995,
-          -0.8938077001828436,
-          0.004436554864191955,
-          4.0879010613856614,
-          4.663933740135115
+          1.0890113988042807,
+          0.28936569527404765,
+          -1.192693563481476,
+          -0.8425158865781932,
+          4.937266740220032,
+          3.828738812925468
         ],
         "joint_min_rad": [
           -6.283185307179586,
@@ -374,24 +376,26 @@
         "mode": "RobotModeType.Running",
         "safety": "SafetyModeType.Normal",
         "steady": true,
+        "runtime_status": "RuntimeState.Stopped",
+        "servo_mode_enabled": false,
         "base_T_flange": [
           [
-            0.41574498670449433,
-            0.6988494871897927,
-            -0.5820356520735148,
-            -0.21467715896033096
+            -0.5559078479181356,
+            0.8145493245220999,
+            -0.1657584463718803,
+            -0.13198457050270196
           ],
           [
-            0.8991378541482131,
-            -0.4120696369304233,
-            0.1474779087110023,
-            -0.5676468261323577
+            0.5652751916267018,
+            0.22424111120251666,
+            -0.7938387001010017,
+            -0.5572653240792946
           ],
           [
-            -0.13677435895599332,
-            -0.5846434884393958,
-            -0.7996779140113763,
-            0.44144297216934447
+            -0.609450918741139,
+            -0.5350003009038873,
+            -0.585101919051989,
+            0.5308281397693309
           ],
           [
             0.0,
@@ -403,6 +407,7 @@
       },
       "max_position_error_m": 5.712273460084062e-16,
       "max_orientation_error_rad": 6.559729694986201e-15,
+      "branch_discontinuity_warnings": [],
       "dynamics": {
         "max_step_rad": 0.028224866756432432,
         "max_velocity_rad_s": 0.8467460111604819,

@@ -1,0 +1,46 @@
+{
+  "execution_attempted": true,
+  "arms_only": false,
+  "completed": false,
+  "operator_stopped": false,
+  "error": "Arm tracking error: right",
+  "cleanup_errors": [
+    "arm_left: Stop state not confirmed: {'steady': True, 'servo_mode': 1, 'max_speed_rad_s': 0.0004754072689728227}; commands=['stopJoint: -4', 'setServoModeSelect: -3', 'stopJoint: -3', 'setServoModeSelect: -3']"
+  ],
+  "stop_results": {
+    "hand_left": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "hand_right": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "arm_right": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.0006338763586304303
+      },
+      "command_warnings": [
+        "stopJoint: -4",
+        "setServoModeSelect: -3"
+      ]
+    }
+  },
+  "startup_hold_commands": {
+    "left": 1,
+    "right": 1
+  },
+  "ticks": 116,
+  "max_tick_lateness_s": 0.001363685994874686,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/client/pi05_local/client_runs/20261115_164850_7931a6/cycle_0003/runtime.npz",
+    "sha256": "d9c08c177b2e4fc785c39c28263e876e9e654fb49ff9d8a0ae868b047b858561"
+  }
+}

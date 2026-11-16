@@ -1,0 +1,81 @@
+{
+  "name": "episode594",
+  "actual_playback_completed": true,
+  "status": "holding",
+  "pid": 1164882,
+  "captured_unix_s": 1794476829.6233137,
+  "sides": {
+    "left": {
+      "active_payload": [
+        1.238,
+        [
+          0.00434,
+          0.02465,
+          0.0013
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "robot_mode": "RobotModeType.Running",
+      "safety_mode": "SafetyModeType.Normal",
+      "servo_mode_enabled": true,
+      "max_final_arm_joint_error_rad": 2.6802448650220523e-06,
+      "final_arm_joint_positions_rad": [
+        -1.3294469923363414,
+        -0.49936530602588375,
+        1.1132835925927718,
+        0.8558427822805261,
+        2.2667004907223895,
+        0.09365857060449992
+      ]
+    },
+    "right": {
+      "active_payload": [
+        0.632,
+        [
+          -0.0073,
+          0.03246,
+          0.15035
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "robot_mode": "RobotModeType.Running",
+      "safety_mode": "SafetyModeType.Normal",
+      "servo_mode_enabled": true,
+      "max_final_arm_joint_error_rad": 2.0879283821884087e-06,
+      "final_arm_joint_positions_rad": [
+        1.174676758184979,
+        0.2909989024429392,
+        -1.492362665641673,
+        -1.1807095910560124,
+        4.418933846534061,
+        4.39322741323497
+      ]
+    }
+  },
+  "hand_verification": "Fresh hand feedback and tracking continue to be monitored by the active executor; no second session takeover attempted.",
+  "other_datasets": "615,616,human_camera kept blocked; not executed"
+}

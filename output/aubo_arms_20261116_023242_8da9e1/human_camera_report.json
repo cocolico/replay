@@ -1,0 +1,181 @@
+{
+  "artifact_type": "offline_aubo_wuji_preparation",
+  "input_type": "human_camera",
+  "input_format": "npy_directory",
+  "frames": 763,
+  "duration_s": 25.4,
+  "execution_enabled": false,
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261116_023242_8da9e1/config.json",
+    "sha256": "016779069369c616523f47ce157dbe89791547c39c2dc72bc2eb14f05dac75cf"
+  },
+  "source_camera_id": "lychee_root",
+  "source_camera_identity_note": "lychee_root converted through the delivered fixed dual-Franka assembly and the confirmed episode594 source calibration",
+  "root_alignment": "Delivered Wuji base poses preserved; no extra +/-90 degree correction applied",
+  "sides": {
+    "left": {
+      "hand_position_limits_passed": true,
+      "hand_dynamics": {
+        "max_step_rad": 0.10576975443870995,
+        "max_velocity_rad_s": 3.173092569699453,
+        "max_acceleration_rad_s2": 34.32626129265476
+      },
+      "target_handeye": {
+        "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_c4840512/result.json",
+        "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
+      }
+    },
+    "right": {
+      "hand_position_limits_passed": true,
+      "hand_dynamics": {
+        "max_step_rad": 0.07371061901684828,
+        "max_velocity_rad_s": 2.211318592618526,
+        "max_acceleration_rad_s2": 25.767538903593056
+      },
+      "target_handeye": {
+        "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_d72abc19/result.json",
+        "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
+      }
+    }
+  },
+  "blockers": [],
+  "arm_ik_inputs_ready": true,
+  "arm_ik_performed": false,
+  "collision_check": {
+    "performed": false
+  },
+  "sources": [
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/alignment_version.npy",
+      "sha256": "6523a822fb482cf7df6d007d4668693afc9a40054c275f32bf12bbb3c1bf0f58"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/fps.npy",
+      "sha256": "07b70d2f93a30794b19f50b58d87e19ae8772e5e15b0800e2e71e8a11fd7a994"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/frame.npy",
+      "sha256": "eeaef2588329a93ac3012631385f1f394ef0be65899db8e66428f7b1506b90ac"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/joint_unit.npy",
+      "sha256": "0a0c06972ea1bb5888190c29a4cce7bbb0b0059940492db46c57cb18cad8a22c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/left_joint_names.npy",
+      "sha256": "11b31e1f5bad085e7c633966b6afc946a838aadce6d426efeabeb0f21573af3c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/left_joint_positions_rad.npy",
+      "sha256": "5dd5bfa87eacafefa18483dd0c39c8dfe1393bd12bf03dc3ff188bf929bfe737"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/left_position_m.npy",
+      "sha256": "e5a974ed91e7320c095c5de24e692309b2a1d55254da700efff5a4a5413c3eec"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/left_quaternion_wxyz.npy",
+      "sha256": "9503f1c506297e7ef1d1f51af6c046f0867a0bb6912a0f6d4809c5b70549127c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/left_root_pose.npy",
+      "sha256": "8b3164d67bd88256e322c867d2350c7430aaed534ea3c462b10266dc68f554e2"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/model.npy",
+      "sha256": "6bfd2b3c22fef34994a8f11a776e03c64a64986679cf97ecbc28c9003d432593"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/pose_target.npy",
+      "sha256": "a27ddbca16dbe6e4a4ac880e457683bab839447f7982ce4a699cf4caf026337a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/position_unit.npy",
+      "sha256": "cce8fbc150a7a6d656686018697d1b2302d1fe73d4e7203a76b0992e458ce311"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/quaternion_order.npy",
+      "sha256": "20600487557322f819068521379e0799c9647225cc6bac0826a172ff07af2d94"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/right_joint_names.npy",
+      "sha256": "c5e70728dba14ccd211580a0a494f53a48682313f1f5a6baceadfd54bec1d78f"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/right_joint_positions_rad.npy",
+      "sha256": "5f2cfac09d829df6854e833f4cddedd582e820b851b3855c9d470dffe8e19f49"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/right_position_m.npy",
+      "sha256": "1d3520cae4fed9a0131235a8e347ebaf3ef7feae57d44971bf6743646355e1b8"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/right_quaternion_wxyz.npy",
+      "sha256": "1df52c3bd752d71c9bb8e1222c22d28cf096203aadca610149e491e1fc7c6a5a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/right_root_pose.npy",
+      "sha256": "56fac20b5a729081e244e9f3a901acf0d502a2e6536edc06deda5037309be734"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/side_order.npy",
+      "sha256": "0482a9c8d1f29f03f102d205cde35888e768306c7da555b8ae8eaabf1219c31c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/source_stream.npy",
+      "sha256": "fb859f48b60fb719652a21999302a48056c2297122e7883a2cbc85dee512298d"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/target_arm_ik_available.npy",
+      "sha256": "1a85c7f644bcfbe7144c5df3f7b545a839623e8898006fedc0d66615048553f4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/time_s.npy",
+      "sha256": "e4c02e7b1d5b7b36c1719630c31b42efab6952f17927ab5019698f43425d25c4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/timestamp_ns.npy",
+      "sha256": "6d47bff2cf290f72d88279d13ec11c0e6f3cf7e4f2af5adb861b40eec3e45547"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta/assets/motion/source_assembly.urdf",
+      "sha256": "15d3056fc3bb3219894e81009c65fb2f63188fbfedaa1e53724901ec3356b31c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/franka-sharpa/handeye_calibration.json",
+      "sha256": "962b68b4f0e328a9cc768a3aa534de6e20b6bf1fa784fdf0ef90b8d857515bd4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_c05f1c04/mapping_from_franka-sharpa.json",
+      "sha256": "f8e619b08df73abf74ad2a64203c1333ef0c5075d71647bee7cb07e3bfda2a1a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta/assets/wuji/urdf/left.urdf",
+      "sha256": "d93de699b5bbe0a573ea9725ebb7e6ad6547b6ed3593f7f5591664ee220648f0"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_c4840512/result.json",
+      "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/sharpa_to_wuji2_beta_594_615_616/sharpa_to_wuji2_beta/assets/wuji/urdf/right.urdf",
+      "sha256": "f3bb5d0031a1972e06faafa8a6ab191dcf5ab5abfebbf5d27cb510ee8d004a06"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_d72abc19/result.json",
+      "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261116_023242_8da9e1/config.json",
+      "sha256": "016779069369c616523f47ce157dbe89791547c39c2dc72bc2eb14f05dac75cf"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_87ac58a1/observation.json",
+      "sha256": "2e2504fc19e11bb9f119e1325d32c8df54692293b21faee68ac0b19681eea11a"
+    }
+  ],
+  "artifact": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261116_023242_8da9e1/human_camera_prepared.npz",
+    "sha256": "4a0d922e72c0477ed8c42a82d9d817bf75aa9738a557bd62c3c386dc5e41e9b3"
+  }
+}

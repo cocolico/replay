@@ -1,0 +1,15 @@
+{
+  "ready_for_execution": true,
+  "execution_attempted": false,
+  "arms_only": false,
+  "name": "aubo_arms_20261114_231258_0171fb",
+  "ik_method": "episode594_sdk",
+  "whole_trajectory_solutions": {
+    "left": 1,
+    "right": 1
+  },
+  "runtime": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261114_231258_0171fb/runtime.json",
+    "sha256": "976d43b75050956b28ce602faaee14e4c682f75e2bcff05c9610cbe3fbfc3da8"
+  }
+}

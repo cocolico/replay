@@ -1,0 +1,9 @@
+{
+  "method": "Reuse episode594 diagnose_ik.diagnose(stride=1) and solve_controller_ik.solve_side unchanged",
+  "hardware_commands_sent": false,
+  "tests_passed": 48,
+  "legacy_solvers_unchanged": true,
+  "active_entry": "aubo_arms_replay.py",
+  "ik_method": "episode594_sdk",
+  "source_timestamps_preserved": true
+}

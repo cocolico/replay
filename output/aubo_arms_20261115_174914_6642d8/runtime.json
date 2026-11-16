@@ -1,0 +1,2176 @@
+{
+  "ready_for_execution": true,
+  "collision_checked": true,
+  "collision_passed": true,
+  "collision_check_policy": "required",
+  "collision_failures": [],
+  "hand_self_collision_policy": "warn",
+  "hand_self_collision_warning_frames": 284,
+  "hand_self_collision_warnings": [
+    {
+      "source_frame": 42,
+      "source_time_s": 1.4,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 43,
+      "source_time_s": 1.433333333,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 44,
+      "source_time_s": 1.466666667,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 45,
+      "source_time_s": 1.5,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 46,
+      "source_time_s": 1.533333333,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 47,
+      "source_time_s": 1.566666667,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 48,
+      "source_time_s": 1.6,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 49,
+      "source_time_s": 1.633333333,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 81,
+      "source_time_s": 2.7,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 82,
+      "source_time_s": 2.733333333,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 83,
+      "source_time_s": 2.766666667,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 84,
+      "source_time_s": 2.8,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 85,
+      "source_time_s": 2.833333333,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 86,
+      "source_time_s": 2.866666667,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 87,
+      "source_time_s": 2.9,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 88,
+      "source_time_s": 2.933333333,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 89,
+      "source_time_s": 2.966666667,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 90,
+      "source_time_s": 3.0,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 91,
+      "source_time_s": 3.033333333,
+      "findings": [
+        {
+          "a": "left:hand:l_middle_finger_distal",
+          "b": "left:hand:l_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 186,
+      "source_time_s": 6.2,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 187,
+      "source_time_s": 6.233333333,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 188,
+      "source_time_s": 6.266666667,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 189,
+      "source_time_s": 6.3,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 190,
+      "source_time_s": 6.333333333,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 191,
+      "source_time_s": 6.366666667,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 192,
+      "source_time_s": 6.4,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 193,
+      "source_time_s": 6.433333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 194,
+      "source_time_s": 6.466666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 195,
+      "source_time_s": 6.5,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 196,
+      "source_time_s": 6.533333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 197,
+      "source_time_s": 6.566666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 198,
+      "source_time_s": 6.6,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 199,
+      "source_time_s": 6.633333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 200,
+      "source_time_s": 6.666666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 201,
+      "source_time_s": 6.7,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_middle",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 202,
+      "source_time_s": 6.733333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 203,
+      "source_time_s": 6.766666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 204,
+      "source_time_s": 6.8,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 205,
+      "source_time_s": 6.833333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 236,
+      "source_time_s": 7.866666667,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 237,
+      "source_time_s": 7.9,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 238,
+      "source_time_s": 7.933333333,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 239,
+      "source_time_s": 7.966666667,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 240,
+      "source_time_s": 8.0,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 241,
+      "source_time_s": 8.033333333,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 242,
+      "source_time_s": 8.066666667,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 243,
+      "source_time_s": 8.1,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 244,
+      "source_time_s": 8.133333333,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 245,
+      "source_time_s": 8.166666667,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 246,
+      "source_time_s": 8.2,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 247,
+      "source_time_s": 8.233333333,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 248,
+      "source_time_s": 8.266666667,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 249,
+      "source_time_s": 8.3,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 250,
+      "source_time_s": 8.333333333,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 251,
+      "source_time_s": 8.366666667,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 252,
+      "source_time_s": 8.4,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 253,
+      "source_time_s": 8.433333333,
+      "findings": [
+        {
+          "a": "right:hand:r_index_finger_distal",
+          "b": "right:hand:r_middle_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 261,
+      "source_time_s": 8.7,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 262,
+      "source_time_s": 8.733333333,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 263,
+      "source_time_s": 8.766666667,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 264,
+      "source_time_s": 8.8,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 265,
+      "source_time_s": 8.833333333,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 266,
+      "source_time_s": 8.866666667,
+      "findings": [
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 362,
+      "source_time_s": 12.066666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 363,
+      "source_time_s": 12.1,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 364,
+      "source_time_s": 12.133333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 365,
+      "source_time_s": 12.166666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 366,
+      "source_time_s": 12.2,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 367,
+      "source_time_s": 12.233333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 368,
+      "source_time_s": 12.266666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 369,
+      "source_time_s": 12.3,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 370,
+      "source_time_s": 12.333333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 371,
+      "source_time_s": 12.366666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 372,
+      "source_time_s": 12.4,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 373,
+      "source_time_s": 12.433333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 374,
+      "source_time_s": 12.466666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 375,
+      "source_time_s": 12.5,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 376,
+      "source_time_s": 12.533333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 377,
+      "source_time_s": 12.566666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 378,
+      "source_time_s": 12.6,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 379,
+      "source_time_s": 12.633333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 380,
+      "source_time_s": 12.666666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 381,
+      "source_time_s": 12.7,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 382,
+      "source_time_s": 12.733333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 383,
+      "source_time_s": 12.766666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 384,
+      "source_time_s": 12.8,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 385,
+      "source_time_s": 12.833333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 386,
+      "source_time_s": 12.866666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 387,
+      "source_time_s": 12.9,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 388,
+      "source_time_s": 12.933333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 389,
+      "source_time_s": 12.966666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 390,
+      "source_time_s": 13.0,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 391,
+      "source_time_s": 13.033333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 392,
+      "source_time_s": 13.066666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 393,
+      "source_time_s": 13.1,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 394,
+      "source_time_s": 13.133333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 395,
+      "source_time_s": 13.166666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 396,
+      "source_time_s": 13.2,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 397,
+      "source_time_s": 13.233333333,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_middle",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    },
+    {
+      "source_frame": 398,
+      "source_time_s": 13.266666667,
+      "findings": [
+        {
+          "a": "right:hand:r_middle_finger_middle",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_middle",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_middle_finger_distal",
+          "b": "right:hand:r_ring_finger_distal",
+          "clearance_m": 0.0
+        },
+        {
+          "a": "right:hand:r_ring_finger_distal",
+          "b": "right:hand:r_pinky_distal",
+          "clearance_m": 0.0
+        }
+      ]
+    }
+  ],
+  "mesh_clearance_m": 0.002,
+  "table_clearance_m": 0.0,
+  "maximum_eef_position_error_m": 0.002,
+  "checked_mesh_samples": 11618,
+  "effective_speed": 0.2,
+  "duration_s": 116.17,
+  "transition_s": 10.0,
+  "max_velocity_rad_s": [
+    0.05668820352540127,
+    0.07864303458062771,
+    0.13683361983758413,
+    0.26226797332037366,
+    0.29359844236116484,
+    0.373489455324294,
+    0.15161805217879243,
+    0.04832362862823292,
+    0.04437041323730462,
+    0.09891955151565546,
+    0.14864582094152867,
+    0.045567812358721094,
+    0.14333642447749662,
+    0.18847484087270716,
+    0.1119009293588602,
+    0.025244567815183028,
+    0.15220130570623852,
+    0.09449199424858279,
+    0.09330323679078711,
+    0.05086181286956537,
+    0.12239256346455729,
+    0.14895409628343514,
+    0.10425984729655127,
+    0.10008759160360092,
+    0.10790252295476421,
+    0.07595411791506412,
+    0.048181198254093616,
+    0.04515329916475741,
+    0.12104811955883088,
+    0.2040681100851316,
+    0.15755408699176243,
+    0.2873901673185131,
+    0.0719249898079255,
+    0.04664764055493098,
+    0.08819326026900942,
+    0.08473455570962574,
+    0.15940313081626023,
+    0.06426286898710831,
+    0.03922727646804014,
+    0.0638934642215011,
+    0.14907649129399791,
+    0.04217015106120492,
+    0.08287154938992902,
+    0.06376263661145021,
+    0.10338458567413222,
+    0.03488877214248287,
+    0.08791203271400483,
+    0.06689424523676768,
+    0.11934009884733143,
+    0.08918815678536363,
+    0.10157416370810413,
+    0.08051764462204455
+  ],
+  "max_acceleration_rad_s2": [
+    0.2698905897113857,
+    0.8685690196941209,
+    1.488536612069824,
+    2.330094089803003,
+    0.6040384138117361,
+    0.8622767998105907,
+    0.14035739730355878,
+    0.15723859084298963,
+    0.1545592855414779,
+    0.10153072873914093,
+    0.25800473356374365,
+    0.30199235828809456,
+    0.2567132127390126,
+    0.4664167421741805,
+    0.2072941366537684,
+    0.07178760690881858,
+    0.3195578595660553,
+    0.1605501630291828,
+    0.21642759434087333,
+    0.08896413192800712,
+    0.16965736716945123,
+    0.60632142058481,
+    0.2069932843627026,
+    0.33692040085603336,
+    0.1553173965297694,
+    0.5144178307714409,
+    0.5833537990129756,
+    0.6424212707090149,
+    1.2262661956552456,
+    3.2222969764461595,
+    0.41835997383721235,
+    0.6370763820662262,
+    0.27723888925357265,
+    0.2483120814938955,
+    0.4631438677804578,
+    0.394160679604294,
+    0.12148833913400159,
+    0.18101120590252595,
+    0.20414902190846185,
+    1.0299033921357115,
+    0.1458768728768156,
+    0.16723178798833116,
+    0.36569029776944983,
+    1.0257085375134367,
+    0.16023899542805253,
+    0.2933849641246003,
+    0.16781144804578485,
+    0.12738958703240044,
+    0.6752665731257768,
+    0.5741016026362261,
+    0.5936302276558086,
+    0.4519859784227198
+  ],
+  "trajectory_sampling": "cubic_hermite_100hz",
+  "source_waypoints": 632,
+  "runtime_waypoints": 11618,
+  "includes_measured_start": true,
+  "command_interval_s": 0.01,
+  "max_replay_eef_position_error_m": 0.0007263775763844269,
+  "max_replay_eef_rotation_error_rad": 0.0024075081083837083,
+  "eef_deviation_warnings": [],
+  "eef_checked": true,
+  "name": "aubo_arms_20261115_174914_6642d8",
+  "arms_only": false,
+  "execution_enabled": false,
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261115_174914_6642d8/config.json",
+    "sha256": "5fd7ba28af7e45ea68f25e7b3e136fd6af677a6706a06c137d4ca234fd88f265"
+  },
+  "sources": [
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/replay_test_converted_sharpa_wuji2_20261115(1)/replay_test_converted/wuji_outroom_lemon_episode1318/wuji2_camera_replay_trajectory.npz",
+      "sha256": "4c0b2142b8427719dae764cf0e7f3591f13fd5dbb175100908956d7c86140bb4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_ff8ad418/observation.json",
+      "sha256": "7f1093a005f55020edaa4341fba2dfd0b598ad7adb17b02df42fb58315a4e73c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/source_recordings/sharpa_to_wuji2_beta/assets/wuji/urdf/left.urdf",
+      "sha256": "d93de699b5bbe0a573ea9725ebb7e6ad6547b6ed3593f7f5591664ee220648f0"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_c4840512/result.json",
+      "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/source_recordings/sharpa_to_wuji2_beta/assets/wuji/urdf/right.urdf",
+      "sha256": "f3bb5d0031a1972e06faafa8a6ab191dcf5ab5abfebbf5d27cb510ee8d004a06"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_d72abc19/result.json",
+      "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261115_174914_6642d8/config.json",
+      "sha256": "5fd7ba28af7e45ea68f25e7b3e136fd6af677a6706a06c137d4ca234fd88f265"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/config/mapping_from_human_gemini335.json",
+      "sha256": "f0db1f5d1194a4cedf4ca9034488609ee64a35bf269646533b6d00edd552d4c1"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_87ac58a1/observation.json",
+      "sha256": "2e2504fc19e11bb9f119e1325d32c8df54692293b21faee68ac0b19681eea11a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/replay_test_converted_sharpa_wuji2_20261115(1)/replay_test_converted/wuji_outroom_lemon_episode1318/wuji2_actions_camera_mount_reference_right_left.npy",
+      "sha256": "6a387b4f9a8c51d9e5e37d722bc211dce49f1f4577fc2a48c43d57cd2f10d377"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/replay_test_converted_sharpa_wuji2_20261115(1)/replay_test_converted/wuji_outroom_lemon_episode1318/wuji2_actions_camera_right_left.npy",
+      "sha256": "9ede2fd77ed57c72842fb9555e55e5e2fc66f5353023c289482159b6dd95dc14"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/replay_test_converted_sharpa_wuji2_20261115(1)/replay_test_converted/wuji_outroom_lemon_episode1318/wuji2_hand_joints_left_right.npy",
+      "sha256": "390ea3e43b4aa06ccfb60e81d9edfdd29a4709b3facd50299bc3deb5102ee796"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/aubo_arms_replay.py",
+      "sha256": "1cbdcc80d56894e9ce47b86a793d9bce0220e112142a5095d461dfc08c1d9183"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/camera_trajectory_input.py",
+      "sha256": "5652fe1190252ff60cfcd3433f889a63757a83648e17af952085c14f9d82ad37"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/execute_checked_replay.py",
+      "sha256": "25af09cef4df9e2f1b4b1589058587d57820502e8fef27811ad02d7a83e530cc"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/aubo_continuous_ik.py",
+      "sha256": "76c01cc5b57f013f94cb2f8365de83532d05394df6f542449ae48c3adc631b18"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/diagnose_ik.py",
+      "sha256": "b110025eb3ae76def8c910f41692ea3f6d7941d34c183f8401067db205be1a4a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/solve_controller_ik.py",
+      "sha256": "bc5c97d119ba9c23e5be058b1a8beedb69e58b3efc41fe95929d94be3ecde184"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/replay_control.py",
+      "sha256": "ee832a6595cddb22d3c4ec2fc58a1bfb66553bd9f3016a3dd3be1e1bc0086d8d"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/collision_scene.py",
+      "sha256": "ed11efd794e043967dc9fa23c95207da0ccb91158eccea58b9e256876c5cecad"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/device_backends.py",
+      "sha256": "26dd259e38fb69d66b49fe5763ff6d12befec7413607b22b4cdc44c28e9ee001"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/runtime_plan.py",
+      "sha256": "58c626ac1be7d599bcf190884581c01d560479eae5987c1965270dca5bd1f0eb"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/dh_kinematics.py",
+      "sha256": "f4a5e1679991a2e683dac1e71a899b1008ce9278f579af170d76771d92f9b447"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/read_hands.py",
+      "sha256": "bed73422c5ea7a3c60e1b137d004dafd47b25ca6f2592c4aa51192f2eb01a074"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/replay_pipeline.py",
+      "sha256": "d79851537f4b3ef218682f09daa7f1ca27bea518bc74a4e29671ce6f38b41e5b"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/__init__.py",
+      "sha256": "19dcfa15751b41de3e30c45aacc611199b61bd589cc0af2c95595c3932c844c7"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/backends.py",
+      "sha256": "8064df0b7900074e3066316cb85d19ecbe6f093dc775d3ef06b0e35e9b281cfa"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/cli.py",
+      "sha256": "c7bee4444d4995f6a3329bea07c67364800be68b4f6879249dc0ac7204dfa3ce"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/continuous.py",
+      "sha256": "d10b075902e12bedfe1d45c6db70bb1048df588e69d8b7cd5fb729d5dd834256"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/differential.py",
+      "sha256": "db211d4a8c39b005f947ab39f5a931cdd0104bf8738bd939ac3de4a648860e2d"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/model.py",
+      "sha256": "6f4d6544694967ac0d414ab043430a5d85dcf8fcbef03d59cdff434b74b3902b"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/placo_backend.py",
+      "sha256": "fa97baa92cbc90ffe0216b3bb3d9f4855c8d95c080a2d12064fd74dabe5ced22"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/profiles.py",
+      "sha256": "7ea52a3e4cbf33e60c8a6a426692ceb3c8917e78c85eff74ffac38b6d2348d74"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/sensitivity.py",
+      "sha256": "ecbed682a8ad56c06e0063dfab568c82185f1dcdc44659de079230119fd32254"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/transition.py",
+      "sha256": "79ec7e5a44ae7578f50d43e6711bf2761ba7ea670ef1a4d42cad5259f39483af"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.urdf",
+      "sha256": "6358243ae83f1e560706e35d2799e5880103e581148775638e7a143ba9e10a59"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.srdf",
+      "sha256": "47db66ca87ef9c6bd1a3ecf49472d6fcc0633cab6f27b15910eeaba9a1df879c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.urdf",
+      "sha256": "6358243ae83f1e560706e35d2799e5880103e581148775638e7a143ba9e10a59"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.srdf",
+      "sha256": "47db66ca87ef9c6bd1a3ecf49472d6fcc0633cab6f27b15910eeaba9a1df879c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/pyaubo_sdk_0_26/pyaubo_sdk.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "d53f128b0aca5bb2b394673e2128e85bb84bb15ec59bf6a40ba92a30be7672ae"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261115_174914_6642d8/nominal_ik_candidate.npz",
+      "sha256": "5ca4e9716a8a89ba6c6db20de240c51208407d01f5027941c966b2734b90183d"
+    }
+  ],
+  "trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261115_174914_6642d8/runtime.npz",
+    "sha256": "a9693e3e6a471aea63e8781ea9d0f0d6ad9ecad779edad3c0f866512bab2c571"
+  },
+  "controllers": {
+    "left": {
+      "captured_unix_s": 1794736154.0751064,
+      "ip": "192.168.1.3",
+      "robot_name": "rob1",
+      "robot_type": "aubo_i7H",
+      "payload": [
+        1.238,
+        [
+          0.00434,
+          0.02465,
+          0.0013
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "tcp_offset_sdk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_positions_rad": [
+        -1.069097927505386,
+        -0.3671313764188199,
+        1.1446980778071507,
+        0.8049469395874299,
+        1.4167363048042054,
+        1.1834988800617765
+      ],
+      "joint_min_rad": [
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586
+      ],
+      "joint_max_rad": [
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586
+      ],
+      "joint_max_speed_rad_s": [
+        3.89454,
+        3.89454,
+        3.89454,
+        4.66573,
+        4.66573,
+        4.66573
+      ],
+      "joint_max_acceleration_rad_s2": [
+        25.963575649502424,
+        25.963575649502424,
+        25.963575649502424,
+        31.104877758314785,
+        31.104877758314785,
+        31.104877758314785
+      ],
+      "kinematics_real": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.570750946796414,
+          3.142720133536965,
+          3.14349331358029,
+          -1.5704018868007719,
+          1.569096376830947
+        ],
+        "d": [
+          0.122,
+          0.12156259999645408,
+          -6.259999645408243e-05,
+          6.259999645408243e-05,
+          0.10225889999768696,
+          0.094
+        ],
+        "a": [
+          0.0,
+          -1.4399999599845614e-05,
+          0.3683124999930151,
+          0.31621660000493285,
+          7.199999799922807e-06,
+          -2.7399999453336932e-05
+        ]
+      },
+      "kinematics_nominal": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.5707963267948966,
+          3.141592653589793,
+          3.141592653589793,
+          -1.5707963267948966,
+          1.5707963267948966
+        ],
+        "d": [
+          0.122,
+          0.1215,
+          0.0,
+          0.0,
+          0.1025,
+          0.094
+        ],
+        "a": [
+          0.0,
+          0.0,
+          0.368,
+          0.316,
+          0.0,
+          0.0
+        ]
+      },
+      "mode": "RobotModeType.Running",
+      "safety": "SafetyModeType.Normal",
+      "steady": true,
+      "runtime_status": "RuntimeState.Stopped",
+      "servo_mode_enabled": false,
+      "base_T_flange": [
+        [
+          0.6361159720218224,
+          -0.7366900798257442,
+          0.22944323137777112,
+          0.16236422273932416
+        ],
+        [
+          -0.3854991871780178,
+          -0.5610262372812813,
+          -0.7325571225283989,
+          -0.578218287478092
+        ],
+        [
+          0.6683912378418921,
+          0.3775411068590362,
+          -0.6408711772328657,
+          0.5019218630755454
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right": {
+      "captured_unix_s": 1794736154.0821939,
+      "ip": "192.168.1.2",
+      "robot_name": "rob1",
+      "robot_type": "aubo_i7H",
+      "payload": [
+        0.632,
+        [
+          -0.0073,
+          0.03246,
+          0.15035
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "tcp_offset_sdk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_positions_rad": [
+        1.3557046425754327,
+        0.3259064223455994,
+        -1.0337422342322977,
+        -0.5786383515877435,
+        4.767142731500902,
+        3.523577032842244
+      ],
+      "joint_min_rad": [
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586
+      ],
+      "joint_max_rad": [
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586
+      ],
+      "joint_max_speed_rad_s": [
+        3.89454,
+        3.89454,
+        3.89454,
+        4.66573,
+        4.66573,
+        4.66573
+      ],
+      "joint_max_acceleration_rad_s2": [
+        25.963575649502424,
+        25.963575649502424,
+        25.963575649502424,
+        31.104877758314785,
+        31.104877758314785,
+        31.104877758314785
+      ],
+      "kinematics_real": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.5702797067959349,
+          3.139363863626965,
+          3.1411301435779357,
+          -1.5698416268012974,
+          1.5745400568146746
+        ],
+        "d": [
+          0.122,
+          0.12151309999970544,
+          -1.3099999705445953e-05,
+          1.3099999705445953e-05,
+          0.10306660000700503,
+          0.094
+        ],
+        "a": [
+          0.0,
+          7.370000093942508e-05,
+          0.36836149998777545,
+          0.31618940000154544,
+          4.859999899053946e-05,
+          -0.00021949999791104347
+        ]
+      },
+      "kinematics_nominal": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.5707963267948966,
+          3.141592653589793,
+          3.141592653589793,
+          -1.5707963267948966,
+          1.5707963267948966
+        ],
+        "d": [
+          0.122,
+          0.1215,
+          0.0,
+          0.0,
+          0.1025,
+          0.094
+        ],
+        "a": [
+          0.0,
+          0.0,
+          0.368,
+          0.316,
+          0.0,
+          0.0
+        ]
+      },
+      "mode": "RobotModeType.Running",
+      "safety": "SafetyModeType.Normal",
+      "steady": true,
+      "runtime_status": "RuntimeState.Stopped",
+      "servo_mode_enabled": false,
+      "base_T_flange": [
+        [
+          -0.8564776743487592,
+          0.5065386712277452,
+          -0.09932053107475375,
+          0.0017167017914212403
+        ],
+        [
+          0.42128191539807514,
+          0.5747648538267813,
+          -0.7015460858446954,
+          -0.5798566858393673
+        ],
+        [
+          -0.29827427160361575,
+          -0.6427005036222622,
+          -0.7056688469409877,
+          0.544192789235521
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "hand_start": {
+    "left": {
+      "positions_rad": [
+        0.597335696220398,
+        0.015534639358520508,
+        -0.10681384801864624,
+        -0.03284353017807007,
+        0.1615908145904541,
+        0.17353230714797974,
+        -0.137623131275177,
+        0.005264878273010254,
+        0.13465476036071777,
+        0.05123633146286011,
+        -0.04002583026885986,
+        -0.10134083032608032,
+        -0.03609275817871094,
+        -0.09692913293838501,
+        0.047219276428222656,
+        -0.15412157773971558,
+        0.33365440368652344,
+        -0.08568495512008667,
+        0.0269472599029541,
+        0.06830340623855591
+      ],
+      "received_monotonic": 422830.28095207,
+      "captured_unix_s": 1794736154.1824389,
+      "current_a": [
+        -0.01347838994115591,
+        -0.013881855644285679,
+        0.008431234396994114,
+        -0.014414126053452492,
+        -0.002856850391253829,
+        0.007227397058159113,
+        0.012252326123416424,
+        -0.01818886026740074,
+        0.01071028970181942,
+        0.004408260807394981,
+        -0.005506861489266157,
+        0.004312232136726379,
+        0.005018178839236498,
+        -0.007008775137364864,
+        0.0030225322116166353,
+        0.010212130844593048,
+        -0.014810129068791866,
+        0.015608842484652996,
+        -0.032637059688568115,
+        -0.012887262739241123
+      ]
+    },
+    "right": {
+      "positions_rad": [
+        0.5656694173812866,
+        -0.3896564245223999,
+        -0.10239619016647339,
+        -0.07866150140762329,
+        0.2687920331954956,
+        0.06025820970535278,
+        0.07073009014129639,
+        -0.007474422454833984,
+        0.1412752866744995,
+        0.1391465663909912,
+        0.014424562454223633,
+        -0.1633651852607727,
+        0.25388288497924805,
+        0.10282838344573975,
+        0.028141260147094727,
+        -0.1257385015487671,
+        0.22980117797851562,
+        0.048988521099090576,
+        0.20541715621948242,
+        -0.204312264919281
+      ],
+      "received_monotonic": 422830.28103211,
+      "captured_unix_s": 1794736154.182519,
+      "current_a": [
+        -0.007690899074077606,
+        -0.010190741159021854,
+        1.5939585864543915e-06,
+        -0.019862100481987,
+        -0.0067776707001030445,
+        0.020222336053848267,
+        -0.02211131528019905,
+        0.008447611704468727,
+        0.0029465805273503065,
+        0.0030776760540902615,
+        -0.022707991302013397,
+        0.0,
+        0.011570830829441547,
+        -0.030502546578645706,
+        0.009744924493134022,
+        -0.012135425582528114,
+        0.002717280061915517,
+        0.0016574184410274029,
+        0.020483601838350296,
+        0.015164232812821865
+      ]
+    }
+  },
+  "settings": {
+    "rate_hz": 100,
+    "speed": 0.2,
+    "minimum_transition_s": 10.0,
+    "arm_velocity_fraction": 0.2,
+    "arm_acceleration_fraction": 0.15,
+    "hand_velocity_rad_s": 5.0,
+    "hand_acceleration_rad_s2": 100.0,
+    "feedback_timeout_s": 0.25,
+    "maximum_tick_lateness_s": 0.03,
+    "arm_tracking_error_rad": 0.2,
+    "hand_tracking_error_rad": 0.5,
+    "maximum_hand_current_a": 1.5,
+    "mesh_clearance_m": 0.002,
+    "hands": {
+      "left": {
+        "address": "192.168.1.110:50001",
+        "serial": "WH2JA01260923005"
+      },
+      "right": {
+        "address": "192.168.1.111:50001",
+        "serial": "WH2KA01260803001"
+      }
+    },
+    "expected_hand_mit_kp": 5.0,
+    "expected_hand_mit_kd": 0.1,
+    "expected_hand_effort_limit_a": 1.0,
+    "warmup_s": 2.0,
+    "fixed_hand_position_tolerance_rad": 0.03,
+    "table_clearance_m": 0.0,
+    "maximum_eef_position_error_m": 0.002,
+    "ik_method": "episode594_sdk",
+    "arms_only": false
+  }
+}

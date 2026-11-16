@@ -15,7 +15,7 @@ class ClearanceTests(unittest.TestCase):
         self.assertEqual(read_json(HERE/'config/runtime.json')['mesh_clearance_m'],.002)
 
     def scene(self,center_distance,clearance):
-        s=Scene.__new__(Scene);s.clearance=clearance;s.normal=np.array([0.,0.,1.]);s.plane_point=np.zeros(3);s.pairs=[(0,1)]
+        s=Scene.__new__(Scene);s.clearance=clearance;s.table_clearance=clearance;s.normal=np.array([0.,0.,1.]);s.plane_point=np.zeros(3);s.pairs=[(0,1)]
         hull=np.asarray(list(itertools.product([-.01,.01],repeat=3)))
         s.shapes=[dict(name=f'left:arm:test{i}',kind='arm',side='left',link=f'test{i}',hull=hull,geometry=coal.Sphere(.01)) for i in range(2)]
         a=np.eye(4);a[2,3]=-1.;b=a.copy();b[0,3]=center_distance;s.shape_poses=lambda arms,hands:[a,b]
@@ -25,5 +25,16 @@ class ClearanceTests(unittest.TestCase):
         self.assertEqual(self.scene(.023,.002).check({},{}),[])
         self.assertTrue(self.scene(.023,.005).check({},{}))
         self.assertTrue(self.scene(.019,.002).check({},{}))
+
+    def test_zero_table_margin_keeps_robot_clearance_and_rejects_plane_penetration(self):
+        s=self.scene(.1,.002);s.table_clearance=0.
+        a=np.eye(4);a[2,3]=-.011;b=a.copy();b[0,3]=.1
+        s.shape_poses=lambda arms,hands:[a,b]
+        self.assertEqual(s.check({},{}),[])
+        s.table_clearance=.002
+        self.assertTrue(s.check({},{}))
+        s.table_clearance=0.;a[2,3]=-.009
+        self.assertTrue(s.check({},{}))
+        self.assertEqual(s.clearance,.002)
 
 if __name__=='__main__':unittest.main()

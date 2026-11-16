@@ -1,0 +1,13 @@
+{
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "arms_only": true,
+  "name": "aubo_arms_20261113_173254_97103f",
+  "path_planner": "collision_graph",
+  "entry_planner": "ompl",
+  "geometry_reused_from": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261113_171743_12ef19/dual_graph_path0_offline.npz",
+    "sha256": "6f42fd4dd918192d5d17797e283a62933099a4a957c49dccf728111ff8a5259a"
+  },
+  "error": "All branch pairs blocked by full assembly/transition checks"
+}

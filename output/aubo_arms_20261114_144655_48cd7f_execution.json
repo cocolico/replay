@@ -1,0 +1,41 @@
+{
+  "execution_attempted": true,
+  "arms_only": true,
+  "completed": false,
+  "operator_stopped": false,
+  "error": "Hand tracking error: right",
+  "cleanup_errors": [],
+  "stop_results": {
+    "arm_left": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.00037969821482317854
+      },
+      "command_warnings": []
+    },
+    "arm_right": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.0005695473222347678
+      },
+      "command_warnings": [
+        "stopJoint: -3",
+        "setServoModeSelect: -3"
+      ]
+    }
+  },
+  "startup_hold_commands": {
+    "left": 2,
+    "right": 1
+  },
+  "ticks": 10158,
+  "max_tick_lateness_s": 0.0021293110330589116,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261114_144655_48cd7f/runtime.npz",
+    "sha256": "96e8453dd28a209de4f78f0885c6314e4c08f71d62a4f37c61b9f602f8aee88c"
+  }
+}

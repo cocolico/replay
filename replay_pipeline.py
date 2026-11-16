@@ -259,20 +259,22 @@ def audit(c):
 
 
 def prepare_camera(c, output):
-    if not c.get('camera_source_observation'):raise ValueError('Human trajectories require an explicit source observation; use config/human_replay.json')
     root = Path(c['camera_trajectory_root'])
-    files = []
+    from camera_trajectory_input import read_camera_input
+    input_arrays, input_sources, input_format = read_camera_input(root)
+    files = list(input_sources)
     def load(name):
-        path = root / (name + '.npy');files.append(path)
-        return np.load(path, allow_pickle=False)
-    if str(load('frame')) != 'undistorted_color_optical': raise ValueError('Unknown camera trajectory frame')
+        return input_arrays[name]
+    source_frame=str(load('frame'))
+    if source_frame not in ('undistorted_color_optical','lychee_root'): raise ValueError('Unknown trajectory frame')
     if str(load('joint_unit')) != 'radian' or str(load('position_unit')) != 'metre' or str(load('quaternion_order')) != 'wxyz':
         raise ValueError('Unexpected camera trajectory units/convention')
     target_label = str(load('pose_target'))
     if 'l_base_link' not in target_label or 'r_base_link' not in target_label: raise ValueError('Unknown controlled frames')
     ns = load('timestamp_ns');t = check_times(load('time_s'), ns)
-    matrices = calibrated_chain(c, c['camera_table_mapping'], c['camera_source_id'])
-    if c.get('camera_source_observation'):
+    if source_frame=='undistorted_color_optical':
+        if not c.get('camera_source_observation'):raise ValueError('Camera trajectories require an explicit source observation')
+        matrices = calibrated_chain(c, c['camera_table_mapping'], c['camera_source_id'])
         source=read_json(c['camera_source_observation']);target=read_json(c['current_table_observation']);mapping=read_json(c['camera_table_mapping'])
         if source['camera_id']!=c['camera_source_id'] or source['board_fingerprint']!=target['board_fingerprint']:raise ValueError('Human source observation identity differs')
         expected=transform(target['camera_T_board'])@inverse(transform(source['camera_T_board']))
@@ -280,11 +282,32 @@ def prepare_camera(c, output):
         if mapping.get('source_observation_sha256')!=provenance(c['camera_source_observation'])['sha256']:raise ValueError('Human source observation changed')
         if mapping.get('target_observation_sha256')!=provenance(c['current_table_observation'])['sha256']:raise ValueError('Human target observation changed')
         files.append(Path(c['camera_source_observation']))
+        source_note=c['camera_source_identity_note'];source_id=c['camera_source_id']
+    else:
+        if str(load('alignment_version'))!=ALIGNMENT:raise ValueError('Unknown lychee-root alignment')
+        assembly=Path(c['source_episode_root'])/'assets/motion/source_assembly.urdf'
+        old=read_json(c['source_franka_handeye'])
+        matrices=calibrated_chain(c)
+        joints=ET.parse(assembly).getroot().findall('joint');by_child={j.find('child').get('link'):j for j in joints}
+        lychee_T_base={}
+        for side in SIDES:
+            link=f'{side}_fr3v2_link0';chain=[]
+            while link!='lychee_root':
+                if link not in by_child:raise ValueError('No fixed lychee_root to Franka base chain')
+                joint=by_child[link]
+                if joint.get('type')!='fixed':raise ValueError('Lychee base mounting chain must be fixed')
+                chain.insert(0,joint);link=joint.find('parent').get('link')
+            value=np.eye(4)
+            for joint in chain:value=value@origin(joint)
+            lychee_T_base[side]=value
+        files.extend([assembly,Path(c['source_franka_handeye']),Path(c['table_mapping'])])
+        source_note='lychee_root converted through the delivered fixed dual-Franka assembly and the confirmed episode594 source calibration'
+        source_id='lychee_root'
     arrays = {'time_s':t, 'timestamp_ns':ns, 'alignment_version':load('alignment_version')}
-    report = {'artifact_type':'offline_aubo_wuji_preparation', 'input_type':'human_camera', 'frames':len(t),
+    report = {'artifact_type':'offline_aubo_wuji_preparation', 'input_type':'human_camera', 'input_format':input_format, 'frames':len(t),
               'duration_s':float(t[-1]), 'execution_enabled':False, 'configuration':provenance(c['_config_path']),
-              'source_camera_id':c['camera_source_id'], 'source_camera_identity_note':c['camera_source_identity_note'],
-              'root_alignment':'Already fitted camera root; no +/-90 degree correction applied', 'sides':{}}
+              'source_camera_id':source_id, 'source_camera_identity_note':source_note,
+              'root_alignment':'Delivered Wuji base poses preserved; no extra +/-90 degree correction applied', 'sides':{}}
     blockers=[]
     for side in SIDES:
         cfg=c['sides'][side]
@@ -298,8 +321,10 @@ def prepare_camera(c, output):
         names,wire,lo,hi=hand_contract(hand_urdf,side)
         hand=ordered(load(side+'_joint_positions_rad'),load(side+'_joint_names'),names)
         if hand.shape!=(len(t),20) or np.any(hand<lo-1e-6) or np.any(hand>hi+1e-6): raise ValueError('Camera hand frame count or position limits invalid')
-        arrays[f'{side}_source_camera_T_wuji_base']=poses
-        arrays[f'{side}_aubo_base_T_wuji_base']=matrices[side]@poses
+        if source_frame=='undistorted_color_optical':source_camera_T_wuji=poses
+        else:source_camera_T_wuji=transform(old['transforms'][f'camera_T_{side}_base'])@inverse(lychee_T_base[side])@poses
+        arrays[f'{side}_source_camera_T_wuji_base']=source_camera_T_wuji
+        arrays[f'{side}_aubo_base_T_wuji_base']=matrices[side]@source_camera_T_wuji
         arrays[f'{side}_wuji_joint_positions_rad']=hand
         arrays[f'{side}_wuji_model_joint_names']=np.asarray(names)
         arrays[f'{side}_wuji_wire_joint_names']=np.asarray(wire)
@@ -313,7 +338,8 @@ def prepare_camera(c, output):
         if not cfg.get('model_confirmed'):blockers.append(f'{side}_aubo_model_not_confirmed')
         report['sides'][side]={'hand_position_limits_passed':True,'hand_dynamics':dynamics(hand,t),'target_handeye':provenance(cfg['handeye'])}
         files.extend([hand_urdf,Path(cfg['handeye'])])
-    files.extend([Path(c['_config_path']),Path(c['camera_table_mapping']),Path(c['current_table_observation'])])
+    files.extend([Path(c['_config_path']),Path(c['current_table_observation'])])
+    if source_frame=='undistorted_color_optical':files.append(Path(c['camera_table_mapping']))
     report.update(blockers=blockers,arm_ik_inputs_ready=not blockers,arm_ik_performed=False,collision_check={'performed':False},sources=[provenance(f) for f in files])
     output=Path(output);output.mkdir(parents=True,exist_ok=True)
     dest=output/'human_camera_prepared.npz';np.savez_compressed(dest,**arrays)

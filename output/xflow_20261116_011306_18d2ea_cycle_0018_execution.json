@@ -1,0 +1,64 @@
+{
+  "execution_attempted": true,
+  "arms_only": false,
+  "completed": false,
+  "operator_stopped": true,
+  "error": "Operator stop",
+  "cleanup_errors": [],
+  "stop_results": {
+    "hand_right": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "hand_left": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "arm_left": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.0004754072689728227
+      },
+      "command_warnings": [
+        "stopJoint: -4",
+        "setServoModeSelect: -3"
+      ]
+    },
+    "arm_right": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.00018984910741158927
+      },
+      "command_warnings": [
+        "stopJoint: -4",
+        "setServoModeSelect: -3"
+      ]
+    }
+  },
+  "startup_hold_commands": {
+    "left": 1,
+    "right": 1
+  },
+  "ticks": 3272,
+  "max_tick_lateness_s": 0.0762618767330423,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/client/aubo_wuji/runs/20261116_011306_18d2ea/cycle_0018/runtime.npz",
+    "sha256": "72ba959d92592f720d678f2f795f586be5fe24e65f2497656c696e2e8d9e4363"
+  },
+  "first_step_hold_ticks": 1,
+  "first_step_arrivals": [
+    {
+      "index": 3,
+      "max_error_deg": 0.6984792194532968,
+      "elapsed_s": 0.0711481140460819
+    }
+  ]
+}

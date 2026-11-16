@@ -1,0 +1,44 @@
+{
+  "execution_attempted": true,
+  "arms_only": false,
+  "completed": false,
+  "operator_stopped": false,
+  "error": "Arm feedback stale/unavailable: left",
+  "cleanup_errors": [
+    "arm_left: Stop state not confirmed: {'steady': True, 'servo_mode': 0, 'max_speed_rad_s': 0.00037969821482317854}; commands=[]",
+    "arm_right: Aubo connection failed",
+    "Runtime stop: RPC request timeout. request: {\"id\":\"aRqHmSFB-69dB-41fe\",\"jsonrpc\":\"2.0\",\"method\":\"rob1.RobotState.isSteady\"} timer ec:Success time: 2000 ms"
+  ],
+  "stop_results": {
+    "hand_right": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "hand_left": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    }
+  },
+  "startup_hold_commands": {
+    "left": 1,
+    "right": 1
+  },
+  "ticks": 236,
+  "max_tick_lateness_s": 0.06651048845378682,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/client/aubo_wuji/runs/20261116_011719_1244a8/cycle_0001/runtime.npz",
+    "sha256": "0b8a2804d69cf3f4e3882b638915b234e0a1b6a448d4be657d5d9ff086aa54a5"
+  },
+  "first_step_hold_ticks": 4,
+  "first_step_arrivals": [
+    {
+      "index": 3,
+      "max_error_deg": 0.7575209780161947,
+      "elapsed_s": 0.1775901810033247
+    }
+  ]
+}

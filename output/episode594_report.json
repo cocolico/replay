@@ -7,8 +7,8 @@
   "joint_unit": "radian",
   "position_unit": "metre",
   "configuration": {
-    "path": "/media/descfly/新加卷/ty/replay/code/config/replay.json",
-    "sha256": "2856f116346ae696cedf8a5d739bb7c560cbb974861d0c5d08958d21ab355b67"
+    "path": "/media/descfly/新加卷/ty/replay/code/config/episode594_verified_20261116.json",
+    "sha256": "fdc7c45608df14d5a327fba9a6a6d7c0e6135d9eea341f66566df1f2fdc34170"
   },
   "mount_semantics": "flange_T_wuji_base maps Wuji l/r_base_link into Aubo physical flange",
   "root_alignment": "preserved exactly; NO extra +/-90 degree rotation",
@@ -21,7 +21,7 @@
       },
       "hand_position_limits_passed": true,
       "target_handeye": {
-        "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_left_02/result.json",
+        "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_c4840512/result.json",
         "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
       },
       "target_base_frame": "left_aubo_base"
@@ -34,16 +34,14 @@
       },
       "hand_position_limits_passed": true,
       "target_handeye": {
-        "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_right_01/result.json",
+        "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_d72abc19/result.json",
         "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
       },
       "target_base_frame": "right_aubo_base"
     }
   },
-  "blockers": [
-    "right_aubo_model_not_confirmed"
-  ],
-  "arm_ik_inputs_ready": false,
+  "blockers": [],
+  "arm_ik_inputs_ready": true,
   "arm_ik_performed": false,
   "collision_check": {
     "performed": false,
@@ -68,19 +66,19 @@
       "sha256": "15d3056fc3bb3219894e81009c65fb2f63188fbfedaa1e53724901ec3356b31c"
     },
     {
-      "path": "/media/descfly/新加卷/ty/replay/code/config/replay.json",
-      "sha256": "2856f116346ae696cedf8a5d739bb7c560cbb974861d0c5d08958d21ab355b67"
+      "path": "/media/descfly/新加卷/ty/replay/code/config/episode594_verified_20261116.json",
+      "sha256": "fdc7c45608df14d5a327fba9a6a6d7c0e6135d9eea341f66566df1f2fdc34170"
     },
     {
-      "path": "/home/descfly/ty/desk/calibration/results/current-table-20261112/mapping_from_franka-sharpa.json",
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_c05f1c04/mapping_from_franka-sharpa.json",
       "sha256": "f8e619b08df73abf74ad2a64203c1333ef0c5075d71647bee7cb07e3bfda2a1a"
     },
     {
-      "path": "/home/descfly/ty/desk/calibration/results/current-table-20261112/observation.json",
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_87ac58a1/observation.json",
       "sha256": "2e2504fc19e11bb9f119e1325d32c8df54692293b21faee68ac0b19681eea11a"
     },
     {
-      "path": "/media/descfly/新加卷/ty/replay/handeye/handeye/franka-sharpa/handeye_calibration.json",
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/franka-sharpa/handeye_calibration.json",
       "sha256": "962b68b4f0e328a9cc768a3aa534de6e20b6bf1fa784fdf0ef90b8d857515bd4"
     },
     {
@@ -88,7 +86,7 @@
       "sha256": "d93de699b5bbe0a573ea9725ebb7e6ad6547b6ed3593f7f5591664ee220648f0"
     },
     {
-      "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_left_02/result.json",
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_c4840512/result.json",
       "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
     },
     {
@@ -96,7 +94,7 @@
       "sha256": "f3bb5d0031a1972e06faafa8a6ab191dcf5ab5abfebbf5d27cb510ee8d004a06"
     },
     {
-      "path": "/home/descfly/ty/cam/franka_orbbec_handeye_calibration/data/aubo_right_01/result.json",
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_d72abc19/result.json",
       "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
     }
   ],

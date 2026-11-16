@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# Reproducible upstream checkout and platform-specific wheels; see tools/setup_planning.py
+vendor/ompl_source/
+vendor/planning_python/

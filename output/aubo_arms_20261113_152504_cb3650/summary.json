@@ -1,0 +1,9 @@
+{
+  "ready_for_execution": false,
+  "execution_attempted": false,
+  "arms_only": true,
+  "name": "aubo_arms_20261113_152504_cb3650",
+  "path_planner": "collision_graph",
+  "entry_planner": "ompl",
+  "error": "No collision-free connected IK candidates at frame 29"
+}

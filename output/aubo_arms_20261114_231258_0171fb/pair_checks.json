@@ -1,0 +1,4511 @@
+[
+  {
+    "ready_for_execution": true,
+    "collision_checked": true,
+    "collision_passed": true,
+    "collision_check_policy": "required",
+    "collision_failures": [],
+    "hand_self_collision_policy": "warn",
+    "hand_self_collision_warning_frames": 236,
+    "hand_self_collision_warnings": [
+      {
+        "source_frame": 37,
+        "source_time_s": 1.233333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 38,
+        "source_time_s": 1.266666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 39,
+        "source_time_s": 1.3,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 40,
+        "source_time_s": 1.333333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 41,
+        "source_time_s": 1.366666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 42,
+        "source_time_s": 1.4,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 43,
+        "source_time_s": 1.433333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 44,
+        "source_time_s": 1.466666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 45,
+        "source_time_s": 1.5,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 46,
+        "source_time_s": 1.533333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 47,
+        "source_time_s": 1.566666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 48,
+        "source_time_s": 1.6,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 49,
+        "source_time_s": 1.633333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 50,
+        "source_time_s": 1.666666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 51,
+        "source_time_s": 1.7,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 52,
+        "source_time_s": 1.733333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 53,
+        "source_time_s": 1.766666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 54,
+        "source_time_s": 1.8,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 55,
+        "source_time_s": 1.833333333,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 56,
+        "source_time_s": 1.866666667,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 57,
+        "source_time_s": 1.9,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 58,
+        "source_time_s": 1.933333333,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 59,
+        "source_time_s": 1.966666667,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 60,
+        "source_time_s": 2.0,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 61,
+        "source_time_s": 2.033333333,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 62,
+        "source_time_s": 2.066666667,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 63,
+        "source_time_s": 2.1,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 64,
+        "source_time_s": 2.133333333,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 65,
+        "source_time_s": 2.166666667,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 66,
+        "source_time_s": 2.2,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 67,
+        "source_time_s": 2.233333333,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 68,
+        "source_time_s": 2.266666667,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 69,
+        "source_time_s": 2.3,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 70,
+        "source_time_s": 2.333333333,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 71,
+        "source_time_s": 2.366666667,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 72,
+        "source_time_s": 2.4,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 73,
+        "source_time_s": 2.433333333,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_proximal_abd",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_proximal_abd",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 74,
+        "source_time_s": 2.466666667,
+        "findings": [
+          {
+            "a": "left:hand:l_thumb_distal",
+            "b": "left:hand:l_index_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 75,
+        "source_time_s": 2.5,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 76,
+        "source_time_s": 2.533333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 77,
+        "source_time_s": 2.566666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 78,
+        "source_time_s": 2.6,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 79,
+        "source_time_s": 2.633333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 80,
+        "source_time_s": 2.666666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 81,
+        "source_time_s": 2.7,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 82,
+        "source_time_s": 2.733333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 83,
+        "source_time_s": 2.766666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 84,
+        "source_time_s": 2.8,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 85,
+        "source_time_s": 2.833333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 86,
+        "source_time_s": 2.866666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 87,
+        "source_time_s": 2.9,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 88,
+        "source_time_s": 2.933333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 89,
+        "source_time_s": 2.966666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 90,
+        "source_time_s": 3.0,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 91,
+        "source_time_s": 3.033333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 92,
+        "source_time_s": 3.066666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 93,
+        "source_time_s": 3.1,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 94,
+        "source_time_s": 3.133333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 95,
+        "source_time_s": 3.166666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 96,
+        "source_time_s": 3.2,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 97,
+        "source_time_s": 3.233333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 98,
+        "source_time_s": 3.266666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 99,
+        "source_time_s": 3.3,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 100,
+        "source_time_s": 3.333333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 101,
+        "source_time_s": 3.366666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 102,
+        "source_time_s": 3.4,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 103,
+        "source_time_s": 3.433333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 104,
+        "source_time_s": 3.466666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 105,
+        "source_time_s": 3.5,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 106,
+        "source_time_s": 3.533333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 107,
+        "source_time_s": 3.566666667,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 108,
+        "source_time_s": 3.6,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 109,
+        "source_time_s": 3.633333333,
+        "findings": [
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 110,
+        "source_time_s": 3.666666667,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 111,
+        "source_time_s": 3.7,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 112,
+        "source_time_s": 3.733333333,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 113,
+        "source_time_s": 3.766666667,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 114,
+        "source_time_s": 3.8,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 115,
+        "source_time_s": 3.833333333,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 116,
+        "source_time_s": 3.866666667,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 117,
+        "source_time_s": 3.9,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 118,
+        "source_time_s": 3.933333333,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 119,
+        "source_time_s": 3.966666667,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 120,
+        "source_time_s": 4.0,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 121,
+        "source_time_s": 4.033333333,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 122,
+        "source_time_s": 4.066666667,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 123,
+        "source_time_s": 4.1,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 124,
+        "source_time_s": 4.133333333,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 125,
+        "source_time_s": 4.166666667,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 126,
+        "source_time_s": 4.2,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 127,
+        "source_time_s": 4.233333333,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 128,
+        "source_time_s": 4.266666667,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 129,
+        "source_time_s": 4.3,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 130,
+        "source_time_s": 4.333333333,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 131,
+        "source_time_s": 4.366666667,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 132,
+        "source_time_s": 4.4,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 133,
+        "source_time_s": 4.433333333,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 134,
+        "source_time_s": 4.466666667,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 135,
+        "source_time_s": 4.5,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      },
+      {
+        "source_frame": 136,
+        "source_time_s": 4.533333333,
+        "findings": [
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_index_finger_distal",
+            "b": "left:hand:l_middle_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_middle",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_middle",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_middle_finger_distal",
+            "b": "left:hand:l_ring_finger_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_middle",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          },
+          {
+            "a": "left:hand:l_ring_finger_distal",
+            "b": "left:hand:l_pinky_distal",
+            "clearance_m": 0.0
+          }
+        ]
+      }
+    ],
+    "mesh_clearance_m": 0.002,
+    "table_clearance_m": 0.0,
+    "maximum_eef_position_error_m": 0.002,
+    "checked_mesh_samples": 10435,
+    "effective_speed": 0.16000000000000003,
+    "duration_s": 104.34,
+    "transition_s": 10.0,
+    "max_velocity_rad_s": [
+      0.05468659358141004,
+      0.09108963389894975,
+      0.1364435594269242,
+      0.23148017561192002,
+      0.2413754521249034,
+      0.22178634757856752,
+      0.11871855022022038,
+      0.0501984919727444,
+      0.14219158330981974,
+      0.1292812469001814,
+      0.18588939164986273,
+      0.08382839098341754,
+      0.10152877539196248,
+      0.08561505700839245,
+      0.19224634579084743,
+      0.06883993335942973,
+      0.07740668686518626,
+      0.060735502322480095,
+      0.19323768303927125,
+      0.05936434799580573,
+      0.24525403408686142,
+      0.33880196613936264,
+      0.23957586139664588,
+      0.09023874930354225,
+      0.20644451048885681,
+      0.3940529218081301,
+      0.09006440095815638,
+      0.09978138324904795,
+      0.3305063098237637,
+      0.35508664930674616,
+      0.16160201901600502,
+      0.39867184332376127,
+      0.12609501629227138,
+      0.10429597336618635,
+      0.1887767026906878,
+      0.13798416879896858,
+      0.24702624969607512,
+      0.06968114873980025,
+      0.194279188043589,
+      0.05935886095032594,
+      0.22665393713577342,
+      0.05555643598737503,
+      0.21969275963782398,
+      0.10041866244283029,
+      0.2005395189902115,
+      0.06455489929641095,
+      0.20916627536996524,
+      0.1904594554093919,
+      0.18428964178330842,
+      0.12163131999768373,
+      0.21522789581073232,
+      0.17813457140741784
+    ],
+    "max_acceleration_rad_s2": [
+      0.16379543153588472,
+      0.2475926721823285,
+      0.6151271314869255,
+      1.702945020811697,
+      0.3040445235491518,
+      1.4894698250178529,
+      0.17145499960236066,
+      0.3080300670256497,
+      0.1778570950117242,
+      0.1844045879884071,
+      0.2151400550291782,
+      0.21326472827210008,
+      0.13850858056718707,
+      0.07709349244267028,
+      0.14800258374081388,
+      0.2569375807850993,
+      0.07435968026825446,
+      0.10402143219880033,
+      0.13496790182809804,
+      0.10702345982258055,
+      0.3106965179244803,
+      0.46673818184683746,
+      0.18849334452508693,
+      0.21856991237099999,
+      0.21321380627714603,
+      0.5903164817544493,
+      0.39534262500362516,
+      1.0282671430605905,
+      2.582383966341917,
+      1.6022163826656666,
+      0.577510010479898,
+      1.4531820954344354,
+      1.4951399864271409,
+      1.317360673562043,
+      0.8490074362675626,
+      0.28587956692662647,
+      0.8037972929889059,
+      0.6883351292198692,
+      0.5123497366815721,
+      0.14572655075290042,
+      0.7458301895976738,
+      0.41884689894133853,
+      0.3698924821943228,
+      0.1682531141634913,
+      0.4633634528472194,
+      0.8406527293292054,
+      0.86802474430131,
+      0.4189119684760989,
+      0.21508349620336098,
+      1.5850050031562812,
+      0.4255976847734877,
+      0.44083339551748146
+    ],
+    "max_replay_eef_position_error_m": 0.0006729027024256667,
+    "max_replay_eef_rotation_error_rad": 0.003400041635523565,
+    "eef_checked": true
+  }
+]

@@ -1,4 +1,4 @@
-import copy,sys,tempfile,unittest
+import copy,sys,tempfile,time,unittest
 from pathlib import Path
 from types import SimpleNamespace as NS
 from unittest.mock import patch
@@ -8,10 +8,18 @@ import replay_control as control
 import runtime_plan as plan
 from replay_pipeline import config,read_json,HERE
 from dh_kinematics import fk
-from collision_scene import Scene
+from collision_scene import Scene,is_hand_self_finding,partition_findings
 
 
 class RuntimeTests(unittest.TestCase):
+    def test_hand_self_findings_are_warnings_only(self):
+        hand={'a':'left:hand:l_middle_finger_distal','b':'left:hand:l_ring_finger_distal','clearance_m':0.}
+        other_hand={'a':'left:hand:l_middle_finger_distal','b':'right:hand:r_ring_finger_distal','clearance_m':0.}
+        table={'a':'left:hand:l_middle_finger_distal','b':'calibrated_table_halfspace','clearance_m':-.01}
+        self.assertTrue(is_hand_self_finding(hand));self.assertFalse(is_hand_self_finding(other_hand))
+        blocking,warnings=partition_findings([hand,other_hand,table])
+        self.assertEqual(warnings,[hand]);self.assertEqual(blocking,[other_hand,table])
+
     def test_busy_lock_explains_holder_without_truncating_or_releasing_it(self):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);held=control.acquire_replay_lock(root)
@@ -50,6 +58,7 @@ class RuntimeTests(unittest.TestCase):
         scene=Scene.__new__(Scene);scene.clearance=.005;scene.normal=np.array([0.,0.,1.]);scene.plane_point=np.zeros(3);scene.pairs=[]
         scene.shapes=[{'name':'test','kind':'hand','link':'test','hull':np.zeros((1,3))}]
         T=np.eye(4);scene.shape_poses=lambda arms,hands:[T]
+        scene.table_clearance=scene.clearance
         T[2,3]=-.02;self.assertEqual(scene.check({},{}),[])
         T[2,3]=.02;self.assertEqual(scene.check({},{})[0]['b'],'calibrated_table_halfspace')
 
@@ -87,19 +96,27 @@ class RuntimeTests(unittest.TestCase):
         result=control.stop_arm_verified(old,reconnect=factory,timeout=.5)
         self.assertTrue(result['confirmed']);factory.assert_called_once()
 
-    def run_mock(self,fail_command=False,fail_feedback=False,arms_only=False):
+    def run_mock(self,fail_command=False,fail_feedback=False,arms_only=False,first_step=False):
         events=[];c=config(HERE/'config/replay.json');settings=read_json(HERE/'config/runtime.json');snapshots=read_json(HERE/'tests/fixtures/controller_kinematics.json')
         settings['warmup_s']=0.0
         for d in snapshots.values():d['joint_positions_rad']=[0.]*6;d['mode']='RobotModeType.Running';d['safety']='SafetyModeType.Normal';d['steady']=True
-        hand_start={s:{'positions_rad':[0.]*20} for s in ('left','right')}
+        hand_start={s:{'positions_rad':[0.]*20,'current_a':[0.]*20} for s in ('left','right')}
         report={'ready_for_execution':True,'collision_passed':True,'collision_checked':True,'controllers':snapshots,'hand_start':hand_start,'name':'mock','trajectory':{},'duration_s':.02}
+        trajectory=np.zeros((3,52))
+        if first_step:
+            report['first_step_end_index']=1
+            settings['first_step_right_tolerance_deg']=1.
+            trajectory[1:,26]=[.05,.06]
         class Motion:
             def __init__(self,side):self.side=side;self.selected=0
             def setServoModeSelect(self,value):self.selected=value;events.append((self.side,'servo',bool(value)));return 0
             def getServoModeSelect(self):return self.selected
             def isServoModeEnabled(self):return True
             def stopJoint(self,a):events.append((self.side,'stop'));return 0
-            def servoJoint(self,*args):events.append((self.side,'command'));return -1 if fail_command and self.side=='right' else 0
+            def servoJoint(self,*args):
+                events.append((self.side,'command'))
+                if first_step:events.append((self.side,'target',args[0][0]))
+                return -1 if fail_command and self.side=='right' else 0
         class Arm:
             def __init__(self,cfg):
                 self.side='left' if cfg['ip']==c['sides']['left']['ip'] else 'right';m=Motion(self.side)
@@ -128,17 +145,26 @@ class RuntimeTests(unittest.TestCase):
             def check(self,*a):
                 self.calls+=1
                 if fail_feedback and self.calls>1:raise RuntimeError('stale feedback')
+                if first_step:
+                    q=a[0]['right'].copy()
+                    if self.calls==4:q[0]=0.  # Post-command sample, still behind.
+                    return {'right':dict(q=q,sample_start=0. if self.calls==5 else time.monotonic())}
             def close(self):pass
         with patch.object(control,'Aubo',Arm),patch.object(control,'ArmMonitor',Monitor),patch.object(control,'read_arms',return_value=snapshots),patch.object(control,'write_json'):
             if fail_command or fail_feedback:
                 with self.assertRaises(RuntimeError):control.execute(c,settings,np.zeros((3,52)),report,reader,arms_only=arms_only)
-            else:control.execute(c,settings,np.zeros((3,52)),report,reader,arms_only=arms_only)
+            else:control.execute(c,settings,trajectory,report,reader,arms_only=arms_only)
         for side in ('left','right'):
             self.assertIn((side,'stop'),events);self.assertIn((side,'servo',False),events)
             if arms_only:
                 for action in ('hand_enable','hand_command','hand_disable'):self.assertNotIn((side,action),events)
             else:self.assertIn((side,'hand_disable'),events)
         return events
+
+    def test_first_step_waits_for_new_in_tolerance_feedback(self):
+        events=self.run_mock(first_step=True)
+        targets=[e[2] for e in events if e[:2]==('right','target') and e[2]!=0.]
+        self.assertEqual(targets,[.05,.05,.05,.06])
 
     def test_arms_only_never_enables_publishes_or_disables_hands(self):self.run_mock(arms_only=True)
     def test_arms_only_command_failure_stops_both_arms(self):self.run_mock(arms_only=True,fail_command=True)

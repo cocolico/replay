@@ -38,13 +38,46 @@ class ArmsTests(unittest.TestCase):
         t=np.array([0.,.1])
         left=(t,np.tile(snapshots['left']['joint_positions_rad'],(2,1)),None)
         right=(t,np.tile(snapshots['right']['joint_positions_rad'],(2,1)),None)
-        scene=__import__('types').SimpleNamespace(check=lambda a,h:[{'a':'arm','b':'table'}])
+        scene=__import__('types').SimpleNamespace(check=lambda a,h,**kw:[{'a':'arm','b':'table'}])
         with patch.object(arms,'Scene',return_value=scene) as scene_factory:
             q,plan=arms.runtime_pair({},snapshots,hands,left,right,dict(arms.SETTINGS),{})
-        scene_factory.assert_called_once_with({},snapshots,.002)
+        scene_factory.assert_called_once_with({},snapshots,.002,table_clearance=0.)
         self.assertFalse(plan['ready_for_execution']);self.assertFalse(plan['eef_checked'])
         self.assertTrue(plan['collision_checked']);self.assertFalse(plan['collision_passed'])
         self.assertEqual(plan['checked_mesh_samples'],20)
+
+    def test_pass_report_counts_transition_hold_and_replay_mesh_samples(self):
+        from types import SimpleNamespace
+        snapshots=read_json(HERE/'tests/fixtures/controller_kinematics.json')
+        hands={s:{'positions_rad':[0.]*20} for s in ('left','right')};t=np.array([0.,.1])
+        left=(t,np.tile(snapshots['left']['joint_positions_rad'],(2,1)),None)
+        right=(t,np.tile(snapshots['right']['joint_positions_rad'],(2,1)),None)
+        arrays={'time_s':t}
+        for side in ('left','right'):
+            arrays[side+'_aubo_base_T_flange']=np.tile(fk(snapshots[side]['joint_positions_rad'],snapshots[side]['kinematics_real']),(2,1,1))
+        with patch.object(arms,'Scene',return_value=SimpleNamespace(check=lambda a,h,**kw:[])):
+            q,plan=arms.runtime_pair({},snapshots,hands,left,right,dict(arms.SETTINGS),arrays)
+        self.assertTrue(plan['ready_for_execution']);self.assertEqual(plan['checked_mesh_samples'],len(q))
+        self.assertGreater(plan['checked_mesh_samples'],len(t));self.assertTrue(plan['eef_checked'])
+
+    def test_eef_error_accepts_one_point_five_mm_and_rejects_two_point_five_mm(self):
+        from types import SimpleNamespace
+        snapshots=read_json(HERE/'tests/fixtures/controller_kinematics.json')
+        hands={s:{'positions_rad':[0.]*20} for s in ('left','right')};t=np.array([0.,.1])
+        paths=[(t,np.tile(snapshots[s]['joint_positions_rad'],(2,1)),None) for s in ('left','right')]
+        for error in (.0015,.0025):
+            arrays={'time_s':t}
+            for side in ('left','right'):
+                target=fk(snapshots[side]['joint_positions_rad'],snapshots[side]['kinematics_real']).copy()
+                target[0,3]+=error
+                arrays[side+'_aubo_base_T_flange']=np.tile(target,(2,1,1))
+            with patch.object(arms,'Scene',return_value=SimpleNamespace(check=lambda a,h,**kw:[])):
+                if error<.002:
+                    _,plan=arms.runtime_pair({},snapshots,hands,*paths,dict(arms.SETTINGS),arrays)
+                    self.assertTrue(plan['ready_for_execution'])
+                else:
+                    with self.assertRaisesRegex(ValueError,'Runtime interpolated EEF error'):
+                        arms.runtime_pair({},snapshots,hands,*paths,dict(arms.SETTINGS),arrays)
 
     def test_missing_acceptance_blocks_before_reading_live_devices(self):
         with patch.object(arms,'read_arms') as read:
@@ -61,5 +94,20 @@ class ArmsTests(unittest.TestCase):
             with patch.object(arms,'read_arms') as read:
                 with self.assertRaisesRegex(ValueError,'Trajectory changed'):arms.require_plan({'_config_path':str(cfg)},plan,np.zeros((2,52)),None)
                 read.assert_not_called()
+
+    def test_small_start_drift_rejects_a_previously_valid_plan(self):
+        from types import SimpleNamespace
+        with tempfile.TemporaryDirectory() as d:
+            cfg=Path(d)/'config.json';cfg.write_text('{}');artifact=Path(d)/'plan.npz';trajectory=np.zeros((2,52))
+            np.savez(artifact,joint_positions_left_right_rad=trajectory)
+            states={s:{'joint_positions_rad':[0.]*6} for s in ('left','right')}
+            hands={s:{'positions_rad':[0.]*20,'current_a':[0.]*20} for s in ('left','right')}
+            plan=dict(ready_for_execution=True,collision_checked=True,collision_passed=True,arms_only=True,
+                      configuration=provenance(cfg),sources=[],trajectory=provenance(artifact),controllers=states,hand_start=hands,
+                      settings={'arms_only':True,'maximum_hand_current_a':1.5})
+            live=__import__('copy').deepcopy(states);live['left']['joint_positions_rad'][0]=.003
+            with patch.object(arms,'read_arms',return_value=live),patch.object(arms,'require_start'):
+                with self.assertRaisesRegex(ValueError,'Arm start drifted'):
+                    arms.require_plan({'_config_path':str(cfg)},plan,trajectory,SimpleNamespace(snapshot=lambda:hands))
 
 if __name__=='__main__':unittest.main()

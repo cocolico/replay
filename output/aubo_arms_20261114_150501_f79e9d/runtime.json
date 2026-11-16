@@ -1,0 +1,918 @@
+{
+  "ready_for_execution": true,
+  "collision_checked": true,
+  "collision_passed": true,
+  "collision_failures": [],
+  "mesh_clearance_m": 0.002,
+  "table_clearance_m": 0.0,
+  "maximum_eef_position_error_m": 0.002,
+  "checked_mesh_samples": 13758,
+  "effective_speed": 0.12800000000000003,
+  "duration_s": 137.57,
+  "transition_s": 10.0,
+  "max_velocity_rad_s": [
+    0.04702231939985868,
+    0.03717228774700043,
+    0.11384002084422473,
+    0.22430747174092547,
+    0.1913084711722357,
+    0.257952771271297,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.07078139603611255,
+    0.2234354317408649,
+    0.441285518286727,
+    0.37752864648321616,
+    0.1256619311948981,
+    0.3006043639032896,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_acceleration_rad_s2": [
+    0.1278021790751538,
+    0.24671535547249324,
+    0.4646383843964763,
+    1.2101717593271388,
+    0.3189179882068238,
+    1.8541561033735832,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5436979867967651,
+    1.9193282790005983,
+    3.815661232626777,
+    1.815765284326476,
+    1.149374469884279,
+    2.49464282107148,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_replay_eef_position_error_m": 0.001833493194271958,
+  "max_replay_eef_rotation_error_rad": 0.008201501626119385,
+  "eef_checked": true,
+  "name": "aubo_arms_20261114_150501_f79e9d",
+  "arms_only": true,
+  "execution_enabled": false,
+  "configuration": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261114_150501_f79e9d/config.json",
+    "sha256": "8de5d9a1664af40c10edcce54a1a249c2ba0119645c14cf6a046cdde3153571e"
+  },
+  "sources": [
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/frame.npy",
+      "sha256": "df05ec3ed7e7d42f8918c3009bd9868df19afd6fa15d831a50e15ba5184b46bf"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/joint_unit.npy",
+      "sha256": "0a0c06972ea1bb5888190c29a4cce7bbb0b0059940492db46c57cb18cad8a22c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/position_unit.npy",
+      "sha256": "cce8fbc150a7a6d656686018697d1b2302d1fe73d4e7203a76b0992e458ce311"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/quaternion_order.npy",
+      "sha256": "20600487557322f819068521379e0799c9647225cc6bac0826a172ff07af2d94"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/pose_target.npy",
+      "sha256": "a27ddbca16dbe6e4a4ac880e457683bab839447f7982ce4a699cf4caf026337a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/timestamp_ns.npy",
+      "sha256": "9d189673483ee5a0b02e4631aee7534bebfa1c5d420458fd35628273c840c581"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/time_s.npy",
+      "sha256": "6ef88eee1699f9ef989378efaa15ef8cf2b9d238fad32af598c0d1623f18bca2"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_ff8ad418/observation.json",
+      "sha256": "7f1093a005f55020edaa4341fba2dfd0b598ad7adb17b02df42fb58315a4e73c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/alignment_version.npy",
+      "sha256": "32ddc1bfd6192e9dd2080bb0f2484bcb030bf99bcfd853d3817b03d67dfe28ee"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/left_root_pose.npy",
+      "sha256": "77390ea106f574a8dae2fc0d10acb60019d4fc4e4a5e0641ba26864be42cf402"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/left_position_m.npy",
+      "sha256": "23c3ea2ca4aef3218bc0cb8aae320ab5b01aa83dc213c5e44dd1ca901cba4a6e"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/left_quaternion_wxyz.npy",
+      "sha256": "d63050d5843a1105a4a35b8b3fe0d5affdc8963d0f0a6c18164a4d4fbf12c2be"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/left_joint_positions_rad.npy",
+      "sha256": "10ea8fb3cbdd7e6a5463c44bf68b0fcaf326f2572cc8eaa2cb74d3046718709b"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/left_joint_names.npy",
+      "sha256": "11b31e1f5bad085e7c633966b6afc946a838aadce6d426efeabeb0f21573af3c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/source_recordings/sharpa_to_wuji2_beta/assets/wuji/urdf/left.urdf",
+      "sha256": "d93de699b5bbe0a573ea9725ebb7e6ad6547b6ed3593f7f5591664ee220648f0"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_c4840512/result.json",
+      "sha256": "18cbdb8d56cf9e7eae91032242002133e01eb4cd87a96450d39c73007ed3df98"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/right_root_pose.npy",
+      "sha256": "0fa3eef8349080123be0baea29d1507faf7ef727d44cfe6513a6ad1612966cfc"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/right_position_m.npy",
+      "sha256": "f4078dfddf25bd9e00d6b02b687a6ddbf0b0f9b241cffc0eff1e7e368b5ff3e7"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/right_quaternion_wxyz.npy",
+      "sha256": "db686ff94bffa63fdb111206d1e45cb1bf2ff34760c447f73bbda7d3834556a7"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/right_joint_positions_rad.npy",
+      "sha256": "30679cee001cae36d97d3e4bd2c32bf03fcf8d0e32c3b80abf9e63db5c4cc8f8"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/right_joint_names.npy",
+      "sha256": "c5e70728dba14ccd211580a0a494f53a48682313f1f5a6baceadfd54bec1d78f"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/source_recordings/sharpa_to_wuji2_beta/assets/wuji/urdf/right.urdf",
+      "sha256": "f3bb5d0031a1972e06faafa8a6ab191dcf5ab5abfebbf5d27cb510ee8d004a06"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_d72abc19/result.json",
+      "sha256": "6932a46fa7f536977626f556749d90c24df61902d6580d79a00f415ff1dfd0fb"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261114_150501_f79e9d/config.json",
+      "sha256": "8de5d9a1664af40c10edcce54a1a249c2ba0119645c14cf6a046cdde3153571e"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/config/mapping_from_human_gemini335.json",
+      "sha256": "f0db1f5d1194a4cedf4ca9034488609ee64a35bf269646533b6d00edd552d4c1"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/calibration/reference_87ac58a1/observation.json",
+      "sha256": "2e2504fc19e11bb9f119e1325d32c8df54692293b21faee68ac0b19681eea11a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/alignment_version.npy",
+      "sha256": "32ddc1bfd6192e9dd2080bb0f2484bcb030bf99bcfd853d3817b03d67dfe28ee"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/fps.npy",
+      "sha256": "790de565ade0a59f357ab39ed79a4808844c197b5cb436ea3ca6f66507e1e92f"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/frame.npy",
+      "sha256": "df05ec3ed7e7d42f8918c3009bd9868df19afd6fa15d831a50e15ba5184b46bf"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/is_duplicate.npy",
+      "sha256": "3d056512213d6bc68a06ccacf1bf164cb44759ad65b9e5b5fcfe73cbdde4e5d3"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/joint_unit.npy",
+      "sha256": "0a0c06972ea1bb5888190c29a4cce7bbb0b0059940492db46c57cb18cad8a22c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/left_joint_names.npy",
+      "sha256": "11b31e1f5bad085e7c633966b6afc946a838aadce6d426efeabeb0f21573af3c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/left_joint_positions_rad.npy",
+      "sha256": "10ea8fb3cbdd7e6a5463c44bf68b0fcaf326f2572cc8eaa2cb74d3046718709b"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/left_position_m.npy",
+      "sha256": "23c3ea2ca4aef3218bc0cb8aae320ab5b01aa83dc213c5e44dd1ca901cba4a6e"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/left_quaternion_wxyz.npy",
+      "sha256": "d63050d5843a1105a4a35b8b3fe0d5affdc8963d0f0a6c18164a4d4fbf12c2be"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/left_root_pose.npy",
+      "sha256": "77390ea106f574a8dae2fc0d10acb60019d4fc4e4a5e0641ba26864be42cf402"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/model.npy",
+      "sha256": "6bfd2b3c22fef34994a8f11a776e03c64a64986679cf97ecbc28c9003d432593"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/pose_target.npy",
+      "sha256": "a27ddbca16dbe6e4a4ac880e457683bab839447f7982ce4a699cf4caf026337a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/position_unit.npy",
+      "sha256": "cce8fbc150a7a6d656686018697d1b2302d1fe73d4e7203a76b0992e458ce311"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/quaternion_order.npy",
+      "sha256": "20600487557322f819068521379e0799c9647225cc6bac0826a172ff07af2d94"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/right_joint_names.npy",
+      "sha256": "c5e70728dba14ccd211580a0a494f53a48682313f1f5a6baceadfd54bec1d78f"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/right_joint_positions_rad.npy",
+      "sha256": "30679cee001cae36d97d3e4bd2c32bf03fcf8d0e32c3b80abf9e63db5c4cc8f8"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/right_position_m.npy",
+      "sha256": "f4078dfddf25bd9e00d6b02b687a6ddbf0b0f9b241cffc0eff1e7e368b5ff3e7"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/right_quaternion_wxyz.npy",
+      "sha256": "db686ff94bffa63fdb111206d1e45cb1bf2ff34760c447f73bbda7d3834556a7"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/right_root_pose.npy",
+      "sha256": "0fa3eef8349080123be0baea29d1507faf7ef727d44cfe6513a6ad1612966cfc"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/side_order.npy",
+      "sha256": "0482a9c8d1f29f03f102d205cde35888e768306c7da555b8ae8eaabf1219c31c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/source_stream.npy",
+      "sha256": "5c778ba49c96e1ed1f72d65604fc98ad6387580f38729a394a5d23e6f2204028"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/source_timestamp_ns.npy",
+      "sha256": "984c3f91d7bf89c54050dd20e8a21d82182674cdc569438c59243ff726487c2b"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/target_arm_ik_available.npy",
+      "sha256": "1a85c7f644bcfbe7144c5df3f7b545a839623e8898006fedc0d66615048553f4"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/time_s.npy",
+      "sha256": "6ef88eee1699f9ef989378efaa15ef8cf2b9d238fad32af598c0d1623f18bca2"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/try/flower/wuji2_camera_replay_trajectory/timestamp_ns.npy",
+      "sha256": "9d189673483ee5a0b02e4631aee7534bebfa1c5d420458fd35628273c840c581"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/aubo_arms_replay.py",
+      "sha256": "be570cc1ce6e48b81e8bac89633954c997d97bb029e5c0c7c5141ed59bbe729b"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/aubo_continuous_ik.py",
+      "sha256": "76c01cc5b57f013f94cb2f8365de83532d05394df6f542449ae48c3adc631b18"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/diagnose_ik.py",
+      "sha256": "b110025eb3ae76def8c910f41692ea3f6d7941d34c183f8401067db205be1a4a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/solve_controller_ik.py",
+      "sha256": "1a4cce5f05c84db6d5cd8dfc1feb81e83cbe5bbaf36245953a9320e2187c831a"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/replay_control.py",
+      "sha256": "f9b36b88672cef3002e2f9cadba999bc0bafbc8ad81f460ed54f27c25e8f32e0"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/collision_scene.py",
+      "sha256": "0562eae0f7cecd0a3d245bf19989e8c9dfc4c0259a32e73ae635f0a70fdf6e8d"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/device_backends.py",
+      "sha256": "26dd259e38fb69d66b49fe5763ff6d12befec7413607b22b4cdc44c28e9ee001"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/runtime_plan.py",
+      "sha256": "58c626ac1be7d599bcf190884581c01d560479eae5987c1965270dca5bd1f0eb"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/dh_kinematics.py",
+      "sha256": "f4a5e1679991a2e683dac1e71a899b1008ce9278f579af170d76771d92f9b447"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/read_hands.py",
+      "sha256": "49cea6e195fd1a926b8f18bdea68efb3e6b67a0afa9bc8f0606ede6103faf512"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/replay_pipeline.py",
+      "sha256": "922681bbe573cb54a3ae1ea33a5c11a26769cf30c3d9d52b27d74052a98129ad"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/__init__.py",
+      "sha256": "19dcfa15751b41de3e30c45aacc611199b61bd589cc0af2c95595c3932c844c7"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/backends.py",
+      "sha256": "8064df0b7900074e3066316cb85d19ecbe6f093dc775d3ef06b0e35e9b281cfa"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/cli.py",
+      "sha256": "c7bee4444d4995f6a3329bea07c67364800be68b4f6879249dc0ac7204dfa3ce"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/continuous.py",
+      "sha256": "d10b075902e12bedfe1d45c6db70bb1048df588e69d8b7cd5fb729d5dd834256"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/differential.py",
+      "sha256": "db211d4a8c39b005f947ab39f5a931cdd0104bf8738bd939ac3de4a648860e2d"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/model.py",
+      "sha256": "6f4d6544694967ac0d414ab043430a5d85dcf8fcbef03d59cdff434b74b3902b"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/placo_backend.py",
+      "sha256": "fa97baa92cbc90ffe0216b3bb3d9f4855c8d95c080a2d12064fd74dabe5ced22"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/profiles.py",
+      "sha256": "7ea52a3e4cbf33e60c8a6a426692ceb3c8917e78c85eff74ffac38b6d2348d74"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/sensitivity.py",
+      "sha256": "ecbed682a8ad56c06e0063dfab568c82185f1dcdc44659de079230119fd32254"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/replay_ik/src/eef_replay/ik/transition.py",
+      "sha256": "79ec7e5a44ae7578f50d43e6711bf2761ba7ea670ef1a4d42cad5259f39483af"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.urdf",
+      "sha256": "6358243ae83f1e560706e35d2799e5880103e581148775638e7a143ba9e10a59"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.srdf",
+      "sha256": "47db66ca87ef9c6bd1a3ecf49472d6fcc0633cab6f27b15910eeaba9a1df879c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.urdf",
+      "sha256": "6358243ae83f1e560706e35d2799e5880103e581148775638e7a143ba9e10a59"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.srdf",
+      "sha256": "47db66ca87ef9c6bd1a3ecf49472d6fcc0633cab6f27b15910eeaba9a1df879c"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/vendor/pyaubo_sdk_0_26/pyaubo_sdk.cpython-312-x86_64-linux-gnu.so",
+      "sha256": "d53f128b0aca5bb2b394673e2128e85bb84bb15ec59bf6a40ba92a30be7672ae"
+    },
+    {
+      "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261114_150501_f79e9d/nominal_ik_candidate.npz",
+      "sha256": "57e9db5e7423c1b33e2ea4f65963620db962ae2ca6846df4ae372c1649a17a7c"
+    }
+  ],
+  "trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261114_150501_f79e9d/runtime.npz",
+    "sha256": "f5acd9113d5af72fe116b7d816c08489fde831acf632838f7d6f9d312837723d"
+  },
+  "controllers": {
+    "left": {
+      "captured_unix_s": 1794639901.9712217,
+      "ip": "192.168.1.3",
+      "robot_name": "rob1",
+      "robot_type": "aubo_i7H",
+      "payload": [
+        1.238,
+        [
+          0.00434,
+          0.02465,
+          0.0013
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "tcp_offset_sdk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_positions_rad": [
+        -1.1357031346854516,
+        -0.3699235223582968,
+        1.3516593683537332,
+        1.155218069930239,
+        1.46990568692369,
+        1.0130370040118915
+      ],
+      "joint_min_rad": [
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586
+      ],
+      "joint_max_rad": [
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586
+      ],
+      "joint_max_speed_rad_s": [
+        3.89454,
+        3.89454,
+        3.89454,
+        4.66573,
+        4.66573,
+        4.66573
+      ],
+      "joint_max_acceleration_rad_s2": [
+        25.963575649502424,
+        25.963575649502424,
+        25.963575649502424,
+        31.104877758314785,
+        31.104877758314785,
+        31.104877758314785
+      ],
+      "kinematics_real": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.570750946796414,
+          3.142720133536965,
+          3.14349331358029,
+          -1.5704018868007719,
+          1.569096376830947
+        ],
+        "d": [
+          0.122,
+          0.12156259999645408,
+          -6.259999645408243e-05,
+          6.259999645408243e-05,
+          0.10225889999768696,
+          0.094
+        ],
+        "a": [
+          0.0,
+          -1.4399999599845614e-05,
+          0.3683124999930151,
+          0.31621660000493285,
+          7.199999799922807e-06,
+          -2.7399999453336932e-05
+        ]
+      },
+      "kinematics_nominal": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.5707963267948966,
+          3.141592653589793,
+          3.141592653589793,
+          -1.5707963267948966,
+          1.5707963267948966
+        ],
+        "d": [
+          0.122,
+          0.1215,
+          0.0,
+          0.0,
+          0.1025,
+          0.094
+        ],
+        "a": [
+          0.0,
+          0.0,
+          0.368,
+          0.316,
+          0.0,
+          0.0
+        ]
+      },
+      "mode": "RobotModeType.Running",
+      "safety": "SafetyModeType.Normal",
+      "steady": true,
+      "runtime_status": "RuntimeState.Stopped",
+      "servo_mode_enabled": false,
+      "base_T_flange": [
+        [
+          0.6865195709826549,
+          -0.6772537230452236,
+          0.2646096621047228,
+          0.1256850122173765
+        ],
+        [
+          -0.23087722327019833,
+          -0.5481269325110283,
+          -0.8038983602614791,
+          -0.5808264205319081
+        ],
+        [
+          0.6894828398392783,
+          0.4907996133631687,
+          -0.5326623255775931,
+          0.45412153256945315
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right": {
+      "captured_unix_s": 1794639901.9782453,
+      "ip": "192.168.1.2",
+      "robot_name": "rob1",
+      "robot_type": "aubo_i7H",
+      "payload": [
+        0.632,
+        [
+          -0.0073,
+          0.03246,
+          0.15035
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "tcp_offset_sdk": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "joint_positions_rad": [
+        1.2036247818829977,
+        0.1547235921481432,
+        -1.562876295816798,
+        -1.2228521743679204,
+        4.720022016223615,
+        4.444469026995399
+      ],
+      "joint_min_rad": [
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586,
+        -6.283185307179586
+      ],
+      "joint_max_rad": [
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586,
+        6.283185307179586
+      ],
+      "joint_max_speed_rad_s": [
+        3.89454,
+        3.89454,
+        3.89454,
+        4.66573,
+        4.66573,
+        4.66573
+      ],
+      "joint_max_acceleration_rad_s2": [
+        25.963575649502424,
+        25.963575649502424,
+        25.963575649502424,
+        31.104877758314785,
+        31.104877758314785,
+        31.104877758314785
+      ],
+      "kinematics_real": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.5702797067959349,
+          3.139363863626965,
+          3.1411301435779357,
+          -1.5698416268012974,
+          1.5745400568146746
+        ],
+        "d": [
+          0.122,
+          0.12151309999970544,
+          -1.3099999705445953e-05,
+          1.3099999705445953e-05,
+          0.10306660000700503,
+          0.094
+        ],
+        "a": [
+          0.0,
+          7.370000093942508e-05,
+          0.36836149998777545,
+          0.31618940000154544,
+          4.859999899053946e-05,
+          -0.00021949999791104347
+        ]
+      },
+      "kinematics_nominal": {
+        "theta": [
+          3.141592653589793,
+          -1.5707963267948966,
+          0.0,
+          -1.5707963267948966,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": [
+          0.0,
+          -1.5707963267948966,
+          3.141592653589793,
+          3.141592653589793,
+          -1.5707963267948966,
+          1.5707963267948966
+        ],
+        "d": [
+          0.122,
+          0.1215,
+          0.0,
+          0.0,
+          0.1025,
+          0.094
+        ],
+        "a": [
+          0.0,
+          0.0,
+          0.368,
+          0.316,
+          0.0,
+          0.0
+        ]
+      },
+      "mode": "RobotModeType.Running",
+      "safety": "SafetyModeType.Normal",
+      "steady": true,
+      "runtime_status": "RuntimeState.Stopped",
+      "servo_mode_enabled": false,
+      "base_T_flange": [
+        [
+          -0.08224234464343505,
+          0.9471591674947232,
+          -0.3100414620308925,
+          -0.06694337697445327
+        ],
+        [
+          0.5241738899841919,
+          -0.22348090650122776,
+          -0.8217651839109719,
+          -0.5111200296497365
+        ],
+        [
+          -0.8476307744568923,
+          -0.2300995346803003,
+          -0.4780965115261937,
+          0.4855614976725724
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  "hand_start": {
+    "left": {
+      "positions_rad": [
+        0.8561066389083862,
+        -0.5337863564491272,
+        0.27011096477508545,
+        0.0919916033744812,
+        0.3752927780151367,
+        -0.10033267736434937,
+        0.45607542991638184,
+        0.10388374328613281,
+        0.3663898706436157,
+        0.016719460487365723,
+        0.2180178165435791,
+        0.17678463459014893,
+        0.3329712152481079,
+        0.06879019737243652,
+        0.13704776763916016,
+        0.41393136978149414,
+        0.3064671754837036,
+        0.35123586654663086,
+        0.15374040603637695,
+        0.45416468381881714
+      ],
+      "received_monotonic": 326578.183068026,
+      "captured_unix_s": 1794639902.0845547
+    },
+    "right": {
+      "positions_rad": [
+        0.0534435510635376,
+        -0.5096701383590698,
+        0.33032798767089844,
+        0.10558253526687622,
+        0.23226404190063477,
+        0.0753096342086792,
+        0.20256805419921875,
+        0.06317633390426636,
+        0.2664400339126587,
+        -0.07018858194351196,
+        0.2247176170349121,
+        0.17415475845336914,
+        0.22318971157073975,
+        -0.10526645183563232,
+        0.42016923427581787,
+        -0.10861527919769287,
+        0.23963797092437744,
+        0.054400861263275146,
+        0.2904534339904785,
+        0.026368319988250732
+      ],
+      "received_monotonic": 326578.182871166,
+      "captured_unix_s": 1794639902.084358
+    }
+  },
+  "settings": {
+    "rate_hz": 100,
+    "speed": 0.2,
+    "minimum_transition_s": 10.0,
+    "arm_velocity_fraction": 0.2,
+    "arm_acceleration_fraction": 0.15,
+    "hand_velocity_rad_s": 5.0,
+    "hand_acceleration_rad_s2": 100.0,
+    "feedback_timeout_s": 0.25,
+    "maximum_tick_lateness_s": 0.03,
+    "arm_tracking_error_rad": 0.2,
+    "hand_tracking_error_rad": 0.5,
+    "mesh_clearance_m": 0.002,
+    "hands": {
+      "left": {
+        "address": "192.168.1.110:50001",
+        "serial": "WH2JA01260923005"
+      },
+      "right": {
+        "address": "192.168.1.111:50001",
+        "serial": "WH2KA01260803001"
+      }
+    },
+    "expected_hand_mit_kp": 5.0,
+    "expected_hand_mit_kd": 0.1,
+    "expected_hand_effort_limit_a": 1.0,
+    "warmup_s": 2.0,
+    "fixed_hand_position_tolerance_rad": 0.03,
+    "table_clearance_m": 0.0,
+    "maximum_eef_position_error_m": 0.002,
+    "ik_method": "episode594_sdk",
+    "arms_only": true
+  }
+}

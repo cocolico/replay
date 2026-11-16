@@ -29,9 +29,22 @@ def tf(T):return coal.Transform3s(np.asarray(T[:3,:3]),np.asarray(T[:3,3]))
 DEFAULT_CLEARANCE_M = .002
 
 
+def is_hand_self_finding(finding):
+    """True only for two links belonging to the same physical Wuji hand."""
+    a, b = finding['a'], finding['b']
+    return ':hand:' in a and ':hand:' in b and a.split(':', 1)[0] == b.split(':', 1)[0]
+
+
+def partition_findings(findings):
+    warnings = [finding for finding in findings if is_hand_self_finding(finding)]
+    blocking = [finding for finding in findings if not is_hand_self_finding(finding)]
+    return blocking, warnings
+
+
 class Scene:
-    def __init__(self,c,controllers,clearance=DEFAULT_CLEARANCE_M):
-        self.c=c;self.controllers=controllers;self.clearance=clearance;self.shapes=[];self.arm_corrections={};self.hand_trees={};self.disabled=set();self.base={}
+    def __init__(self,c,controllers,clearance=DEFAULT_CLEARANCE_M,table_clearance=None):
+        self.c=c;self.controllers=controllers;self.clearance=clearance;self.shapes=[];self.arm_corrections={};self.hand_trees={};self.disabled=set();self.base={};self._hand_cache={};self._hand_joints={}
+        self.table_clearance=clearance if table_clearance is None else float(table_clearance)
         for side in SIDES:
             cfg=c['sides'][side];self.base[side]=inverse(np.asarray(read_json(cfg['handeye'])['T_base_camera']))
             urdf=Path(cfg['urdf']);root=urdf.parents[1];tree=ET.parse(urdf).getroot();model=pin.buildModelFromUrdf(str(urdf));data=model.createData()
@@ -53,6 +66,7 @@ class Scene:
                     path=root/m.get('filename').split('package://aubo_description/')[1]
                     self.add(side,'arm',link.get('name'),path,origin(coll))
             hand=Path(c['source_episode_root'])/f'assets/wuji/urdf/{side}.urdf';tree=ET.parse(hand).getroot();joints=tree.findall('joint');self.hand_trees[side]=joints
+            self._hand_joints[side]=[(j.get('name'),j.find('parent').get('link'),j.find('child').get('link'),origin(j),None if j.get('type')=='fixed' else np.fromstring(j.find('axis').get('xyz'),sep=' ')) for j in joints]
             parent={link.get('name'):link.get('name') for link in tree.findall('link')}
             def find(n):
                 while parent[n]!=n:n=parent[n]
@@ -88,37 +102,44 @@ class Scene:
         bvh,hull=stl_mesh(path)
         self.shapes.append({'side':side,'kind':kind,'link':link,'name':f'{side}:{kind}:{link}','geometry':bvh,'hull':hull,'offset':offset})
 
+    def hand_local_poses(self,side,positions):
+        key=tuple(float(x) for x in positions)
+        if len(key)!=20 or not np.isfinite(key).all():raise ValueError('Expected 20 finite hand positions')
+        cached=self._hand_cache.get(side)
+        if cached is not None and cached[0]==key:return cached[1]
+        names=[f'{side[0]}_{f}_{s}' for f in ('thumb','index_finger','middle_finger','ring_finger','pinky') for s in (('cmc_flex','cmc_abd','mcp','ip') if f=='thumb' else ('mcp_flex','mcp_abd','pip','dip'))]
+        q=dict(zip(names,key,strict=True));poses={side[0]+'_base_link':np.eye(4)};pending=list(self._hand_joints[side])
+        while pending:
+            remaining=[]
+            for name,parent,child,offset,axis in pending:
+                if parent not in poses:remaining.append((name,parent,child,offset,axis));continue
+                local=offset
+                if axis is not None:
+                    v=np.eye(4);v[:3,:3]=Rotation.from_rotvec(axis*q[name]).as_matrix();local=offset@v
+                poses[child]=poses[parent]@local
+            if len(remaining)==len(pending):raise ValueError('Disconnected hand tree')
+            pending=remaining
+        self._hand_cache[side]=(key,poses)
+        return poses
+
     def shape_poses(self,arms,hands):
         world={}
         for side in SIDES:
             chain=placements(arms[side],self.controllers[side]['kinematics_real']);base=self.base[side]
             for i,name in enumerate(['shoulder_Link','upperArm_Link','foreArm_Link','wrist1_Link','wrist2_Link','wrist3_Link']):world[(side,'arm',name)]=base@chain[i]@self.arm_corrections[side][name]
             world[(side,'arm','base_link')]=base
-            joint_names=[f'{side[0]}_{f}_{s}' for f in ('thumb','index_finger','middle_finger','ring_finger','pinky') for s in (('cmc_flex','cmc_abd','mcp','ip') if f=='thumb' else ('mcp_flex','mcp_abd','pip','dip'))]
-            q=dict(zip(joint_names,hands[side],strict=True));root=side[0]+'_base_link';poses={root:base@chain[-1]@np.asarray(self.c['sides'][side]['flange_T_wuji_base'])}
-            pending=list(self.hand_trees[side])
-            while pending:
-                remaining=[]
-                for j in pending:
-                    parent=j.find('parent').get('link');child=j.find('child').get('link')
-                    if parent not in poses:remaining.append(j);continue
-                    local=origin(j)
-                    if j.get('type')!='fixed':
-                        v=np.eye(4);axis=np.fromstring(j.find('axis').get('xyz'),sep=' ');v[:3,:3]=Rotation.from_rotvec(axis*q[j.get('name')]).as_matrix();local=local@v
-                    poses[child]=poses[parent]@local
-                if len(remaining)==len(pending):raise ValueError('Disconnected hand tree')
-                pending=remaining
-            for name,T in poses.items():world[(side,'hand',name)]=T
+            root_pose=base@chain[-1]@np.asarray(self.c['sides'][side]['flange_T_wuji_base'])
+            for name,T in self.hand_local_poses(side,hands[side]).items():world[(side,'hand',name)]=root_pose@T
         return [world[(s['side'],s['kind'],s['link'])]@s['offset'] for s in self.shapes]
 
-    def check(self,arms,hands,max_findings=10):
+    def check(self,arms,hands,max_findings=10,ignore_hand_self=False):
         poses=self.shape_poses(arms,hands);bounds=[];findings=[]
         for shape,T in zip(self.shapes,poses,strict=True):
             v=shape['hull']@T[:3,:3].T+T[:3,3];bounds.append((v.min(0),v.max(0)))
             # Robot bases are mounting interfaces; the rest is checked against an infinite calibrated board plane.
             if not(shape['kind']=='arm' and shape['link']=='base_link'):
                 min_height=float(np.min(-(v-self.plane_point)@self.normal))
-                if min_height<self.clearance:
+                if min_height<self.table_clearance:
                     findings.append({'a':shape['name'],'b':'calibrated_table_halfspace','clearance_m':min_height})
                     if len(findings)>=max_findings:return findings
         request=coal.DistanceRequest();request.enable_nearest_points=False
@@ -127,6 +148,7 @@ class Scene:
             lo_i,hi_i=bounds[i];lo_j,hi_j=bounds[j]
             if np.any(lo_i>hi_j+self.clearance) or np.any(lo_j>hi_i+self.clearance):continue
             hand_self=(self.shapes[i]['side']==self.shapes[j]['side'] and self.shapes[i]['kind']==self.shapes[j]['kind']=='hand')
+            if hand_self and ignore_hand_self:continue
             if hand_self:
                 contact_result=coal.CollisionResult()
                 hit=coal.collide(self.shapes[i]['geometry'],tf(poses[i]),self.shapes[j]['geometry'],tf(poses[j]),contact_request,contact_result)>0
@@ -136,5 +158,22 @@ class Scene:
                 hit=distance<=self.clearance
             if hit:
                 findings.append({'a':self.shapes[i]['name'],'b':self.shapes[j]['name'],'clearance_m':float(distance)})
+                if len(findings)>=max_findings:return findings
+        return findings
+
+    def check_hand_self(self,arms,hands,max_findings=100):
+        """Return same-hand non-adjacent mesh intersections only."""
+        poses=self.shape_poses(arms,hands);bounds=[];findings=[]
+        for shape,T in zip(self.shapes,poses,strict=True):
+            v=shape['hull']@T[:3,:3].T+T[:3,3];bounds.append((v.min(0),v.max(0)))
+        request=coal.CollisionRequest();request.num_max_contacts=1;request.enable_contact=False
+        for i,j in self.pairs:
+            a,b=self.shapes[i],self.shapes[j]
+            if not(a['side']==b['side'] and a['kind']==b['kind']=='hand'):continue
+            lo_i,hi_i=bounds[i];lo_j,hi_j=bounds[j]
+            if np.any(lo_i>hi_j) or np.any(lo_j>hi_i):continue
+            result=coal.CollisionResult()
+            if coal.collide(a['geometry'],tf(poses[i]),b['geometry'],tf(poses[j]),request,result)>0:
+                findings.append({'a':a['name'],'b':b['name'],'clearance_m':0.0})
                 if len(findings)>=max_findings:return findings
         return findings

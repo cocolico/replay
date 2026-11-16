@@ -4,7 +4,7 @@ from pathlib import Path
 import argparse,concurrent.futures,fcntl,json,os,signal,threading,time
 import numpy as np
 from device_backends import Aubo
-from read_hands import Hands
+from read_hands import Hands,check_current_limit
 from replay_pipeline import HERE,SIDES,config,read_json,write_json,provenance,default_config
 from runtime_plan import make_plan,split,identity
 
@@ -59,18 +59,22 @@ def check_hand_controls(reader,settings):
     return result
 
 
-def checked_plan(name,c,settings,arms,hands):
+def checked_plan(name,c,settings,arms,hands,refresh_entry=False):
     plan=read_json(HERE/'output'/f'{name}_runtime.json')
     if not plan.get('ready_for_execution') or not plan.get('collision_checked') or not plan.get('collision_passed'):raise ValueError('No previously checked plan')
     if plan['configuration']!=provenance(c['_config_path']) or plan['settings']!=settings:raise ValueError('Checked plan configuration/settings changed')
     if provenance(plan['trajectory']['path'])!=plan['trajectory']:raise ValueError('Checked trajectory changed')
     for source in plan.get('sources',[]):
         if provenance(source['path'])!=source:raise ValueError('Checked source/calibration changed')
+    with np.load(plan['trajectory']['path'],allow_pickle=False) as z:
+        trajectory=z['joint_positions_left_right_rad'].copy()
+    if refresh_entry:
+        from runtime_plan import rebuild_checked_entry
+        return rebuild_checked_entry(name,c,settings,arms,hands,trajectory,plan)
     require_start(plan,arms,hands)
     for side in SIDES:
         if np.max(abs(np.asarray(arms[side]['joint_positions_rad'])-plan['controllers'][side]['joint_positions_rad']))>.002:raise ValueError('Checked start moved; rerun full preflight')
         if np.max(abs(np.asarray(hands[side]['positions_rad'])-plan['hand_start'][side]['positions_rad']))>.005:raise ValueError('Checked hand start moved; rerun full preflight')
-    with np.load(plan['trajectory']['path'],allow_pickle=False) as z:trajectory=z['joint_positions_left_right_rad'].copy()
     return trajectory,plan
 
 
@@ -112,9 +116,10 @@ class ArmMonitor:
         try:
             arm=Aubo(self.c['sides'][side])
             while not self.stop.is_set():
+                sample_start=time.monotonic()
                 positions=np.asarray(arm.state.getJointPositions());mode=str(arm.state.getRobotModeType());safety=str(arm.state.getSafetyModeType())
                 limits=bool(arm.state.isWithinSafetyLimits())
-                with self.lock:self.latest[side]={'q':positions,'mode':mode,'safety':safety,'limits':limits,'at':time.monotonic()}
+                with self.lock:self.latest[side]={'q':positions,'mode':mode,'safety':safety,'limits':limits,'at':time.monotonic(),'sample_start':sample_start}
                 self.stop.wait(.05)
         except Exception as e:
             with self.lock:self.latest[side]={'error':str(e),'at':time.monotonic()}
@@ -129,19 +134,24 @@ class ArmMonitor:
             if not v or 'error' in v or time.monotonic()-v['at']>settings['feedback_timeout_s']:raise RuntimeError('Arm feedback stale/unavailable: '+side)
             if not v['limits'] or not v['mode'].endswith('.Running') or not v['safety'].endswith(('.Normal','.ReducedMode')):raise RuntimeError('Arm mode/safety fault: '+side)
             if not np.all(np.isfinite(v['q'])) or np.max(abs(v['q']-expected[side]))>settings['arm_tracking_error_rad']:raise RuntimeError('Arm tracking error: '+side)
+        return d
     def close(self):
         self.stop.set()
         for t in self.threads:t.join(timeout=3.)
 
 
-def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None,arms_only=False):
-    if plan.get('ready_for_execution') is not True or not plan.get('collision_passed') or not plan.get('collision_checked'):raise ValueError('Preflight has not passed')
+def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None,arms_only=False,diagnostic_hook=None):
+    collision_ready = (plan.get('collision_passed') is True and plan.get('collision_checked') is True)
+    operator_override = plan.get('collision_check_policy') == 'disabled_by_operator'
+    if plan.get('ready_for_execution') is not True or not (collision_ready or operator_override):raise ValueError('Preflight has not passed')
     if 'configuration' in plan and provenance(c['_config_path'])!=plan['configuration']:raise ValueError('Configuration changed after preflight')
     for source in plan.get('sources',[]):
         if provenance(source['path'])!=source:raise ValueError('Source/calibration changed after preflight')
-    require_start(plan,read_arms(c),reader.snapshot())
+    initial_hands=reader.snapshot();check_current_limit(initial_hands,settings['maximum_hand_current_a'])
+    require_start(plan,read_arms(c),initial_hands)
     arms={};stoppers={};pubs={};diagnostics=[];monitor=None;enabled=[];servo=[];started_runtime=[];pool=None
     cleanup_errors=[];tick_errors=[];run_error=None;stop_event=threading.Event();startup_stop=threading.Event();startup_commands={s:0 for s in SIDES};stop_results={}
+    first_step_sent_at=None;first_step_holds=0;first_step_arrivals=[]
     old_signal={s:signal.getsignal(s) for s in (signal.SIGINT,signal.SIGTERM)}
     def on_signal(signum,frame):stop_event.set()
     for s in old_signal:signal.signal(s,on_signal)
@@ -213,17 +223,43 @@ def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None,arm
         start=time.monotonic()
         warmup_ticks=round(settings.get('warmup_s',2.)*rate)
         print('REPLAY START: '+('arms only; no hand commands' if arms_only else 'both arms + both hands')+'; Ctrl-C requests synchronized stop.',flush=True)
-        while count<len(trajectory)+warmup_ticks or hold_last:
+        session_active = True
+        while session_active and (count<len(trajectory)+warmup_ticks or hold_last or loop_hook is not None):
             if stop_event.is_set():raise InterruptedError('Operator stop')
             index=max(0,min(count-warmup_ticks,len(trajectory)-1));target=trajectory[index];arm_q,hand_q=split(target)
             deadline=start+count*dt;delay=deadline-time.monotonic()
             if delay>0:time.sleep(delay)
             late=time.monotonic()-deadline
-            if late>settings['maximum_tick_lateness_s']:raise RuntimeError(f'Scheduler late by {late:.4f}s; refusing catch-up burst')
-            reference=trajectory[max(0,min(index-1,len(trajectory)-1))];monitor.check(split(reference)[0],settings)
+            reschedule = settings.get('scheduler_lateness_policy') == 'warn_and_reschedule'
+            if late>settings['maximum_tick_lateness_s']:
+                if reschedule:
+                    print(f'WARNING scheduler late by {late:.4f}s; shifting schedule, no catch-up burst.',flush=True)
+                else:
+                    raise RuntimeError(f'Scheduler late by {late:.4f}s; refusing catch-up burst')
+            # The warning threshold must not authorize replaying accumulated
+            # deadlines in a burst. Rebase once a whole period was missed,
+            # even if the operator selected a much larger warning threshold.
+            if reschedule and (late>=dt or late>settings['maximum_tick_lateness_s']):
+                start += late
+            previous_index=max(0,min(index-1,len(trajectory)-1))
+            reference=trajectory[previous_index]
+            arm_feedback=monitor.check(split(reference)[0],settings)
             feedback=reader.snapshot(timeout=.001,max_age=settings['feedback_timeout_s'])
+            check_current_limit(feedback,settings['maximum_hand_current_a'])
             for side in SIDES:
                 if np.max(abs(np.asarray(feedback[side]['positions_rad'])-split(reference)[1][side]))>(settings.get('fixed_hand_position_tolerance_rad',.03) if arms_only else settings['hand_tracking_error_rad']):raise RuntimeError('Hand tracking error: '+side)
+            holding_first_step=False
+            if first_step_sent_at is not None:
+                right=arm_feedback['right']
+                error_deg=float(np.rad2deg(np.max(abs(right['q']-split(reference)[0]['right']))))
+                holding_first_step=(right['sample_start'] <= first_step_sent_at or
+                                    error_deg > settings['first_step_right_tolerance_deg'])
+                if holding_first_step:
+                    index=previous_index;target=reference;arm_q,hand_q=split(target)
+                else:
+                    first_step_arrivals.append(dict(index=previous_index,max_error_deg=error_deg,
+                        elapsed_s=time.monotonic()-first_step_sent_at))
+                    first_step_sent_at=None
             jobs=[]
             for side in SIDES:
                 jobs.append((side,pool.submit(arms[side].robot.getMotionControl().servoJoint,arm_q[side].tolist(),0.,0.,dt,.1,150.)))
@@ -231,7 +267,50 @@ def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None,arm
             for label,job in jobs:
                 value=job.result(timeout=.1)
                 if value not in (None,0):raise RuntimeError(f'{label} rejected command: {value}')
-            tick_errors.append(late);count+=1
+            if diagnostic_hook is not None:
+                try:diagnostic_hook(target,index,plan)
+                except Exception:pass  # Diagnostic rendering must never interrupt control.
+            tick_errors.append(late)
+            if holding_first_step:
+                first_step_holds+=1
+                start+=dt
+                continue
+            if (1 <= index <= plan.get('first_step_end_index',0) and
+                    index % plan.get('first_step_feedback_stride',1) == 0 and count-warmup_ticks == index):
+                first_step_sent_at=time.monotonic()
+            count+=1
+            if loop_hook is not None and count>len(trajectory)+warmup_ticks:
+                # The callback must be nonblocking: continue publishing the last
+                # target while its worker observes, infers and plans the next chunk.
+                next_chunk = loop_hook()
+                if next_chunk is False:
+                    session_active = False
+                elif next_chunk is not None:
+                    next_c,next_settings,next_trajectory,next_plan = next_chunk
+                    if next_settings != settings: raise ValueError('Persistent session settings changed')
+                    if next_plan.get('ready_for_execution') is not True: raise ValueError('Next chunk not ready')
+                    if next_plan.get('collision_check_policy') != plan.get('collision_check_policy'): raise ValueError('Collision policy changed')
+                    if provenance(next_c['_config_path']) != next_plan['configuration']: raise ValueError('Next configuration changed')
+                    for source in next_plan.get('sources',[]):
+                        if provenance(source['path']) != source: raise ValueError('Next source changed: '+source['path'])
+                    if provenance(next_plan['trajectory']['path']) != next_plan['trajectory']: raise ValueError('Next trajectory changed')
+                    with np.load(next_plan['trajectory']['path'],allow_pickle=False) as stored:
+                        if not np.array_equal(stored['joint_positions_left_right_rad'],next_trajectory): raise ValueError('Next trajectory differs')
+                    old_a,old_h=split(trajectory[-1]);new_a,new_h=split(next_trajectory[0])
+                    for side in SIDES:
+                        for kind,old_q,new_q,limit in [('arm',old_a[side],new_a[side],.002),('hand',old_h[side],new_h[side],.03)]:
+                            delta=abs(old_q-new_q);joint=int(np.argmax(delta));maximum=float(delta[joint])
+                            if maximum>limit:
+                                warning=dict(type='persistent_splice_discontinuity',side=side,device=kind,
+                                    joint_index=joint,max_delta_rad=maximum,threshold_rad=limit,action='warn_only')
+                                print('WARNING',warning,flush=True)
+                                next_plan.setdefault('splice_warnings',[]).append(warning)
+                    if next_plan.get('splice_warnings'):
+                        write_json(Path(next_plan['trajectory']['path']).with_name('splice_warnings.json'),next_plan['splice_warnings'])
+                    c,trajectory,plan=next_c,next_trajectory,next_plan
+                    first_step_sent_at=None;first_step_arrivals=[];first_step_holds=0
+                    count=0;warmup_ticks=0;start=time.monotonic()+dt
+                    print('PERSISTENT SERVO NEXT CHUNK',plan['name'],flush=True)
             if count%rate==0:
                 print(f'progress {min(index/rate,plan["duration_s"]):.1f}/{plan["duration_s"]:.1f}s',flush=True)
                 write_json(HERE/'output/replay_session.json',{'pid':os.getpid(),'name':plan['name'],'status':'holding' if count>=len(trajectory)+warmup_ticks else 'running',
@@ -282,6 +361,8 @@ def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None,arm
         for s,handler in old_signal.items():signal.signal(s,handler)
         playback_completed='warmup_ticks' in locals() and count>=len(trajectory)+warmup_ticks
         log={'execution_attempted':True,'arms_only':arms_only,'completed':playback_completed,'operator_stopped':isinstance(run_error,InterruptedError),'error':str(run_error) if run_error else None,'cleanup_errors':cleanup_errors,'stop_results':stop_results,'startup_hold_commands':startup_commands,'ticks':len(tick_errors),'max_tick_lateness_s':max(tick_errors,default=0),'plan_trajectory':plan['trajectory']}
+        if plan.get('first_step_end_index',0):
+            log.update(first_step_hold_ticks=first_step_holds,first_step_arrivals=first_step_arrivals)
         write_json(HERE/'output'/f'{plan["name"]}_execution.json',log)
         write_json(HERE/'output/replay_session.json',{'pid':os.getpid(),'name':plan['name'],'status':'stop_not_confirmed' if cleanup_errors else 'stopped','error':str(run_error) if run_error else None,'cleanup_errors':cleanup_errors,'updated_unix_s':time.time()})
     if cleanup_errors:raise RuntimeError('Stop not fully confirmed: '+str(cleanup_errors)) from run_error
@@ -289,7 +370,8 @@ def execute(c,settings,trajectory,plan,reader,hold_last=False,loop_hook=None,arm
 
 
 def main():
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('name',choices=['594','615','616','human','episode594','episode615','episode616','human_camera']);p.add_argument('--execute',action='store_true',help='Enable devices and perform the collision-checked synchronized trajectory');p.add_argument('--speed',type=float);p.add_argument('--hold-last',action='store_true',help='Keep publishing the final pose until Ctrl-C');p.add_argument('--reuse-checked-plan',action='store_true',help='Reuse only an unchanged collision-checked plan with a tightly matching live start');p.add_argument('--config',type=Path);p.add_argument('--settings',type=Path,default=HERE/'config/runtime.json');args=p.parse_args()
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('name',choices=['594','615','616','human','episode594','episode615','episode616','human_camera']);p.add_argument('--execute',action='store_true',help='Enable devices and perform the collision-checked synchronized trajectory');p.add_argument('--speed',type=float);p.add_argument('--hold-last',action='store_true',help='Keep publishing the final pose until Ctrl-C');p.add_argument('--reuse-checked-plan',action='store_true',help='Reuse only an unchanged collision-checked plan with a tightly matching live start');p.add_argument('--config',type=Path);p.add_argument('--settings',type=Path,default=HERE/'config/runtime.json');p.add_argument('--refresh-entry',action='store_true',help='Rebuild and collision-check only the transition into the verified replay segment');args=p.parse_args()
+    if args.refresh_entry and not args.reuse_checked_plan:p.error('--refresh-entry requires --reuse-checked-plan')
     args.name='episode'+args.name if args.name.isdigit() else ('human_camera' if args.name=='human' else args.name)
     c=config(args.config or default_config(args.name));settings=read_json(args.settings)
     lock=acquire_replay_lock()
@@ -299,12 +381,14 @@ def main():
         controls=check_hand_controls(reader,settings)
         arms=read_arms(c);hands=reader.snapshot()
         if args.reuse_checked_plan:
-            trajectory,plan=checked_plan(args.name,c,settings,arms,hands)
+            trajectory,plan=checked_plan(args.name,c,settings,arms,hands,refresh_entry=args.refresh_entry)
             if args.speed is not None and args.speed!=plan['requested_speed']:raise ValueError('Requested speed differs from checked plan')
         else:trajectory,plan=make_plan(args.name,c,settings,arms,hands,args.speed)
         plan['hand_controls']=controls
-        write_json(HERE/'output'/f'{args.name}_runtime.json',plan)
-        print('PREFLIGHT', 'PASS' if plan['ready_for_execution'] else 'BLOCKED', 'report:',HERE/'output'/f'{args.name}_runtime.json',flush=True)
+        suffix = 'entry_runtime' if args.refresh_entry else 'runtime'
+        report_path = HERE/'output'/f'{args.name}_{suffix}.json'
+        write_json(report_path,plan)
+        print('PREFLIGHT', 'PASS' if plan['ready_for_execution'] else 'BLOCKED', 'report:',report_path,flush=True)
         if not plan['ready_for_execution']:raise RuntimeError('Collision/preflight blocked. See collision_failures in the runtime report; no device commands sent.')
         if args.execute:execute(c,settings,trajectory,plan,reader,args.hold_last)
         else:print('Read-only preflight complete; no motor enable or movement commands sent.',flush=True)

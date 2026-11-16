@@ -1,0 +1,38 @@
+{
+  "planner": "collision_constrained_waypoint_graph",
+  "graph_library": "networkx",
+  "collision_nodes_rejected": 0,
+  "edges_tested": 49,
+  "edges_rejected": 42,
+  "layers": [
+    {
+      "frame": 0,
+      "source_time_s": 0.0,
+      "candidates": 7,
+      "reachable": 7
+    },
+    {
+      "frame": 1,
+      "source_time_s": 0.1,
+      "candidates": 7,
+      "reachable": 7
+    }
+  ],
+  "passed": true,
+  "graph_nodes": 16,
+  "graph_edges": 21,
+  "solutions": 7,
+  "edge_checks": {
+    "ik_failure": 0,
+    "endpoint_mismatch": 0,
+    "edge_collision": 0
+  },
+  "backend": "continuous",
+  "sdk": {
+    "sdk_ik_calls": 37,
+    "pose_rejected": 0,
+    "collision_rejected": 6
+  },
+  "edge_resolution_rad": 0.01,
+  "source_frames": 2
+}

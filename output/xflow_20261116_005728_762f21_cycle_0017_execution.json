@@ -1,0 +1,44 @@
+{
+  "execution_attempted": true,
+  "arms_only": false,
+  "completed": false,
+  "operator_stopped": false,
+  "error": "RPC client recv package failed: Connection reset by peer",
+  "cleanup_errors": [
+    "arm_left: Stop state not confirmed: {'steady': True, 'servo_mode': 0, 'max_speed_rad_s': 0.0005695473222347678}; commands=[]",
+    "arm_right: Aubo connection failed",
+    "Runtime stop: RPC client has not connected"
+  ],
+  "stop_results": {
+    "hand_right": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "hand_left": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    }
+  },
+  "startup_hold_commands": {
+    "left": 1,
+    "right": 1
+  },
+  "ticks": 2932,
+  "max_tick_lateness_s": 0.07938176899915561,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/client/aubo_wuji/runs/20261116_005728_762f21/cycle_0017/runtime.npz",
+    "sha256": "f688b7239119330151ded093815f0d84ec1ee0248e10def1ae7379ee9111605e"
+  },
+  "first_step_hold_ticks": 2,
+  "first_step_arrivals": [
+    {
+      "index": 3,
+      "max_error_deg": 0.9283037823860333,
+      "elapsed_s": 0.10743932100012898
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Collision-constrained graph search; independent entry planning removed.
+networkx==3.4.2

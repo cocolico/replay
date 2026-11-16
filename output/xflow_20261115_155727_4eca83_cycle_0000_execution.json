@@ -1,0 +1,60 @@
+{
+  "execution_attempted": true,
+  "arms_only": false,
+  "completed": false,
+  "operator_stopped": false,
+  "error": "Arm tracking error: left",
+  "cleanup_errors": [],
+  "stop_results": {
+    "hand_left": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "hand_right": {
+      "confirmed": true,
+      "joints": 20,
+      "enabled": 0,
+      "command_warnings": []
+    },
+    "arm_right": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.00031693817931521514
+      },
+      "command_warnings": [
+        "stopJoint: -3",
+        "setServoModeSelect: -3",
+        "stopJoint: -3",
+        "setServoModeSelect: -3"
+      ]
+    },
+    "arm_left": {
+      "confirmed": true,
+      "readback": {
+        "steady": true,
+        "servo_mode": 0,
+        "max_speed_rad_s": 0.00037969821482317854
+      },
+      "command_warnings": [
+        "stopJoint: -4",
+        "setServoModeSelect: -3",
+        "stopJoint: -3",
+        "setServoModeSelect: -3"
+      ]
+    }
+  },
+  "startup_hold_commands": {
+    "left": 2,
+    "right": 1
+  },
+  "ticks": 16,
+  "max_tick_lateness_s": 0.0004048609989695251,
+  "plan_trajectory": {
+    "path": "/media/descfly/新加卷/ty/replay/client/pi05_local/client_runs/20261115_155727_4eca83/cycle_0000/runtime.npz",
+    "sha256": "cf401ab404ce05b07e3cab99f8593164636bf99a5e07cb0412c03ee5d12d0ebc"
+  }
+}

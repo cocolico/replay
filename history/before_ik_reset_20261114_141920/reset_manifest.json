@@ -1,0 +1,24 @@
+{
+  "baseline_commit": "bd056add7676de2ad719a853a3118c03039de26f",
+  "restored_ik": "SDK initial candidates + actual-DH continuous/differential branch tracking; default branches=8",
+  "entry": "original direct quintic minimum-jerk",
+  "archived_files": [
+    "aubo_cartesian_planner.py",
+    "collision_planning.py",
+    "requirements-planning.txt",
+    "vendor/PLANNING_UPSTREAM.json",
+    "tests/test_collision_planning.py",
+    "tools/setup_planning.py",
+    "tools/check_direct_entries.py",
+    "tools/check_surviving_entries.py",
+    "tools/benchmark_recorded_entry.py"
+  ],
+  "preserved_non_ik_changes": [
+    "live arm/hand drift gate",
+    "planning snapshot",
+    "mesh sample reporting correction",
+    "fixed-hand FK cache",
+    "direct_transition standalone helper for offline tools"
+  ],
+  "hardware_commands_sent": false
+}

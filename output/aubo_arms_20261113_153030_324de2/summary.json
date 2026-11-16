@@ -1,0 +1,16 @@
+{
+  "ready_for_execution": true,
+  "execution_attempted": false,
+  "arms_only": true,
+  "name": "aubo_arms_20261113_153030_324de2",
+  "path_planner": "collision_graph",
+  "entry_planner": "ompl",
+  "whole_trajectory_solutions": {
+    "left": 7,
+    "right": 5
+  },
+  "runtime": {
+    "path": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261113_153030_324de2/runtime.json",
+    "sha256": "f92753c9a92a85f33d6aa547c43bb7f9afc9126468ab4ad34bab1deb7f408064"
+  }
+}

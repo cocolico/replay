@@ -1,0 +1,22 @@
+{
+  "frames": 763,
+  "source": {
+    "path": "/media/descfly/新加卷/ty/replay/try/episode25_replay_trajectory/frame.npy",
+    "sha256": "eeaef2588329a93ac3012631385f1f394ef0be65899db8e66428f7b1506b90ac"
+  },
+  "assumption": "594 source assembly and calibration",
+  "executed": false,
+  "full_checked": 763,
+  "full_failures": 117,
+  "hand_failures": 117,
+  "ik": {
+    "left": {
+      "failed": 0,
+      "jumps": 0
+    },
+    "right": {
+      "failed": 0,
+      "jumps": 0
+    }
+  }
+}

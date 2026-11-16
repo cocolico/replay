@@ -1,0 +1,30 @@
+{
+  "execution_attempted": false,
+  "ready_for_execution": false,
+  "trajectory": "/media/descfly/新加卷/ty/replay/code/resources/trajectories/variants/lifted_try_2_4cm_trim3s_forward15cm",
+  "total_forward_cm": 15,
+  "total_lift_cm": 4,
+  "drop_start_s": 3,
+  "arms_only": true,
+  "mesh_clearance_m": 0.002,
+  "left_complete_candidates": 4,
+  "right_complete_candidates": 3,
+  "direct_entry_passed_pairs": 1,
+  "tested_pairs": 12,
+  "first_runtime_failure": {
+    "frame": 23031,
+    "runtime_time_s": 230.31,
+    "phase": "replay",
+    "findings": [
+      {
+        "a": "left:arm:foreArm_Link",
+        "b": "right:arm:wrist1_Link",
+        "clearance_m": 0.0019701297780059853
+      }
+    ]
+  },
+  "trimmed_source_time_s": 4.663904986726403,
+  "original_source_time_s": 7.665984986726404,
+  "reason": "All surviving direct-entry candidate pairs fail full runtime checks",
+  "full_runtime_report": "/media/descfly/新加卷/ty/replay/code/output/aubo_arms_20261114_012305_c04d80/surviving_entry_validation/summary.json"
+}

@@ -1,0 +1,16 @@
+{
+  "ompl": {
+    "version": "2.0.1",
+    "repository": "https://github.com/ompl/ompl",
+    "revision": "c509861210a63ec962bbec72c52823abc16b102e",
+    "source": "../ompl_source",
+    "binary": "Official PyPI cp312 manylinux wheel",
+    "license": "BSD-3-Clause"
+  },
+  "networkx": {
+    "version": "3.4.2",
+    "repository": "https://github.com/networkx/networkx",
+    "license": "BSD-3-Clause"
+  },
+  "system_environment_modified": false
+}

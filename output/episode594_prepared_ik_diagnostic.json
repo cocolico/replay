@@ -6,12 +6,10 @@
     "sha256": "88da64816eb55e329d94b8b7854fa56145b44ce6e317ee9e32f39838b99f3065"
   },
   "configuration": {
-    "path": "/media/descfly/新加卷/ty/replay/code/config/replay.json",
-    "sha256": "2856f116346ae696cedf8a5d739bb7c560cbb974861d0c5d08958d21ab355b67"
+    "path": "/media/descfly/新加卷/ty/replay/code/config/episode594_verified_20261116.json",
+    "sha256": "fdc7c45608df14d5a327fba9a6a6d7c0e6135d9eea341f66566df1f2fdc34170"
   },
-  "unresolved_inputs": [
-    "right_aubo_model_not_confirmed"
-  ],
+  "unresolved_inputs": [],
   "mounts": {
     "left": {
       "confirmed": true,
@@ -76,7 +74,7 @@
   "sides": {
     "left": {
       "urdf": {
-        "path": "/media/descfly/新加卷/ty/adaptation_resources/sources/aubo_description/urdf/aubo_i7H.urdf",
+        "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.urdf",
         "sha256": "6358243ae83f1e560706e35d2799e5880103e581148775638e7a143ba9e10a59"
       },
       "converged_samples": 965,
@@ -6849,7 +6847,7 @@
     },
     "right": {
       "urdf": {
-        "path": "/media/descfly/新加卷/ty/adaptation_resources/sources/aubo_description/urdf/aubo_i7H.urdf",
+        "path": "/media/descfly/新加卷/ty/replay/code/resources/models/aubo_description/urdf/aubo_i7H.urdf",
         "sha256": "6358243ae83f1e560706e35d2799e5880103e581148775638e7a143ba9e10a59"
       },
       "converged_samples": 965,

@@ -1,0 +1,5 @@
+{
+  "synthetic": true,
+  "description": "Stationary integration smoke test from a recorded read-only snapshot; not a task replay",
+  "execution_attempted": false
+}

@@ -1,0 +1,15 @@
+{
+  "execution_attempted": false,
+  "ready_for_execution": false,
+  "total_lift_cm": 4.0,
+  "forward_cm": 10.0,
+  "drop_start_s": 3.0,
+  "single_arm_paths": {
+    "left": 4,
+    "right": 5
+  },
+  "direct_entry_pairs_checked": 20,
+  "direct_entry_pairs_passed": 1,
+  "continued_validation": "surviving_entry_validation/summary.json",
+  "reason": "All surviving direct-entry candidate pairs fail full runtime checks"
+}

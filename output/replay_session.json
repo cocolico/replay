@@ -1,6 +1,8 @@
 {
-  "pid": 2100929,
-  "name": "forward_scan_20261113_115829_a7b446",
+  "pid": 1777503,
+  "name": "xflow_20261116_041704_2e1180_cycle_0011",
   "status": "stopped",
-  "updated_unix_s": 1794542448.3147633
+  "error": "No fresh camera frame with matching history and calibration",
+  "cleanup_errors": [],
+  "updated_unix_s": 1794773908.1964402
 }
